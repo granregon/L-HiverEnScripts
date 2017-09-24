@@ -2715,7 +2715,7 @@ func void unequip_kdw_h()
 
 instance ITAR_Leather_L(C_Item)
 {
-	name = "Hunter's armor";
+	name = "Leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -2790,7 +2790,7 @@ func void UnEquip_ITAR_Leather_L()
 
 instance ITAR_LEATHER_L_GRD1(C_Item)
 {
-	name = "Improved hunter's armor";
+	name = "Improved leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 25;
@@ -2865,7 +2865,7 @@ func void unequip_itar_leather_l_grd1()
 
 instance ITAR_LEATHER_L_GRD2(C_Item)
 {
-	name = "Belted hunter's armor";
+	name = "Belted leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 27;
@@ -2940,7 +2940,7 @@ func void unequip_itar_leather_l_grd2()
 
 instance ITAR_LEATHER_L_GRD3(C_Item)
 {
-	name = "Master hunter's armor";
+	name = "Master leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -3015,7 +3015,7 @@ func void unequip_itar_leather_l_grd3()
 
 instance ITAR_LEATHER_L_GRD4(C_Item)
 {
-	name = "Reinforced hunter's armor";
+	name = "Reinforced leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -3090,7 +3090,7 @@ func void unequip_itar_leather_l_grd4()
 
 instance ITAR_LEATHER_L_GRD5(C_Item)
 {
-	name = "Heavy hunter's armor";
+	name = "Heavy leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
