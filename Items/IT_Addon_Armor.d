@@ -762,7 +762,7 @@ func void unequip_troll_addon()
 
 instance ITAR_GERALT_ADDON(C_Item)
 {
-	name = "Leather armor";
+	name = "Hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
