@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Keiler(C_Npc)
 {
-	name[0] = "Dzik";
+	name[0] = "Boar";
 	guild = GIL_WOLF;
 	aivar[AIV_MM_REAL_ID] = ID_Keiler;
 	level = 9;
