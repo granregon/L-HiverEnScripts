@@ -1,7 +1,7 @@
 
 instance DMT_1299_OberDementor_DI(Npc_Default)
 {
-	name[0] = "Czarny mag";
+	name[0] = "Black magician";
 	guild = GIL_DMT;
 	id = 1299;
 	voice = 9;
