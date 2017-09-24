@@ -188,7 +188,7 @@ instance DIA_Till_BRONKO(C_Info)
 	nr = 5;
 	condition = DIA_Till_BRONKO_Condition;
 	information = DIA_Till_BRONKO_Info;
-	description = "(ask about Bronco)";
+	description = "(ask about Bronko)";
 };
 
 
