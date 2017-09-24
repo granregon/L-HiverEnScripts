@@ -289,7 +289,7 @@ func void useitpo_perm_def()
 
 instance ItPo_Perm_STR(C_Item)
 {
-	name = "Elixir of strenght";
+	name = "Elixir of strength";
 	mainflag = ITEM_KAT_POTIONS;
 	flags = ITEM_MULTI;
 	value = Value_StrElixier;
