@@ -1,7 +1,7 @@
 
 instance BDT_1090_Addon_Raven(Npc_Default)
 {
-	name[0] = "Kruk";
+	name[0] = "Raven";
 	guild = GIL_SKELETON;
 	id = 1090;
 	voice = 10;
