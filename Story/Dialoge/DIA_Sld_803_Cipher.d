@@ -333,7 +333,7 @@ instance DIA_Cipher_DarLOST(C_Info)
 	condition = DIA_Cipher_DarLOST_Condition;
 	information = DIA_Cipher_DarLOST_Info;
 	permanent = FALSE;
-	description = "You really gave Dar what for...are you feeling better now?";
+	description = "You really gave Dar what for... are you feeling better now?";
 };
 
 
@@ -347,7 +347,7 @@ func int DIA_Cipher_DarLOST_Condition()
 
 func void DIA_Cipher_DarLOST_Info()
 {
-	AI_Output(other,self,"DIA_Cipher_DarLOST_15_00");	//You really gave Dar what for...are you feeling better now?
+	AI_Output(other,self,"DIA_Cipher_DarLOST_15_00");	//You really gave Dar what for... are you feeling better now?
 	AI_Output(self,other,"DIA_Cipher_DarLOST_07_01");	//(sighs) Yeah, that felt good.
 	AI_Output(other,self,"DIA_Cipher_DarLOST_15_02");	//Not to HIM, I suppose...
 	AI_Output(self,other,"DIA_Cipher_DarLOST_07_03");	//The little beggar has no business going through my chest!

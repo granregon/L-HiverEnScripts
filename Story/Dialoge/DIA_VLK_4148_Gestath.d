@@ -75,7 +75,7 @@ func void DIA_Gestath_HALLO_was()
 	AI_Output(self,other,"DIA_Gestath_HALLO_was_09_01");	//I'm here to make money.
 	AI_Output(other,self,"DIA_Gestath_HALLO_was_15_02");	//Here, in the middle of nowhere?
 	AI_Output(self,other,"DIA_Gestath_HALLO_was_09_03");	//I'm a hunter. I specialize in difficult cases.
-	AI_Output(self,other,"DIA_Gestath_HALLO_was_09_04");	//Fire lizards, minecrawlers, dragon snappers...Anything nobody else will hunt. That brings in the money.
+	AI_Output(self,other,"DIA_Gestath_HALLO_was_09_04");	//Fire lizards, minecrawlers, dragon snappers... Anything nobody else will hunt. That brings in the money.
 	Info_AddChoice(DIA_Gestath_HALLO,"That's some armor you're wearing.",DIA_Gestath_HALLO_plate);
 };
 

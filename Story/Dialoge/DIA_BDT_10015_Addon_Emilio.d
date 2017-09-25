@@ -277,7 +277,7 @@ func void DIA_Addon_Emilio_VonEmilio_Info()
 	AI_Output(other,self,"DIA_Addon_Emilio_VonEmilio_15_00");	//Lennar told me a bit about you...
 	AI_Output(self,other,"DIA_Addon_Emilio_VonEmilio_10_01");	//Lennar? That guy's an idiot. You must have noticed.
 	AI_Output(other,self,"DIA_Addon_Emilio_VonEmilio_15_02");	//He said you haven't been in the mine since the attack happened.
-	AI_Output(self,other,"DIA_Addon_Emilio_VonEmilio_10_03");	//(intimidated) I...don't know anything!
+	AI_Output(self,other,"DIA_Addon_Emilio_VonEmilio_10_03");	//(intimidated) I... don't know anything!
 	if(!Npc_IsDead(Senyan))
 	{
 		AI_Output(self,other,"DIA_Addon_Emilio_VonEmilio_10_04");	//You are working together with that Senyan!
@@ -314,9 +314,9 @@ func void DIA_Addon_Emilio_HilfMir_Info()
 	AI_Output(other,self,"DIA_Addon_Emilio_HilfMir_15_00");	//Help me find out who was behind the attack!
 	AI_Output(self,other,"DIA_Addon_Emilio_HilfMir_10_01");	//No! I don't want anything to do with it!
 	AI_Output(other,self,"DIA_Addon_Emilio_HilfMir_15_02");	//If an idiot like Lennar notices that you're behaving oddly, it won't take long before Esteban finds out, too.
-	AI_Output(self,other,"DIA_Addon_Emilio_HilfMir_10_03");	//(squirming) I...shit! I'll tell you one name. Nothing more.
+	AI_Output(self,other,"DIA_Addon_Emilio_HilfMir_10_03");	//(squirming) I... shit! I'll tell you one name. Nothing more.
 	AI_Output(other,self,"DIA_Addon_Emilio_HilfMir_15_04");	//I'm listening.
-	AI_Output(self,other,"DIA_Addon_Emilio_HilfMir_10_05");	//Huno...go to Huno. He must know something about this business.
+	AI_Output(self,other,"DIA_Addon_Emilio_HilfMir_10_05");	//Huno... go to Huno. He must know something about this business.
 	Emilio_TellAll = TRUE;
 	B_LogEntry(Topic_Addon_Esteban,"Emilio has finally coughed up a name: Huno.");
 };

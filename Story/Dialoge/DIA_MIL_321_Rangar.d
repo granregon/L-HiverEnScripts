@@ -213,7 +213,7 @@ func int DIA_Addon_Rangar_Erwischt_Condition()
 func void DIA_Addon_Rangar_Erwischt_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Rangar_Erwischt_15_00");	//What are you doing there?
-	AI_Output(self,other,"DIA_Addon_Rangar_Erwischt_07_01");	//(feeling caught) Uuhm. I...Er...It's none of your business. Get lost.
+	AI_Output(self,other,"DIA_Addon_Rangar_Erwischt_07_01");	//(feeling caught) Uuhm. I... Er... It's none of your business. Get lost.
 	AI_Output(other,self,"DIA_Addon_Rangar_Erwischt_15_02");	//Martin will be so happy when I tell him who's rummaging through his belongings while he's gone.
 	AI_Output(self,other,"DIA_Addon_Rangar_Erwischt_07_03");	//(scornfully) You do whatever you want. I'll be on my way then, little man.
 	B_GivePlayerXP(XP_Addon_Martin_GotRangar);

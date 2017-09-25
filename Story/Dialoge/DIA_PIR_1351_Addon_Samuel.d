@@ -105,7 +105,7 @@ func void DIA_Addon_Samuel_Versteck_Info()
 	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_06");	//(laughs) Francis will NEVER agree to let you into the hut so you can nab a few of Greg's things.
 	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_07");	//Unless...
 	AI_Output(other,self,"DIA_Addon_Samuel_Francis_15_03");	//Yes?
-	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_08");	//...you've got something he really wants.
+	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_08");	//... you've got something he really wants.
 	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_09");	//I know that Francis has hidden something in an abandoned mine in the canyon.
 	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_10");	//Once, when we were on guard duty together and he dozed off as always, he went on about it in his sleep.
 	AI_Output(self,other,"DIA_Addon_Samuel_Francis_14_11");	//I've no clue what he buried there, but maybe it's so important to him that he'll let you into the hut to get it back...

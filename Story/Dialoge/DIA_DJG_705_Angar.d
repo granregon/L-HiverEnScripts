@@ -490,7 +490,7 @@ func void DIA_Angar_WASISTLOS_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Angar_WASISTLOS_04_05");	//Every time I face one of these...hellspawn, I have the feeling that I am fighting my own people.
+		AI_Output(self,other,"DIA_Angar_WASISTLOS_04_05");	//Every time I face one of these... hellspawn, I have the feeling that I am fighting my own people.
 	};
 	AI_StopProcessInfos(self);
 	B_LogEntry(TOPIC_Dragonhunter,"Angar just walked off. With all these undead he gets the feeling he's fighting his own people.");

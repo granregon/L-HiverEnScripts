@@ -577,7 +577,7 @@ func void DIA_Cord_ExplainSkills_Info()
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_01");	//Those two types of arms are rather similar.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_02");	//As soon as you reach the next level with one type of weapon, you automatically learn for the other as well.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_03");	//If, for instance, you are good at fighting with one-handed swords, but still a beginner with two-handed weapons...
-	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_04");	//...your two-handed skills will go up as well whenever you train with a one-hander.
+	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_04");	//... your two-handed skills will go up as well whenever you train with a one-hander.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_05");	//If you train with one type of weapon only, you will find the training more exhausting.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_06");	//If you always train both, you will arrive at the same result with less effort.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_07");	//In the end, the outcome will be the same either way - it's your choice.

@@ -65,7 +65,7 @@ func void DIA_1061_Wache_Hallo_Lee()
 func void DIA_1061_Wache_Hallo_Dexter()
 {
 	AI_Output(other,self,"DIA_1061_Wache_Hallo_Dexter_15_00");	//Dexter.
-	AI_Output(self,other,"DIA_1061_Wache_Hallo_Dexter_01_01");	//Well,...I guess you know the boss. Okay, I'll let you through. But I'm warning you.
+	AI_Output(self,other,"DIA_1061_Wache_Hallo_Dexter_01_01");	//Well,... I guess you know the boss. Okay, I'll let you through. But I'm warning you.
 	AI_Output(self,other,"DIA_1061_Wache_Hallo_Dexter_01_02");	//You get too close to anybody, you won't get out of here alive!
 	AI_Output(self,other,"DIA_1061_Wache_Hallo_Dexter_01_03");	//So take a deep breath and leave your weapons where they are. You'll find Dexter in the house.
 	Knows_Dexter = TRUE;

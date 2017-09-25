@@ -141,7 +141,7 @@ func void DIA_Addon_10023_Wache_go_Blood()
 		else
 		{
 			AI_Output(self,other,"DIA_Addon_10023_Wache_go_Blood_11_07");	//Yes, but I also said...
-			AI_Output(other,self,"DIA_Addon_10023_Wache_go_Blood_15_08");	//...all right, spare me the rest.
+			AI_Output(other,self,"DIA_Addon_10023_Wache_go_Blood_15_08");	//... all right, spare me the rest.
 		};
 		Info_ClearChoices(DIA_Addon_10023_Wache_go);
 	};
@@ -151,7 +151,7 @@ func void DIA_Addon_10023_Wache_go_Thorus()
 {
 	AI_Output(other,self,"DIA_Addon_10023_Wache_go_Thorus_15_00");	//I talked with Thorus. He ordered the slaves to be set free.
 	AI_Output(self,other,"DIA_Addon_10023_Wache_go_Thorus_11_01");	//Okay, if Thorus ordered it. But I have to ask myself why he decided on something like that...
-	AI_Output(other,self,"DIA_Addon_10023_Wache_go_Thorus_15_02");	//...but you aren't being paid to ask questions.
+	AI_Output(other,self,"DIA_Addon_10023_Wache_go_Thorus_15_02");	//... but you aren't being paid to ask questions.
 	AI_Output(self,other,"DIA_Addon_10023_Wache_go_Thorus_11_03");	//All right, all right. I'm obviously not needed here any more, so I'll go get me some stew.
 	Ready_Togo = TRUE;
 	AI_StopProcessInfos(self);

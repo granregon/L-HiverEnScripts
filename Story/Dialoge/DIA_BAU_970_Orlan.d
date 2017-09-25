@@ -97,7 +97,7 @@ func void DIA_Orlan_Wein_Okay()
 func void DIA_Orlan_Wein_Was()
 {
 	AI_Output(other,self,"DIA_Orlan_Wein_Was_15_00");	//What kind of spell scrolls are they?
-	AI_Output(self,other,"DIA_Orlan_Wein_Was_05_01");	//No idea - I don't know anything about that. They're from a guest who...eh...forgot them here, yeah.
+	AI_Output(self,other,"DIA_Orlan_Wein_Was_05_01");	//No idea - I don't know anything about that. They're from a guest who... eh... forgot them here, yeah.
 };
 
 
@@ -188,7 +188,7 @@ func void DIA_Addon_Orlan_Ranger_Aqua()
 	AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_01");	//Yes, I have. Welcome to headquarters, Brother of the Ring.
 	if(Npc_KnowsInfo(other,DIA_Addon_Orlan_NoMeeting))
 	{
-		AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_02");	//...even if you appear to be a few candles short of an altar.
+		AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_02");	//... even if you appear to be a few candles short of an altar.
 	};
 	AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_03");	//What can I do for you?
 	Info_ClearChoices(DIA_Addon_Orlan_Ranger);

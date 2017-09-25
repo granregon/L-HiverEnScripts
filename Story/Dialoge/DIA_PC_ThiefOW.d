@@ -39,7 +39,7 @@ func int DIA_DiegoOw_Hallo_Condition()
 func void DIA_DiegoOw_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_00");	//Hey, I thought you were dead.
-	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_01");	//Yes...so I was.
+	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_01");	//Yes... so I was.
 	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_02");	//But now I'm back, and looking for proof of the arrival of the dragons.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_03");	//Who are you doing that for?
 	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_04");	//I work for Lord Hagen. With the help of the paladins, the dragons can be stopped.

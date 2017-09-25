@@ -473,7 +473,7 @@ func void DIA_Garond_Fajeth_Info()
 	AI_Output(other,self,"DIA_Garond_Fajeth_15_00");	//I talked to Fajeth.
 	AI_Output(self,other,"DIA_Garond_Fajeth_10_01");	//What has he got to tell me?
 	AI_Output(other,self,"DIA_Garond_Fajeth_15_02");	//His people have mined two chests of ore.
-	AI_Output(self,other,"DIA_Garond_Fajeth_10_03");	//Hmm...two chests? I don't need two chests - I need TWO HUNDRED.
+	AI_Output(self,other,"DIA_Garond_Fajeth_10_03");	//Hmm... two chests? I don't need two chests - I need TWO HUNDRED.
 	AI_Output(other,self,"DIA_Garond_Fajeth_15_04");	//He wants me to tell you that he needs more men.
 	AI_Output(self,other,"DIA_Garond_Fajeth_10_05");	//What? I'm supposed to send even more men to certain death? He can forget it.
 	Ore_Counter = Ore_Counter + 1;

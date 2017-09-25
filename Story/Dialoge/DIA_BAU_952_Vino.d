@@ -80,7 +80,7 @@ func void DIA_Vino_SeekWork_Info()
 	{
 		AI_Output(self,other,"DIA_Vino_SeekWork_05_01");	//Do you know anything about working in the fields?
 		AI_Output(other,self,"DIA_Vino_SeekWork_15_02");	//What is there to know?
-		AI_Output(self,other,"DIA_Vino_SeekWork_05_03");	//Ah! In that case...I think we're fine here, thank you.
+		AI_Output(self,other,"DIA_Vino_SeekWork_05_03");	//Ah! In that case... I think we're fine here, thank you.
 		if(!Npc_IsDead(Lobart))
 		{
 			AI_Output(self,other,"DIA_Vino_SeekWork_05_04");	//If you want to work for Lobart as a day laborer, I can only warn you. He pays people like you really miserably!
@@ -345,7 +345,7 @@ var int DIA_Vino_Heilung_oneTime;
 func void DIA_Vino_Heilung_Info()
 {
 	AI_Output(other,self,"DIA_Vino_Heilung_15_00");	//You're not at all yourself.
-	AI_Output(self,other,"DIA_Vino_Heilung_05_01");	//My head...I can't stand it any more.
+	AI_Output(self,other,"DIA_Vino_Heilung_05_01");	//My head... I can't stand it any more.
 	if(DIA_Vino_Heilung_oneTime == FALSE)
 	{
 		AI_Output(other,self,"DIA_Vino_Heilung_15_02");	//You should go to the monastery. Pyrokar, the highest Fire Magician, might be able to help you.

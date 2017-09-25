@@ -114,7 +114,7 @@ func void DIA_Addon_Miguel_Story_Info()
 	AI_Output(other,self,"DIA_Addon_Miguel_Story_15_00");	//Why did they put you behind the Barrier?
 	AI_Output(self,other,"DIA_Addon_Miguel_Story_11_01");	//I worked with mind-altering potions a lot.
 	AI_Output(self,other,"DIA_Addon_Miguel_Story_11_02");	//One evening, my master Ignaz drank my 'experiment' instead of his wine.
-	AI_Output(self,other,"DIA_Addon_Miguel_Story_11_03");	//That rendered him temporarily...eh...unpredictable, and since then he's been somewhat confused.
+	AI_Output(self,other,"DIA_Addon_Miguel_Story_11_03");	//That rendered him temporarily... eh... unpredictable, and since then he's been somewhat confused.
 	AI_Output(self,other,"DIA_Addon_Miguel_Story_11_04");	//(snidely) The mages had me thrown behind the Barrier for that. 'Research into forbidden knowledge' they called it.
 };
 

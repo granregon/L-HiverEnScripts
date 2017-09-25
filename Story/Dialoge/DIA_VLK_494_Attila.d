@@ -87,7 +87,7 @@ func void DIA_Attila_Hallo_Info()
 func void DIA_Attila_Hallo_Wer()
 {
 	AI_Output(other,self,"DIA_Attila_Hallo_Wer_15_00");	//Who are you?
-	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_01");	//I'm called Attila...but is my name important? Our names are meaningless.
+	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_01");	//I'm called Attila... but is my name important? Our names are meaningless.
 	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_02");	//You should know that best, stranger. (laughs quietly)
 	Knows_Attila_Wer = TRUE;
 	Info_ClearChoices(DIA_Attila_Hallo);
@@ -125,7 +125,7 @@ func void DIA_Attila_Hallo_Theater()
 func void DIA_Attila_Hallo_Ende()
 {
 	AI_Output(other,self,"DIA_Attila_Hallo_Ende_15_00");	//I'm going to leave now...
-	AI_Output(self,other,"DIA_Attila_Hallo_Ende_09_01");	//I'm afraid...I can't allow that. Resign yourself to it. It is time to die.
+	AI_Output(self,other,"DIA_Attila_Hallo_Ende_09_01");	//I'm afraid... I can't allow that. Resign yourself to it. It is time to die.
 	AI_DrawWeapon(self);
 	Info_ClearChoices(DIA_Attila_Hallo);
 	Info_AddChoice(DIA_Attila_Hallo,"Who pays you for this?",DIA_Attila_Hallo_Auftrag);
@@ -277,7 +277,7 @@ func int DIA_Attila_Wer_Condition()
 func void DIA_Attila_Wer_Info()
 {
 	AI_Output(other,self,"DIA_Attila_Hallo_Wer_15_00");	//Who are you?
-	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_01");	//I'm called Attila...but is my name important? Our names are meaningless.
+	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_01");	//I'm called Attila... but is my name important? Our names are meaningless.
 	AI_Output(self,other,"DIA_Attila_Hallo_Wer_09_02");	//You should know that best, stranger. (laughs quietly)
 	AI_StopProcessInfos(self);
 };

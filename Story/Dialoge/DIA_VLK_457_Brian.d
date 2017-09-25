@@ -108,7 +108,7 @@ func void DIA_Brian_AboutLehrling_Info()
 	AI_Output(other,self,"DIA_Brian_AboutLehrling_15_00");	//What's it like to be the smith's apprentice?
 	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_01");	//Why do you ask? Do you want to be my successor?
 	AI_Output(other,self,"DIA_Brian_AboutLehrling_15_02");	//Maybe.
-	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_03");	//Why not...I'm almost done with my apprenticeship, and then I'm going to leave the city.
+	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_03");	//Why not... I'm almost done with my apprenticeship, and then I'm going to leave the city.
 	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_04");	//But not because of Harad. He is a good master - I have learned a lot from him.
 };
 

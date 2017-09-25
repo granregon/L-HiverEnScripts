@@ -106,7 +106,7 @@ func void DIA_Addon_Ramon_FirstWarn_YES()
 	AI_Output(self,other,"DIA_Addon_Ramon_FirstWarn_YES_07_01");	//Yes. THE Thorus. THE man who calls for new people.
 	AI_Output(self,other,"DIA_Addon_Ramon_FirstWarn_YES_07_02");	//The man who decides if and when a new guy gets out of the swamp and into the camp.
 	AI_Output(self,other,"DIA_Addon_Ramon_FirstWarn_YES_07_03");	//You aren't trying to tell me that you know him from earlier?
-	AI_Output(other,self,"DIA_Addon_Ramon_FirstWarn_YES_15_04");	//Well...yes...
+	AI_Output(other,self,"DIA_Addon_Ramon_FirstWarn_YES_15_04");	//Well... yes...
 	AI_Output(self,other,"DIA_Addon_Ramon_FirstWarn_YES_07_05");	//Listen - EVERYONE knows Thorus.
 	AI_Output(self,other,"DIA_Addon_Ramon_FirstWarn_YES_07_06");	//Nevertheless, you aren't getting in - and I WON'T give him a message!
 	Info_ClearChoices(DIA_Addon_Ramon_FirstWarn);

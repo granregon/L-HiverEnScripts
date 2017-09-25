@@ -156,7 +156,7 @@ func void DIA_Marduk_Pal_Info()
 {
 	AI_Output(other,self,"DIA_Marduk_Pal_15_00");	//But there are only magicians and novices living in the monastery.
 	AI_Output(self,other,"DIA_Marduk_Pal_05_01");	//That is correct. In contrast to our community which honors the Word of Innos...
-	AI_Output(self,other,"DIA_Marduk_Pal_05_02");	//...the paladins honor the great deeds of our Lord, above all else.
+	AI_Output(self,other,"DIA_Marduk_Pal_05_02");	//... the paladins honor the great deeds of our Lord, above all else.
 	AI_Output(self,other,"DIA_Marduk_Pal_05_03");	//We are the representatives of Innos, but the paladins are his warriors, who go into battle in his name and increase his glory.
 };
 
@@ -501,7 +501,7 @@ func void DIA_Marduk_SwordBlessing_Info()
 	AI_Output(self,other,"DIA_Marduk_SwordBlessing_05_01");	//If you are determined to take this step, you will first need a magic blade.
 	AI_Output(self,other,"DIA_Marduk_SwordBlessing_05_02");	//With this, you should then retreat to the chapel and pray.
 	AI_Output(self,other,"DIA_Marduk_SwordBlessing_05_03");	//During the prayer, and after a reasonable donation to our Lord Innos, you should ask Innos for his grace and guidance in the battle against Evil.
-	AI_Output(self,other,"DIA_Marduk_SwordBlessing_05_04");	//If Innos is well disposed toward you, your sword will be  consecrated to our Lord from that moment on.
+	AI_Output(self,other,"DIA_Marduk_SwordBlessing_05_04");	//If Innos is well disposed toward you, your sword will be consecrated to our Lord from that moment on.
 	Info_ClearChoices(DIA_Marduk_SwordBlessing);
 	Info_AddChoice(DIA_Marduk_SwordBlessing,Dialog_Back,DIA_Marduk_SwordBlessing_Back);
 	Info_AddChoice(DIA_Marduk_SwordBlessing,"What kind of a donation?",DIA_Marduk_SwordBlessing_Donation);

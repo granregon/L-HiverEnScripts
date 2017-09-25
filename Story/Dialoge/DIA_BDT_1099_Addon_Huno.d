@@ -115,9 +115,9 @@ func int DIA_Addon_Huno_Hi_Condition()
 func void DIA_Addon_Huno_Hi_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Huno_Hi_15_00");	//It looks like you're a master of your craft.
-	AI_Output(self,other,"DIA_Addon_Huno_Hi_06_01");	//I've heard that before...Did you bring the steel?
+	AI_Output(self,other,"DIA_Addon_Huno_Hi_06_01");	//I've heard that before... Did you bring the steel?
 	AI_Output(other,self,"DIA_Addon_Huno_Hi_15_02");	//Steel? No, I think you're confusing me with...
-	AI_Output(self,other,"DIA_Addon_Huno_Hi_06_03");	//Hm...somehow you seem familiar. Do we know each other from somewhere?
+	AI_Output(self,other,"DIA_Addon_Huno_Hi_06_03");	//Hm... somehow you seem familiar. Do we know each other from somewhere?
 	Info_ClearChoices(DIA_Addon_Huno_Hi);
 	Info_AddChoice(DIA_Addon_Huno_Hi,"Sure, from the Old Camp.",DIA_Addon_Huno_Hi_JA);
 	Info_AddChoice(DIA_Addon_Huno_Hi,"I wouldn't know where from.",DIA_Addon_Huno_Hi_NO);
@@ -128,7 +128,7 @@ func void DIA_Addon_Huno_Hi_Info()
 func void DIA_Addon_Huno_Hi_JA()
 {
 	AI_Output(other,self,"DIA_Addon_Huno_Hi_JA_15_00");	//Sure, from the Old Camp.
-	AI_Output(self,other,"DIA_Addon_Huno_Hi_JA_06_01");	//The Old Camp...right...you're that curious guy...I thought you were dead.
+	AI_Output(self,other,"DIA_Addon_Huno_Hi_JA_06_01");	//The Old Camp... right... you're that curious guy... I thought you were dead.
 	AI_Output(other,self,"DIA_Addon_Huno_Hi_JA_15_02");	//Yes, everybody thinks that. Who else survived?
 	AI_Output(self,other,"DIA_Addon_Huno_Hi_JA_06_03");	//A few. Some fled with Raven like I did. For a lot of others, the Old Camp became a grave.
 	Info_ClearChoices(DIA_Addon_Huno_Hi);
@@ -138,7 +138,7 @@ func void DIA_Addon_Huno_Hi_JA()
 func void DIA_Addon_Huno_Hi_NO()
 {
 	AI_Output(other,self,"DIA_Addon_Huno_Hi_NO_15_00");	//I wouldn't know where from.
-	AI_Output(self,other,"DIA_Addon_Huno_Hi_NO_06_01");	//Hm...my brain is like a sieve...whatever...
+	AI_Output(self,other,"DIA_Addon_Huno_Hi_NO_06_01");	//Hm... my brain is like a sieve... whatever...
 	Info_ClearChoices(DIA_Addon_Huno_Hi);
 };
 

@@ -107,7 +107,7 @@ func void DIA_Addon_Juan_Losung_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Juan_Losung_15_00");	//They say you have some interesting wares to offer...
 	AI_Output(self,other,"DIA_Addon_Juan_Losung_13_01");	//So what. Esteban wants to jerk me around, eh? I do all the work and hide away here for days in this miserable hole...
-	AI_Output(self,other,"DIA_Addon_Juan_Losung_13_02");	//...and he just sends someone to fetch the stuff? I'm not a warehouse!
+	AI_Output(self,other,"DIA_Addon_Juan_Losung_13_02");	//... and he just sends someone to fetch the stuff? I'm not a warehouse!
 	AI_Output(other,self,"DIA_Addon_Juan_Losung_15_03");	//Yeah, and? That isn't my problem.
 	AI_Output(self,other,"DIA_Addon_Juan_Losung_13_04");	//But I'm MAKING it your problem. You want the delivery - fine, you can pay for it!
 	AI_Output(self,other,"DIA_Addon_Juan_Losung_13_05");	//Get the gold from Esteban or Raven or I don't know where. I don't care. Whoever wants these goods will pay for them!
@@ -136,7 +136,7 @@ func int DIA_Addon_Juan_AufsMaul_Condition()
 func void DIA_Addon_Juan_AufsMaul_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Juan_AufsMaul_15_00");	//I don't come from Esteban!
-	AI_Output(self,other,"DIA_Addon_Juan_AufsMaul_13_01");	//Oh? Well then...eh...Just a moment! Hold still for a bit, you have a critter on your shoulder.
+	AI_Output(self,other,"DIA_Addon_Juan_AufsMaul_13_01");	//Oh? Well then... eh... Just a moment! Hold still for a bit, you have a critter on your shoulder.
 	AI_StopProcessInfos(self);
 	B_Attack(self,other,AR_NONE,1);
 };

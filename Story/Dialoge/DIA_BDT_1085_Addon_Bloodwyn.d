@@ -79,7 +79,7 @@ func void DIA_Addon_Bloodwyn_Dead_Info()
 {
 	AI_Output(self,other,"DIA_Addon_Bloodwyn_Dead_04_00");	//Hey, how did you get in here?
 	AI_Output(other,self,"DIA_Addon_Bloodwyn_Dead_15_01");	//Through the entrance.
-	AI_Output(self,other,"DIA_Addon_Bloodwyn_Dead_04_02");	//Funny...I HATE jokes.
+	AI_Output(self,other,"DIA_Addon_Bloodwyn_Dead_04_02");	//Funny... I HATE jokes.
 	AI_StopProcessInfos(self);
 	B_Attack(self,other,AR_NONE,1);
 };
@@ -142,7 +142,7 @@ func void DIA_Addon_Bloodwyn_Wait_Info()
 func void DIA_Addon_Bloodwyn_Wait_Raven()
 {
 	AI_Output(other,self,"DIA_Addon_Bloodwyn_Wait_Raven_15_00");	//I'm looking for Raven.
-	AI_Output(self,other,"DIA_Addon_Bloodwyn_Wait_Raven_04_01");	//Yeah - and what makes you think that Raven wants to talk to YOU of all...wait, are YOU...Is it YOU?
+	AI_Output(self,other,"DIA_Addon_Bloodwyn_Wait_Raven_04_01");	//Yeah - and what makes you think that Raven wants to talk to YOU of all... wait, are YOU... Is it YOU?
 	AI_Output(self,other,"DIA_Addon_Bloodwyn_Wait_Raven_04_02");	//You're the guy we've been looking for the whole time. What are YOU doing here? You should be long dead!
 	AI_Output(other,self,"DIA_Addon_Bloodwyn_Wait_Raven_15_03");	//People are always telling me that.
 	AI_Output(self,other,"DIA_Addon_Bloodwyn_Wait_Raven_04_04");	//Those morons all failed - but you won't get past me. This time I'll finish you!

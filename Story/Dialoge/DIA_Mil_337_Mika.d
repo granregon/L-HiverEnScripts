@@ -238,7 +238,7 @@ func int DIA_Mika_HILFE_Condition()
 func void DIA_Mika_HILFE_Info()
 {
 	AI_Output(other,self,"DIA_Mika_HILFE_15_00");	//I need your help.
-	AI_Output(self,other,"DIA_Mika_HILFE_12_01");	//If it's absolutely necessary...What's wrong?
+	AI_Output(self,other,"DIA_Mika_HILFE_12_01");	//If it's absolutely necessary... What's wrong?
 	Info_ClearChoices(DIA_Mika_HILFE);
 	Info_AddChoice(DIA_Mika_HILFE,"I'm being chased by bandits.",DIA_Mika_HILFE_schongut);
 	Info_AddChoice(DIA_Mika_HILFE,"I'm being attacked by monsters.",DIA_Mika_HILFE_monster);

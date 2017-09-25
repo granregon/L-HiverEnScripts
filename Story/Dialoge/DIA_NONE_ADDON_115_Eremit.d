@@ -69,7 +69,7 @@ func int DIA_Addon_Eremit_SeekTafeln_Condition()
 func void DIA_Addon_Eremit_SeekTafeln_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Eremit_Add_15_02");	//I am searching for stone tablets. You wouldn't happen to have found any?
-	AI_Output(self,other,"DIA_Addon_Eremit_Add_04_06");	//(carefully) Yes...But I'm keeping them!
+	AI_Output(self,other,"DIA_Addon_Eremit_Add_04_06");	//(carefully) Yes... But I'm keeping them!
 	AI_Output(self,other,"DIA_Addon_Eremit_Add_04_07");	//They're the only thing there is to read around here.
 	AI_Output(self,other,"DIA_Addon_Eremit_Add_04_08");	//I may not understand all of it yet, but I've been able to decipher some of the texts.
 };
@@ -538,7 +538,7 @@ func void DIA_Addon_Eremit_PERM_Info()
 		AI_Output(self,other,"DIA_Addon_Eremit_Add_04_15");	//I manage.
 		if(MIS_Eremit_Klamotten == LOG_SUCCESS)
 		{
-			AI_Output(self,other,"DIA_Addon_Eremit_Add_04_18");	//With clothes, I could get through the winter! After that...we'll see...
+			AI_Output(self,other,"DIA_Addon_Eremit_Add_04_18");	//With clothes, I could get through the winter! After that... we'll see...
 		}
 		else
 		{

@@ -141,7 +141,7 @@ func void DIA_Kardif_Hallo_Angebot()
 func void DIA_Kardif_Hallo_Hart()
 {
 	AI_Output(other,self,"DIA_Kardif_Hallo_Hart_15_00");	//Forget it - I'll get my information elsewhere.
-	AI_Output(self,other,"DIA_Kardif_Hallo_Hart_14_01");	//All right, all right...I'll go down to 7.
+	AI_Output(self,other,"DIA_Kardif_Hallo_Hart_14_01");	//All right, all right... I'll go down to 7.
 	Info_ClearChoices(DIA_Kardif_Hallo);
 	Info_AddChoice(DIA_Kardif_Hallo,"OK, 7 gold pieces sounds fair.",DIA_Kardif_Hallo_Sieben);
 	Info_AddChoice(DIA_Kardif_Hallo,"No, I don't need your information that bad.",DIA_Kardif_Hallo_Ablehnen);
@@ -424,7 +424,7 @@ func void DIA_Kardif_Lernen_Info()
 		AI_Output(self,other,"DIA_Kardif_Lernen_14_01");	//There are a few competent people here in the harbor district.
 		AI_Output(self,other,"DIA_Kardif_Lernen_14_02");	//Carl the blacksmith is a sturdy fellow. I bet he can show you how to get stronger.
 		AI_Output(self,other,"DIA_Kardif_Lernen_14_03");	//Alrik knows a lot about fighting. And Lares is a cunning rogue. He's down here at the harbor sometimes as well.
-		AI_Output(self,other,"DIA_Kardif_Lernen_14_04");	//And if you're crazy enough to go see old Ignaz - he knows all about aleche...almich...potions.
+		AI_Output(self,other,"DIA_Kardif_Lernen_14_04");	//And if you're crazy enough to go see old Ignaz - he knows all about aleche... almich... potions.
 		AI_Output(other,self,"DIA_Kardif_Lernen_15_05");	//Where can I find all these people?
 		AI_Output(self,other,"DIA_Kardif_Lernen_14_06");	//(groans) Boy, the King will have won his war against the orcs before I'm done explaining that to you.
 		AI_Output(self,other,"DIA_Kardif_Lernen_14_07");	//Just look around the harbor district, and you're bound to find them. And if you don't know your way about, go to Brahim and buy yourself a map.
@@ -473,7 +473,7 @@ func void DIA_Kardif_Diebeswerk_Info()
 		AI_Output(other,self,"DIA_Kardif_Diebeswerk_15_00");	//Is there any 'special' work to be had around here where I could make some quick money?
 		AI_Output(self,other,"DIA_Kardif_Diebeswerk_14_01");	//Something special, you say? Hmmm...
 		AI_PlayAni(self,"T_SEARCH");
-		AI_Output(self,other,"DIA_Kardif_Diebeswerk_14_02");	//...go talk to Nagur then. Maybe he can help you.
+		AI_Output(self,other,"DIA_Kardif_Diebeswerk_14_02");	//... go talk to Nagur then. Maybe he can help you.
 		DIA_Kardif_Diebeswerk_permanent = TRUE;
 	}
 	else
@@ -696,11 +696,11 @@ func void DIA_Kardif_Kerl_Info()
 	if(B_GiveInvItems(other,self,ItMi_Gold,Kardif_Deal))
 	{
 		AI_Output(other,self,"DIA_Kardif_Kerl_15_00");	//What did the guy look like?
-		AI_Output(self,other,"DIA_Kardif_Kerl_14_01");	//Well, rather tall, dark-skinned and strong - but no uniform. Somehow...menacing.
+		AI_Output(self,other,"DIA_Kardif_Kerl_14_01");	//Well, rather tall, dark-skinned and strong - but no uniform. Somehow... menacing.
 		AI_Output(other,self,"DIA_Kardif_Kerl_15_02");	//And his face?
 		AI_Output(self,other,"DIA_Kardif_Kerl_14_03");	//His face? When he looked at me I was glad that it wasn't me he had come for.
 		AI_Output(self,other,"DIA_Kardif_Kerl_14_04");	//There was something scary in his eyes - anyway, I think you should go see him. This is bound to be interesting.
-		AI_Output(other,self,"DIA_Kardif_Kerl_15_05");	//Yeah...the question is, for whom...
+		AI_Output(other,self,"DIA_Kardif_Kerl_15_05");	//Yeah... the question is, for whom...
 		DIA_Kardif_Kerl_permanent = TRUE;
 	}
 	else

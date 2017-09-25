@@ -395,7 +395,7 @@ func void DIA_Coragon_News_Info()
 	AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_33");	//Valentino was unable to pay his bar tab last night.
 	if(Valentino.aivar[AIV_DefeatedByPlayer] == TRUE)
 	{
-		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_34");	//He was blathering something about having being robbed, and paying me later...Really!
+		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_34");	//He was blathering something about having being robbed, and paying me later... Really!
 	}
 	else
 	{

@@ -157,7 +157,7 @@ func void DIA_Addon_BDT_1084_Senyan_Hi_bad()
 	AI_Output(self,other,"DIA_Addon_BDT_1084_Senyan_Hi_bad_12_03");	//And if they find you, they'll kill you.
 	AI_Output(other,self,"DIA_Addon_BDT_1084_Senyan_Hi_bad_15_04");	//A lot of people have already tried that.
 	AI_Output(self,other,"DIA_Addon_BDT_1084_Senyan_Hi_bad_12_05");	//Then your combat skills are as good as your craftiness. Coming into the camp with some of our armor is like...
-	AI_Output(self,other,"DIA_Addon_BDT_1084_Senyan_Hi_bad_12_06");	//...the sheep coming to the wolves. Your life is hanging by a thin thread, son of danger.
+	AI_Output(self,other,"DIA_Addon_BDT_1084_Senyan_Hi_bad_12_06");	//... the sheep coming to the wolves. Your life is hanging by a thin thread, son of danger.
 	Senyan_Bad = TRUE;
 	Info_ClearChoices(DIA_Addon_BDT_1084_Senyan_Hi);
 	if(Senyan_Good == TRUE)

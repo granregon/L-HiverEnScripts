@@ -229,11 +229,11 @@ func int DIA_Addon_Francis_Buch_Condition()
 func void DIA_Addon_Francis_Buch_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Francis_Key_Business_15_03");	//I found your hiding-place. Your treasure and your paybook. This is your book, isn't it?
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_01");	//Er...I've never seen this book before.
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_02");	//And...Er...even IF this were my book...
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_01");	//Er... I've never seen this book before.
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_02");	//And... Er... even IF this were my book...
 	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_03");	//You don't REALLY believe the lads will buy YOUR story based on a few yellowed pages, do you?
 	AI_Output(other,self,"DIA_Addon_Francis_Key_Business_15_01");	//You cheated them all out of their shares.
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_04");	//Er...wait a minute...
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_04");	//Er... wait a minute...
 	if(Npc_HasItems(self,ITKE_Greg_ADDON_MIS))
 	{
 		if(Npc_KnowsInfo(other,DIA_Addon_Francis_LetMeIn))

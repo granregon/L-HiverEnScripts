@@ -129,7 +129,7 @@ func void DIA_Pepe_KillWolves_Info()
 	AI_Output(other,self,"DIA_Pepe_KillWolves_15_00");	//What if I kill those wolves?
 	AI_Output(self,other,"DIA_Pepe_KillWolves_03_01");	//(mocking) You, by yourself? Ha ha. I don't believe it. I'd sooner trust my bellwether to do that.
 	AI_Output(other,self,"DIA_Pepe_KillWolves_15_02");	//Forget it. It was just a suggestion. I'll go over to the boys and see what THEY say about it...
-	AI_Output(self,other,"DIA_Pepe_KillWolves_03_03");	//(scared) Wait a minute. Okay, okay! Ehm...you're the greatest and you can take on a hundred wolves at once. No problem!
+	AI_Output(self,other,"DIA_Pepe_KillWolves_03_03");	//(scared) Wait a minute. Okay, okay! Ehm... you're the greatest and you can take on a hundred wolves at once. No problem!
 	AI_Output(self,other,"DIA_Pepe_KillWolves_03_04");	//Mostly they lurk between the trees near the pasture. (incidentally) I think there were only four...
 	AI_StopProcessInfos(self);
 	Wld_InsertNpc(PEPES_YWolf1,"FP_ROAM_NW_BIGFARM_PEPES_WOLFS_01");

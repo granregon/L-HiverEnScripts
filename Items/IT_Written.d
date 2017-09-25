@@ -498,7 +498,7 @@ func void usesmithmasterbook_lvl1()
 		if(((PLAYER_TALENT_SMITH[12] || PLAYER_TALENT_SMITH[17]) == TRUE) && (KNOWS_SMITHMASTERBOOK_LVL1 == FALSE))
 		{
 			KNOWS_SMITHMASTERBOOK_LVL1 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_KOWAL");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can improve 'Elegant bastard sword' and 'Flamberge'.");
 		}
 		else if(KNOWS_SMITHMASTERBOOK_LVL1 == TRUE)
@@ -507,7 +507,7 @@ func void usesmithmasterbook_lvl1()
 		};
 		if(KNOWS_SMITHMASTERBOOK_LVL1 == FALSE)
 		{
-			B_Say(self,self,"DIA_Thorben_PleaseTeach_Later_15_00");
+			B_Say(self,self,"$BEZI_GOTOWY");
 			Print(PRINT_NoPicklockTalent);
 		};
 	};

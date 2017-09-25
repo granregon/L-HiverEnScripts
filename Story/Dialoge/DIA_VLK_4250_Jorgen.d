@@ -356,7 +356,7 @@ func void DIA_Jorgen_BEMYCAPTAIN_Info()
 	if(DIA_Jorgen_BEMYCAPTAIN_OneTime == FALSE)
 	{
 		AI_Output(self,other,"DIA_Jorgen_BEMYCAPTAIN_07_01");	//You're not having me on, mate? If what you say is really true, I'm definitely in on it.
-		AI_Output(self,other,"DIA_Jorgen_BEMYCAPTAIN_07_02");	//Errh...there's only a minor problem. I ate those novices out of half their larder.
+		AI_Output(self,other,"DIA_Jorgen_BEMYCAPTAIN_07_02");	//Errh... there's only a minor problem. I ate those novices out of half their larder.
 		AI_Output(self,other,"DIA_Jorgen_BEMYCAPTAIN_07_03");	//They're hopping mad, those fellows. I don't think that head magician will let me leave here just like that.
 		DIA_Jorgen_BEMYCAPTAIN_OneTime = TRUE;
 	};

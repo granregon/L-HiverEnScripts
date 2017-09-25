@@ -248,7 +248,7 @@ func void DIA_Addon_Vatras_Cavalorn_Info()
 	{
 		B_GivePlayerXP(XP_Addon_Cavalorn_Letter2Vatras_Opened);
 		B_GiveInvItems(other,self,ItWr_SaturasFirstMessage_Addon,1);
-		AI_Output(self,other,"DIA_Addon_Vatras_Cavalorn_05_02");	//Yes, but...it's been opened. I hope it didn't fall into the wrong hands.
+		AI_Output(self,other,"DIA_Addon_Vatras_Cavalorn_05_02");	//Yes, but... it's been opened. I hope it didn't fall into the wrong hands.
 	};
 	B_UseFakeScroll();
 	AI_Output(self,other,"DIA_Addon_Vatras_Cavalorn_05_03");	//Indeed. This is an important message you're bringing me.
@@ -308,7 +308,7 @@ func void DIA_Addon_Vatras_CavalornSentMe_Info()
 	AI_Output(other,self,"DIA_Addon_Vatras_Add_15_00");	//Cavalorn sent me to you!
 	AI_Output(self,other,"DIA_Addon_Vatras_Add_05_01");	//(cunningly) And what did he tell you?
 	AI_Output(other,self,"DIA_Addon_Vatras_Add_15_02");	//He said you're in dire need of more good people.
-	AI_Output(self,other,"DIA_Addon_Vatras_Add_05_03");	//(smiles) Aha...So you want to JOIN us, son?
+	AI_Output(self,other,"DIA_Addon_Vatras_Add_05_03");	//(smiles) Aha... So you want to JOIN us, son?
 };
 
 
@@ -374,7 +374,7 @@ func void DIA_Addon_Vatras_TellMe_Konkret()
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_01");	//The fall of the barrier has evoked numerous threats.
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_02");	//The bandits are probably the most obvious one.
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_03");	//Not only has it become all but impossible to travel the island without being attacked...
-	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_04");	//...there's somebody in town, too, who supports the bandits!
+	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_04");	//... there's somebody in town, too, who supports the bandits!
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Add_05_00");	//We have found out that the bandits receive regular deliveries from a weapons merchant in Khorinis.
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_05");	//We try to find such people and keep them from endangering the city.
 	AI_Output(self,other,"DIA_Addon_Vatras_TellMe_Konkret_05_06");	//If you can find out anything about this, let me know.
@@ -478,7 +478,7 @@ func void DIA_Vatras_INFLUENCE_FIRST_LIE()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_FIRST_LIE_05_02");	//Terrible things, hm...how do you know this?
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_FIRST_LIE_05_02");	//Terrible things, hm... how do you know this?
 	};
 	Info_ClearChoices(DIA_Addon_Vatras_WannaBeRanger);
 	Info_AddChoice(DIA_Addon_Vatras_WannaBeRanger,"Oh, I heard rumors somewhere...",DIA_Vatras_INFLUENCE_SECOND_LIE);
@@ -495,7 +495,7 @@ func void DIA_Vatras_INFLUENCE_SECOND_TRUTH()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_SECOND_TRUTH_05_02");	//The necromancer...So he lives...(considers) and he sent you? Who are you really?
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_SECOND_TRUTH_05_02");	//The necromancer... So he lives...(considers) and he sent you? Who are you really?
 	};
 	Info_ClearChoices(DIA_Addon_Vatras_WannaBeRanger);
 	Info_AddChoice(DIA_Addon_Vatras_WannaBeRanger,"I'm just an adventurer from down south...",DIA_Vatras_INFLUENCE_THIRD_LIE);
@@ -533,19 +533,19 @@ func void B_Vatras_INFLUENCE_REPEAT()
 	};
 	if(Vatras_Second == TRUE)
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_04");	//...who has been told by Xardas the necromancer...
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_04");	//... who has been told by Xardas the necromancer...
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_05");	//...who heard rumors...
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_05");	//... who heard rumors...
 	};
 	if(Vatras_First == TRUE)
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_06");	//...that dragons have come to conquer the country.
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_06");	//... that dragons have come to conquer the country.
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_07");	//...that terrible things are going to happen.
+		AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_07");	//... that terrible things are going to happen.
 	};
 	AI_Output(self,other,"DIA_Vatras_INFLUENCE_REPEAT_05_08");	//And you have come to report this to the paladins...
 	if((Vatras_First == TRUE) && (Vatras_Second == TRUE) && (Vatras_Third == TRUE))
@@ -658,7 +658,7 @@ func void DIA_Addon_Vatras_HowToJoin_WhatsGreat()
 	SC_HearedAboutMissingPeople = TRUE;
 	AI_Output(self,other,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_04");	//However...
 	AI_Output(other,self,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_15_05");	//Yes?
-	AI_Output(self,other,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_06");	//...you should take your message to the paladins first.
+	AI_Output(self,other,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_06");	//... you should take your message to the paladins first.
 	AI_Output(self,other,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_07");	//I consider it a matter of utmost importance!
 	AI_Output(self,other,"DIA_Addon_Vatras_HowToJoin_WhatsGreat_05_08");	//Talk to Lord Hagen.
 	B_LogEntry(TOPIC_Addon_RingOfWater,"Vatras wants me to take an important message to Lord Hagen.");

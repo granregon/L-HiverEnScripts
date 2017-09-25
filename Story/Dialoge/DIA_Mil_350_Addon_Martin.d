@@ -252,7 +252,7 @@ instance DIA_Addon_Martin_Rangerhelp(C_Info)
 	nr = 2;
 	condition = DIA_Addon_Martin_Rangerhelp_Condition;
 	information = DIA_Addon_Martin_Rangerhelp_Info;
-	description = "Lares sent me";
+	description = "Lares sent me.";
 };
 
 

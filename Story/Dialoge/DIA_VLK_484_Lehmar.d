@@ -75,7 +75,7 @@ func void DIA_Lehmar_GELDLEIHEN_Info()
 	Info_AddChoice(DIA_Lehmar_GELDLEIHEN,"I'll think about it.",DIA_Lehmar_GELDLEIHEN_back);
 	Info_AddChoice(DIA_Lehmar_GELDLEIHEN,"1000 gold coins.",DIA_Lehmar_GELDLEIHEN_1000);
 	Info_AddChoice(DIA_Lehmar_GELDLEIHEN," 200 gold coins.",DIA_Lehmar_GELDLEIHEN_200);
-	Info_AddChoice(DIA_Lehmar_GELDLEIHEN,"   50 gold coins.",DIA_Lehmar_GELDLEIHEN_50);
+	Info_AddChoice(DIA_Lehmar_GELDLEIHEN,"  50 gold coins.",DIA_Lehmar_GELDLEIHEN_50);
 };
 
 func void DIA_Lehmar_GELDLEIHEN_back()

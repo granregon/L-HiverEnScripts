@@ -404,7 +404,7 @@ func void DIA_Addon_Esteban_fight_Info()
 	AI_Output(other,self,"DIA_Addon_Esteban_fight_15_02");	//How about if you keep your word and give me a red stone?
 	AI_Output(self,other,"DIA_Addon_Esteban_fight_07_03");	//Hey - one more word and my guards will have to hurt you, too.
 	AI_Output(other,self,"DIA_Addon_Esteban_fight_15_04");	//(grins) What guards...?
-	AI_Output(self,other,"DIA_Addon_Esteban_fight_07_05");	//What...? Ah, I see...you're trying to pull a fast one, just wait...
+	AI_Output(self,other,"DIA_Addon_Esteban_fight_07_05");	//What...? Ah, I see... you're trying to pull a fast one, just wait...
 	Bodyguard_Killer = FALSE;
 	B_KillNpc(Wache_01);
 	B_KillNpc(Wache_02);

@@ -94,7 +94,7 @@ func void DIA_Pablo_WANTED_Info()
 {
 	AI_Output(self,other,"DIA_Pablo_WANTED_12_00");	//Hey you, wait - you look familiar to me.
 	AI_Output(other,self,"DIA_Pablo_WANTED_15_01");	//What do you want?
-	AI_Output(self,other,"DIA_Pablo_WANTED_12_02");	//I've seen your face before somewhere...ah - right!
+	AI_Output(self,other,"DIA_Pablo_WANTED_12_02");	//I've seen your face before somewhere... ah - right!
 	B_UseFakeScroll();
 	AI_Output(self,other,"DIA_Pablo_WANTED_12_03");	//Here - we found this picture on some bandits we picked up a few days ago - it looks a lot like you.
 	B_GiveInvItems(self,other,ItWr_Poster_MIS,1);
@@ -117,7 +117,7 @@ func void DIA_Pablo_WANTED_NOTHING()
 func void DIA_Pablo_WANTED_IRONY()
 {
 	AI_Output(other,self,"DIA_Pablo_WANTED_IRONY_15_00");	//Gee, I'd never have thought of that myself.
-	AI_Output(self,other,"DIA_Pablo_WANTED_IRONY_12_01");	//Very funny...what did those fellows want from you?
+	AI_Output(self,other,"DIA_Pablo_WANTED_IRONY_12_01");	//Very funny... what did those fellows want from you?
 	AI_Output(other,self,"DIA_Pablo_Add_15_01");	//Ask them yourself. You've got them safely locked up, haven't you?
 	AI_Output(self,other,"DIA_Pablo_WANTED_IRONY_12_03");	//No - they're dead.
 	AI_Output(other,self,"DIA_Pablo_WANTED_IRONY_15_04");	//I guess we'll never know, then.

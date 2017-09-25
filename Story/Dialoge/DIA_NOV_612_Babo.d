@@ -631,7 +631,7 @@ func int DIA_Babo_Kap3_KeepTheFaith_Condition()
 func void DIA_Babo_Kap3_KeepTheFaith_Info()
 {
 	AI_Output(other,self,"DIA_Babo_Kap3_KeepTheFaith_15_00");	//You must never lose faith.
-	AI_Output(self,other,"DIA_Babo_Kap3_KeepTheFaith_03_01");	//(caught in the act) No,...I mean, I would never do such a thing. Honest!
+	AI_Output(self,other,"DIA_Babo_Kap3_KeepTheFaith_03_01");	//(caught in the act) No,... I mean, I would never do such a thing. Honest!
 	AI_Output(other,self,"DIA_Babo_Kap3_KeepTheFaith_15_02");	//We all are often put through severe tests.
 	AI_Output(self,other,"DIA_Babo_Kap3_KeepTheFaith_03_03");	//Yes, Master. I will always remember that. Thank you.
 	B_GivePlayerXP(XP_Ambient);
@@ -660,8 +660,8 @@ func int DIA_Babo_Kap3_Unhappy_Condition()
 func void DIA_Babo_Kap3_Unhappy_Info()
 {
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_15_00");	//That doesn't sound terribly happy.
-	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_03_01");	//(caught in the act) Well...I mean, everything is just fine, really.
-	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_03_02");	//Only...Oh, I don't want to complain.
+	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_03_01");	//(caught in the act) Well... I mean, everything is just fine, really.
+	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_03_02");	//Only... Oh, I don't want to complain.
 	Info_ClearChoices(DIA_Babo_Kap3_Unhappy);
 	Info_AddChoice(DIA_Babo_Kap3_Unhappy,"Stop whining then.",DIA_Babo_Kap3_Unhappy_Lament);
 	Info_AddChoice(DIA_Babo_Kap3_Unhappy,"Aw, come on, you can tell me.",DIA_Babo_Kap3_Unhappy_TellMe);
@@ -670,7 +670,7 @@ func void DIA_Babo_Kap3_Unhappy_Info()
 func void DIA_Babo_Kap3_Unhappy_Lament()
 {
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_Lament_15_00");	//Stop whining then.
-	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Lament_03_01");	//(afraid) I...I...please don't tell the magicians.
+	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Lament_03_01");	//(afraid) I... I... please don't tell the magicians.
 	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Lament_03_02");	//I don't want to be punished again.
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_Lament_15_03");	//I'll think about it.
 	Info_ClearChoices(DIA_Babo_Kap3_Unhappy);
@@ -716,7 +716,7 @@ func void DIA_Babo_Kap3_Unhappy_Documents()
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_Documents_15_00");	//What kind of documents are those?
 	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Documents_03_01");	//(unsure) That's nobody's business. It's entirely my affair.
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_Documents_15_02");	//Come on, tell me.
-	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Documents_03_03");	//They are, eh...entirely normal documents. Nothing special.
+	AI_Output(self,other,"DIA_Babo_Kap3_Unhappy_Documents_03_03");	//They are, eh... entirely normal documents. Nothing special.
 	AI_Output(other,self,"DIA_Babo_Kap3_Unhappy_Documents_15_04");	//I won't ask any further.
 };
 

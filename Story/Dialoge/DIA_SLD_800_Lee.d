@@ -180,7 +180,7 @@ func void DIA_Lee_PETZMASTER_Info()
 	if(self.aivar[AIV_TalkedToPlayer] == FALSE)
 	{
 		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_00");	//Who the devil let YOU in here - (surprised) - YOU are the new fellow who has been causing trouble?
-		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_01");	//I had heard from Gorn that you were still alive, but that you would come here...anyway...
+		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_01");	//I had heard from Gorn that you were still alive, but that you would come here... anyway...
 	};
 	if(B_GetGreatestPetzCrime(self) == CRIME_MURDER)
 	{
@@ -320,7 +320,7 @@ func void DIA_Lee_Paladine_Info()
 	AI_Output(self,other,"DIA_Lee_Paladine_04_01");	//(distrustful) What's your business with the paladins?
 	AI_Output(other,self,"DIA_Lee_Paladine_15_02");	//That's a long story...
 	AI_Output(self,other,"DIA_Lee_Paladine_04_03");	//I've got time.
-	AI_Output(other,self,"DIA_Lee_Paladine_15_04");	//(sighs) Xardas sent me on a mission. He wants me to obtain  a powerful amulet, the Eye of Innos.
+	AI_Output(other,self,"DIA_Lee_Paladine_15_04");	//(sighs) Xardas sent me on a mission. He wants me to obtain a powerful amulet, the Eye of Innos.
 	AI_Output(self,other,"DIA_Lee_Paladine_04_05");	//So you're still allied with that necromancer. I see. And the paladins have this amulet?
 	AI_Output(other,self,"DIA_Lee_Paladine_15_06");	//As far as I know - yes.
 	AI_Output(self,other,"DIA_Lee_Paladine_04_07");	//I can help you get to the paladins. But first you need to become one of us.
@@ -891,7 +891,7 @@ func int DIA_Lee_Report_Condition()
 func void DIA_Lee_Report_Info()
 {
 	AI_Output(other,self,"DIA_Lee_Add_15_18");	//I've come from the Valley of Mines. The castle there was attacked by dragons!
-	AI_Output(self,other,"DIA_Lee_Add_04_19");	//So it's true! Lares said that rumors about dragons are circulating through the city...I didn't believe it...
+	AI_Output(self,other,"DIA_Lee_Add_04_19");	//So it's true! Lares said that rumors about dragons are circulating through the city... I didn't believe it...
 	AI_Output(self,other,"DIA_Lee_Add_04_20");	//What about the paladins?
 	AI_Output(other,self,"DIA_Lee_Add_15_21");	//They've been thoroughly decimated.
 	if(other.guild == GIL_SLD)
@@ -1270,7 +1270,7 @@ func void DIA_Lee_DoAboutBennet_Info()
 	};
 	if(!Npc_IsDead(Buster) && ((hero.guild == GIL_SLD) || (hero.guild == GIL_DJG)))
 	{
-		AI_Output(self,other,"DIA_Lee_DoAboutBennet_04_07");	//Oh, yes. Before I forget...Buster wants to talk to you. He wouldn't tell me what it was about. Maybe you should go see him!
+		AI_Output(self,other,"DIA_Lee_DoAboutBennet_04_07");	//Oh, yes. Before I forget... Buster wants to talk to you. He wouldn't tell me what it was about. Maybe you should go see him!
 	};
 };
 

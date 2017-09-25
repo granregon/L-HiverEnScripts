@@ -137,14 +137,14 @@ func void DIA_Rengaru_GOTYOU_Info()
 	AI_Output(other,self,"DIA_Rengaru_GOTYOU_15_02");	//You stole from Jora in broad daylight, and he even saw you do it.
 	AI_Output(other,self,"DIA_Rengaru_GOTYOU_15_03");	//So I've come to tell you that you're a lousy thief, and that...
 	Info_ClearChoices(DIA_Rengaru_GOTYOU);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"...I deserve a share of the loot.",DIA_Rengaru_GOTYOU_Anteil);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"...you had better hand over Jora's gold now.",DIA_Rengaru_GOTYOU_YouThief);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"...and now you tell me who you are.",DIA_Rengaru_GOTYOU_WhoAreYou);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"... I deserve a share of the loot.",DIA_Rengaru_GOTYOU_Anteil);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"... you had better hand over Jora's gold now.",DIA_Rengaru_GOTYOU_YouThief);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"... and now you tell me who you are.",DIA_Rengaru_GOTYOU_WhoAreYou);
 };
 
 func void DIA_Rengaru_GOTYOU_YouThief()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_YouThief_15_00");	//...you had better hand over Jora's gold now.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_YouThief_15_00");	//... you had better hand over Jora's gold now.
 	if(Npc_HasItems(self,ItMi_Gold) >= 1)
 	{
 		AI_Output(self,other,"DIA_Rengaru_GOTYOU_YouThief_07_01");	//Here's the dough, man! But now let me go, I'll never do it again.
@@ -163,7 +163,7 @@ func void DIA_Rengaru_GOTYOU_YouThief()
 
 func void DIA_Rengaru_GOTYOU_Anteil()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_Anteil_15_00");	//...I deserve a share of the loot.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_Anteil_15_00");	//... I deserve a share of the loot.
 	if((self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_LOST) && (Npc_HasItems(self,ItMi_Gold) < 1))
 	{
 		AI_Output(self,other,"DIA_Rengaru_GOTYOU_Anteil_07_01");	//You already took everything I had after you knocked me to the ground! So let me go!
@@ -211,10 +211,10 @@ func void DIA_Rengaru_GOTYOU_Anteil_GehtKlar()
 
 func void DIA_Rengaru_GOTYOU_WhoAreYou()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_00");	//...and now you tell me who you are.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_00");	//... and now you tell me who you are.
 	AI_Output(self,other,"DIA_Rengaru_GOTYOU_WhoAreYou_07_01");	//I'm nothing but a poor wretch, trying to make ends meet one way or another.
 	AI_Output(self,other,"DIA_Rengaru_GOTYOU_WhoAreYou_07_02");	//What else can I do? I can't find a job in town...
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_03");	//...all right, I see. Spare me your whining.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_03");	//... all right, I see. Spare me your whining.
 };
 
 

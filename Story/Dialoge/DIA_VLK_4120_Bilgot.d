@@ -117,7 +117,7 @@ func void DIA_Bilgot_Hilfe_Info()
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_02");	//I'm going to hunt those snappers,
 	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_03");	//That's crazy. I've watched them - those are bloodthirsty beasts.
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_04");	//Then tell me what you know about them.
-	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_05");	//Hm...I could help you - but only under one condition!
+	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_05");	//Hm... I could help you - but only under one condition!
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_06");	//What do you want?
 	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_07");	//If you manage to kill the snappers - then you have to get me out of here!
 	if(Npc_IsDead(Fed) == FALSE)
@@ -150,7 +150,7 @@ func void DIA_Bilgot_KNOWSLEADSNAPPER_Info()
 {
 	AI_Output(other,self,"DIA_Bilgot_KNOWSLEADSNAPPER_15_00");	//Tell me what you know. Then I'll get you out of here!
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_01");	//I knew I could count on you. So, pay attention. I've watched the snappers for quite a while.
-	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_02");	//They're very cunning and have a kind of...communication. They never go alone and attack only in a pack.
+	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_02");	//They're very cunning and have a kind of... communication. They never go alone and attack only in a pack.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_03");	//But there's something else. There's a lizard among them that's different. It rarely shows up - but I've seen it.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_04");	//The other beasts bow when they go past it - but they always keep it in sight as they do so.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_05");	//As long as that one doesn't move, no lizard in its vicinity will.

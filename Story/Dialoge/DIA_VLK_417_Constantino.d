@@ -833,7 +833,7 @@ func void DIA_Constantino_NewRecipes_Info()
 	AI_Output(other,self,"DIA_Constantino_NewRecipes_15_00");	//I'm looking for new recipes for potions.
 	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_01");	//Do you have any previous experience with alchemy?
 	AI_Output(other,self,"DIA_Constantino_NewRecipes_15_02");	//Yes, I do.
-	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_03");	//Yet you are still alive...those aren't bad qualifications.
+	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_03");	//Yet you are still alive... those aren't bad qualifications.
 	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_04");	//I think I can tell you a few formulations. It depends, of course, on what you want to know.
 	Constantino_TeachAlchemy = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);

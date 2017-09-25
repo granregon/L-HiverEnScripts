@@ -417,7 +417,7 @@ func void DIA_Maleth_GEHSTOCK_Info()
 	AI_Output(other,self,"DIA_Maleth_GEHSTOCK_15_00");	//I think this walking stick belongs to you.
 	AI_Output(self,other,"DIA_Maleth_GEHSTOCK_08_01");	//That's terrific. I...
 	AI_Output(other,self,"DIA_Maleth_GEHSTOCK_15_02");	//Just a moment. First you pay for it.
-	AI_Output(self,other,"DIA_Maleth_GEHSTOCK_08_03");	//But...I don't have much.
+	AI_Output(self,other,"DIA_Maleth_GEHSTOCK_08_03");	//But... I don't have much.
 	AI_Output(other,self,"DIA_Maleth_GEHSTOCK_15_04");	//Then think of something else.
 	AI_Output(self,other,"DIA_Maleth_GEHSTOCK_08_05");	//Okay. How about this? Yesterday I saw some bandits run past with a few bags of gold.
 	AI_Output(self,other,"DIA_Maleth_GEHSTOCK_08_06");	//If I tell you where they keep their booty, can I have my walking stick back?

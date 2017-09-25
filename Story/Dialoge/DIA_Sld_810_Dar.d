@@ -501,7 +501,7 @@ func void DIA_Dar_BRINGORCELITERING_Info()
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_15_00");	//I've got the orc trophy you were looking for.
 	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_01");	//What's this you've brought me?
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_15_02");	//The ring of an orcish warlord.
-	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_03");	//Wow, in that case...What do you want for it?
+	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_03");	//Wow, in that case... What do you want for it?
 	MIS_Dar_BringOrcEliteRing = LOG_SUCCESS;
 	Info_ClearChoices(DIA_Dar_BRINGORCELITERING);
 	Info_AddChoice(DIA_Dar_BRINGORCELITERING,"What can you offer me?",DIA_Dar_BRINGORCELITERING_was);
@@ -550,7 +550,7 @@ func void DIA_Dar_BRINGORCELITERING_geld_no()
 func void DIA_Dar_BRINGORCELITERING_was()
 {
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_was_15_00");	//What can you offer me?
-	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_01");	//Either take the money, or this amulet that I...well, let's say, acquired a while ago.
+	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_01");	//Either take the money, or this amulet that I... well, let's say, acquired a while ago.
 	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_02");	//It improves your dexterity. I've tried it myself.
 	Info_ClearChoices(DIA_Dar_BRINGORCELITERING);
 	Info_AddChoice(DIA_Dar_BRINGORCELITERING,"Give me some gold.",DIA_Dar_BRINGORCELITERING_geld);

@@ -85,7 +85,7 @@ func void DIA_Addon_HammerPirate_Anheuern_Info()
 	{
 		AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_01");	//Why don't you ask the guy who's manning the saw?
 	};
-	AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_02");	//I...can't use all this stress...
+	AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_02");	//I... can't use all this stress...
 };
 
 

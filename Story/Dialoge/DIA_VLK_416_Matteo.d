@@ -100,7 +100,7 @@ func int DIA_Matteo_SellWhat_Condition()
 func void DIA_MAtteo_SellWhat_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_SellWhat_15_00");	//What are you selling?
-	AI_Output(self,other,"DIA_Matteo_SellWhat_09_01");	//I can offer you everything you need to survive in the wild. Weapons, torches, provisions...even armor.
+	AI_Output(self,other,"DIA_Matteo_SellWhat_09_01");	//I can offer you everything you need to survive in the wild. Weapons, torches, provisions... even armor.
 	AI_Output(self,other,"DIA_Matteo_SellWhat_09_02");	//I still have a special piece in stock.
 	AI_Output(self,other,"DIA_Matteo_SellWhat_09_03");	//Double hardened armor of snapper leather - still unused. Interested?
 	if(Knows_Matteo == FALSE)
@@ -274,7 +274,7 @@ func void DIA_MAtteo_HelpMeToOV_Info()
 	AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_00");	//Can you help me get into the upper quarter?
 	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_01");	//(stunned) What? What are you going to do THERE?
 	AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_02");	//I've got an important message...
-	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_03");	//Well, well...Have you tried getting past the guards?
+	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_03");	//Well, well... Have you tried getting past the guards?
 	if(Torwache_305.aivar[AIV_TalkedToPlayer] == TRUE)
 	{
 		AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_04");	//(bitter laugh) Oh man, forget it!
@@ -673,7 +673,7 @@ func int DIA_Matteo_OtherWay_Condition()
 func void DIA_MAtteo_OtherWay_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_OtherWay_15_00");	//Is there another way to get into the upper quarter?
-	AI_Output(self,other,"DIA_Matteo_OtherWay_09_01");	//Perhaps...if I think of anything, I'll let you know.
+	AI_Output(self,other,"DIA_Matteo_OtherWay_09_01");	//Perhaps... if I think of anything, I'll let you know.
 };
 
 

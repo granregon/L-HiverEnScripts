@@ -366,7 +366,7 @@ func void DIA_Thorben_PleaseTeach_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_11");	//Hmm...I don't know whether you can be trusted or not.
+		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_11");	//Hmm... I don't know whether you can be trusted or not.
 		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_12");	//For all I know, you might be one of those layabouts who only come to town to empty the chests of honest people.
 		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_13");	//I'm not going to teach you anything before I'm convinced that you are an honest fellow.
 	};

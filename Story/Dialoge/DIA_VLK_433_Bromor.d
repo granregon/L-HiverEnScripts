@@ -71,7 +71,7 @@ func void DIA_Addon_Bromor_MissingPeople_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Bromor_MissingPeople_15_00");	//Are all your girls accounted for?
 	AI_Output(self,other,"DIA_Addon_Bromor_MissingPeople_07_01");	//Of course they are. Or did you think I want to go to jail over something like that?
-	AI_Output(other,self,"DIA_Addon_Bromor_MissingPeople_15_02");	//(irritated) Er...I wasn't asking about your payroll. I mean, are they all PRESENT? Or have any gone missing?
+	AI_Output(other,self,"DIA_Addon_Bromor_MissingPeople_15_02");	//(irritated) Er... I wasn't asking about your payroll. I mean, are they all PRESENT? Or have any gone missing?
 	AI_Output(self,other,"DIA_Addon_Bromor_MissingPeople_07_03");	//Oh. Yes, actually. One of my girls has up and left. Her name's Lucia.
 	AI_Output(self,other,"DIA_Addon_Bromor_MissingPeople_07_04");	//I reported it to the militia, too. But they claim they haven't found a trace of her yet.
 	Log_CreateTopic(TOPIC_Addon_MissingPeople,LOG_MISSION);

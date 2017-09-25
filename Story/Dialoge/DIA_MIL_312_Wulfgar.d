@@ -204,7 +204,7 @@ func void DIA_Wulfgar_HowToBegin_Info()
 	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_01");	//That's entirely up to you.
 	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_02");	//If you specialize in only one type of weapon, you automatically learn the other at the same time.
 	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_03");	//If, for instance, you are good at fighting with one-handed swords, but still a beginner with two-handed weapons...
-	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_04");	//...your two-handed skills will go up as well whenever you train with a one-hander.
+	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_04");	//... your two-handed skills will go up as well whenever you train with a one-hander.
 	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_05");	//In that case, the training is more exhausting than if you train with both types of weapons.
 	AI_Output(self,other,"DIA_Wulfgar_HowToBegin_04_06");	//Just start and you'll soon see what I'm talking about.
 };
