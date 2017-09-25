@@ -72,7 +72,7 @@ func void DIA_Lester_Hello_YouKnowMe()
 	Info_ClearChoices(DIA_Lester_Hello);
 	AI_Output(other,self,"DIA_Lester_Hello_YouKnowMe_15_00");	//Am I supposed to know you?
 	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_01");	//Hello? Anyone home? I risked my neck so you could get that weird stone.
-	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_02");	//You owe me something...This time you should remember THAT.
+	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_02");	//You owe me something... This time you should remember THAT.
 	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_03");	//You still remember Diego, Milten and Gorn?
 	Info_AddChoice(DIA_Lester_Hello,"Diego, Milten and WHO?",DIA_Lester_Hello_WhoFourFriends);
 	Info_AddChoice(DIA_Lester_Hello,"Sure. What about them?",DIA_Lester_Hello_KnowFourFriends);
@@ -184,9 +184,9 @@ func void DIA_Lester_SEND_XARDAS_Info()
 {
 	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_00");	//You need to tell Xardas about the shadow, it could be important.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_01");	//You don't think it was my imagination? You mean there was really a...
-	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_02");	//...dragon. Yes.
+	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_02");	//... dragon. Yes.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_03");	//You're getting into the thick of it again, am I right?
-	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_04");	//I shouldn't say in the thick of it...not yet.
+	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_04");	//I shouldn't say in the thick of it... not yet.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_05");	//(sighs) Well good, if it's so important, then I'll go see him - but not now.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_06");	//For the moment, I'm going to rest. I'm still exhausted after the escape from the penal colony.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_07");	//I think you've got big plans. I'll see you later at Xardas'.
@@ -333,7 +333,7 @@ func void DIA_Lester_Sleep_Info()
 {
 	AI_Output(other,self,"DIA_Lester_Sleep_15_00");	//Are you still exhausted?
 	AI_Output(self,other,"DIA_Lester_Sleep_13_01");	//And how. (yawns) I told Xardas everything. Now I'm going to sleep for a while. Like, a day or...
-	AI_Output(self,other,"DIA_Lester_Sleep_13_02");	//...two...or longer.
+	AI_Output(self,other,"DIA_Lester_Sleep_13_02");	//... two... or longer.
 	AI_StopProcessInfos(self);
 };
 

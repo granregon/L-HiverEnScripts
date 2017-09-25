@@ -114,10 +114,10 @@ func void DIA_Addon_Saturas_ADWStart_wastun2()
 	AI_Output(other,self,"DIA_Addon_Saturas_ADWStart_wastun2_15_00");	//What should I do?
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_01");	//You must find Raven and prevent him from desecrating the temple of Adanos.
 	AI_Output(other,self,"DIA_Addon_Saturas_ADWStart_wastun2_15_02");	//You mean I should KILL him.
-	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_03");	//If that is the only way to stop him, then in Adanos' name...YES!
+	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_03");	//If that is the only way to stop him, then in Adanos' name... YES!
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_04");	//On your way, collect all the ancient relics and inscriptions of the builders you can find and bring them to us.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_05");	//We must know more about these people and their demise.
-	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_06");	//Only when we see through Raven's plans can we  thwart them.
+	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_06");	//Only when we see through Raven's plans can we thwart them.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_07");	//Furthermore, you must find a way to free the slaves.
 	AI_Output(other,self,"DIA_Addon_Saturas_ADWStart_wastun2_15_08");	//(cynically) Is that all? I can do that left-handed.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_wastun2_14_09");	//(annoyed) I know that it is much to ask. Regard it as a chance to regain my trust.
@@ -137,7 +137,7 @@ func void DIA_Addon_Saturas_ADWStart_wastun2()
 func void DIA_Addon_Saturas_ADWStart_back()
 {
 	AI_Output(other,self,"DIA_Addon_Saturas_ADWStart_back_15_00");	//I'll get going then.
-	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_back_14_01");	//One more thing...Raven has gathered a large number of bandits about him.
+	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_back_14_01");	//One more thing... Raven has gathered a large number of bandits about him.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_back_14_02");	//In your abscence, we have fetched another member of the Ring of Water here.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_back_14_03");	//We sent him into the swamp. He did not come back.
 	AI_Output(self,other,"DIA_Addon_Saturas_ADWStart_back_14_04");	//We suspect that the bandits attack everyone who does not look as they do.
@@ -700,7 +700,7 @@ func void DIA_Addon_Saturas_GhostQuestions_Info()
 	AI_Output(other,self,"DIA_Addon_Saturas_GhostQuestions_15_02");	//He will only help me if I answer some questions.
 	AI_Output(self,other,"DIA_Addon_Saturas_GhostQuestions_14_03");	//What is the problem?
 	AI_Output(other,self,"DIA_Addon_Saturas_GhostQuestions_15_04");	//I'm not sure what I should answer.
-	AI_Output(self,other,"DIA_Addon_Saturas_GhostQuestions_14_05");	//Mmh...we know that the scholars of this city built a library to the north.
+	AI_Output(self,other,"DIA_Addon_Saturas_GhostQuestions_14_05");	//Mmh... we know that the scholars of this city built a library to the north.
 	AI_Output(self,other,"DIA_Addon_Saturas_GhostQuestions_14_06");	//They made great efforts to record the events of the past.
 	AI_Output(self,other,"DIA_Addon_Saturas_GhostQuestions_14_07");	//Perhaps you will find the answers that Quarhodron demands of you there.
 	B_LogEntry(TOPIC_Addon_Quarhodron,"Saturas suspects that I can find the answers to Quarhodron's questions in the library of the scholars. The library is far to the north.");
@@ -927,7 +927,7 @@ func void DIA_Addon_Saturas_BeliarsWeapon_wastun()
 	AI_Output(self,other,"DIA_Addon_Saturas_BeliarsWeapon_wastun_14_01");	//That lies in your hands. You have conquered the weapon and are now its master.
 	AI_Output(self,other,"DIA_Addon_Saturas_BeliarsWeapon_wastun_14_02");	//I can only recommend to you what you can do with it.
 	AI_Output(self,other,"DIA_Addon_Saturas_BeliarsWeapon_wastun_14_03");	//Either you give it to ME and I shall see to it that it can do no further harm...
-	AI_Output(self,other,"DIA_Addon_Saturas_BeliarsWeapon_wastun_14_04");	//...or you put its power to use and wield it in battle.
+	AI_Output(self,other,"DIA_Addon_Saturas_BeliarsWeapon_wastun_14_04");	//... or you put its power to use and wield it in battle.
 	Info_AddChoice(DIA_Addon_Saturas_BeliarsWeapon,"Couldn't you keep the weapon safe?",DIA_Addon_Saturas_BeliarsWeapon_geben);
 };
 

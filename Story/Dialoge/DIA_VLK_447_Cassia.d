@@ -151,7 +151,7 @@ func void DIA_Cassia_News_Info()
 		AI_Output(other,self,"DIA_Cassia_News_15_05");	//What's being played here?
 		AI_Output(self,other,"DIA_Cassia_News_16_06");	//We wanted you to die for blowing the whistle on a friend. That's why we sent Attila.
 		AI_Output(self,other,"DIA_Cassia_News_16_07");	//Your presence here, however, opens up a new option...
-		AI_Output(other,self,"DIA_Cassia_News_15_08");	//...what do you want to offer me?
+		AI_Output(other,self,"DIA_Cassia_News_15_08");	//... what do you want to offer me?
 		AI_Output(self,other,"DIA_Cassia_News_16_09");	//You can join us.
 	};
 	if((Npc_GetTrueGuild(other) == GIL_NONE) || (Npc_GetTrueGuild(other) == GIL_NOV))

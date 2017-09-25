@@ -619,7 +619,7 @@ func int DIA_Addon_Greg_RavenDead_Condition()
 func void DIA_Addon_Greg_RavenDead_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Greg_RavenDead_15_00");	//So much for Raven.
-	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_01");	//Well, I'll be...That's unexpected. Caught him with his pants down, did you?
+	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_01");	//Well, I'll be... That's unexpected. Caught him with his pants down, did you?
 	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_02");	//That's certainly worth 500 gold pieces to me.
 	CreateInvItems(self,ItMi_Gold,500);
 	B_GiveInvItems(self,other,ItMi_Gold,500);

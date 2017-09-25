@@ -44,7 +44,7 @@ func void DIA_Jarvis_Hello_Info()
 {
 	AI_Output(self,other,"DIA_Jarvis_Hello_04_00");	//Hey! Don't I know you from somewhere?
 	AI_Output(other,self,"DIA_Jarvis_Hello_15_01");	//It's possible. I was in the colony, too.
-	AI_Output(self,other,"DIA_Jarvis_Hello_04_02");	//Right...what do you want?
+	AI_Output(self,other,"DIA_Jarvis_Hello_04_02");	//Right... what do you want?
 };
 
 

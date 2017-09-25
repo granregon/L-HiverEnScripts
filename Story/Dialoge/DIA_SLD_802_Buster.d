@@ -84,7 +84,7 @@ func void DIA_Buster_Hello_NotYourBusiness()
 func void DIA_Buster_Hello_GoingToFarm()
 {
 	AI_Output(other,self,"DIA_Buster_Hello_GoingToFarm_15_00");	//If you say so. I'm on my way to see the landowner.
-	AI_Output(self,other,"DIA_Buster_Hello_GoingToFarm_13_01");	//Indeed...Hm - you don't look all that dangerous to me.
+	AI_Output(self,other,"DIA_Buster_Hello_GoingToFarm_13_01");	//Indeed... Hm - you don't look all that dangerous to me.
 	Info_ClearChoices(DIA_Buster_Hello);
 	Info_AddChoice(DIA_Buster_Hello,"Want to find out?",DIA_Buster_Hello_WannaTestIt);
 	Info_AddChoice(DIA_Buster_Hello,"I've killed a beast or two on occasion.",DIA_Buster_Hello_SlewBeasts);
@@ -162,7 +162,7 @@ func void DIA_Buster_Hello_SoWhat()
 func void DIA_Buster_Hello_RealOrcs()
 {
 	AI_Output(other,self,"DIA_Buster_Hello_RealOrcs_15_00");	//Do you mean REAL orcs? Those big things?
-	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_01");	//(sighs) I mean...Just a moment! Are you trying to pull my leg?
+	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_01");	//(sighs) I mean... Just a moment! Are you trying to pull my leg?
 	AI_Output(other,self,"DIA_Buster_Hello_RealOrcs_15_02");	//(smiling) Far be that from me.
 	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_03");	//You worm! (stupidly aggressive) You're really asking for it, huh?
 	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_04");	//Then come and show me what you've got, you hero!

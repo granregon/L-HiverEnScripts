@@ -307,7 +307,7 @@ func void DIA_Addon_Saturas_geheimbund_Info()
 	AI_Output(other,self,"DIA_Addon_Saturas_geheimbund_15_00");	//I want to join the 'Ring of Water'.
 	if(Lares_Angekommen == TRUE)
 	{
-		AI_Output(self,other,"DIA_Addon_Saturas_geheimbund_14_01");	//(furious) WHAT? How do you know about that? Who...? LARES...I will kill him!
+		AI_Output(self,other,"DIA_Addon_Saturas_geheimbund_14_01");	//(furious) WHAT? How do you know about that? Who...? LARES... I will kill him!
 		AI_Output(self,other,"DIA_Addon_Saturas_geheimbund_14_02");	//He has broken our first rule. Speak to no one about the 'Ring of Water'.
 	};
 	AI_Output(self,other,"DIA_Addon_Saturas_geheimbund_14_03");	//(completely done in) I don't know what I should say. I only trust you where I can keep an eye on you.

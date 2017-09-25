@@ -214,7 +214,7 @@ func void DIA_Addon_Logan_Why_Info()
 	AI_Output(self,other,"DIA_Addon_Logan_Why_10_03");	//Besides, I can show you how to gut the beasts.
 	AI_Output(self,other,"DIA_Addon_Logan_Why_10_04");	//But don't think Franco will send you straight into the camp just because we've had a little fun with the swampsharks here.
 	AI_Output(self,other,"DIA_Addon_Logan_Why_10_05");	//There are people out here who have been waiting a long time to get in.
-	AI_Output(self,other,"DIA_Addon_Logan_Why_10_06");	//And the next one who gets in is me...(growls)...it had better be...
+	AI_Output(self,other,"DIA_Addon_Logan_Why_10_06");	//And the next one who gets in is me...(growls)... it had better be...
 	Log_CreateTopic(Topic_Addon_BDT_Teacher,LOG_NOTE);
 	B_LogEntry(Topic_Addon_BDT_Teacher,"Logan can teach me to get pelts, claws and teeth.");
 };
@@ -242,7 +242,7 @@ func int DIA_Addon_Logan_Lager_Condition()
 func void DIA_Addon_Logan_Lager_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Logan_Lager_15_00");	//What's in the camp, then?
-	AI_Output(self,other,"DIA_Addon_Logan_Lager_10_01");	//(growls) The question is what ISN'T in the camp. There are no swampsharks, no swamp holes...no SWAMP at all.
+	AI_Output(self,other,"DIA_Addon_Logan_Lager_10_01");	//(growls) The question is what ISN'T in the camp. There are no swampsharks, no swamp holes... no SWAMP at all.
 	AI_Output(self,other,"DIA_Addon_Logan_Lager_10_02");	//Instead, they have booze and gold. As far as I know, they even have a woman. Got it?
 };
 
@@ -269,9 +269,9 @@ func int DIA_Addon_Logan_MIS_Condition()
 func void DIA_Addon_Logan_MIS_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Logan_MIS_15_00");	//Let's attack the swampsharks.
-	AI_Output(self,other,"DIA_Addon_Logan_MIS_10_01");	//(growls) You've figured out how to get ahead here. I'm pleased. Psst...do you hear that? Yeeaah, I hear them.
+	AI_Output(self,other,"DIA_Addon_Logan_MIS_10_01");	//(growls) You've figured out how to get ahead here. I'm pleased. Psst... do you hear that? Yeeaah, I hear them.
 	AI_Output(other,self,"DIA_Addon_Logan_MIS_15_02");	//I see - and what do we do now?
-	AI_Output(self,other,"DIA_Addon_Logan_MIS_10_03");	//They're coming. They've got an appetite for a bite of human flesh. Well, we'll see WHO gets eaten here...Let's go.
+	AI_Output(self,other,"DIA_Addon_Logan_MIS_10_03");	//They're coming. They've got an appetite for a bite of human flesh. Well, we'll see WHO gets eaten here... Let's go.
 	Snd_Play("SWA_Warn");
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"JAGD");

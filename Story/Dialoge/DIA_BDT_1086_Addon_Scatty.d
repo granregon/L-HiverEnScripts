@@ -115,7 +115,7 @@ func void DIA_Addon_Scatty_last_Info()
 	AI_Output(self,other,"DIA_Addon_Scatty_last_01_01");	//He oversees the mine. But he's almost never down here. He spends most of his time with Raven in the temple.
 	AI_Output(other,self,"DIA_Addon_Scatty_last_15_02");	//What exactly does 'almost never' mean?
 	AI_Output(self,other,"DIA_Addon_Scatty_last_01_03");	//The last time I saw him was when he came out of the tomb...
-	AI_Output(self,other,"DIA_Addon_Scatty_last_01_04");	//(hastily)...No, wait! The last time he was here was when he sent the slaves to mine the gold.
+	AI_Output(self,other,"DIA_Addon_Scatty_last_01_04");	//(hastily)... No, wait! The last time he was here was when he sent the slaves to mine the gold.
 	AI_Output(self,other,"DIA_Addon_Scatty_last_01_05");	//Unlike Raven, HE is very interested in gold.
 };
 
@@ -172,12 +172,12 @@ func int DIA_Addon_Scatty_GruftAgain_Condition()
 func void DIA_Addon_Scatty_GruftAgain_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Scatty_GruftAgain_15_00");	//What did Raven want in the tomb?
-	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_01");	//(stops short) Hm...you're pretty curious. You remind me of a fellow I once knew.
+	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_01");	//(stops short) Hm... you're pretty curious. You remind me of a fellow I once knew.
 	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_02");	//He was just as curious. And eventually it was his undoing.
 	AI_Output(other,self,"DIA_Addon_Scatty_GruftAgain_15_03");	//Get to the point. What happened in the tomb?
-	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_04");	//Well...Ehm...my throat is really dry...
+	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_04");	//Well... Ehm... my throat is really dry...
 	AI_Output(other,self,"DIA_Addon_Scatty_GruftAgain_15_05");	//Hey, Scatty, NOT NOW. This is important, so what did Raven do there?
-	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_06");	//All right. (takes a deep breath) He...he called...summoned something. He kept calling out words in a foreign language.
+	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_06");	//All right. (takes a deep breath) He... he called... summoned something. He kept calling out words in a foreign language.
 	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_07");	//Bright light poured out of the tomb and then I heard a scream that cut right through me - a demonic scream.
 	AI_Output(other,self,"DIA_Addon_Scatty_GruftAgain_15_08");	//And then?
 	AI_Output(self,other,"DIA_Addon_Scatty_GruftAgain_01_09");	//That's all I know. At that moment Bloodwyn came out of the tomb and said I should beat it. And that's what I did.

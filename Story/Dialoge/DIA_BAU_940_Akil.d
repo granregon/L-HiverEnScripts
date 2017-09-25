@@ -55,9 +55,9 @@ func int DIA_Akil_Hallo_Condition()
 func void DIA_Akil_Hallo_Info()
 {
 	AI_Output(other,self,"DIA_Akil_Hallo_15_00");	//Is there a problem?
-	AI_Output(self,other,"DIA_Akil_Hallo_13_01");	//(sweating)...Eh...no, no...everything's fine. (nervous) It...would be better if you left now.
+	AI_Output(self,other,"DIA_Akil_Hallo_13_01");	//(sweating)... Eh... no, no... everything's fine. (nervous) It... would be better if you left now.
 	AI_Output(other,self,"DIA_Akil_Hallo_15_02");	//Are you sure?
-	AI_Output(self,other,"DIA_Akil_Hallo_13_03");	//eh...yeah, yeah...everything's fine. You...eh...I...I can't talk to you now.
+	AI_Output(self,other,"DIA_Akil_Hallo_13_03");	//eh... yeah, yeah... everything's fine. You... eh... I... I can't talk to you now.
 	Log_CreateTopic(TOPIC_AkilsSLDStillthere,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_AkilsSLDStillthere,LOG_Running);
 	B_LogEntry(TOPIC_AkilsSLDStillthere,"Akil's farm is threatened by mercenaries.");
@@ -87,7 +87,7 @@ func int DIA_Akil_Nichtjetzt_Condition()
 
 func void DIA_Akil_Nichtjetzt_Info()
 {
-	AI_Output(self,other,"DIA_Akil_Nichtjetzt_13_00");	//Eh...not now, I can't talk to you now.
+	AI_Output(self,other,"DIA_Akil_Nichtjetzt_13_00");	//Eh... not now, I can't talk to you now.
 	AI_StopProcessInfos(self);
 };
 
@@ -125,7 +125,7 @@ func void DIA_Akil_NachKampf_Info()
 		AI_Output(self,other,"DIA_Akil_NachKampf_13_04");	//Those were mercenaries from Onar's farm. Those bastards don't know anything but plunder and murder.
 	};
 	AI_Output(self,other,"DIA_Akil_NachKampf_13_05");	//I'd been fearing the worst...
-	AI_Output(self,other,"DIA_Akil_NachKampf_13_06");	//(deep breath)...well, thank Innos it didn't come to that. Tell me what I can do for you.
+	AI_Output(self,other,"DIA_Akil_NachKampf_13_06");	//(deep breath)... well, thank Innos it didn't come to that. Tell me what I can do for you.
 	Info_ClearChoices(DIA_Akil_NachKampf);
 	Info_AddChoice(DIA_Akil_NachKampf,"Nothing. Just as long as you got through this all right.",DIA_Akil_NachKampf_Ehre);
 	Info_AddChoice(DIA_Akil_NachKampf,"What about a few gold pieces?",DIA_Akil_NachKampf_Gold);

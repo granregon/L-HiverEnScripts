@@ -309,7 +309,7 @@ func void DIA_Hanna_AnyNews_Yes_Reward_OK()
 func void DIA_Hanna_AnyNews_Yes_Reward_BeNice()
 {
 	AI_Output(other,self,"DIA_Hanna_AnyNews_Yes_Reward_BeNice_15_00");	//You could be a little nice to me.
-	AI_Output(self,other,"DIA_Hanna_AnyNews_Yes_Reward_BeNice_17_01");	//But that's outrageous. I...get out of here! You boorish lout!
+	AI_Output(self,other,"DIA_Hanna_AnyNews_Yes_Reward_BeNice_17_01");	//But that's outrageous. I... get out of here! You boorish lout!
 	MIS_HannaRetrieveLetter = LOG_FAILED;
 	AI_StopProcessInfos(self);
 };
@@ -424,7 +424,7 @@ func void DIA_Hanna_AusKeller_Info()
 {
 	if((Cassia.aivar[AIV_KilledByPlayer] == TRUE) || (Jesper.aivar[AIV_KilledByPlayer] == TRUE) || (Ramirez.aivar[AIV_KilledByPlayer] == TRUE))
 	{
-		AI_Output(self,other,"DIA_Hanna_Add_17_27");	//Where...do you come from?
+		AI_Output(self,other,"DIA_Hanna_Add_17_27");	//Where... do you come from?
 		AI_Output(other,self,"DIA_Hanna_Add_15_28");	//I found something interesting in your cellar...
 		AI_Output(self,other,"DIA_Hanna_Add_17_29");	//What were you doing in my cellar?!
 		AI_Output(other,self,"DIA_Hanna_Add_15_30");	//You know damn well!
@@ -541,7 +541,7 @@ func void dia_hanna_blubb_info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Hanna_Add_17_32");	//The militia was here...Somebody betrayed the hideout!
+		AI_Output(self,other,"DIA_Hanna_Add_17_32");	//The militia was here... Somebody betrayed the hideout!
 		AI_Output(self,other,"DIA_Hanna_Add_17_33");	//They couldn't pin anything on me, but Cassia and her people are dead!
 		AI_Output(self,other,"DIA_Hanna_Add_17_34");	//I'm sure it was YOU...
 		AI_Output(self,other,"DIA_Hanna_Add_17_35");	//I bought this here especially for you.

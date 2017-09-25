@@ -209,7 +209,7 @@ func void DIA_Addon_Merdarion_Teleportstein_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Merdarion_Teleportstein_15_00");	//What is the fastest way back to the city?
 	AI_Output(self,other,"DIA_Addon_Merdarion_Teleportstein_06_01");	//I recommend you go back the same way you came.
-	AI_Output(self,other,"DIA_Addon_Merdarion_Teleportstein_06_02");	//(considering) But you could also...No. That would be too dangerous.
+	AI_Output(self,other,"DIA_Addon_Merdarion_Teleportstein_06_02");	//(considering) But you could also... No. That would be too dangerous.
 	AI_Output(other,self,"DIA_Addon_Merdarion_Teleportstein_15_03");	//Out with it.
 	AI_Output(self,other,"DIA_Addon_Merdarion_Teleportstein_06_04");	//Well. The builders of these halls had their own method of travelling.
 	AI_Output(self,other,"DIA_Addon_Merdarion_Teleportstein_06_05");	//As far as we can tell, they could teleport.

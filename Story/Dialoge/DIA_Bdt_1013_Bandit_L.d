@@ -91,7 +91,7 @@ func void dia_bdt_1013_bandit_where_mountain()
 func void dia_bdt_1013_bandit_where_xardas()
 {
 	AI_Output(other,self,"DIA_BDT_1013_BANDIT_WHERE_XARDAS_15_00");	//I've come from Xardas...
-	AI_Output(self,other,"DIA_BDT_1013_BANDIT_WHERE_XARDAS_01_01");	//Is that the old sorcerer? He's called Xardas...Brago will be interested...
+	AI_Output(self,other,"DIA_BDT_1013_BANDIT_WHERE_XARDAS_01_01");	//Is that the old sorcerer? He's called Xardas... Brago will be interested...
 	AI_StopProcessInfos(self);
 	B_Attack(self,other,AR_SuddenEnemyInferno,1);
 };
@@ -288,7 +288,7 @@ func void DIA_1013_BANDIT_DEXTER_Info()
 	else
 	{
 		AI_Output(other,self,"DIA_1013_BANDIT_DEXTER_15_06");	//Er - I just realized I haven't got ten gold pieces left.
-		AI_Output(self,other,"DIA_1013_BANDIT_DEXTER_01_07");	//What?! I...Oh - forget it - it's my own fault. I shouldn't have told you the name before I saw the gold...
+		AI_Output(self,other,"DIA_1013_BANDIT_DEXTER_01_07");	//What?! I... Oh - forget it - it's my own fault. I shouldn't have told you the name before I saw the gold...
 	};
 	AI_Output(self,other,"DIA_1013_BANDIT_DEXTER_01_08");	//And just don't tell them who told you.
 	Bdt13_Dexter_verraten = TRUE;

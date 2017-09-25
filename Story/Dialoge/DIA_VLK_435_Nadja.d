@@ -234,7 +234,7 @@ func void DIA_Addon_Nadja_LuciaInfo_sonst()
 		Info_AddChoice(DIA_Addon_Nadja_LuciaInfo,PRINT_Addon_NadjaWait,DIA_Addon_Nadja_WAIT);
 	};
 	Info_AddChoice(DIA_Addon_Nadja_LuciaInfo,"Thanks. But I've got to go.",DIA_Addon_Nadja_LuciaInfo_weiter);
-	Info_AddChoice(DIA_Addon_Nadja_LuciaInfo,"Why not?...",DIA_Nadja_Poppen_Start);
+	Info_AddChoice(DIA_Addon_Nadja_LuciaInfo,"Why not...?",DIA_Nadja_Poppen_Start);
 };
 
 func void DIA_Addon_Nadja_LuciaInfo_weiter()

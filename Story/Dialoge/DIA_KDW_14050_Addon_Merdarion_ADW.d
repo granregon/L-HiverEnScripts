@@ -50,7 +50,7 @@ func void DIA_Addon_Merdarion_ADWHello_Back()
 func void DIA_Addon_Merdarion_ADWHello_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Merdarion_ADWHello_15_00");	//How's it going?
-	AI_Output(self,other,"DIA_Addon_Merdarion_ADWHello_06_01");	//(listening) Listen...Curious. Don't you think?
+	AI_Output(self,other,"DIA_Addon_Merdarion_ADWHello_06_01");	//(listening) Listen... Curious. Don't you think?
 	AI_Output(other,self,"DIA_Addon_Merdarion_ADWHello_15_02");	//Mmh...
 	AI_Output(self,other,"DIA_Addon_Merdarion_ADWHello_06_03");	//These teleporter stones don't appear to function and yet you can hear them hum.
 	AI_Output(self,other,"DIA_Addon_Merdarion_ADWHello_06_04");	//Although they aren't active, a certain energy rests in them nevertheless.

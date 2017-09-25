@@ -184,7 +184,7 @@ func void DIA_Wambo_Deal_Info()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Wambo_Deal_15_03");	//...but not with me right now.
+		AI_Output(other,self,"DIA_Wambo_Deal_15_03");	//... but not with me right now.
 		AI_Output(self,other,"DIA_Wambo_Deal_03_04");	//I can't stand it when somebody tries to make a fool out of me. So get the gold.
 		AI_StopProcessInfos(self);
 	};

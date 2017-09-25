@@ -124,7 +124,7 @@ func void DIA_MiltenOW_Bericht_Info()
 	AI_Output(other,self,"DIA_MiltenOW_Bericht_15_00");	//So what is there to report?
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_01");	//The paladins came here with the intention of getting the magic ore.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_02");	//But with the dragon attacks and the orcs - I can't imagine the paladins will march out of here with the ore.
-	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_03");	//No, by Innos - I feel the presence of something dark...something evil, growing here. Something that emanates from this valley.
+	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_03");	//No, by Innos - I feel the presence of something dark... something evil, growing here. Something that emanates from this valley.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_04");	//We paid a high price for the annihilation of the Sleeper. The destruction of the Barrier has ruined this place as well.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_05");	//We can all count ourselves lucky if we survive this.
 };
@@ -269,7 +269,7 @@ func int DIA_MiltenOW_Mehr_Condition()
 func void DIA_MiltenOW_Mehr_Info()
 {
 	AI_Output(other,self,"DIA_MiltenOW_Mehr_15_00");	//I need more gold to buy Gorn's freedom.
-	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_01");	//Getting more gold...hm. Diego knows a lot about that - but he isn't here.
+	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_01");	//Getting more gold... hm. Diego knows a lot about that - but he isn't here.
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_02");	//Maybe Gorn has some gold hidden somewhere himself - we should find out.
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_03");	//I'll write him a note - here, try to smuggle it into the dungeon.
 	B_GiveInvItems(self,other,ItWr_LetterForGorn_MIS,1);
@@ -415,7 +415,7 @@ func void DIA_MiltenOW_TeachCircle2_Info()
 	if(B_TeachMagicCircle(self,other,2))
 	{
 		AI_Output(self,other,"DIA_Milten_Add_03_03");	//I don't know if I quite remember the official words...
-		AI_Output(self,other,"DIA_Milten_Add_03_04");	//Enter now the second Circle. Er...It will show you the way - but your deeds form the path - or something along those lines...
+		AI_Output(self,other,"DIA_Milten_Add_03_04");	//Enter now the second Circle. Er... It will show you the way - but your deeds form the path - or something along those lines...
 		AI_Output(self,other,"DIA_Milten_Add_03_05");	//I think you understand what this is about...
 	};
 };

@@ -294,7 +294,7 @@ func void DIA_Parlan_WELCOME_Info()
 {
 	AI_Output(self,other,"DIA_Parlan_WELCOME_05_00");	//Welcome, new novice, I am Parlan.
 	AI_Output(other,self,"DIA_Parlan_WELCOME_15_01");	//I am...
-	AI_Output(self,other,"DIA_Parlan_WELCOME_05_02");	//(interrupts)...a NOVICE. It is not important who you were before. Now you are a servant of Innos. That is all that matters.
+	AI_Output(self,other,"DIA_Parlan_WELCOME_05_02");	//(interrupts)... a NOVICE. It is not important who you were before. Now you are a servant of Innos. That is all that matters.
 	AI_Output(self,other,"DIA_Parlan_WELCOME_05_03");	//And with the acceptance into the Brotherhood of Fire, all of your previous transgressions will be forgiven.
 	AI_Output(self,other,"DIA_Parlan_WELCOME_05_04");	//May Innos bless this man, who places his life in his service, and wash away his sins.
 	AI_Output(other,self,"DIA_Parlan_WELCOME_15_05");	//And now?
@@ -600,7 +600,7 @@ func int DIA_Parlan_Aufgabe_Condition()
 func void DIA_Parlan_Aufgabe_Info()
 {
 	AI_Output(other,self,"DIA_Parlan_Aufgabe_15_00");	//Do you have an assignment for me?
-	AI_Output(self,other,"DIA_Parlan_Aufgabe_05_01");	//Hmm...Yes, there is indeed something you can do for the community.
+	AI_Output(self,other,"DIA_Parlan_Aufgabe_05_01");	//Hmm... Yes, there is indeed something you can do for the community.
 	AI_Output(self,other,"DIA_Parlan_Aufgabe_05_02");	//The novices' chambers could do with a good sweeping. Take care of that.
 	AI_Output(other,self,"DIA_Parlan_Aufgabe_15_03");	//But that will take forever...
 	AI_Output(self,other,"DIA_Parlan_Aufgabe_05_04");	//Then you had better start right away, hadn't you?
@@ -1223,10 +1223,10 @@ func void DIA_Parlan_Kap3U4U5_PERM_Info()
 	AI_Output(other,self,"DIA_Parlan_Kap3_PERM_15_00");	//Where can I find...
 	Info_ClearChoices(DIA_Parlan_Kap3U4U5_PERM);
 	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,Dialog_Back,DIA_Parlan_Kap3U4U5_PERM_Back);
-	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"...the church?",DIA_Parlan_Kap3U4U5_PERM_Church);
-	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"...the library?",DIA_Parlan_Kap3U4U5_PERM_Library);
-	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"...the chapel?",DIA_Parlan_Kap3U4U5_PERM_Chapel);
-	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"...the cellars?",DIA_Parlan_Kap3U4U5_PERM_Cellar);
+	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"... the church?",DIA_Parlan_Kap3U4U5_PERM_Church);
+	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"... the library?",DIA_Parlan_Kap3U4U5_PERM_Library);
+	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"... the chapel?",DIA_Parlan_Kap3U4U5_PERM_Chapel);
+	Info_AddChoice(DIA_Parlan_Kap3U4U5_PERM,"... the cellars?",DIA_Parlan_Kap3U4U5_PERM_Cellar);
 };
 
 func void DIA_Parlan_Kap3U4U5_PERM_Back()
@@ -1236,26 +1236,26 @@ func void DIA_Parlan_Kap3U4U5_PERM_Back()
 
 func void DIA_Parlan_Kap3U4U5_PERM_Church()
 {
-	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Church_15_00");	//...the church?
+	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Church_15_00");	//... the church?
 	AI_Output(self,other,"DIA_Parlan_Add_05_00");	//Lord Almighty! Has Innos stricken you blind?
 	AI_Output(self,other,"DIA_Parlan_Add_05_01");	//(cynically) Where is the church? Oh my, where could it possibly be?
 };
 
 func void DIA_Parlan_Kap3U4U5_PERM_Library()
 {
-	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Library_15_00");	//...the library?
+	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Library_15_00");	//... the library?
 	AI_Output(self,other,"DIA_Parlan_Add_05_02");	//The library is at the end of the colonnade to the left, directly across from the church.
 };
 
 func void DIA_Parlan_Kap3U4U5_PERM_Chapel()
 {
-	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Chapel_15_00");	//...the chapel?
+	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Chapel_15_00");	//... the chapel?
 	AI_Output(self,other,"DIA_Parlan_Add_05_03");	//The chapel is the room halfway along the left colonnade. That's where the paladins pray to Innos.
 };
 
 func void DIA_Parlan_Kap3U4U5_PERM_Cellar()
 {
-	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Cellar_15_00");	//...the cellars?
+	AI_Output(other,self,"DIA_Parlan_Kap3U4U5_PERM_Cellar_15_00");	//... the cellars?
 	AI_Output(self,other,"DIA_Parlan_Add_05_04");	//The entrance to the cellars lies halfway along the colonnade on the right.
 };
 

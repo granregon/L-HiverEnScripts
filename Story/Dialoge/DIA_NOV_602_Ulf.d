@@ -278,7 +278,7 @@ func void DIA_Ulf_Rausgefunden_Info()
 {
 	AI_Output(other,self,"DIA_Ulf_Rausgefunden_15_00");	//Have you found out anything yet?
 	AI_Output(self,other,"DIA_Ulf_Rausgefunden_03_01");	//Well, I just followed Agon - but in the meantime I lost him.
-	AI_Output(self,other,"DIA_Ulf_Rausgefunden_03_02");	//And now...what do they say? Follow the signs of Innos. But I don't understand that bit with the path...
+	AI_Output(self,other,"DIA_Ulf_Rausgefunden_03_02");	//And now... what do they say? Follow the signs of Innos. But I don't understand that bit with the path...
 	AI_Output(self,other,"DIA_Ulf_Rausgefunden_03_03");	//So what, I'll keep searching.
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"FOLLOW");

@@ -168,7 +168,7 @@ func void DIA_Gaertner_Krautabak_Info()
 	CreateInvItems(self,ItMi_Joint,1);
 	B_UseItem(self,ItMi_Joint);
 	AI_PlayAni(self,"T_MAGRUN_2_HEASHOOT");
-	AI_Output(self,other,"DIA_Gaertner_Krautabak_09_02");	//Ack...ackack....
+	AI_Output(self,other,"DIA_Gaertner_Krautabak_09_02");	//Ack... ackack....
 	AI_PlayAni(self,"T_HEASHOOT_2_STAND");
 	AI_Output(self,other,"DIA_Gaertner_Krautabak_09_03");	//Harsh stuff. I think I'd better not smoke any more of it.
 	B_GivePlayerXP(XP_Ambient);

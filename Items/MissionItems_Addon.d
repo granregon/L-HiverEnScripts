@@ -1143,9 +1143,16 @@ func void UseFrancisAbrechnung_Mis()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"Personal share: 1701");
 	Doc_PrintLine(nDocID,1,"");
-	Francis_HasProof = TRUE;
 	Doc_Show(nDocID);
-	B_Say(self,self,"$ADDON_THISLITTLEBASTARD");
+	if(!Francis_HasProof)
+	{
+		Francis_HasProof = TRUE;
+		B_Say(self,self,"$ADDON_THISLITTLEBASTARD");
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
+	};
 };
 
 

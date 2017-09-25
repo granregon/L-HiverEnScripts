@@ -326,7 +326,7 @@ func void DIA_Biff_GELDEINTREIBEN_zuTeuer()
 
 func void DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen()
 {
-	AI_Output(other,self,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00");	//We must part ways now...I'm afraid.
+	AI_Output(other,self,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00");	//We must part ways now... I'm afraid.
 	AI_Output(self,other,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01");	//If you say so. Then I'll just have to take my share.
 	BIFF_LABERT_GELDEINTREIBEN = FALSE;
 	AI_StopProcessInfos(self);

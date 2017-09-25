@@ -123,7 +123,7 @@ func void DIA_Peck_FOUND_PECK_Info()
 	AI_Output(other,self,"DIA_Peck_FOUND_PECK_15_02");	//I need a weapon, so come back to the barracks.
 	AI_Output(self,other,"DIA_Peck_FOUND_PECK_12_03");	//Damnit, your weapon can wait.
 	AI_Output(other,self,"DIA_Peck_FOUND_PECK_15_04");	//Come on, Andre's already missed you, too.
-	AI_Output(self,other,"DIA_Peck_FOUND_PECK_12_05");	//Hmpf...damn. Okay, I'm coming already - but when you report back to Andre, don't tell him I was here.
+	AI_Output(self,other,"DIA_Peck_FOUND_PECK_12_05");	//Hmpf... damn. Okay, I'm coming already - but when you report back to Andre, don't tell him I was here.
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"STORAGE");
 	Npc_ExchangeRoutine(Vanja,"ALONE");
@@ -170,7 +170,7 @@ func void DIA_Peck_WEAPON_Info()
 		else if(MIS_Andre_Peck == LOG_SUCCESS)
 		{
 			AI_Output(self,other,"DIA_Peck_WEAPON_12_04");	//I haven't forgotten you. Who told Andre that I was in the Red Lantern, then?
-			AI_Output(self,other,"DIA_Peck_WEAPON_12_05");	//And now you want a blade from me...all right, you'll get a blade. Here. And now drop dead.
+			AI_Output(self,other,"DIA_Peck_WEAPON_12_05");	//And now you want a blade from me... all right, you'll get a blade. Here. And now drop dead.
 			B_GiveInvItems(self,hero,ItMw_1h_MISC_Sword,1);
 		};
 		DIA_Peck_WEAPON_perm = TRUE;

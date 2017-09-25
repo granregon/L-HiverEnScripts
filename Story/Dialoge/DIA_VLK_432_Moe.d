@@ -169,7 +169,7 @@ func void DIA_Moe_Hallo_Zahlen()
 	}
 	else if(Npc_HasItems(hero,ItMi_Gold) > 9)
 	{
-		AI_Output(other,self,"DIA_Moe_Hallo_Zahlen_15_02");	//...but I don't have that much gold with me.
+		AI_Output(other,self,"DIA_Moe_Hallo_Zahlen_15_02");	//... but I don't have that much gold with me.
 		AI_Output(self,other,"DIA_Moe_Hallo_Zahlen_01_03");	//That doesn't matter. Just give me everything you've got on you.
 		Info_ClearChoices(DIA_Moe_Hallo);
 		Info_AddChoice(DIA_Moe_Hallo,"Forget it, you won't get a single coin!",DIA_Moe_Hallo_Vergisses);
@@ -177,7 +177,7 @@ func void DIA_Moe_Hallo_Zahlen()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Moe_Hallo_Zahlen_15_04");	//...but I don't even have 10 gold pieces.
+		AI_Output(other,self,"DIA_Moe_Hallo_Zahlen_15_04");	//... but I don't even have 10 gold pieces.
 		AI_Output(self,other,"DIA_Moe_Hallo_Zahlen_01_05");	//Man, did I pick a live one.
 		AI_Output(self,other,"DIA_Moe_Hallo_Zahlen_01_06");	//All right - sigh - you can go.
 		AI_StopProcessInfos(self);

@@ -292,7 +292,7 @@ func int DIA_Mil_305_Torwache_PassAsMage_Condition()
 func void DIA_Mil_305_Torwache_PassAsMage_Info()
 {
 	AI_Output(other,self,"DIA_Mil_305_Torwache_PassAsMage_15_00");	//You dare stand in the way of a representative of Innos?
-	AI_Output(self,other,"DIA_Mil_305_Torwache_PassAsMage_03_01");	//Ehm...no! Of course not! The entrance is open to the chosen of Innos!
+	AI_Output(self,other,"DIA_Mil_305_Torwache_PassAsMage_03_01");	//Ehm... no! Of course not! The entrance is open to the chosen of Innos!
 	AI_Output(other,self,"DIA_Mil_305_Torwache_PassAsMage_15_02");	//Pray to Innos for this sacrilege!
 	AI_Output(self,other,"DIA_Mil_305_Torwache_PassAsMage_03_03");	//Yes, chosen one!
 	self.aivar[AIV_PASSGATE] = TRUE;

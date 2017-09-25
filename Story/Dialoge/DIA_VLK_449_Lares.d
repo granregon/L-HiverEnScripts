@@ -146,7 +146,7 @@ func void DIA_Lares_HALLO_NO()
 {
 	AI_Output(other,self,"DIA_Lares_HALLO_NO_15_00");	//Have we met before?
 	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_01");	//Man, don't you remember me? I used to hang around in the New Camp.
-	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_02");	//The list for the mine...Man, we had a lot of fun. Do you remember Lee?
+	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_02");	//The list for the mine... Man, we had a lot of fun. Do you remember Lee?
 	Info_ClearChoices(DIA_Lares_HALLO);
 	Info_AddChoice(DIA_Lares_HALLO,"Of course I remember Lee!",DIA_Lares_HALLO_LEE);
 	Info_AddChoice(DIA_Lares_HALLO,"Lee...?",DIA_Lares_HALLO_NOIDEA);
@@ -208,7 +208,7 @@ func int DIA_Addon_Lares_Vatras_Condition()
 func void DIA_Addon_Lares_Vatras_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Lares_Vatras_15_00");	//Vatras sent me. He told me to come to you when I needed help.
-	AI_Output(self,other,"DIA_Addon_Lares_Vatras_09_01");	//(astonished)  So you've already been to see Vatras. You must have made a lasting impression on him.
+	AI_Output(self,other,"DIA_Addon_Lares_Vatras_09_01");	//(astonished) So you've already been to see Vatras. You must have made a lasting impression on him.
 	AI_Output(self,other,"DIA_Addon_Lares_Vatras_09_02");	//Otherwise he certainly wouldn't have volunteered my name. Especially not since the matter with those missing people still hasn't been resolved.
 	AI_Output(self,other,"DIA_Addon_Lares_Vatras_09_03");	//Tell me what you need.
 	Lares_RangerHelp = TRUE;
@@ -797,7 +797,7 @@ func void DIA_Addon_Lares_PeopleMissing_Success()
 	AI_Output(self,other,"DIA_Addon_Lares_PeopleMissing_Success_09_03");	//Are you sure? Then we need to get them out of there.
 	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_04");	//I'm working on it.
 	AI_Output(self,other,"DIA_Addon_Lares_PeopleMissing_Success_09_05");	//All right. But you know, whenever you need my help...
-	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_06");	//...then I'll know where to find you. Understood.
+	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_06");	//... then I'll know where to find you. Understood.
 	Lares_CanBringScToPlaces = TRUE;
 	Info_ClearChoices(DIA_Addon_Lares_PeopleMissing);
 };
@@ -963,7 +963,7 @@ func int DIA_Lares_WhyPalHere_Condition()
 func void DIA_Lares_WhyPalHere_Info()
 {
 	AI_Output(other,self,"DIA_Lares_WhyPalHere_15_00");	//Do you know why the paladins are here?
-	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_01");	//Nobody knows for sure...Lots of people think it's because of the orcs, but I think there's another reason.
+	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_01");	//Nobody knows for sure... Lots of people think it's because of the orcs, but I think there's another reason.
 	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_02");	//It probably has something to do with the old penal colony.
 };
 
@@ -1114,7 +1114,7 @@ func void DIA_Lares_AboutSld_Schiff()
 	AI_Output(self,other,"DIA_Lares_Schiff_09_01");	//It's on the open sea harbor, behind the cliffs. Lee and a few of his people really want to get away from here.
 	AI_Output(self,other,"DIA_Lares_Schiff_09_02");	//But that could take a while...
 	AI_Output(other,self,"DIA_Lares_Schiff_15_03");	//Why?
-	AI_Output(self,other,"DIA_Lares_Schiff_09_04");	//You'd better ask Lee about that, if you meet him...He's got plans.
+	AI_Output(self,other,"DIA_Lares_Schiff_09_04");	//You'd better ask Lee about that, if you meet him... He's got plans.
 };
 
 func void DIA_Lares_AboutSld_WayToOnar()
@@ -1232,7 +1232,7 @@ func int DIA_Lares_Kanalisation_Condition()
 func void DIA_Lares_Kanalisation_Info()
 {
 	AI_Output(other,self,"DIA_Lares_Kanalisation_15_00");	//Where can I find the sewers?
-	AI_Output(self,other,"DIA_Lares_Kanalisation_09_01");	//What do I know...they usually empty into the ocean.
+	AI_Output(self,other,"DIA_Lares_Kanalisation_09_01");	//What do I know... they usually empty into the ocean.
 };
 
 
@@ -1340,7 +1340,7 @@ func int DIA_Lares_GoNow_Condition()
 
 func void DIA_Lares_GoNow_GoingConditions()
 {
-	AI_Output(self,other,"DIA_Lares_GoNow_09_01");	//Then let's go...Follow me.
+	AI_Output(self,other,"DIA_Lares_GoNow_09_01");	//Then let's go... Follow me.
 	AI_StopProcessInfos(self);
 	Lares_Guide = Wld_GetDay();
 	self.aivar[AIV_PARTYMEMBER] = TRUE;

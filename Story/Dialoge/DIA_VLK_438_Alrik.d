@@ -146,7 +146,7 @@ func void DIA_Alrik_Regeln_Info()
 	AI_Output(other,self,"DIA_Alrik_Regeln_15_00");	//What are the rules for the fight?
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_01");	//Quite simple: All regular weapons are allowed. No bows or crossbows and NO magic!
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_02");	//We fight until one of us drops. And as soon as one of us is flat on his back, it's over, got it?
-	AI_Output(self,other,"DIA_Alrik_Regeln_09_03");	//Whoever leaves the corner is out! So if you quit, I win!
+	AI_Output(self,other,"DIA_Alrik_Regeln_09_03");	//Whoever leaves the (laughs) ring is out! So if you quit, I win!
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_04");	//The stake is 50 gold coins. If you win, you get 100 back. If not - well - then your money is down the drain. (grins)
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_05");	//Got it?
 	AI_Output(other,self,"DIA_Alrik_Regeln_15_06");	//Yep!
@@ -345,7 +345,7 @@ func void DIA_Alrik_WannaFight_NOW()
 func void DIA_Alrik_WannaFight_Moment()
 {
 	AI_Output(other,self,"DIA_Alrik_WannaFight_Moment_15_00");	//Just a second...
-	AI_Output(self,other,"DIA_Alrik_WannaFight_Moment_09_01");	//Take your time...I'm starting now!
+	AI_Output(self,other,"DIA_Alrik_WannaFight_Moment_09_01");	//Take your time... I'm starting now!
 	if(self.attribute[ATR_HITPOINTS] < self.attribute[ATR_HITPOINTS_MAX])
 	{
 		CreateInvItems(self,ItPo_Health_03,1);

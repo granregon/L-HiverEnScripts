@@ -54,14 +54,14 @@ func void DIA_Addon_Rhademes_First_Info()
 		AI_Output(other,self,"DIA_Addon_Rhademes_First_15_03");	//But the gate appears closed!
 		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_04");	//This is not the gate to the final chamber.
 		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_05");	//THIS gate merely leads to the antechamber.
-		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_06");	//The bearer...has closed it behind him.
+		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_06");	//The bearer... has closed it behind him.
 		Rhademes_Understood = TRUE;
 	}
 	else
 	{
 		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_07");	//(strained) Ghanima en Kandra Adanos?!
 		B_Say(other,self,"$CANTUNDERSTANDTHIS");
-		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_08");	//(angry)  Bengla anthani!
+		AI_Output(self,other,"DIA_Addon_Rhademes_First_03_08");	//(angry) Bengla anthani!
 		AI_StopProcessInfos(self);
 	};
 };
@@ -86,7 +86,7 @@ func int DIA_Addon_Rhademes_Pforte_Condition()
 func void DIA_Addon_Rhademes_Pforte_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Rhademes_Pforte_15_00");	//How do I open the gate?
-	AI_Output(self,other,"DIA_Addon_Rhademes_Pforte_03_01");	//Move...one of the levers.
+	AI_Output(self,other,"DIA_Addon_Rhademes_Pforte_03_01");	//Move... one of the levers.
 	AI_Output(other,self,"DIA_Addon_Rhademes_Pforte_15_02");	//Any one?
 	AI_Output(self,other,"DIA_Addon_Rhademes_Pforte_03_03");	//All of these levers open the gate.
 };
@@ -140,7 +140,7 @@ func int DIA_Addon_Rhademes_DontBelieve_Condition()
 func void DIA_Addon_Rhademes_DontBelieve_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Rhademes_DontBelieve_15_00");	//I don't believe you!
-	AI_Output(self,other,"DIA_Addon_Rhademes_DontBelieve_03_01");	//Yet, I...speak only the truth.
+	AI_Output(self,other,"DIA_Addon_Rhademes_DontBelieve_03_01");	//Yet, I... speak only the truth.
 };
 
 
@@ -166,8 +166,8 @@ func int DIA_Addon_Rhademes_DeinVater_Condition()
 func void DIA_Addon_Rhademes_DeinVater_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Rhademes_DeinVater_15_00");	//Your father built the trap, how would YOU know how it works?!
-	AI_Output(self,other,"DIA_Addon_Rhademes_DeinVater_03_01");	//QUARHODRON! I can still hear the pounding of the hammers...on the other side of the gate...after so long a time...
-	AI_Output(self,other,"DIA_Addon_Rhademes_DeinVater_03_02");	//The sword...showed me...revenge...for my failure...
+	AI_Output(self,other,"DIA_Addon_Rhademes_DeinVater_03_01");	//QUARHODRON! I can still hear the pounding of the hammers... on the other side of the gate... after so long a time...
+	AI_Output(self,other,"DIA_Addon_Rhademes_DeinVater_03_02");	//The sword... showed me... revenge... for my failure...
 	AI_Output(other,self,"DIA_Addon_Rhademes_DeinVater_15_03");	//You mean you have seen which lever is the right one?
 	AI_Output(self,other,"DIA_Addon_Rhademes_DeinVater_03_04");	//I have long forgotten it.
 	Info_ClearChoices(DIA_Addon_Rhademes_DeinVater);
@@ -239,7 +239,7 @@ func int DIA_Addon_Rhademes_PERM_Condition()
 
 func void DIA_Addon_Rhademes_PERM_Info()
 {
-	AI_Output(self,other,"DIA_Addon_Rhademes_PERM_03_00");	//If you have the strength...sink it...in the depths of the sea...
+	AI_Output(self,other,"DIA_Addon_Rhademes_PERM_03_00");	//If you have the strength... sink it... in the depths of the sea...
 	SC_TookRhademesTrap = TRUE;
 	SC_TalkedToRhademAfter = TRUE;
 	AI_StopProcessInfos(self);

@@ -188,6 +188,10 @@ func void UseCorneliusTagebuch()
 	{
 		B_LogEntry(TOPIC_RescueBennet,"The diary is the evidence I need to prove Bennet's innocence.");
 		Cornelius_IsLiar = TRUE;
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
 	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
@@ -562,6 +566,11 @@ func void Use_Astronomy()
 		Npc_ChangeAttribute(self,ATR_MANA,2);
 		Print(Print_ReadAstronomy);
 		Astronomy_once = TRUE;
+		B_Say(hero,hero,"$BEZI_INTERES");
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
 	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
@@ -848,7 +857,14 @@ instance ItWr_RichterKomproBrief_MIS(C_Item)
 func void Use_RichterKomproBrief()
 {
 	var int nDocID;
-	SCKnowsRichterKomproBrief = TRUE;
+	if(!SCKnowsRichterKomproBrief)
+	{
+		SCKnowsRichterKomproBrief = TRUE;
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
+	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,1);
 	Doc_SetPage(nDocID,0,"Scroll_01.TGA",0);

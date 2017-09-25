@@ -219,7 +219,7 @@ func void DIA_Addon_Cavalorn_Beutel_Info()
 		AI_Output(other,self,"DIA_Addon_Cavalorn_Beutel_15_02");	//Yes. And I also know what you wanted there.
 	};
 	AI_Output(self,other,"DIA_Addon_Cavalorn_Beutel_08_03");	//Did you find it?
-	AI_Output(other,self,"DIA_Addon_Cavalorn_Beutel_15_04");	//If you mean your pouch with the lumps of ore...yes, I have it.
+	AI_Output(other,self,"DIA_Addon_Cavalorn_Beutel_15_04");	//If you mean your pouch with the lumps of ore... yes, I have it.
 	AI_Output(self,other,"DIA_Addon_Cavalorn_Beutel_08_05");	//You're a fox, you know that?
 	if(MIS_Addon_Cavalorn_TheHut == LOG_Running)
 	{

@@ -269,7 +269,7 @@ func int DIA_Addon_Skip_NW_MissingPeople_Condition()
 func void DIA_Addon_Skip_NW_MissingPeople_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Skip_NW_MissingPeople_15_00");	//A lot of citizens are missing. And everything seems to indicate that you're not quite innocent in the matter.
-	AI_Output(self,other,"DIA_Addon_Skip_NW_MissingPeople_08_01");	//(feels caught) Er...damnit, it's not what you think it is.
+	AI_Output(self,other,"DIA_Addon_Skip_NW_MissingPeople_08_01");	//(feels caught) Er... damnit, it's not what you think it is.
 	AI_Output(self,other,"DIA_Addon_Skip_NW_MissingPeople_08_02");	//Do I look like a slave trader to you? No, I only transport goods. What they are and where they come from is no concern of mine.
 	AI_Output(self,other,"DIA_Addon_Skip_NW_MissingPeople_08_03");	//We have shipped all kinds of things for those swine.
 	AI_Output(self,other,"DIA_Addon_Skip_NW_MissingPeople_08_04");	//First it was just regular stuff. Well, sometimes it may have been contraband.

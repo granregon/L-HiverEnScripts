@@ -68,7 +68,7 @@ func void DIA_Larius_WhoAreYou_Info()
 	AI_Output(self,other,"DIA_Larius_WhoAreYou_01_01");	//I am Larius, the local governor.
 	AI_Output(self,other,"DIA_Larius_WhoAreYou_01_02");	//Even if it may not seem so at the moment, I am the most powerful man in the city.
 	AI_Output(other,self,"DIA_Larius_WhoAreYou_15_03");	//So you're in charge here?
-	AI_Output(self,other,"DIA_Larius_WhoAreYou_01_04");	//I...well...at the moment my hands are tied.
+	AI_Output(self,other,"DIA_Larius_WhoAreYou_01_04");	//I... well... at the moment my hands are tied.
 	AI_Output(self,other,"DIA_Larius_WhoAreYou_01_05");	//That Lord Hagen is in command here, for as long as he is in the city at any rate.
 };
 

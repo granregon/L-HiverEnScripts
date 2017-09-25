@@ -166,11 +166,11 @@ func void DIA_Fernando_Minental_Info()
 	AI_Output(self,other,"DIA_Fernando_Minental_14_02");	//Here's a bargain. You give me a report of what's going on with the ore, and for that I get you...
 	if(other.guild == GIL_KDF)
 	{
-		AI_Output(self,other,"DIA_Fernando_Minental_14_03");	//...a runestone.
+		AI_Output(self,other,"DIA_Fernando_Minental_14_03");	//... a runestone.
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Fernando_Minental_14_04");	//...a ring that increases your life energy.
+		AI_Output(self,other,"DIA_Fernando_Minental_14_04");	//... a ring that increases your life energy.
 	};
 	AI_Output(other,self,"DIA_Fernando_Minental_15_05");	//I'll see what I can do.
 	B_NpcClearObsessionByDMT(self);

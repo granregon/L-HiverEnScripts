@@ -448,7 +448,7 @@ func void DIA_Addon_Henry_Tribut_Info()
 	else
 	{
 		B_Henry_Gold(Henry_Amount);
-		AI_Output(self,other,"DIA_Addon_Henry_Tribut_04_05");	//...or you just get lost. It's as simple as that.
+		AI_Output(self,other,"DIA_Addon_Henry_Tribut_04_05");	//... or you just get lost. It's as simple as that.
 		Info_ClearChoices(DIA_Addon_Henry_Tribut);
 		Info_AddChoice(DIA_Addon_Henry_Tribut,"I think that's too much.",DIA_Addon_Henry_Tribut_nein);
 		if(Npc_HasItems(other,ItMi_Gold) >= Henry_Amount)

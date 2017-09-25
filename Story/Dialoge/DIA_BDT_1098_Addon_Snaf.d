@@ -170,7 +170,7 @@ func void DIA_Addon_Snaf_Booze_Info()
 	AI_Output(other,self,"DIA_Addon_Snaf_Booze_15_00");	//I distilled the booze.
 	AI_Output(self,other,"DIA_Addon_Snaf_Booze_01_01");	//Excellent, then I'll finish it.
 	AI_Output(self,other,"DIA_Addon_Snaf_Booze_01_02");	//Here, you can try a portion right away. That'll put some strength in your arm.
-	AI_Output(self,other,"DIA_Addon_Snaf_Booze_01_03");	//Oh, and if I can help you again...For you, all information is for free from now on.
+	AI_Output(self,other,"DIA_Addon_Snaf_Booze_01_03");	//Oh, and if I can help you again... For you, all information is for free from now on.
 	Snaf_Tip_Kosten = 0;
 	B_GiveInvItems(self,other,ItFo_Addon_FireStew,1);
 	MIS_SnafHammer = LOG_SUCCESS;

@@ -65,7 +65,7 @@ func int DIA_Godar_ComeFrom_Condition()
 func void DIA_Godar_ComeFrom_Info()
 {
 	AI_Output(other,self,"DIA_Godar_ComeFrom_15_00");	//Where do you come from?
-	AI_Output(self,other,"DIA_Godar_ComeFrom_13_01");	//We come from...eh, from the city.
+	AI_Output(self,other,"DIA_Godar_ComeFrom_13_01");	//We come from... eh, from the city.
 	Info_ClearChoices(DIA_Godar_ComeFrom);
 	Info_AddChoice(DIA_Godar_ComeFrom,"You're bandits!",DIA_Godar_ComeFrom_Bandits);
 	Info_AddChoice(DIA_Godar_ComeFrom,"Why have I never seen you in town before?",DIA_Godar_ComeFrom_NotCity);

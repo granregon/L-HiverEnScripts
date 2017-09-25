@@ -122,7 +122,7 @@ func void DIA_Addon_Myxir_GeistTafel_Info()
 	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_06");	//You will have to do the same.
 	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_07");	//But you cannot ask Khardimon any more...
 	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_08");	//The grave of the warrior prince Quahodron is supposed to lie in the west of the valley.
-	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_09");	//You will have to find it...and waken Quahodron.
+	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_09");	//You will have to find it... and waken Quahodron.
 	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_10");	//It is written in these inscriptions how a believer of Adanos can summon a spirit.
 	AI_Output(other,self,"DIA_Addon_Myxir_GeistTafel_15_11");	//Do you think that will really work?
 	AI_Output(self,other,"DIA_Addon_Myxir_GeistTafel_12_12");	//I've read a lot of crazy ramblings.

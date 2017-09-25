@@ -149,7 +149,7 @@ func void unequip_judge()
 
 instance ITAR_Smith(C_Item)
 {
-	name = "Smith's apron";
+	name = "Smith's clothing";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -202,7 +202,7 @@ func void unequip_smith()
 
 instance ITAR_Barkeeper(C_Item)
 {
-	name = "Barkeeper's apron";
+	name = "Barkeeper's clothing";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 10;

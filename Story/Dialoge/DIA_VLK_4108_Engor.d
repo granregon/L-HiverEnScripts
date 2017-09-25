@@ -146,7 +146,7 @@ instance DIA_Engor_RSkaufen(C_Info)
 	condition = DIA_Engor_RSkaufen_Condition;
 	information = DIA_Engor_RSkaufen_Info;
 	permanent = TRUE;
-	description = "Buy heavy milita armor. Protection:  B.+55/B.+55/P.+55 (1800 gold)";
+	description = "Buy heavy milita armor. Protection: B.+55/B.+55/P.+55 (1800 gold)";
 };
 
 
@@ -197,7 +197,7 @@ func int DIA_Engor_HELP_Condition()
 func void DIA_Engor_HELP_Info()
 {
 	AI_Output(other,self,"DIA_Engor_HELP_15_00");	//Maybe I can help you with your work.
-	AI_Output(self,other,"DIA_Engor_HELP_13_01");	//Hmm...Sure, why not? I could use some help.
+	AI_Output(self,other,"DIA_Engor_HELP_13_01");	//Hmm... Sure, why not? I could use some help.
 	AI_Output(other,self,"DIA_Engor_HELP_15_02");	//So, what needs to be done?
 	AI_Output(self,other,"DIA_Engor_HELP_13_03");	//Our food supplies are low. Above all, we're almost out of meat.
 	AI_Output(self,other,"DIA_Engor_HELP_13_04");	//So if you could get us some meat, raw or cooked, ham or sausages, that would be much appreciated. How about it, will you help us?

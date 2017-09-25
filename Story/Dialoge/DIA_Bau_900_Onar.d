@@ -506,7 +506,7 @@ func void DIA_Onar_WannaSheep_Info()
 	if(Npc_IsDead(Pepe))
 	{
 		AI_Output(other,self,"DIA_Onar_WannaSheep_15_05");	//Pepe is dead, I'm afraid.
-		AI_Output(self,other,"DIA_Onar_WannaSheep_14_06");	//Oh! In that case...leave 200 gold pieces here with me, and go get yourself a sheep from the pasture.
+		AI_Output(self,other,"DIA_Onar_WannaSheep_14_06");	//Oh! In that case... leave 200 gold pieces here with me, and go get yourself a sheep from the pasture.
 		Onar_SellSheep = TRUE;
 	};
 };

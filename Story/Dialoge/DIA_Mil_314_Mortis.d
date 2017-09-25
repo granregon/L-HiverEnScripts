@@ -95,7 +95,7 @@ func int DIA_Mortis_Paket_Condition()
 func void DIA_Mortis_Paket_Info()
 {
 	AI_Output(other,self,"DIA_Mortis_Paket_15_00");	//What do you know about that package of weed?
-	AI_Output(self,other,"DIA_Mortis_Paket_13_01");	//Hm...the last time I was in the harbor tavern, I heard how Kardif and some other guy were talking about it.
+	AI_Output(self,other,"DIA_Mortis_Paket_13_01");	//Hm... the last time I was in the harbor tavern, I heard how Kardif and some other guy were talking about it.
 	AI_Output(other,self,"DIA_Mortis_Paket_15_02");	//Who was the other guy?
 	AI_Output(self,other,"DIA_Mortis_Paket_13_03");	//No idea. But he said he'd found the best storage place for his herbs - then the two of them laughed like drunken orcs.
 	B_LogEntry(TOPIC_Warehouse,"Mortis heard the barkeeper Kardif and some other man talking about the package in the dockside pub. They were discussing where to store it.");

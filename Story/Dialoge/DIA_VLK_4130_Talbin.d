@@ -246,7 +246,7 @@ func void DIA_Talbin_PayTeacher_Info()
 	if(B_GiveInvItems(other,self,ItFo_Cheese,1))
 	{
 		AI_Output(other,self,"DIA_Talbin_PayTeacher_15_00");	//Here's your cheese. Will you teach me now?
-		AI_Output(self,other,"DIA_Talbin_PayTeacher_07_01");	//Really, you've got some? Oh man, it's been ages since I ate something like that. Thank you. Er, what about...oh yeah. Sure!
+		AI_Output(self,other,"DIA_Talbin_PayTeacher_07_01");	//Really, you've got some? Oh man, it's been ages since I ate something like that. Thank you. Er, what about... oh yeah. Sure!
 		Talbin_TeachAnimalTrophy = TRUE;
 		DIA_Talbin_PayTeacher_noPerm = TRUE;
 	}
@@ -327,7 +327,7 @@ func void DIA_Talbin_TEACHHUNTING_Fur()
 	if(B_TeachPlayerTalentTakeAnimalTrophy(self,other,TROPHY_Fur))
 	{
 		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_00");	//The easiest way to skin a lurker is to make a cut along the length of its belly...
-		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_01");	//...then tug on its hind legs and thus pull off the skin in one piece from back to front.
+		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_01");	//... then tug on its hind legs and thus pull off the skin in one piece from back to front.
 	};
 	Info_ClearChoices(DIA_Talbin_TEACHHUNTING);
 };
@@ -479,7 +479,7 @@ func void DIA_Talbin_WOENGROM_Info()
 	AI_Output(other,self,"DIA_Talbin_WOENGROM_15_00");	//Are you alone here at the moment?
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_01");	//Yes. My buddy Engrom has up and left. Yesterday he said he was having a vision - someone speaking to him very softly.
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_02");	//I didn't hear a thing. I just thought to myself, he's gone off the deep end...
-	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_03");	//...and then he was suddenly gone. I've no idea where he went.
+	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_03");	//... and then he was suddenly gone. I've no idea where he went.
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_04");	//If you should see Engrom anywhere, tell him he still owes me a lurker skin, the bastard.
 	if(Npc_KnowsInfo(other,DIA_Engrom_WhatAboutLeaving))
 	{

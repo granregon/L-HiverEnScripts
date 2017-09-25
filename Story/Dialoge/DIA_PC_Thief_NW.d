@@ -105,7 +105,7 @@ func void DIA_DiegoNW_NeedHelp_WhoAreYou()
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_02");	//That's why I bought these togs from a trader outside of town. Now I hope you'll remember me. I am Diego.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_03");	//Back in the slammer, I taught you everything you needed to know to survive.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_04");	//You can't just have forgotten all that.
-	AI_Output(other,self,"DIA_DiegoNW_NeedHelp_WhoAreYou_15_05");	//Er...what exactly happened back then?
+	AI_Output(other,self,"DIA_DiegoNW_NeedHelp_WhoAreYou_15_05");	//Er... what exactly happened back then?
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_06");	//Holy shit, you really don't remember a thing.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_07");	//Listen I really don't have time to explain everything to you now. Only this much: we used to be damn good friends, and I saved your life more than once.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_08");	//And now I need your help.
