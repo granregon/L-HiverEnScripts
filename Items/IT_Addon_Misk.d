@@ -69,7 +69,7 @@ instance ITMI_FIRSTBLADE_BLADE(C_Item)
 	visual = "ItMi_firstblade_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Sword>>";
+	text[2] = "Used to forge <<Blade>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -86,7 +86,7 @@ instance ITMI_FIRSTBLADE_BLADE_NH(C_Item)
 	visual = "ItMi_firstblade_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Sword>>";
+	text[2] = "Used to forge <<Blade>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -103,7 +103,7 @@ instance ITMI_1HFINESWORD_BLADE(C_Item)
 	visual = "ItMi_1hfinesword_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Steel Longsword>>";
+	text[2] = "Used to forge <<Steel longsword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -120,7 +120,7 @@ instance ITMI_1HFINESWORD_BLADE_NH(C_Item)
 	visual = "ItMi_1hfinesword_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Steel Longsword>>";
+	text[2] = "Used to forge <<Steel longsword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -171,7 +171,7 @@ instance ITMI_FINEBASTARD_BLADE(C_Item)
 	visual = "ItMi_FineBastard_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Fine Bastard Sword>>";
+	text[2] = "Used to forge <<Fine bastard sword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -188,7 +188,7 @@ instance ITMI_FINEBASTARD_BLADE_NH(C_Item)
 	visual = "ItMi_FineBastard_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Fine Bastard Sword>>";
+	text[2] = "Used to forge <<Fine bastard sword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -205,7 +205,7 @@ instance ITMI_ANDURIL_BLADE(C_Item)
 	visual = "ItMi_Anduril_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Elegant Bastard Sword>>";
+	text[2] = "Used to forge <<Elegant bastard sword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -222,7 +222,7 @@ instance ITMI_ANDURIL_BLADE_NH(C_Item)
 	visual = "ItMi_Anduril_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Elegant Bastard Sword>>";
+	text[2] = "Used to forge <<Elegant bastard sword>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -239,7 +239,7 @@ instance ITMI_FIRSTBLADE2H_BLADE(C_Item)
 	visual = "ItMi_firstblade2h_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Two-Handed Blade>>";
+	text[2] = "Used to forge <<Two-handed blade>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -256,7 +256,7 @@ instance ITMI_FIRSTBLADE2H_BLADE_NH(C_Item)
 	visual = "ItMi_firstblade2h_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Two-Handed Blade>>";
+	text[2] = "Used to forge <<Two-handed blade>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -273,7 +273,7 @@ instance ITMI_2HFINESWORD_BLADE(C_Item)
 	visual = "ItMi_2hfinesword_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Steel Two-Hander>>";
+	text[2] = "Used to forge <<Steel two-hander>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
@@ -290,7 +290,7 @@ instance ITMI_2HFINESWORD_BLADE_NH(C_Item)
 	visual = "ItMi_2hfinesword_Blade.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[2] = "Used to forge <<Steel Two-Hander>>";
+	text[2] = "Used to forge <<Steel two-hander>>";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_BLADE_STANDARD;
