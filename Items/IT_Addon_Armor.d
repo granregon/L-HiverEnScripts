@@ -815,7 +815,7 @@ func void unequip_geralt_addon()
 
 instance ITAR_GERALT_ADDON_GRD1(C_Item)
 {
-	name = "Enhanced leather armor";
+	name = "Enhanced hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -868,7 +868,7 @@ func void unequip_geralt_addon_grd1()
 
 instance ITAR_GERALT_ADDON_GRD2(C_Item)
 {
-	name = "Reinforced leather armor";
+	name = "Reinforced hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -921,7 +921,7 @@ func void unequip_geralt_addon_grd2()
 
 instance ITAR_GERALT_ADDON_GRD3(C_Item)
 {
-	name = "Heavy leather armor";
+	name = "Heavy hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
