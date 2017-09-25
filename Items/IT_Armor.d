@@ -2958,7 +2958,7 @@ func void unequip_itar_leather_l_grd2()
 
 instance ITAR_LEATHER_L_GRD3(C_Item)
 {
-	name = "Master leather's armor";
+	name = "Thickened leather's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
