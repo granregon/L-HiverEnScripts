@@ -1243,7 +1243,7 @@ instance PC_ITAR_LEATHER_L_GRD5(C_Info)
 	condition = pc_itar_leather_l_grd5_condition;
 	information = pc_itar_leather_l_grd5_info;
 	permanent = TRUE;
-	description = "Reinforced hunter's armor -> Heavy hunter's armor (5x leathers, 4x troll tusks)";
+	description = "Reinforced leather armor -> Heavy leather armor (5x leathers, 4x troll tusks)";
 };
 
 
