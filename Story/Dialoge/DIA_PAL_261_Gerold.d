@@ -129,7 +129,7 @@ func int DIA_Gerold_Gold_Condition()
 func void DIA_Gerold_Gold_Info()
 {
 	AI_Output(other,self,"DIA_Gerold_Gold_15_00");	//And what if I pay you gold?
-	AI_Output(self,other,"DIA_Gerold_Gold_12_01");	//... hm ...
+	AI_Output(self,other,"DIA_Gerold_Gold_12_01");	//...hm...
 	AI_Output(self,other,"DIA_Gerold_Gold_12_02");	//No.
 };
 
@@ -141,7 +141,7 @@ instance DIA_Gerold_Deal(C_Info)
 	condition = DIA_Gerold_Deal_Condition;
 	information = DIA_Gerold_Deal_Info;
 	permanent = FALSE;
-	description = "I have a note here for one of the prisoners ...";
+	description = "I have a note here for one of the prisoners...";
 };
 
 
@@ -156,13 +156,13 @@ func int DIA_Gerold_Deal_Condition()
 func void DIA_Gerold_Deal_Info()
 {
 	AI_Output(other,self,"DIA_Gerold_Deal_15_00");	//I have a note here for one of the prisoners. Can you pass it on?
-	AI_Output(self,other,"DIA_Gerold_Deal_12_01");	//Hm ... in principle, I don't see why not. Who's this message for then?
+	AI_Output(self,other,"DIA_Gerold_Deal_12_01");	//Hm...in principle, I don't see why not. Who's this message for then?
 	AI_Output(other,self,"DIA_Gerold_Deal_15_02");	//For Gorn.
 	AI_Output(self,other,"DIA_Gerold_Deal_12_03");	//A very important prisoner. I don't think Garond would agree to that. But if it's important to you, we can certainly come to an agreement.
 	AI_Output(other,self,"DIA_Gerold_Deal_15_04");	//What do you want?
 	AI_Output(self,other,"DIA_Gerold_Deal_12_05");	//Our food rations are being reduced steadily. I want something decent to eat for a change.
 	AI_Output(self,other,"DIA_Gerold_Deal_12_06");	//Get me a tasty sausage and a fresh loaf of bread - and some sweet honey.
-	AI_Output(self,other,"DIA_Gerold_Deal_12_07");	//And a bottle of wine to go with it ... Yeah, that should do. You should be able to manage that. So, come back when you have the stuff.
+	AI_Output(self,other,"DIA_Gerold_Deal_12_07");	//And a bottle of wine to go with it...Yeah, that should do. You should be able to manage that. So, come back when you have the stuff.
 	B_LogEntry(TOPIC_RescueGorn,"If I bring Gerold a sausage, bread, wine and honey, he'll pass the message on to Gorn.");
 };
 
@@ -174,7 +174,7 @@ instance DIA_Gerold_Stuff(C_Info)
 	condition = DIA_Gerold_Stuff_Condition;
 	information = DIA_Gerold_Stuff_Info;
 	permanent = TRUE;
-	description = "I've got something for you ...";
+	description = "I've got something for you...";
 };
 
 

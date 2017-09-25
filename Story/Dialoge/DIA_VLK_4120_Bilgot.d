@@ -41,12 +41,12 @@ func void DIA_Bilgot_HALLO_Info()
 {
 	AI_Output(self,other,"DIA_Bilgot_HALLO_05_00");	//Hey, where do you come from? Have you come from the castle?
 	Info_AddChoice(DIA_Bilgot_HALLO,"Yes, I come from the castle - why?",DIA_Bilgot_HALLO_Burg);
-	Info_AddChoice(DIA_Bilgot_HALLO,"I just chanced to come by here ...",DIA_Bilgot_HALLO_Zufall);
+	Info_AddChoice(DIA_Bilgot_HALLO,"I just chanced to come by here...",DIA_Bilgot_HALLO_Zufall);
 };
 
 func void DIA_Bilgot_HALLO_Zufall()
 {
-	AI_Output(other,self,"DIA_Bilgot_HALLO_Zufall_15_00");	//I just chanced to come by here ...
+	AI_Output(other,self,"DIA_Bilgot_HALLO_Zufall_15_00");	//I just chanced to come by here...
 	AI_Output(self,other,"DIA_Bilgot_HALLO_Zufall_05_01");	//Boy, nobody just HAPPENS to come by here. We're screwed here - surrounded by snappers!
 	AI_Output(self,other,"DIA_Bilgot_HALLO_Zufall_05_02");	//Not a day has gone by so far without one of us biting the dust.
 	AI_Output(self,other,"DIA_Bilgot_HALLO_Zufall_05_03");	//You won't tell me where you came from? All right - may the snappers take you then!
@@ -87,7 +87,7 @@ func void DIA_Bilgot_Job_Info()
 	AI_Output(self,other,"DIA_Bilgot_Job_05_02");	//I should have just stayed home with my old lady. It wasn't any different there, but at least there was something decent to eat.
 	AI_Output(self,other,"DIA_Bilgot_Job_05_03");	//And now I'm all that remains of the men-at-arms that were assigned to Fajeth.
 	AI_Output(self,other,"DIA_Bilgot_Job_05_04");	//How was I to know that this expedition wasn't going to make it back?
-	AI_Output(self,other,"DIA_Bilgot_Job_05_05");	//My pal Olav made himself scarce. Maybe HE pulled it off ...
+	AI_Output(self,other,"DIA_Bilgot_Job_05_05");	//My pal Olav made himself scarce. Maybe HE pulled it off...
 };
 
 
@@ -117,7 +117,7 @@ func void DIA_Bilgot_Hilfe_Info()
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_02");	//I'm going to hunt those snappers,
 	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_03");	//That's crazy. I've watched them - those are bloodthirsty beasts.
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_04");	//Then tell me what you know about them.
-	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_05");	//Hm ... I could help you - but only under one condition!
+	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_05");	//Hm...I could help you - but only under one condition!
 	AI_Output(other,self,"DIA_Bilgot_Hilfe_15_06");	//What do you want?
 	AI_Output(self,other,"DIA_Bilgot_Hilfe_05_07");	//If you manage to kill the snappers - then you have to get me out of here!
 	if(Npc_IsDead(Fed) == FALSE)
@@ -150,7 +150,7 @@ func void DIA_Bilgot_KNOWSLEADSNAPPER_Info()
 {
 	AI_Output(other,self,"DIA_Bilgot_KNOWSLEADSNAPPER_15_00");	//Tell me what you know. Then I'll get you out of here!
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_01");	//I knew I could count on you. So, pay attention. I've watched the snappers for quite a while.
-	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_02");	//They're very cunning and have a kind of ... communication. They never go alone and attack only in a pack.
+	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_02");	//They're very cunning and have a kind of...communication. They never go alone and attack only in a pack.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_03");	//But there's something else. There's a lizard among them that's different. It rarely shows up - but I've seen it.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_04");	//The other beasts bow when they go past it - but they always keep it in sight as they do so.
 	AI_Output(self,other,"DIA_Bilgot_KNOWSLEADSNAPPER_05_05");	//As long as that one doesn't move, no lizard in its vicinity will.

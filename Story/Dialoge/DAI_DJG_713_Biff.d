@@ -205,7 +205,7 @@ func int DIA_Biff_ARBEITEN_Condition()
 func void DIA_Biff_ARBEITEN_Info()
 {
 	AI_Output(other,self,"DIA_Biff_ARBEITEN_15_00");	//How would you like to work for me from now on?
-	B_LogEntry(TOPIC_Dragonhunter,"The dragon hunter Biff is a typical mercenary. If I pay him, he'll fight for me.");
+	B_LogEntry(TOPIC_Dragonhunter,"The Dragon hunter Biff is a typical mercenary. If I pay him, he'll fight for me.");
 	if(DJG_BiffParty_nomore >= 6)
 	{
 		AI_Output(self,other,"DIA_Biff_ARBEITEN_07_01");	//We tried that once. Didn't work very well. Thanks, not interested.
@@ -326,7 +326,7 @@ func void DIA_Biff_GELDEINTREIBEN_zuTeuer()
 
 func void DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen()
 {
-	AI_Output(other,self,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00");	//We must part ways now ... I'm afraid.
+	AI_Output(other,self,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_15_00");	//We must part ways now...I'm afraid.
 	AI_Output(self,other,"DIA_Biff_GELDEINTREIBEN_zuTeuer_trennen_07_01");	//If you say so. Then I'll just have to take my share.
 	BIFF_LABERT_GELDEINTREIBEN = FALSE;
 	AI_StopProcessInfos(self);

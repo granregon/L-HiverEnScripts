@@ -393,7 +393,7 @@ func void DIA_Wolf_ArmorReady_Info()
 			Npc_RemoveInvItems(self,ItAt_CrawlerPlate,10);
 			AI_Output(self,other,"DIA_Wolf_ArmorReady_08_02");	//I finished it. Here it is.
 			B_GiveInvItems(self,other,ITAR_DJG_Crawler,1);
-			AI_Output(self,other,"DIA_Wolf_ArmorReady_08_03");	//Turned out really well, I think ...
+			AI_Output(self,other,"DIA_Wolf_ArmorReady_08_03");	//Turned out really well, I think...
 			AI_Output(other,self,"DIA_Wolf_ArmorReady_15_04");	//Thank you!
 			AI_Output(self,other,"DIA_Wolf_ArmorReady_08_05");	//Don't mention it.
 			Player_GotCrawlerArmor = TRUE;
@@ -401,7 +401,7 @@ func void DIA_Wolf_ArmorReady_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Wolf_ArmorReady_08_06");	//You joker. I need the crawler plates first ...
+		AI_Output(self,other,"DIA_Wolf_ArmorReady_08_06");	//You joker. I need the crawler plates first...
 		Wolf_MakeArmor = FALSE;
 		MIS_Wolf_BringCrawlerPlates = LOG_Running;
 	};
@@ -476,7 +476,7 @@ func void DIA_Wolf_BENGAR_Info()
 	{
 		AI_Output(self,other,"DIA_Wolf_BENGAR_08_06");	//Good. That comes to 800 gold coins.
 		AI_Output(other,self,"DIA_Wolf_BENGAR_15_07");	//A hefty price.
-		AI_Output(self,other,"DIA_Wolf_BENGAR_08_08");	//Well. For one of us, I'd do it for almost nothing. But for you ...
+		AI_Output(self,other,"DIA_Wolf_BENGAR_08_08");	//Well. For one of us, I'd do it for almost nothing. But for you...
 		Wolf_BENGAR_geld = 800;
 	};
 	Info_ClearChoices(DIA_Wolf_BENGAR);

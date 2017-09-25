@@ -28,7 +28,7 @@ instance DIA_Bullco_Hallo(C_Info)
 	condition = DIA_Bullco_Hallo_Condition;
 	information = DIA_Bullco_Hallo_Info;
 	permanent = TRUE;
-	description = "The two of us should have a chat ...";
+	description = "The two of us should have a chat...";
 };
 
 
@@ -39,7 +39,7 @@ func int DIA_Bullco_Hallo_Condition()
 
 func void DIA_Bullco_Hallo_Info()
 {
-	AI_Output(other,self,"DIA_Bullco_HALLO_15_00");	//The two of us should have a chat ...
+	AI_Output(other,self,"DIA_Bullco_HALLO_15_00");	//The two of us should have a chat...
 	if(self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_LOST)
 	{
 		AI_Output(self,other,"DIA_Bullco_HALLO_06_01");	//Listen, you win! Now leave me alone.
@@ -143,7 +143,7 @@ func void DIA_Bullco_DailyCheck_Info()
 {
 	if(Bullco_HitCounter == 0)
 	{
-		AI_Output(self,other,"DIA_Bullco_DailyCheck_06_00");	//You're still here after all ...
+		AI_Output(self,other,"DIA_Bullco_DailyCheck_06_00");	//You're still here after all...
 		AI_Output(self,other,"DIA_Bullco_DailyCheck_06_01");	//I thought we had agreed that I shall let you depart in peace.
 		AI_Output(self,other,"DIA_Bullco_DailyCheck_06_02");	//You really should have listened to me.
 	}
@@ -224,9 +224,9 @@ func void DIA_Bullco_PepesSchafe_Info()
 	AI_Output(self,other,"DIA_Bullco_PepesSchafe_06_05");	//What are you getting at?
 	AI_Output(other,self,"DIA_Bullco_PepesSchafe_15_06");	//If you keep getting on my nerves, I'll se to it that you are made to pay for the sheep.
 	AI_Output(other,self,"DIA_Bullco_PepesSchafe_15_07");	//So if you're at all interested in your pay, leave me alone from now on!
-	AI_Output(self,other,"DIA_Bullco_PepesSchafe_06_08");	//(furious) You, you ...
+	AI_Output(self,other,"DIA_Bullco_PepesSchafe_06_08");	//(furious) You, you...
 	AI_Output(other,self,"DIA_Bullco_PepesSchafe_15_09");	//(calmly) Yes?
-	AI_Output(self,other,"DIA_Bullco_PepesSchafe_06_10");	//(to himself) Wretched little lowlife ...
+	AI_Output(self,other,"DIA_Bullco_PepesSchafe_06_10");	//(to himself) Wretched little lowlife...
 	Bullco_scharf = FALSE;
 	B_GivePlayerXP(XP_Ambient);
 	AI_StopProcessInfos(self);

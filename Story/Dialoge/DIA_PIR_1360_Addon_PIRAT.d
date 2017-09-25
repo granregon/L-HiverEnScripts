@@ -85,7 +85,7 @@ func void DIA_Addon_HammerPirate_Anheuern_Info()
 	{
 		AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_01");	//Why don't you ask the guy who's manning the saw?
 	};
-	AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_02");	//I ... can't use all this stress ...
+	AI_Output(self,other,"DIA_Addon_HammerPirate_Anheuern_07_02");	//I...can't use all this stress...
 };
 
 
@@ -113,7 +113,7 @@ func void DIA_Addon_HammerPirate_ComeOn_Info()
 	AI_Output(other,self,"DIA_Addon_HammerPirate_ComeOn_15_00");	//Come with me.
 	if(SawPirate.aivar[AIV_PARTYMEMBER] == TRUE)
 	{
-		AI_Output(self,other,"DIA_Addon_HammerPirate_ComeOn_07_01");	//Henry needs one of us to stay HERE ...
+		AI_Output(self,other,"DIA_Addon_HammerPirate_ComeOn_07_01");	//Henry needs one of us to stay HERE...
 	}
 	else if(Npc_GetDistToWP(self,"ADW_PIRATECAMP_WAY_08") > 6000)
 	{
@@ -122,7 +122,7 @@ func void DIA_Addon_HammerPirate_ComeOn_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_HammerPirate_ComeOn_07_03");	//(sighs) Aye aye ...
+		AI_Output(self,other,"DIA_Addon_HammerPirate_ComeOn_07_03");	//(sighs) Aye aye...
 		AI_StopProcessInfos(self);
 		Npc_ExchangeRoutine(self,"FOLLOW");
 		self.aivar[AIV_PARTYMEMBER] = TRUE;
@@ -152,7 +152,7 @@ func int DIA_Addon_HammerPirate_GoHome_Condition()
 func void DIA_Addon_HammerPirate_GoHome_Info()
 {
 	AI_Output(other,self,"DIA_Addon_HammerPirate_GoHome_15_00");	//I no longer need you.
-	AI_Output(self,other,"DIA_Addon_HammerPirate_GoHome_07_01");	//If you say so ...
+	AI_Output(self,other,"DIA_Addon_HammerPirate_GoHome_07_01");	//If you say so...
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	Npc_ExchangeRoutine(self,"START");
 };
@@ -179,7 +179,7 @@ func int DIA_Addon_HammerPirate_TooFar_Condition()
 
 func void DIA_Addon_HammerPirate_TooFar_Info()
 {
-	AI_Output(self,other,"DIA_Addon_HammerPirate_TooFar_07_01");	//If you want to continue in that direction, don't let me keep you ...
+	AI_Output(self,other,"DIA_Addon_HammerPirate_TooFar_07_01");	//If you want to continue in that direction, don't let me keep you...
 	AI_Output(self,other,"DIA_Addon_HammerPirate_GoHome_07_02");	//I think I'll be headed back now.
 	self.aivar[AIV_PARTYMEMBER] = FALSE;
 	Npc_ExchangeRoutine(self,"START");

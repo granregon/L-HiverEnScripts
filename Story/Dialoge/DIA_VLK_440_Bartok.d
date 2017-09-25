@@ -92,7 +92,7 @@ func void DIA_Bartok_Hallo_Info()
 	AI_Output(self,other,"DIA_Bartok_Hello_04_01");	//You're not from around here, are you? Never mind - neither am I.
 	AI_Output(other,self,"DIA_Bartok_Hello_15_02");	//Where did you hang around before?
 	AI_Output(self,other,"DIA_Bartok_Hello_04_03");	//In the woods, hunting scavengers and wolves together with some hunters.
-	AI_Output(self,other,"DIA_Bartok_Hello_04_04");	//But I gave it up. These are dangerous times. There's a lot of riff-raff running around out there ...
+	AI_Output(self,other,"DIA_Bartok_Hello_04_04");	//But I gave it up. These are dangerous times. There's a lot of riff-raff running around out there...
 };
 
 
@@ -180,7 +180,7 @@ instance DIA_Bartok_Bosper(C_Info)
 	condition = DIA_Bartok_Bosper_Condition;
 	information = DIA_Bartok_Bosper_Info;
 	permanent = FALSE;
-	description = "Bosper said you used to work for him ...";
+	description = "Bosper said you used to work for him...";
 };
 
 
@@ -194,7 +194,7 @@ func int DIA_Bartok_Bosper_Condition()
 
 func void DIA_Bartok_Bosper_Info()
 {
-	AI_Output(other,self,"DIA_Bartok_Bosper_15_00");	//Bosper said you used to work for him ...
+	AI_Output(other,self,"DIA_Bartok_Bosper_15_00");	//Bosper said you used to work for him...
 	AI_Output(self,other,"DIA_Bartok_Bosper_04_01");	//Yes, I did. But he was only interested in his blasted hides.
 	AI_Output(self,other,"DIA_Bartok_Bosper_04_02");	//I told him how dangerous it's gotten out there. He didn't really listen to me.
 	AI_Output(self,other,"DIA_Bartok_Bosper_04_03");	//Well, anyway he paid well - I can't complain about that.
@@ -299,7 +299,7 @@ func int DIA_Bartok_Teach_Condition()
 func void DIA_Bartok_Teach_Info()
 {
 	AI_Output(other,self,"DIA_Bartok_TeachBow_15_00");	//I want to be able to handle a bow better!
-	AI_Output(self,other,"DIA_Bartok_TeachBow_04_01");	//Okay, then let's see if I can teach you anything ...
+	AI_Output(self,other,"DIA_Bartok_TeachBow_04_01");	//Okay, then let's see if I can teach you anything...
 	Bosper_MerkeBow = other.HitChance[NPC_TALENT_BOW];
 	Info_ClearChoices(DIA_Bartok_Teach);
 	Info_AddChoice(DIA_Bartok_Teach,Dialog_Back,DIA_Bartok_Teach_Back);
@@ -383,8 +383,8 @@ func void DIA_Bartok_Zusammen_Info()
 			AI_Output(self,other,"DIA_Bartok_Zusammen_04_06");	//That's a fair deal, isn't it?
 		};
 		Info_ClearChoices(DIA_Bartok_Zusammen);
-		Info_AddChoice(DIA_Bartok_Zusammen,"Later ...",DIA_Bartok_Zusammen_Later);
-		Info_AddChoice(DIA_Bartok_Zusammen,"Here you are ...",DIA_Bartok_Zusammen_Pay);
+		Info_AddChoice(DIA_Bartok_Zusammen,"Later...",DIA_Bartok_Zusammen_Later);
+		Info_AddChoice(DIA_Bartok_Zusammen,"Here you are...",DIA_Bartok_Zusammen_Pay);
 	}
 	else
 	{
@@ -396,7 +396,7 @@ func void DIA_Bartok_Zusammen_Info()
 
 func void DIA_Bartok_Zusammen_Later()
 {
-	AI_Output(other,self,"DIA_Bartok_HuntNOW_Later_15_00");	//Later ...
+	AI_Output(other,self,"DIA_Bartok_HuntNOW_Later_15_00");	//Later...
 	Bartok_Later = TRUE;
 	Info_ClearChoices(DIA_Bartok_Zusammen);
 };
@@ -406,7 +406,7 @@ func void DIA_Bartok_Zusammen_Pay()
 	Info_ClearChoices(DIA_Bartok_Zusammen);
 	if(B_GiveInvItems(other,self,ItMi_Gold,50))
 	{
-		AI_Output(other,self,"DIA_Bartok_HuntNOW_GO_15_00");	//Here they are ...
+		AI_Output(other,self,"DIA_Bartok_HuntNOW_GO_15_00");	//Here they are...
 		Bartok_Bereit = TRUE;
 	}
 	else
@@ -441,7 +441,7 @@ func void DIA_Bartok_HuntNOW_Info()
 {
 	AI_Output(other,self,"DIA_Bartok_HuntNOW_15_00");	//Let's go hunting!
 	AI_Output(self,other,"DIA_Bartok_HuntNOW_GO_04_01");	//All right, follow me. Outside the south gate is a wood where we should find more than enough critters.
-	AI_Output(self,other,"DIA_Bartok_HuntNOW_GO_04_02");	//(to himself) Probably more than we'd like ...
+	AI_Output(self,other,"DIA_Bartok_HuntNOW_GO_04_02");	//(to himself) Probably more than we'd like...
 	Bartok_Los = TRUE;
 	AI_StopProcessInfos(self);
 	self.aivar[AIV_PARTYMEMBER] = TRUE;
@@ -496,7 +496,7 @@ func void DIA_Bartok_ImWald_NachHause()
 func void DIA_Bartok_ImWald_Weiter()
 {
 	AI_Output(other,self,"DIA_Bartok_ImWald_Weiter_15_00");	//Let's go on.
-	AI_Output(self,other,"DIA_Bartok_ImWald_Weiter_04_01");	//All right. (to self) Let's hope this works out ...
+	AI_Output(self,other,"DIA_Bartok_ImWald_Weiter_04_01");	//All right. (to self) Let's hope this works out...
 	if(!Npc_IsDead(CityOrc))
 	{
 		Bartok_OrkStillThere = TRUE;

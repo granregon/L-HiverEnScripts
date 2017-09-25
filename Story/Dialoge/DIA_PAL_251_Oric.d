@@ -73,8 +73,8 @@ func void DIA_Oric_Bruder_Info()
 	AI_Output(other,self,"DIA_Oric_Bruder_15_00");	//I have a message for you.
 	AI_Output(self,other,"DIA_Oric_Bruder_11_01");	//What is it?
 	AI_Output(other,self,"DIA_Oric_Bruder_15_02");	//Your brother is dead. He got as far as the pass.
-	AI_Output(self,other,"DIA_Oric_Bruder_11_03");	//(murmurs) ... my brother ...
-	AI_Output(self,other,"DIA_Oric_Bruder_11_04");	//Innos puts me to a severe test. But he died as his servant ...
+	AI_Output(self,other,"DIA_Oric_Bruder_11_03");	//(murmurs)...my brother...
+	AI_Output(self,other,"DIA_Oric_Bruder_11_04");	//Innos puts me to a severe test. But he died as his servant...
 	AI_Output(self,other,"DIA_Oric_Bruder_11_05");	//This news is like an arrow which pierces my heart. I shall seek new strength in prayer.
 	OricBruder = TRUE;
 	B_GivePlayerXP(XP_Ambient);
@@ -283,7 +283,7 @@ func void DIA_Oric_CanHelp_WhatYouMean()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Oric_CanHelp_WhatYouMean_11_08");	//You want to help us, don't you? Well, then ...
+		AI_Output(self,other,"DIA_Oric_CanHelp_WhatYouMean_11_08");	//You want to help us, don't you? Well, then...
 	};
 	AI_Output(self,other,"DIA_Oric_CanHelp_WhatYouMean_11_09");	//Hosh-Pak's tent is situated outside of the siege circle, on a cliff to the south of here.
 	AI_Output(self,other,"DIA_Oric_CanHelp_WhatYouMean_11_10");	//You can almost see it from one of the windows there.

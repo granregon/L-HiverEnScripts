@@ -178,7 +178,7 @@ func void DIA_Addon_Morgan_Meat_Info()
 	B_GiveInvItems(other,self,ItFoMuttonRaw,GivenMeat);
 	if(GivenMeat < 10)
 	{
-		AI_Output(self,other,"DIA_Addon_Morgan_Meat_07_05");	//What, is that all? Ate the rest yourself, huh? Oh well, never mind ...
+		AI_Output(self,other,"DIA_Addon_Morgan_Meat_07_05");	//What, is that all? Ate the rest yourself, huh? Oh well, never mind...
 	};
 	B_LogEntry(TOPIC_Addon_BringMeat,"I have brought Morgan the meat.");
 	MIS_AlligatorJack_BringMeat = LOG_SUCCESS;
@@ -273,8 +273,8 @@ func void DIA_Addon_Morgan_JoinMorgan_Info()
 	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_03");	//Those boys won't lift a finger until the Captain is back, you can count on that.
 	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_04");	//But if you want to show everybody what you're made of, feel free to work on the northern beach.
 	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_05");	//It's full of lurkers and who knows what else.
-	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_06");	//Take them on by yourself and you'll earn the respect (yawns) of the people ...
-	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_07");	//Welcome to my troop. Ha! I'll go lie back down ...
+	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_06");	//Take them on by yourself and you'll earn the respect (yawns) of the people...
+	AI_Output(self,other,"DIA_Addon_Morgan_JoinMorgan_07_07");	//Welcome to my troop. Ha! I'll go lie back down...
 	Log_CreateTopic(TOPIC_Addon_MorganBeach,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_MorganBeach,LOG_Running);
 	B_LogEntry(TOPIC_Addon_MorganBeach,"Now that I am in Morgan's raiding troop, he wants me to clean the northern beach of beasts.");
@@ -319,7 +319,7 @@ func void DIA_Addon_Morgan_LurkerPlatt_Info()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Addon_Morgan_LurkerPlatt_15_05");	//Er ...
+		AI_Output(other,self,"DIA_Addon_Morgan_LurkerPlatt_15_05");	//Er...
 		AI_Output(self,other,"DIA_Addon_Morgan_LurkerPlatt_07_06");	//Well, that's part of it, too. Come back when you're done.
 		B_LogEntry(TOPIC_Addon_MorganBeach,"Morgan also wants me to take care of the cave.");
 		AI_StopProcessInfos(self);
@@ -374,7 +374,7 @@ instance DIA_Addon_Morgan_FOUNDTHEM(C_Info)
 	condition = DIA_Addon_Morgan_FOUNDTHEM_Condition;
 	information = DIA_Addon_Morgan_FOUNDTHEM_Info;
 	permanent = TRUE;
-	description = "About Angus and Hank ...";
+	description = "About Angus and Hank...";
 };
 
 
@@ -388,7 +388,7 @@ func int DIA_Addon_Morgan_FOUNDTHEM_Condition()
 
 func void DIA_Addon_Morgan_FOUNDTHEM_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Morgan_FOUNDTHEM_15_00");	//About Angus and Hank ...
+	AI_Output(other,self,"DIA_Addon_Morgan_FOUNDTHEM_15_00");	//About Angus and Hank...
 	if(Morgan_AngusStory == FALSE)
 	{
 		AI_Output(self,other,"DIA_Addon_Morgan_FOUNDTHEM_07_01");	//Don't remind me of THEM.

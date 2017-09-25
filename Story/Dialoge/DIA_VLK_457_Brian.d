@@ -108,7 +108,7 @@ func void DIA_Brian_AboutLehrling_Info()
 	AI_Output(other,self,"DIA_Brian_AboutLehrling_15_00");	//What's it like to be the smith's apprentice?
 	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_01");	//Why do you ask? Do you want to be my successor?
 	AI_Output(other,self,"DIA_Brian_AboutLehrling_15_02");	//Maybe.
-	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_03");	//Why not ... I'm almost done with my apprenticeship, and then I'm going to leave the city.
+	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_03");	//Why not...I'm almost done with my apprenticeship, and then I'm going to leave the city.
 	AI_Output(self,other,"DIA_Brian_AboutLehrling_04_04");	//But not because of Harad. He is a good master - I have learned a lot from him.
 };
 
@@ -164,7 +164,7 @@ func int DIA_Brian_OtherMasters_Condition()
 func void DIA_Brian_OtherMasters_Info()
 {
 	AI_Output(other,self,"DIA_Brian_Add_15_00");	//Who are the other masters?
-	AI_Output(self,other,"DIA_Brian_Add_04_01");	//Well, there's Thorben the carpenter, Bosper the bowyer, Constantino the alchemist and Matteo.
+	AI_Output(self,other,"DIA_Brian_Add_04_01");	//Well, there's Thorben the carpenter, Bosper the bowmaker, Constantino the alchemist and Matteo.
 	AI_Output(self,other,"DIA_Brian_Add_04_02");	//He sells armor, but first of all he's a merchant.
 	AI_Output(self,other,"DIA_Brian_Add_04_03");	//All the masters have their houses here on the street.
 	AI_Output(self,other,"DIA_Brian_Add_04_04");	//And Constantino's shop is in the underpass to the temple.

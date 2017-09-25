@@ -149,59 +149,59 @@ func void DIA_Addon_Eremit_Klamotten_Info()
 	Info_AddChoice(DIA_Addon_Eremit_Klamotten,Dialog_Back,DIA_Addon_Eremit_Klamotten_BACK);
 	if(Npc_HasItems(other,ITAR_PIR_L_Addon) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Pirate clothes",DIA_Addon_Eremit_Klamotten_PIR_L);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give pirate clothes",DIA_Addon_Eremit_Klamotten_PIR_L);
 	};
 	if(Npc_HasItems(other,ITAR_PIR_M_Addon) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Pirate armor",DIA_Addon_Eremit_Klamotten_PIR_M);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give pirate armor",DIA_Addon_Eremit_Klamotten_PIR_M);
 	};
 	if(Npc_HasItems(other,ITAR_PIR_H_Addon) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Pirate captain's armor",DIA_Addon_Eremit_Klamotten_PIR_H);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give pirate captain's armor",DIA_Addon_Eremit_Klamotten_PIR_H);
 	};
 	if(Npc_HasItems(other,ITAR_RANGER_Addon) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Armor of the 'Ring of Water'",DIA_Addon_Eremit_Klamotten_Ranger);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give armor of the 'Ring of Water'",DIA_Addon_Eremit_Klamotten_Ranger);
 	};
 	if(Npc_HasItems(other,ITAR_Governor) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Governor's doublet",DIA_Addon_Eremit_Klamotten_Governor);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give governor's doublet",DIA_Addon_Eremit_Klamotten_Governor);
 	};
 	if(Npc_HasItems(other,ITAR_Smith) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Smith's apron",DIA_Addon_Eremit_Klamotten_Smith);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give smith's apron",DIA_Addon_Eremit_Klamotten_Smith);
 	};
 	if(Npc_HasItems(other,ITAR_Barkeeper) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Barkeeper's apron",DIA_Addon_Eremit_Klamotten_Barkeeper);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give barkeeper's apron",DIA_Addon_Eremit_Klamotten_Barkeeper);
 	};
 	if(Npc_HasItems(other,ITAR_Vlk_L) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Citizen's clothing",DIA_Addon_Eremit_Klamotten_VLK_L);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give citizen's clothing",DIA_Addon_Eremit_Klamotten_VLK_L);
 	};
 	if(Npc_HasItems(other,ITAR_Vlk_M) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Merchant's clothing",DIA_Addon_Eremit_Klamotten_VLK_M);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give merchant's clothing",DIA_Addon_Eremit_Klamotten_VLK_M);
 	};
 	if(Npc_HasItems(other,ITAR_Vlk_H) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Wealthy citizen's clothing",DIA_Addon_Eremit_Klamotten_VLK_H);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give wealthy citizen's clothing",DIA_Addon_Eremit_Klamotten_VLK_H);
 	};
 	if(Npc_HasItems(other,ITAR_Bau_L) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Farmer's clothing",DIA_Addon_Eremit_Klamotten_BAU_L);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give farmer's clothing",DIA_Addon_Eremit_Klamotten_BAU_L);
 	};
 	if(Npc_HasItems(other,ITAR_Bau_M) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Landowner's clothing",DIA_Addon_Eremit_Klamotten_BAU_M);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give landowner's clothing",DIA_Addon_Eremit_Klamotten_BAU_M);
 	};
 	if(Npc_HasItems(other,ITAR_DJG_Crawler) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Crawler plate armor",DIA_Addon_Eremit_Klamotten_DJG_Crawler);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give crawler plate armor",DIA_Addon_Eremit_Klamotten_DJG_Crawler);
 	};
 	if(Npc_HasItems(other,ITAR_Leather_L) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Hunter's armor",DIA_Addon_Eremit_Klamotten_Leather);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give leather armor",DIA_Addon_Eremit_Klamotten_Leather);
 	};
 	if(Npc_HasItems(other,ITAR_Diego) > 0)
 	{
@@ -209,7 +209,7 @@ func void DIA_Addon_Eremit_Klamotten_Info()
 	};
 	if(Npc_HasItems(other,ITAR_Prisoner) > 0)
 	{
-		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give Convict's pants",DIA_Addon_Eremit_Klamotten_Prisoner);
+		Info_AddChoice(DIA_Addon_Eremit_Klamotten,"Give convict's pants",DIA_Addon_Eremit_Klamotten_Prisoner);
 	};
 };
 

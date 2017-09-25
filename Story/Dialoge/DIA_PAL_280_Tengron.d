@@ -85,7 +85,7 @@ instance DIA_Tengron_News(C_Info)
 	condition = DIA_Tengron_News_Condition;
 	information = DIA_Tengron_News_Info;
 	permanent = FALSE;
-	description = "About the news ...";
+	description = "About the news...";
 };
 
 
@@ -99,7 +99,7 @@ func int DIA_Tengron_News_Condition()
 
 func void DIA_Tengron_News_Info()
 {
-	AI_Output(other,self,"DIA_Tengron_News_15_00");	//About the news ...
+	AI_Output(other,self,"DIA_Tengron_News_15_00");	//About the news...
 	AI_Output(self,other,"DIA_Tengron_News_07_01");	//Yes - what's the situation in the castle?
 	AI_Output(other,self,"DIA_Tengron_News_15_02");	//It is still besieged by the orcs, and also still open to the dragons' attacks.
 	AI_Output(self,other,"DIA_Tengron_News_07_03");	//Damn, I hope the boys will hold out.
@@ -107,7 +107,7 @@ func void DIA_Tengron_News_Info()
 	AI_Output(self,other,"DIA_Tengron_News_07_05");	//I want you to take him this ring. He is to keep it safe for me. Tell him I'll get it when I come back.
 	Info_ClearChoices(DIA_Tengron_News);
 	Info_AddChoice(DIA_Tengron_News,"I've got no time for that.",DIA_Tengron_News_No);
-	Info_AddChoice(DIA_Tengron_News,"No problem ...",DIA_Tengron_News_Yes);
+	Info_AddChoice(DIA_Tengron_News,"No problem...",DIA_Tengron_News_Yes);
 };
 
 func void DIA_Tengron_News_No()
@@ -163,7 +163,7 @@ instance DIA_Tengron_HELP(C_Info)
 	condition = DIA_Tengron_HELP_Condition;
 	information = DIA_Tengron_HELP_Info;
 	permanent = FALSE;
-	description = "I could use your help ...";
+	description = "I could use your help...";
 };
 
 
@@ -177,7 +177,7 @@ func int DIA_Tengron_HELP_Condition()
 
 func void DIA_Tengron_HELP_Info()
 {
-	AI_Output(other,self,"DIA_Tengron_HELP_15_00");	//I could use your help. Fajeth wants me to hunt the lizards, and ...
+	AI_Output(other,self,"DIA_Tengron_HELP_15_00");	//I could use your help. Fajeth wants me to hunt the lizards, and...
 	AI_Output(self,other,"DIA_Tengron_HELP_07_01");	//I take orders ONLY from Fajeth. And my orders say to guard the mining site. And that's exactly what I'm doing.
 	AI_Output(self,other,"DIA_Tengron_HELP_07_02");	//Maybe someone else will help you.
 };

@@ -81,7 +81,7 @@ func void DIA_Addon_Skip_Hello_Info()
 	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_02");	//The bay near the city, remember?
 	AI_Output(other,self,"DIA_Addon_Skip_Hello_15_03");	//Skip! Right?
 	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_04");	//(proudly) I see I made a lasting impression.
-	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_05");	//But I've seen your mug ELSEWHERE in the meantime ...
+	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_05");	//But I've seen your mug ELSEWHERE in the meantime...
 	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_06");	//But of course!
 	B_UseFakeScroll();
 	AI_Output(self,other,"DIA_Addon_Skip_Hello_08_07");	//Oh well. Not a great likeness, but it's certainly YOU.
@@ -166,7 +166,7 @@ func void DIA_Addon_Skip_ADW_GregGetroffen_Info()
 	AI_Output(other,self,"DIA_Addon_Skip_ADW_GregGetroffen_15_00");	//I saw Greg in Khorinis.
 	AI_Output(self,other,"DIA_Addon_Skip_ADW_GregGetroffen_08_01");	//Really? Damn! Something must have gone wrong then.
 	AI_Output(self,other,"DIA_Addon_Skip_ADW_GregGetroffen_08_02");	//He should have been here with our ship some time ago.
-	AI_Output(self,other,"DIA_Addon_Skip_ADW_GregGetroffen_08_03");	//(pensively) I suppose I should go back to Khorinis and wait for him there ...
+	AI_Output(self,other,"DIA_Addon_Skip_ADW_GregGetroffen_08_03");	//(pensively) I suppose I should go back to Khorinis and wait for him there...
 	AI_Output(self,other,"DIA_Addon_Skip_ADW_GregGetroffen_08_04");	//(sighs) But certainly not today. I only just arrived here.
 	B_GivePlayerXP(XP_Ambient);
 };
@@ -273,7 +273,7 @@ func void DIA_Addon_Skip_ArmorPrice_Info()
 	AI_Output(other,self,"DIA_Addon_Skip_ArmorPrice_15_02");	//Do you have any idea where I could find armor like that?
 	AI_Output(self,other,"DIA_Addon_Skip_ArmorPrice_08_03");	//(sighs) You don't give up easily, do you? All right. We used to have a suit.
 	AI_Output(self,other,"DIA_Addon_Skip_ArmorPrice_08_04");	//Greg's probably still got it somewhere up in his hut.
-	AI_Output(self,other,"DIA_Addon_Skip_ArmorPrice_08_05");	//Maybe you can buy it from him when he gets back ...
+	AI_Output(self,other,"DIA_Addon_Skip_ArmorPrice_08_05");	//Maybe you can buy it from him when he gets back...
 	B_LogEntry(TOPIC_Addon_BDTRuestung,"Skip assumes that the armor is in Greg's hut.");
 };
 
@@ -335,7 +335,7 @@ func void DIA_Addon_Skip_Francis_Info()
 	AI_Output(self,other,"DIA_Addon_Skip_Francis_08_03");	//But none of the boys here really take him seriously.
 	AI_Output(self,other,"DIA_Addon_Skip_Francis_08_04");	//If you want to know more, talk to Samuel.
 	AI_Output(self,other,"DIA_Addon_Skip_Francis_08_05");	//He's got his still in the little cave north of here.
-	AI_Output(self,other,"DIA_Addon_Skip_Francis_08_06");	//There isn't a soul in this camp Samuel DOESN'T know all kinds of things about ...
+	AI_Output(self,other,"DIA_Addon_Skip_Francis_08_06");	//There isn't a soul in this camp Samuel DOESN'T know all kinds of things about...
 	B_LogEntry(TOPIC_Addon_BDTRuestung,"I should talk to Samuel. Maybe he can help me.");
 };
 
@@ -398,7 +398,7 @@ func void DIA_Addon_Skip_AngusHank_Info()
 	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_05");	//Morgan and Bill went out to look for them - without any success.
 	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_06");	//Bill was pretty devastated. They were both friends of his.
 	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_07");	//He's still young, these things really get to him.
-	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_08");	//The rest of us took it in our stride. The goods we can afford to lose. (sighs) But the grog they were carrying ...
+	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_08");	//The rest of us took it in our stride. The goods we can afford to lose. (sighs) But the grog they were carrying...
 	AI_Output(self,other,"DIA_Addon_Skip_AngusnHank_08_09");	//(angry) We're talking at least 20 bottles!
 	MIS_ADDON_SkipsGrog = LOG_Running;
 	Log_CreateTopic(TOPIC_Addon_SkipsGrog,LOG_MISSION);
@@ -416,7 +416,7 @@ instance DIA_Addon_Skip_AngusHankDead(C_Info)
 	condition = DIA_Addon_Skip_AngusHankDead_Condition;
 	information = DIA_Addon_Skip_AngusHankDead_Info;
 	permanent = FALSE;
-	description = "About Angus and Hank ...";
+	description = "About Angus and Hank...";
 };
 
 
@@ -430,7 +430,7 @@ func int DIA_Addon_Skip_AngusHankDead_Condition()
 
 func void DIA_Addon_Skip_AngusHankDead_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Skip_AngusnHankDead_15_00");	//About Angus and Hank ...
+	AI_Output(other,self,"DIA_Addon_Skip_AngusnHankDead_15_00");	//About Angus and Hank...
 	AI_Output(self,other,"DIA_Addon_Skip_AngusnHankDead_08_01");	//What?
 	AI_Output(other,self,"DIA_Addon_Skip_AngusnHankDead_15_01");	//I found them.
 	AI_Output(other,self,"DIA_Addon_Skip_AngusnHankDead_15_03");	//They're dead.
@@ -497,7 +497,7 @@ func int DIA_Addon_Skip_Grog_Condition()
 
 func void DIA_Addon_Skip_Grog_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Skip_Grog_15_00");	//About that grog ...
+	AI_Output(other,self,"DIA_Addon_Skip_Grog_15_00");	//About that grog...
 	if(Npc_HasItems(other,ItFo_Addon_Grog) >= 20)
 	{
 		Info_ClearChoices(DIA_Addon_Skip_Grog);
@@ -524,7 +524,7 @@ func void DIA_Addon_Skip_Grog_geben()
 	MIS_ADDON_SkipsGrog = LOG_SUCCESS;
 	B_GivePlayerXP(XP_Addon_SkipsGrog);
 	AI_Output(self,other,"DIA_Addon_Skip_Grog_geben_08_01");	//What? Really? Just like that?
-	AI_Output(other,self,"DIA_Addon_Skip_Grog_geben_15_02");	//Weeell ...
+	AI_Output(other,self,"DIA_Addon_Skip_Grog_geben_15_02");	//Weeell...
 	AI_Output(self,other,"DIA_Addon_Skip_Grog_geben_08_03");	//Okay. I'll pay for them.
 	AI_Output(other,self,"DIA_Addon_Skip_Grog_geben_15_04");	//Haven't you got anything more interesting than gold?
 	AI_Output(self,other,"DIA_Addon_Skip_Grog_geben_08_05");	//Mmh. Let's see. I've got this ring here.
@@ -640,7 +640,7 @@ func void DIA_Addon_Skip_ComeOn_Info()
 	AI_Output(other,self,"DIA_Addon_Skip_ComeOn_15_00");	//Come with me.
 	if(C_GregsPiratesTooFar() == TRUE)
 	{
-		AI_Output(self,other,"DIA_Addon_Skip_ComeOn_08_02");	//Wait. Let's go back into the canyon first ...
+		AI_Output(self,other,"DIA_Addon_Skip_ComeOn_08_02");	//Wait. Let's go back into the canyon first...
 		AI_StopProcessInfos(self);
 	}
 	else

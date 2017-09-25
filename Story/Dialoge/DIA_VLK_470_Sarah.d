@@ -237,7 +237,7 @@ instance DIA_Sarah_Success(C_Info)
 	condition = DIA_Sarah_Success_Condition;
 	information = DIA_Sarah_Success_Info;
 	permanent = FALSE;
-	description = "Canthar was trying to trick you ...";
+	description = "Canthar was trying to trick you...";
 };
 
 

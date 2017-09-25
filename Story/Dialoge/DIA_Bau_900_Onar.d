@@ -390,7 +390,7 @@ func void DIA_Onar_CollectGold_Info()
 	AI_Output(other,self,"DIA_Onar_CollectGold_15_00");	//Pay me my wages!
 	if(other.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Onar_CollectGold_14_01");	//I pay for mercenaries, not dragon hunters.
+		AI_Output(self,other,"DIA_Onar_CollectGold_14_01");	//I pay for mercenaries, not Dragon hunters.
 	}
 	else if(Torlof_TheOtherMission_TooLate == TRUE)
 	{

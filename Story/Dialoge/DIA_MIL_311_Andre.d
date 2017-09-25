@@ -1040,10 +1040,10 @@ func void DIA_Andre_JOIN_Info()
 		};
 		if(Player_IsApprentice == APP_Bosper)
 		{
-			AI_Output(other,self,"DIA_Andre_JOIN_15_09");	//Bosper the bowyer has taken me on as his apprentice.
+			AI_Output(other,self,"DIA_Andre_JOIN_15_09");	//Bosper the bowmaker has taken me on as his apprentice.
 			AI_Output(self,other,"DIA_Andre_JOIN_08_10");	//Then you also know something about living in the wild? That is good, because the militia has assignments not just within the city walls.
 			AI_Output(self,other,"DIA_Andre_JOIN_08_11");	//We can certainly use people who know their way around in the wilderness.
-			AI_Output(self,other,"DIA_Andre_JOIN_08_12");	//And the bowyer is an important man in the city.
+			AI_Output(self,other,"DIA_Andre_JOIN_08_12");	//And the bowmaker is an important man in the city.
 		};
 		AI_Output(self,other,"DIA_Andre_JOIN_08_13");	//If he vouches for you, there is nothing standing in the way of your acceptance into the militia.
 		if(MIS_Andre_GuildOfThieves == LOG_SUCCESS)

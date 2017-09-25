@@ -75,7 +75,7 @@ func int DIA_Addon_Greg_ImNew_Condition()
 func void DIA_Addon_Greg_ImNew_Info()
 {
 	AI_Output(self,other,"DIA_Addon_Greg_Hello_01_00");	//(threatening) Hey, you. What are you doing in my hut?
-	AI_Output(other,self,"DIA_Addon_Greg_Hello_15_01");	//I ...
+	AI_Output(other,self,"DIA_Addon_Greg_Hello_15_01");	//I...
 	AI_Output(self,other,"DIA_Addon_Greg_Hello_01_02");	//(furious) I've just been gone for a couple of days, and everyone thinks they can do what they damn well please.
 	AI_Output(self,other,"DIA_Addon_Greg_ImNew_01_03");	//What the hell is going on here?
 	AI_Output(self,other,"DIA_Addon_Greg_ImNew_01_04");	//The palisade still isn't finished? The canyon is overrun with beasts, and everybody is just hanging around, enjoying themselves.
@@ -228,7 +228,7 @@ instance DIA_Addon_Greg_AboutCanyon(C_Info)
 	condition = DIA_Addon_Greg_AboutCanyon_Condition;
 	information = DIA_Addon_Greg_AboutCanyon_Info;
 	permanent = TRUE;
-	description = "About that canyon ...";
+	description = "About that canyon...";
 };
 
 
@@ -242,7 +242,7 @@ func int DIA_Addon_Greg_AboutCanyon_Condition()
 
 func void DIA_Addon_Greg_AboutCanyon_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Greg_AboutCanyon_15_00");	//About that canyon ...
+	AI_Output(other,self,"DIA_Addon_Greg_AboutCanyon_15_00");	//About that canyon...
 	AI_Output(self,other,"DIA_Addon_Greg_AboutCanyon_01_01");	//Yeah, what about it?
 	Info_ClearChoices(DIA_Addon_Greg_AboutCanyon);
 	if(C_AllCanyonRazorDead() == FALSE)
@@ -619,7 +619,7 @@ func int DIA_Addon_Greg_RavenDead_Condition()
 func void DIA_Addon_Greg_RavenDead_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Greg_RavenDead_15_00");	//So much for Raven.
-	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_01");	//Well, I'll be ... That's unexpected. Caught him with his pants down, did you?
+	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_01");	//Well, I'll be...That's unexpected. Caught him with his pants down, did you?
 	AI_Output(self,other,"DIA_Addon_Greg_RavenDead_01_02");	//That's certainly worth 500 gold pieces to me.
 	CreateInvItems(self,ItMi_Gold,500);
 	B_GiveInvItems(self,other,ItMi_Gold,500);

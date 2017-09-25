@@ -52,7 +52,7 @@ func void DIA_Sld_820_Halt_Info()
 	AI_Output(other,self,"DIA_Sld_820_Halt_15_04");	//I want to talk to Lee!
 	AI_Output(self,other,"DIA_Sld_820_Halt_07_05");	//What do you want from him?
 	Info_ClearChoices(DIA_Sld_820_Halt);
-	Info_AddChoice(DIA_Sld_820_Halt,"He and I go way back ...",DIA_Sld_820_Halt_KenneLee);
+	Info_AddChoice(DIA_Sld_820_Halt,"He and I go way back...",DIA_Sld_820_Halt_KenneLee);
 	if(other.guild == GIL_NONE)
 	{
 		Info_AddChoice(DIA_Sld_820_Halt,"I want to join the mercenaries!",DIA_Sld_820_Halt_WannaJoin);
@@ -75,8 +75,8 @@ func void DIA_Sld_820_Halt_WannaJoin()
 
 func void DIA_Sld_820_Halt_KenneLee()
 {
-	AI_Output(other,self,"DIA_Sld_820_Halt_KenneLee_15_00");	//He and I go way back ...
-	AI_Output(self,other,"DIA_Sld_820_Halt_KenneLee_07_01");	//YOU'RE a pal of Lee's? I don't believe a word! But go on in, if he doesn't recognize you, you'll know it ... (laughs)
+	AI_Output(other,self,"DIA_Sld_820_Halt_KenneLee_15_00");	//He and I go way back...
+	AI_Output(self,other,"DIA_Sld_820_Halt_KenneLee_07_01");	//YOU'RE a pal of Lee's? I don't believe a word! But go on in, if he doesn't recognize you, you'll know it...(laughs)
 	B_Sld_820_LeeIsRight();
 	AI_StopProcessInfos(self);
 };

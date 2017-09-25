@@ -92,7 +92,7 @@ func void DIA_JAN_Dragons_HelpYou()
 	AI_Output(self,other,"DIA_JAN_Dragons_HelpYou_10_04");	//I can't imagine that he would listen to you.
 	Log_CreateTopic(TOPIC_JanBecomesSmith,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_JanBecomesSmith,LOG_Running);
-	B_LogEntry(TOPIC_JanBecomesSmith,"Jan, the Dragon Hunter in the castle in the Valley of Mines, wants to work at the smithy. But Parcival forbids it.");
+	B_LogEntry(TOPIC_JanBecomesSmith,"Jan, the Dragon hunter in the castle in the Valley of Mines, wants to work at the smithy. But Parcival forbids it.");
 	MIS_JanBecomesSmith = LOG_Running;
 	Info_ClearChoices(DIA_JAN_Dragons);
 };
@@ -194,11 +194,11 @@ func void DIA_Jan_Parcival_Info()
 	AI_Output(self,other,"DIA_Jan_Parcival_10_01");	//So?
 	if(hero.guild == GIL_DJG)
 	{
-		AI_Output(other,self,"DIA_Jan_Parcival_15_02");	//He doesn't trust us dragon hunters.
+		AI_Output(other,self,"DIA_Jan_Parcival_15_02");	//He doesn't trust us Dragon hunters.
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Jan_Parcival_15_03");	//He doesn't trust you dragon hunters.
+		AI_Output(other,self,"DIA_Jan_Parcival_15_03");	//He doesn't trust you Dragon hunters.
 	};
 	AI_Output(self,other,"DIA_Jan_Parcival_10_04");	//Damn. I just want to work.
 	AI_Output(self,other,"DIA_Jan_Parcival_10_05");	//Then I might as well give up. Only Garond could help me now.
@@ -455,7 +455,7 @@ instance DIA_Jan_DJG_ARMOR_M(C_Info)
 	condition = DIA_Jan_DJG_ARMOR_M_Condition;
 	information = DIA_Jan_DJG_ARMOR_M_Info;
 	permanent = TRUE;
-	description = "Buy medium dragon hunter armor. Protection: B.+70/B.+90/P.+85/Df.+70/M.+15 (7000 gold).";
+	description = "Buy medium Dragon hunter's armor. Protection: B.+70/B.+90/P.+85/Df.+70/M.+15 (7000 gold).";
 };
 
 
@@ -521,7 +521,7 @@ func void DIA_Jan_DragonPlettBericht_Info()
 	};
 	if(hero.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Jan_DragonPlettBericht_10_03");	//So what? You are a dragon hunter, aren't you?
+		AI_Output(self,other,"DIA_Jan_DragonPlettBericht_10_03");	//So what? You are a Dragon hunter, aren't you?
 		AI_Output(other,self,"DIA_Jan_DragonPlettBericht_15_04");	//Aren't you one, too?
 	}
 	else

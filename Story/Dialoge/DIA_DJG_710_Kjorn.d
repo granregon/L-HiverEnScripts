@@ -197,7 +197,7 @@ func void DIA_Kjorn_BuyInfos_Dragon2()
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_01");	//But all dragons are not alike.
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_02");	//Some of them could cover the entire land with a layer of ice several feet thick.
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_03");	//Others prefer living in swampy surroundings, or in volcanoes.
-	B_LogEntry(TOPIC_DRACHENJAGD,"Kjorn the Dragon Hunter thinks there are different kinds of dragons. Some supposedly prefer cold, damp places, others seem to like fire better.");
+	B_LogEntry(TOPIC_DRACHENJAGD,"Kjorn the Dragon hunter thinks there are different kinds of dragons. Some supposedly prefer cold, damp places, others seem to like fire better.");
 	KjornToldDragon = 2;
 	Info_ClearChoices(DIA_Kjorn_BuyInfos);
 };

@@ -58,7 +58,7 @@ instance DIA_Udar_YouAreBest(C_Info)
 	condition = DIA_Udar_YouAreBest_Condition;
 	information = DIA_Udar_YouAreBest_Info;
 	permanent = FALSE;
-	description = "I heard that you are the BEST crossbowman ...";
+	description = "I heard that you are the BEST crossbowman...";
 };
 
 
@@ -239,7 +239,7 @@ instance DIA_Udar_Ring(C_Info)
 	condition = DIA_Udar_Ring_Condition;
 	information = DIA_Udar_Ring_Info;
 	permanent = FALSE;
-	description = "Here, I bring you Tengron's ring ...";
+	description = "Here, I bring you Tengron's ring...";
 };
 
 
@@ -255,7 +255,7 @@ func void DIA_Udar_Ring_Info()
 {
 	AI_Output(other,self,"DIA_Udar_Ring_15_00");	//Here, I bring you Tengron's ring. It's supposed to protect you. Tengron sys he'll come and get it once he's back.
 	AI_Output(self,other,"DIA_Udar_Ring_09_01");	//What? Do you know what ring that is? He got that ring as an award for his courage in battle.
-	AI_Output(self,other,"DIA_Udar_Ring_09_02");	//You say he wants to get it back? If it's the will of Innos, he is going to. If it's the will of Innos ...
+	AI_Output(self,other,"DIA_Udar_Ring_09_02");	//You say he wants to get it back? If it's the will of Innos, he is going to. If it's the will of Innos...
 	B_GiveInvItems(other,self,ItRi_Tengron,1);
 	TengronRing = TRUE;
 	B_GivePlayerXP(XP_TengronRing);
@@ -311,7 +311,7 @@ func void DIA_Udar_Kap4WiederDa_Info()
 	if(hero.guild != GIL_DJG)
 	{
 		AI_Output(other,self,"DIA_Udar_Kap4WiederDa_15_01");	//What happened?
-		AI_Output(self,other,"DIA_Udar_Kap4WiederDa_09_02");	//The dragon hunters are strutting around here in the castle and bragging that they can solve the dragon problem.
+		AI_Output(self,other,"DIA_Udar_Kap4WiederDa_09_02");	//The Dragon hunters are strutting around here in the castle and bragging that they can solve the dragon problem.
 		AI_Output(self,other,"DIA_Udar_Kap4WiederDa_09_03");	//But I'll tell you what, the way they look, they won't even kill a sick, old snapper.
 	};
 	AI_Output(self,other,"DIA_Udar_Kap4WiederDa_09_04");	//A lot of us are getting really worried by now and no longer truly believe that we'll ever make it out of here alive.

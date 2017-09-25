@@ -99,7 +99,7 @@ func int DIA_Cornelius_Enough_Condition()
 func void DIA_Cornelius_Enough_Info()
 {
 	AI_Output(other,self,"DIA_Cornelius_Enough_15_00");	//Enough of that! What did you see?
-	AI_Output(self,other,"DIA_Cornelius_Enough_13_01");	//(nervously) I... I saw how the mercenary struck down the paladin from behind.
+	AI_Output(self,other,"DIA_Cornelius_Enough_13_01");	//(nervously) I...I saw how the mercenary struck down the paladin from behind.
 	AI_Output(self,other,"DIA_Cornelius_Enough_13_02");	//(nervously) And then he took his sword and rammed it through his chest.
 	AI_Output(other,self,"DIA_Cornelius_Enough_15_03");	//Are you completely sure?
 	AI_Output(self,other,"DIA_Cornelius_Enough_13_04");	//(scared) Yes, of course. I saw it with my own eyes.

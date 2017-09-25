@@ -26,7 +26,7 @@ instance DIA_GornDJG_STARTCAMP(C_Info)
 	npc = PC_Fighter_DJG;
 	condition = DIA_GornDJG_STARTCAMP_Condition;
 	information = DIA_GornDJG_STARTCAMP_Info;
-	description = "I see you have joined the dragon hunters.";
+	description = "I see you have joined the Dragon hunters.";
 };
 
 
@@ -40,7 +40,7 @@ func int DIA_GornDJG_STARTCAMP_Condition()
 
 func void DIA_GornDJG_STARTCAMP_Info()
 {
-	AI_Output(other,self,"DIA_GornDJG_STARTCAMP_15_00");	//I see you have joined the dragon hunters.
+	AI_Output(other,self,"DIA_GornDJG_STARTCAMP_15_00");	//I see you have joined the Dragon hunters.
 	AI_Output(self,other,"DIA_GornDJG_STARTCAMP_12_01");	//I followed Sylvio into the Valley of Mines, because I know my way around here best and wanted to get a clear picture of the situation.
 	AI_Output(self,other,"DIA_GornDJG_STARTCAMP_12_02");	//I'll tell you what. Something's definitely brewing here. I've never seen so many orcs in one place in all my life.
 	AI_Output(self,other,"DIA_GornDJG_STARTCAMP_12_03");	//It wouldn't amaze me if Garond and the paladins in the castle had all fled or been slain by now.
@@ -205,7 +205,7 @@ func void DIA_GornDJG_HELPKILLDRACONIANS_Info()
 	AI_Output(other,self,"DIA_GornDJG_HELPKILLDRACONIANS_15_00");	//Can you help me get into the fortress?
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_01");	//I don't really know. I'm afraid the orcs will attack just at the very moment I look away.
 	AI_Output(other,self,"DIA_GornDJG_HELPKILLDRACONIANS_15_02");	//That's paranoid!
-	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_03");	//Can't be helped. I'd never forgive myself if I came too late, you see? On the other hand ...
+	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_03");	//Can't be helped. I'd never forgive myself if I came too late, you see? On the other hand...
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_04");	//Whatever! Why else am I here? Let's charge the plain and fight our way clear to the fortress.
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_05");	//A little exercise can't hurt. Besides, I want to get a closer look at those beasts up there.
 	AI_Output(self,other,"DIA_GornDJG_HELPKILLDRACONIANS_12_06");	//Let me know when you're ready!

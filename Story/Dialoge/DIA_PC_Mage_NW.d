@@ -87,7 +87,7 @@ func void DIA_MiltenNW_KAP3_Hello_Info()
 	{
 		AI_Output(self,other,"DIA_MiltenNW_KAP3_Hello_03_10");	//I can see that the rumors are true.
 		AI_Output(other,self,"DIA_MiltenNW_KAP3_Hello_15_11");	//What rumors?
-		AI_Output(self,other,"DIA_MiltenNW_KAP3_Hello_03_12");	//That you joined up with those dragon hunters.
+		AI_Output(self,other,"DIA_MiltenNW_KAP3_Hello_03_12");	//That you joined up with those Dragon hunters.
 		AI_Output(self,other,"DIA_MiltenNW_KAP3_Hello_03_13");	//Well, you never were a man of the church. Nevertheless, you're fighting for our cause, and that's what counts.
 		AI_Output(other,self,"DIA_MiltenNW_KAP3_Hello_15_14");	//Is that all?
 		AI_Output(self,other,"DIA_MiltenNW_KAP3_Hello_03_15");	//I'm glad, of course, and the way you look, every orc is bound to be afraid of you.

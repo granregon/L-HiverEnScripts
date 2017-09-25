@@ -139,17 +139,17 @@ func void DIA_Lares_HALLO_Info()
 	};
 	Info_ClearChoices(DIA_Lares_HALLO);
 	Info_AddChoice(DIA_Lares_HALLO,"Have we met before?",DIA_Lares_HALLO_NO);
-	Info_AddChoice(DIA_Lares_HALLO,"Hey, Lares, you old scoundrel ...",DIA_Lares_HALLO_YES);
+	Info_AddChoice(DIA_Lares_HALLO,"Hey, Lares, you old scoundrel...",DIA_Lares_HALLO_YES);
 };
 
 func void DIA_Lares_HALLO_NO()
 {
 	AI_Output(other,self,"DIA_Lares_HALLO_NO_15_00");	//Have we met before?
 	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_01");	//Man, don't you remember me? I used to hang around in the New Camp.
-	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_02");	//The list for the mine... Man, we had a lot of fun. Do you remember Lee?
+	AI_Output(self,other,"DIA_Lares_HALLO_NO_09_02");	//The list for the mine...Man, we had a lot of fun. Do you remember Lee?
 	Info_ClearChoices(DIA_Lares_HALLO);
 	Info_AddChoice(DIA_Lares_HALLO,"Of course I remember Lee!",DIA_Lares_HALLO_LEE);
-	Info_AddChoice(DIA_Lares_HALLO,"Lee ...?",DIA_Lares_HALLO_NOIDEA);
+	Info_AddChoice(DIA_Lares_HALLO,"Lee...?",DIA_Lares_HALLO_NOIDEA);
 };
 
 func void DIA_Lares_HALLO_YES()
@@ -160,7 +160,7 @@ func void DIA_Lares_HALLO_YES()
 	AI_Output(self,other,"DIA_Lares_HALLO_YES_09_02");	//You remember Lee, don't you?
 	Info_ClearChoices(DIA_Lares_HALLO);
 	Info_AddChoice(DIA_Lares_HALLO,"Of course I remember Lee!",DIA_Lares_HALLO_LEE);
-	Info_AddChoice(DIA_Lares_HALLO,"Lee ...?",DIA_Lares_HALLO_NOIDEA);
+	Info_AddChoice(DIA_Lares_HALLO,"Lee...?",DIA_Lares_HALLO_NOIDEA);
 };
 
 func void B_Lares_AboutLee()
@@ -180,7 +180,7 @@ func void DIA_Lares_HALLO_LEE()
 
 func void DIA_Lares_HALLO_NOIDEA()
 {
-	AI_Output(other,self,"DIA_Lares_HALLO_NOIDEA_15_00");	//Lee ...?
+	AI_Output(other,self,"DIA_Lares_HALLO_NOIDEA_15_00");	//Lee...?
 	AI_Output(self,other,"DIA_Lares_HALLO_NOIDEA_09_01");	//You've been through a lot, huh? Lee was the leader of the mercenaries in the New Camp.
 	B_Lares_AboutLee();
 	Info_ClearChoices(DIA_Lares_HALLO);
@@ -292,7 +292,7 @@ instance DIA_Addon_Lares_WannaBeRanger(C_Info)
 	nr = 2;
 	condition = DIA_Addon_Lares_WannaBeRanger_Condition;
 	information = DIA_Addon_Lares_WannaBeRanger_Info;
-	description = "I want to join the 'Ring of Water' ...";
+	description = "I want to join the 'Ring of Water'...";
 };
 
 
@@ -306,7 +306,7 @@ func int DIA_Addon_Lares_WannaBeRanger_Condition()
 
 func void DIA_Addon_Lares_WannaBeRanger_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Lares_WannaBeRanger_15_00");	//I want to join the 'Ring of Water' ...
+	AI_Output(other,self,"DIA_Addon_Lares_WannaBeRanger_15_00");	//I want to join the 'Ring of Water'...
 	AI_Output(self,other,"DIA_Addon_Lares_WannaBeRanger_09_01");	//That's fine with me. But the decision about whether you will be accepted or not lies with the Water Mages alone.
 	B_LogEntry(TOPIC_Addon_RingOfWater,LogText_Addon_KDWRight);
 	Info_ClearChoices(DIA_Addon_Lares_WannaBeRanger);
@@ -652,7 +652,7 @@ func void DIA_Addon_Lares_YourMission_Info()
 	if(!Npc_KnowsInfo(other,DIA_Addon_Lares_WhatAreYouGuys))
 	{
 		AI_Output(self,other,"DIA_Addon_Lares_YourMission_09_01");	//I can't talk about that.
-		AI_Output(self,other,"DIA_Addon_Lares_YourMission_09_02");	//Vatras would have my head ...
+		AI_Output(self,other,"DIA_Addon_Lares_YourMission_09_02");	//Vatras would have my head...
 	}
 	else
 	{
@@ -709,7 +709,7 @@ func void DIA_Addon_Lares_BaltramAbloese_Info()
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Lares_BaltramAbloese_09_04");	//(smiles) Who knows, you might want to join us ...
+			AI_Output(self,other,"DIA_Addon_Lares_BaltramAbloese_09_04");	//(smiles) Who knows, you might want to join us...
 		};
 	};
 	MIS_Lares_BringRangerToMe = LOG_SUCCESS;
@@ -740,7 +740,7 @@ func int DIA_Addon_Lares_PeopleMissing_Condition()
 
 func void DIA_Addon_Lares_PeopleMissing_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_15_00");	//About those missing people ...
+	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_15_00");	//About those missing people...
 	Info_ClearChoices(DIA_Addon_Lares_PeopleMissing);
 	Info_AddChoice(DIA_Addon_Lares_PeopleMissing,Dialog_Back,DIA_Addon_Lares_PeopleMissing_BACK);
 	if(MissingPeopleReturnedHome == TRUE)
@@ -796,8 +796,8 @@ func void DIA_Addon_Lares_PeopleMissing_Success()
 	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_02");	//The former ore baron Raven had them kidnapped.
 	AI_Output(self,other,"DIA_Addon_Lares_PeopleMissing_Success_09_03");	//Are you sure? Then we need to get them out of there.
 	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_04");	//I'm working on it.
-	AI_Output(self,other,"DIA_Addon_Lares_PeopleMissing_Success_09_05");	//All right. But you know, whenever you need my help ...
-	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_06");	//... then I'll know where to find you. Understood.
+	AI_Output(self,other,"DIA_Addon_Lares_PeopleMissing_Success_09_05");	//All right. But you know, whenever you need my help...
+	AI_Output(other,self,"DIA_Addon_Lares_PeopleMissing_Success_15_06");	//...then I'll know where to find you. Understood.
 	Lares_CanBringScToPlaces = TRUE;
 	Info_ClearChoices(DIA_Addon_Lares_PeopleMissing);
 };
@@ -864,11 +864,11 @@ func void DIA_Addon_Lares_RangerHelp_ruestung()
 {
 	AI_Output(other,self,"DIA_Addon_Lares_RangerHelp_ruestung_15_00");	//What about some better armor?
 	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_01");	//Mmh. Matteo sells armor. But he'll probably charge you an arm and a leg for it.
-	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_02");	//There is a way you could get it cheaper, though, if you don't mind pulling a fast one on the militia ...
+	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_02");	//There is a way you could get it cheaper, though, if you don't mind pulling a fast one on the militia...
 	AI_Output(other,self,"DIA_Addon_Lares_RangerHelp_ruestung_15_03");	//What do you mean?
 	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_04");	//There's a storage area next to Matteo's house. But all the merchandise has been confiscated by the militia.
 	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_05");	//Go to Zuris at the marketplace and get yourself a sleeping spell. Then you send the guards off to dreamland.
-	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_06");	//I'm sure you'll find some decent armor among Matteo's stock ...
+	AI_Output(self,other,"DIA_Addon_Lares_RangerHelp_ruestung_09_06");	//I'm sure you'll find some decent armor among Matteo's stock...
 	DIA_Addon_Lares_RangerHelp_gilde_OneTime_ruestung = TRUE;
 };
 
@@ -896,8 +896,8 @@ func void DIA_Addon_Lares_RangerHelp_nix()
 
 func void DIA_Addon_Lares_RangerHelp_Moe()
 {
-	AI_Output(other,self,"DIA_Addon_Lares_Moe_15_00");	//That guy is pestering me ...
-	AI_Output(self,other,"DIA_Addon_Lares_Moe_09_01");	//Not for long ...
+	AI_Output(other,self,"DIA_Addon_Lares_Moe_15_00");	//That guy is pestering me...
+	AI_Output(self,other,"DIA_Addon_Lares_Moe_09_01");	//Not for long...
 	Info_ClearChoices(DIA_Addon_Lares_RangerHelp);
 	AI_StopProcessInfos(self);
 	other.aivar[AIV_INVINCIBLE] = FALSE;
@@ -933,7 +933,7 @@ func void DIA_Lares_Paladine_Info()
 	if(!Npc_KnowsInfo(other,DIA_Addon_Lares_Vatras))
 	{
 		AI_Output(other,self,"DIA_Lares_Paladine_15_04");	//I'll find a way somehow.
-		AI_Output(self,other,"DIA_Lares_Paladine_09_05");	//Sure, if you want to ingratiate yourself with the citizens or play errand boy for the militia ...
+		AI_Output(self,other,"DIA_Lares_Paladine_09_05");	//Sure, if you want to ingratiate yourself with the citizens or play errand boy for the militia...
 	};
 };
 
@@ -963,7 +963,7 @@ func int DIA_Lares_WhyPalHere_Condition()
 func void DIA_Lares_WhyPalHere_Info()
 {
 	AI_Output(other,self,"DIA_Lares_WhyPalHere_15_00");	//Do you know why the paladins are here?
-	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_01");	//Nobody knows for sure ... Lots of people think it's because of the orcs, but I think there's another reason.
+	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_01");	//Nobody knows for sure...Lots of people think it's because of the orcs, but I think there's another reason.
 	AI_Output(self,other,"DIA_Lares_WhyPalHere_09_02");	//It probably has something to do with the old penal colony.
 };
 
@@ -1005,7 +1005,7 @@ func void DIA_Addon_Lares_Gilde_Info()
 
 func void DIA_Addon_Lares_Gilde_BACK()
 {
-	AI_Output(other,self,"DIA_Addon_Lares_Gilde_BACK_15_00");	//I'll have to think about it ...
+	AI_Output(other,self,"DIA_Addon_Lares_Gilde_BACK_15_00");	//I'll have to think about it...
 	Info_ClearChoices(DIA_Addon_Lares_Gilde);
 };
 
@@ -1077,7 +1077,7 @@ func int DIA_Lares_AboutSld_Condition()
 
 func void DIA_Lares_AboutSld_Info()
 {
-	AI_Output(other,self,"DIA_ADDON_Lares_AboutSld_15_00");	//Tell me more about Lee and his mercenaries ...
+	AI_Output(other,self,"DIA_ADDON_Lares_AboutSld_15_00");	//Tell me more about Lee and his mercenaries...
 	AI_Output(self,other,"DIA_ADDON_Lares_AboutSld_09_01");	//What do you want to know?
 	Info_ClearChoices(DIA_Lares_AboutSld);
 	Info_AddChoice(DIA_Lares_AboutSld,Dialog_Back,DIA_Lares_AboutSld_BACK);
@@ -1114,7 +1114,7 @@ func void DIA_Lares_AboutSld_Schiff()
 	AI_Output(self,other,"DIA_Lares_Schiff_09_01");	//It's on the open sea harbor, behind the cliffs. Lee and a few of his people really want to get away from here.
 	AI_Output(self,other,"DIA_Lares_Schiff_09_02");	//But that could take a while...
 	AI_Output(other,self,"DIA_Lares_Schiff_15_03");	//Why?
-	AI_Output(self,other,"DIA_Lares_Schiff_09_04");	//You'd better ask Lee about that, if you meet him ... He's got plans.
+	AI_Output(self,other,"DIA_Lares_Schiff_09_04");	//You'd better ask Lee about that, if you meet him...He's got plans.
 };
 
 func void DIA_Lares_AboutSld_WayToOnar()
@@ -1148,7 +1148,7 @@ func int DIA_Lares_GuildOfThieves_Condition()
 func void DIA_Lares_GuildOfThieves_Info()
 {
 	AI_Output(other,self,"DIA_Lares_GuildOfThieves_15_00");	//Do you know anything about a thieves' guild in town?
-	AI_Output(self,other,"DIA_Lares_GuildOfThieves_09_01");	//The questions you ask ...
+	AI_Output(self,other,"DIA_Lares_GuildOfThieves_09_01");	//The questions you ask...
 	AI_Output(self,other,"DIA_Lares_GuildOfThieves_09_02");	//Of course, there's a thieves' guild here. Just like in every big city.
 	AI_Output(self,other,"DIA_Lares_GuildOfThieves_09_03");	//And every petty pickpocket or fence is probably connected to it somehow.
 };
@@ -1189,7 +1189,7 @@ instance DIA_Lares_GotKey(C_Info)
 	condition = DIA_Lares_GotKey_Condition;
 	information = DIA_Lares_GotKey_Info;
 	permanent = FALSE;
-	description = "I've got this key here. It's been corroded by sea salt ...";
+	description = "I've got this key here. It's been corroded by sea salt...";
 };
 
 
@@ -1203,9 +1203,9 @@ func int DIA_Lares_GotKey_Condition()
 
 func void DIA_Lares_GotKey_Info()
 {
-	AI_Output(other,self,"DIA_Lares_GotKey_15_00");	//I've got this key here. It's been corroded by sea salt ...
+	AI_Output(other,self,"DIA_Lares_GotKey_15_00");	//I've got this key here. It's been corroded by sea salt...
 	AI_Output(self,other,"DIA_Lares_GotKey_09_01");	//So?
-	AI_Output(other,self,"DIA_Lares_GotKey_15_02");	//I think it will lead me to the hideout of the thieves' guild ...
+	AI_Output(other,self,"DIA_Lares_GotKey_15_02");	//I think it will lead me to the hideout of the thieves' guild...
 	AI_Output(self,other,"DIA_Lares_GotKey_09_03");	//Well, it could be the key to the sewers.
 };
 
@@ -1232,7 +1232,7 @@ func int DIA_Lares_Kanalisation_Condition()
 func void DIA_Lares_Kanalisation_Info()
 {
 	AI_Output(other,self,"DIA_Lares_Kanalisation_15_00");	//Where can I find the sewers?
-	AI_Output(self,other,"DIA_Lares_Kanalisation_09_01");	//What do I know... they usually empty into the ocean.
+	AI_Output(self,other,"DIA_Lares_Kanalisation_09_01");	//What do I know...they usually empty into the ocean.
 };
 
 
@@ -1272,7 +1272,7 @@ func void DIA_Lares_OtherGuild_Info()
 		if(Lares_WorkForLee == TRUE)
 		{
 			AI_Output(self,other,"DIA_Lares_OtherGuild_09_04");	//(concerned) You won't blow the whistle on me about working for Lee, will you?
-			AI_Output(other,self,"DIA_Lares_OtherGuild_15_05");	//But you know me ...
+			AI_Output(other,self,"DIA_Lares_OtherGuild_15_05");	//But you know me...
 		};
 	};
 	if((other.guild == GIL_KDF) || (other.guild == GIL_NOV))

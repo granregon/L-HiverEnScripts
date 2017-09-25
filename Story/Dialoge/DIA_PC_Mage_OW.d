@@ -124,7 +124,7 @@ func void DIA_MiltenOW_Bericht_Info()
 	AI_Output(other,self,"DIA_MiltenOW_Bericht_15_00");	//So what is there to report?
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_01");	//The paladins came here with the intention of getting the magic ore.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_02");	//But with the dragon attacks and the orcs - I can't imagine the paladins will march out of here with the ore.
-	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_03");	//No, by Innos - I feel the presence of something dark ... something evil, growing here. Something that emanates from this valley.
+	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_03");	//No, by Innos - I feel the presence of something dark...something evil, growing here. Something that emanates from this valley.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_04");	//We paid a high price for the annihilation of the Sleeper. The destruction of the Barrier has ruined this place as well.
 	AI_Output(self,other,"DIA_MiltenOW_Bericht_03_05");	//We can all count ourselves lucky if we survive this.
 };
@@ -152,7 +152,7 @@ func int DIA_MiltenOW_Erz_Condition()
 func void DIA_MiltenOW_Erz_Info()
 {
 	AI_Output(other,self,"DIA_MiltenOW_Erz_15_00");	//How much ore have you stored away so far?
-	AI_Output(self,other,"DIA_MiltenOW_Erz_03_01");	//How much ore ... ? Not one chest! We haven't had contact with the scrapers for some time.
+	AI_Output(self,other,"DIA_MiltenOW_Erz_03_01");	//How much ore...? Not one chest! We haven't had contact with the scrapers for some time.
 	AI_Output(self,other,"DIA_MiltenOW_Erz_03_02");	//It wouldn't amaze me if they were all long dead. And we are being attacked by dragons and besieged by orcs!
 	AI_Output(self,other,"DIA_MiltenOW_Erz_03_03");	//This expedition is a complete disaster.
 };
@@ -211,7 +211,7 @@ func void DIA_MiltenOW_Gorn_Info()
 	AI_Output(other,self,"DIA_MiltenOW_Gorn_15_00");	//Let's go and free Gorn!
 	AI_Output(self,other,"DIA_MiltenOW_Gorn_03_01");	//Well, the problem in this matter is that Gorn is a convicted prisoner.
 	AI_Output(self,other,"DIA_MiltenOW_Gorn_03_02");	//But if we're lucky, Garond will agree on a deal, and we can buy his freedom.
-	AI_Output(other,self,"DIA_MiltenOW_Gorn_15_03");	//Yes, maybe ...
+	AI_Output(other,self,"DIA_MiltenOW_Gorn_15_03");	//Yes, maybe...
 	AI_Output(self,other,"DIA_MiltenOW_Gorn_03_04");	//Keep me in the picture.
 	Log_CreateTopic(TOPIC_RescueGorn,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_RescueGorn,LOG_Running);
@@ -269,7 +269,7 @@ func int DIA_MiltenOW_Mehr_Condition()
 func void DIA_MiltenOW_Mehr_Info()
 {
 	AI_Output(other,self,"DIA_MiltenOW_Mehr_15_00");	//I need more gold to buy Gorn's freedom.
-	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_01");	//Getting more gold ... hm. Diego knows a lot about that - but he isn't here.
+	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_01");	//Getting more gold...hm. Diego knows a lot about that - but he isn't here.
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_02");	//Maybe Gorn has some gold hidden somewhere himself - we should find out.
 	AI_Output(self,other,"DIA_MiltenOW_Mehr_03_03");	//I'll write him a note - here, try to smuggle it into the dungeon.
 	B_GiveInvItems(self,other,ItWr_LetterForGorn_MIS,1);
@@ -312,7 +312,7 @@ instance DIA_MiltenOW_Versteck(C_Info)
 	information = DIA_MiltenOW_Versteck_Info;
 	permanent = FALSE;
 	important = FALSE;
-	description = "I got an answer from Gorn ...";
+	description = "I got an answer from Gorn...";
 };
 
 
@@ -411,12 +411,12 @@ func void DIA_MiltenOW_TeachCircle2_Info()
 {
 	AI_Output(other,self,"DIA_Milten_Add_15_00");	//Teach me the second Circle of Magic!
 	AI_Output(self,other,"DIA_Milten_Add_03_01");	//This is normally the privilege of the teachers of our order.
-	AI_Output(self,other,"DIA_Milten_Add_03_02");	//But I think that, in this case, we can make an exception ...
+	AI_Output(self,other,"DIA_Milten_Add_03_02");	//But I think that, in this case, we can make an exception...
 	if(B_TeachMagicCircle(self,other,2))
 	{
-		AI_Output(self,other,"DIA_Milten_Add_03_03");	//I don't know if I quite remember the official words ...
-		AI_Output(self,other,"DIA_Milten_Add_03_04");	//Enter now the second Circle. Er ... It will show you the way - but your deeds form the path - or something along those lines ...
-		AI_Output(self,other,"DIA_Milten_Add_03_05");	//I think you understand what this is about ...
+		AI_Output(self,other,"DIA_Milten_Add_03_03");	//I don't know if I quite remember the official words...
+		AI_Output(self,other,"DIA_Milten_Add_03_04");	//Enter now the second Circle. Er...It will show you the way - but your deeds form the path - or something along those lines...
+		AI_Output(self,other,"DIA_Milten_Add_03_05");	//I think you understand what this is about...
 	};
 };
 

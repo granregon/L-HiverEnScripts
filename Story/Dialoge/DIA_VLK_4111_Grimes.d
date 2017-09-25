@@ -136,7 +136,7 @@ func void DIA_Grimes_Grimes_Info()
 	AI_Output(other,self,"DIA_Grimes_Grimes_15_00");	//Don't you want to leave the valley?
 	AI_Output(self,other,"DIA_Grimes_Grimes_05_01");	//No, I'll keep on mining ore.
 	AI_Output(self,other,"DIA_Grimes_Grimes_05_02");	//I'm not going to let a few orcs stop me - I've been through a lot more than that.
-	AI_Output(self,other,"DIA_Grimes_Grimes_05_03");	//Back then when we were digging in the old mine, and suddenly the water broke in ...
+	AI_Output(self,other,"DIA_Grimes_Grimes_05_03");	//Back then when we were digging in the old mine, and suddenly the water broke in...
 	AI_Output(self,other,"DIA_Grimes_Grimes_05_04");	//But those are old stories.
 };
 

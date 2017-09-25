@@ -122,7 +122,7 @@ func void DIA_Addon_Erol_what_dein()
 	AI_Output(self,other,"DIA_Addon_Erol_what_dein_10_01");	//The cart, the goods, everything.
 	if(Npc_HasItems(other,itmi_erolskelch) > 0)
 	{
-		AI_Output(other,self,"DIA_Addon_Erol_what_dein_Add_15_00");	//Look, I collected some of your stuff for you ...
+		AI_Output(other,self,"DIA_Addon_Erol_what_dein_Add_15_00");	//Look, I collected some of your stuff for you...
 		AI_Output(self,other,"DIA_Addon_Erol_what_dein_Add_10_01");	//You can keep it. None of it is really of any value to me.
 	}
 	else
@@ -173,7 +173,7 @@ func void DIA_Addon_Erol_what_wer()
 	AI_Output(self,other,"DIA_Addon_Erol_what_wer_10_03");	//I knew they were lurking up there, so I passed under the bridge instead.
 	AI_Output(self,other,"DIA_Addon_Erol_what_wer_10_04");	//But my cart and my goods must have been too tempting for them.
 	AI_Output(self,other,"DIA_Addon_Erol_what_wer_10_05");	//Those scumbags simply jumped from the bridge - directly onto my cart.
-	AI_Output(self,other,"DIA_Addon_Erol_what_wer_10_06");	//I should have tried to steal past in the night ...
+	AI_Output(self,other,"DIA_Addon_Erol_what_wer_10_06");	//I should have tried to steal past in the night...
 };
 
 
@@ -228,7 +228,7 @@ instance DIA_Addon_Erol_Stoneplates(C_Info)
 	condition = DIA_Addon_Erol_Stoneplates_Condition;
 	information = DIA_Addon_Erol_Stoneplates_Info;
 	permanent = TRUE;
-	description = "About those stone tablets ...";
+	description = "About those stone tablets...";
 };
 
 
@@ -249,7 +249,7 @@ func void DIA_Addon_Erol_Stoneplates_Info()
 	var int StoneplatesCount;
 	var int XP_Addon_BringStoneplates;
 	var int StoneplatesGeld;
-	AI_Output(other,self,"DIA_Addon_Erol_Stoneplates_15_00");	//About those stone tablets ...
+	AI_Output(other,self,"DIA_Addon_Erol_Stoneplates_15_00");	//About those stone tablets...
 	if(Npc_HasItems(other,ItWr_StonePlateCommon_Addon) >= 1)
 	{
 		StoneplatesCount = Npc_HasItems(other,ItWr_StonePlateCommon_Addon);
@@ -523,7 +523,7 @@ func void DIA_Addon_Erol_Teach_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Erol_Teach_Add_10_04");	//If you want to learn more, you'll need to train hard ...
+		AI_Output(self,other,"DIA_Addon_Erol_Teach_Add_10_04");	//If you want to learn more, you'll need to train hard...
 		Info_ClearChoices(DIA_Addon_Erol_Teach);
 		Info_AddChoice(DIA_Addon_Erol_Teach,Dialog_Back,DIA_Addon_Erol_Teach_Back);
 		Info_AddChoice(DIA_Addon_Erol_Teach,B_BuildLearnString(PRINT_LearnSTR1,B_GetLearnCostAttribute(other,ATR_STRENGTH,1)),DIA_Addon_Erol_Teach_STR_1);

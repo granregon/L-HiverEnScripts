@@ -90,7 +90,7 @@ instance DIA_Rengaru_HALLODIEB(C_Info)
 	condition = DIA_Rengaru_HALLODIEB_Condition;
 	information = DIA_Rengaru_HALLODIEB_Info;
 	permanent = FALSE;
-	description = "Jora says you've got his money ...";
+	description = "Jora says you've got his money...";
 };
 
 
@@ -104,7 +104,7 @@ func int DIA_Rengaru_HALLODIEB_Condition()
 
 func void DIA_Rengaru_HALLODIEB_Info()
 {
-	AI_Output(other,self,"DIA_Rengaru_HALLODIEB_15_00");	//Jora says you've got his money ...
+	AI_Output(other,self,"DIA_Rengaru_HALLODIEB_15_00");	//Jora says you've got his money...
 	AI_Output(self,other,"DIA_Rengaru_HALLODIEB_07_01");	//Damnit! I'm outta here!
 	AI_StopProcessInfos(self);
 	Npc_ExchangeRoutine(self,"RunAway");
@@ -135,16 +135,16 @@ func void DIA_Rengaru_GOTYOU_Info()
 	B_GivePlayerXP(XP_RengaruGotThief);
 	AI_Output(self,other,"DIA_Rengaru_GOTYOU_07_01");	//What do you want from me?
 	AI_Output(other,self,"DIA_Rengaru_GOTYOU_15_02");	//You stole from Jora in broad daylight, and he even saw you do it.
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_15_03");	//So I've come to tell you that you're a lousy thief, and that ...
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_15_03");	//So I've come to tell you that you're a lousy thief, and that...
 	Info_ClearChoices(DIA_Rengaru_GOTYOU);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"... I deserve a share of the loot.",DIA_Rengaru_GOTYOU_Anteil);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"... you had better hand over Jora's gold now.",DIA_Rengaru_GOTYOU_YouThief);
-	Info_AddChoice(DIA_Rengaru_GOTYOU,"... and now you tell me who you are.",DIA_Rengaru_GOTYOU_WhoAreYou);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"...I deserve a share of the loot.",DIA_Rengaru_GOTYOU_Anteil);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"...you had better hand over Jora's gold now.",DIA_Rengaru_GOTYOU_YouThief);
+	Info_AddChoice(DIA_Rengaru_GOTYOU,"...and now you tell me who you are.",DIA_Rengaru_GOTYOU_WhoAreYou);
 };
 
 func void DIA_Rengaru_GOTYOU_YouThief()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_YouThief_15_00");	//... you had better hand over Jora's gold now.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_YouThief_15_00");	//...you had better hand over Jora's gold now.
 	if(Npc_HasItems(self,ItMi_Gold) >= 1)
 	{
 		AI_Output(self,other,"DIA_Rengaru_GOTYOU_YouThief_07_01");	//Here's the dough, man! But now let me go, I'll never do it again.
@@ -163,7 +163,7 @@ func void DIA_Rengaru_GOTYOU_YouThief()
 
 func void DIA_Rengaru_GOTYOU_Anteil()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_Anteil_15_00");	//... I deserve a share of the loot.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_Anteil_15_00");	//...I deserve a share of the loot.
 	if((self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_LOST) && (Npc_HasItems(self,ItMi_Gold) < 1))
 	{
 		AI_Output(self,other,"DIA_Rengaru_GOTYOU_Anteil_07_01");	//You already took everything I had after you knocked me to the ground! So let me go!
@@ -211,10 +211,10 @@ func void DIA_Rengaru_GOTYOU_Anteil_GehtKlar()
 
 func void DIA_Rengaru_GOTYOU_WhoAreYou()
 {
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_00");	//... and now you tell me who you are.
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_00");	//...and now you tell me who you are.
 	AI_Output(self,other,"DIA_Rengaru_GOTYOU_WhoAreYou_07_01");	//I'm nothing but a poor wretch, trying to make ends meet one way or another.
-	AI_Output(self,other,"DIA_Rengaru_GOTYOU_WhoAreYou_07_02");	//What else can I do? I can't find a job in town ...
-	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_03");	//... all right, I see. Spare me your whining.
+	AI_Output(self,other,"DIA_Rengaru_GOTYOU_WhoAreYou_07_02");	//What else can I do? I can't find a job in town...
+	AI_Output(other,self,"DIA_Rengaru_GOTYOU_WhoAreYou_15_03");	//...all right, I see. Spare me your whining.
 };
 
 
@@ -259,7 +259,7 @@ func void DIA_Rengaru_INKNAST_Knast()
 {
 	AI_Output(other,self,"DIA_Rengaru_INKNAST_Knast_15_00");	//I'll see to it that you are put behind bars.
 	AI_Output(self,other,"DIA_Rengaru_INKNAST_Knast_07_01");	//(tired) I don't want any more trouble. If you think that's what you should do, then be my guest.
-	AI_Output(self,other,"DIA_Rengaru_INKNAST_Knast_07_02");	//(warning) Be careful, though - my friends are not going to like what you're pulling here ...
+	AI_Output(self,other,"DIA_Rengaru_INKNAST_Knast_07_02");	//(warning) Be careful, though - my friends are not going to like what you're pulling here...
 	Rengaru_InKnast = TRUE;
 	AI_StopProcessInfos(self);
 };

@@ -178,7 +178,7 @@ func void DIA_Addon_Matt_Francis_Info()
 	AI_Output(other,self,"DIA_Addon_Brandon_Matt_15_00");	//What do you know about Francis?
 	AI_Output(self,other,"DIA_Addon_Matt_Francis_10_01");	//You mean, besides the fact that he's lazy and incompetent?
 	AI_Output(other,self,"DIA_Addon_Brandon_Matt_15_02");	//Yes.
-	AI_Output(self,other,"DIA_Addon_Matt_Francis_10_03");	//Let me think. Hmm ... no. That's all that springs to mind.
+	AI_Output(self,other,"DIA_Addon_Matt_Francis_10_03");	//Let me think. Hmm...no. That's all that springs to mind.
 };
 
 

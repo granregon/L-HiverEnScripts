@@ -329,7 +329,7 @@ func int DIA_Rod_Wette_Condition()
 func void DIA_Rod_Wette_Info()
 {
 	AI_Output(other,self,"DIA_Rod_Wette_15_00");	//I bet I can handle your sword!
-	AI_Output(self,other,"DIA_Rod_Wette_06_01");	//Really? Hmm... (thinking) How much should I relieve you of?
+	AI_Output(self,other,"DIA_Rod_Wette_06_01");	//Really? Hmm...(thinking) How much should I relieve you of?
 	AI_Output(self,other,"DIA_Rod_Wette_06_02");	//Well, you look like a poor sucker. Let's make it 30 gold pieces! Do you even have that much?
 	Info_ClearChoices(DIA_Rod_Wette);
 	Info_AddChoice(DIA_Rod_Wette,"No.",DIA_Rod_Wette_No);
@@ -347,12 +347,12 @@ func void DIA_Rod_Wette_No()
 func void DIA_Rod_Wette_Yes()
 {
 	AI_Output(other,self,"DIA_Rod_Wette_Yes_15_00");	//Sure.
-	AI_Output(self,other,"DIA_Rod_Wette_Yes_06_01");	//Let me see, then ...
+	AI_Output(self,other,"DIA_Rod_Wette_Yes_06_01");	//Let me see, then...
 	if(B_GiveInvItems(other,self,ItMi_Gold,30))
 	{
 		Rod_WetteAngenommen = TRUE;
 		AI_Output(other,self,"DIA_Rod_Wette_Yes_15_02");	//Here!
-		AI_Output(self,other,"DIA_Rod_Wette_Yes_06_03");	//(gloating) All right, let's see then how strong you are ...
+		AI_Output(self,other,"DIA_Rod_Wette_Yes_06_03");	//(gloating) All right, let's see then how strong you are...
 		B_GiveInvItems(self,other,ItMw_2h_Rod,1);
 		if(other.attribute[ATR_STRENGTH] >= 30)
 		{
@@ -374,12 +374,12 @@ func void DIA_Rod_Wette_Yes()
 		};
 		AI_Output(self,other,"DIA_Rod_Wette_Yes_06_10");	//And now give me back my weapon.
 		Info_ClearChoices(DIA_Rod_Wette);
-		Info_AddChoice(DIA_Rod_Wette,"I think not ...",DIA_Rod_Wette_KeepIt);
+		Info_AddChoice(DIA_Rod_Wette,"I think not...",DIA_Rod_Wette_KeepIt);
 		Info_AddChoice(DIA_Rod_Wette,"Here you are.",DIA_Rod_Wette_GiveBack);
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Rod_Wette_Yes_15_11");	//Now where did I put it ...
+		AI_Output(other,self,"DIA_Rod_Wette_Yes_15_11");	//Now where did I put it...
 		AI_Output(self,other,"DIA_Rod_Wette_Yes_06_12");	//That figures. Come back when you have gold to bet with.
 		Info_ClearChoices(DIA_Rod_Wette);
 	};
@@ -405,7 +405,7 @@ func void DIA_Rod_Wette_GiveBack2()
 
 func void DIA_Rod_Wette_KeepIt()
 {
-	AI_Output(other,self,"DIA_Rod_Wette_KeepIt_15_00");	//I think not ...
+	AI_Output(other,self,"DIA_Rod_Wette_KeepIt_15_00");	//I think not...
 	AI_Output(self,other,"DIA_Rod_Wette_KeepIt_06_01");	//(threatening) What was that?
 	AI_Output(other,self,"DIA_Rod_Wette_KeepIt_15_02");	//I think I'm going to keep it a little longer.
 	AI_Output(self,other,"DIA_Rod_Wette_KeepIt_06_03");	//Just you wait, you bastard!

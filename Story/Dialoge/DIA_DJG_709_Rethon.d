@@ -217,7 +217,7 @@ func void DIA_Rethon_ANGST_woSylvio()
 	AI_Output(other,self,"DIA_Rethon_ANGST_woSylvio_15_00");	//So where is Sylvio now?
 	AI_Output(self,other,"DIA_Rethon_ANGST_woSylvio_12_01");	//The paladins here mentioned an ice dragon in the west. It's supposed to be the most dangerous and powerful of them all.
 	AI_Output(self,other,"DIA_Rethon_ANGST_woSylvio_12_02");	//You should have seen the gleam in Sylvio's eye when he heard that. One guess where he went.
-	B_LogEntry(TOPIC_DRACHENJAGD,"Rethon the Dragon Hunter mumbled something about an ice dragon.");
+	B_LogEntry(TOPIC_DRACHENJAGD,"Rethon the Dragon hunter mumbled something about an ice dragon.");
 	B_LogEntry(TOPIC_Dragonhunter,"Sylvio was in the castle and then set off to find an ice dragon.");
 };
 

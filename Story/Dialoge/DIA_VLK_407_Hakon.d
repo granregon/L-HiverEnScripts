@@ -223,7 +223,7 @@ func void DIA_Hakon_WoWaffen_Info()
 	};
 	AI_Output(self,other,"DIA_Hakon_Add_12_15");	//Now all he does is make stuff for the paladins.
 	AI_Output(self,other,"DIA_Hakon_Add_12_16");	//He works for those guys day and night like a madman, without pay. He thinks it's his duty.
-	AI_Output(self,other,"DIA_Hakon_Add_12_17");	//All I can offer you now is my remaining stock ...
+	AI_Output(self,other,"DIA_Hakon_Add_12_17");	//All I can offer you now is my remaining stock...
 };
 
 
@@ -234,7 +234,7 @@ instance DIA_Hakon_HaradBandits(C_Info)
 	condition = DIA_Hakon_HaradBandits_Condition;
 	information = DIA_Hakon_HaradBandits_Info;
 	permanent = FALSE;
-	description = "Harad told me about the attack by bandits ...";
+	description = "Harad told me about the attack by bandits...";
 };
 
 
@@ -248,7 +248,7 @@ func int DIA_Hakon_HaradBandits_Condition()
 
 func void DIA_Hakon_HaradBandits_Info()
 {
-	AI_Output(other,self,"DIA_Hakon_Add_15_18");	//Harad told me about the attack by bandits ...
+	AI_Output(other,self,"DIA_Hakon_Add_15_18");	//Harad told me about the attack by bandits...
 	AI_Output(self,other,"DIA_Hakon_Add_12_19");	//Oh? And?
 	AI_Output(other,self,"DIA_Hakon_Add_15_20");	//He'll give me his approval to be accepted as an apprentice if I hunt down the bandits.
 	AI_Output(self,other,"DIA_Hakon_Add_12_21");	//(laughs) Good old Harad. That must be his way of saying he's sorry that he can't produce any weapons for me at the moment.
@@ -294,7 +294,7 @@ instance DIA_Hakon_Wieviel(C_Info)
 	condition = DIA_Hakon_Wieviel_Condition;
 	information = DIA_Hakon_Wieviel_Info;
 	permanent = FALSE;
-	description = "I'll deal with it ...";
+	description = "I'll deal with it...";
 };
 
 
@@ -308,13 +308,13 @@ func int DIA_Hakon_Wieviel_Condition()
 
 func void DIA_Hakon_Wieviel_Info()
 {
-	AI_Output(other,self,"DIA_Hakon_Banditen_Ehre_15_00");	//I'll deal with it ...
+	AI_Output(other,self,"DIA_Hakon_Banditen_Ehre_15_00");	//I'll deal with it...
 	AI_Output(self,other,"DIA_Hakon_Banditen_Kohle_12_01");	//What, YOU want to take on the bandits? By yourself? You're quite a good fighter, huh?
 	AI_Output(other,self,"DIA_Hakon_Banditen_Kohle_15_00");	//How much is the matter worth to you?
 	if(Npc_KnowsInfo(other,DIA_Hakon_HaradBandits))
 	{
 		AI_Output(self,other,"DIA_Hakon_Add_12_25");	//(slyly) You want to get in Harad's good books, don't you?
-		AI_Output(self,other,"DIA_Hakon_Add_12_26");	//I don't think I should have to pay you for this ...
+		AI_Output(self,other,"DIA_Hakon_Add_12_26");	//I don't think I should have to pay you for this...
 	}
 	else
 	{
