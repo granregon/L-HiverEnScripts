@@ -1094,7 +1094,7 @@ instance PC_ITAR_LEATHER_L_GRD1(C_Info)
 	condition = pc_itar_leather_l_grd1_condition;
 	information = pc_itar_leather_l_grd1_info;
 	permanent = TRUE;
-	description = "Reinforced hunter's armor -> Heavy hunter's armor (5x leathers, 4x troll tusks)";
+	description = "Leather armor -> Improved leather armor (2x troll skin)";
 };
 
 
@@ -1131,7 +1131,7 @@ instance PC_ITAR_LEATHER_L_GRD2(C_Info)
 	condition = pc_itar_leather_l_grd2_condition;
 	information = pc_itar_leather_l_grd2_info;
 	permanent = TRUE;
-	description = "Improved hunter's armor -> Belted hunter's armor (7x leathers)";
+	description = "Improved leather armor -> Belted leather armor (7x leathers)";
 };
 
 
@@ -1168,7 +1168,7 @@ instance PC_ITAR_LEATHER_L_GRD3(C_Info)
 	condition = pc_itar_leather_l_grd3_condition;
 	information = pc_itar_leather_l_grd3_info;
 	permanent = TRUE;
-	description = "Belted hunter's armor -> Master hunter's armor (4x leathers)";
+	description = "Belted leather armor -> Thicken leather armor (4x leathers)";
 };
 
 
@@ -1205,7 +1205,7 @@ instance PC_ITAR_LEATHER_L_GRD4(C_Info)
 	condition = pc_itar_leather_l_grd4_condition;
 	information = pc_itar_leather_l_grd4_info;
 	permanent = TRUE;
-	description = "Master hunter's armor -> Reinforced hunter's armor (5x leathers, 4x troll tusks)";
+	description = "Thicken leather armor -> Reinforced leather armor (5x leathers, 4x troll tusks)";
 };
 
 
