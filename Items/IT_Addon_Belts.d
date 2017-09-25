@@ -32,7 +32,7 @@ const int BeltBonus_ProtTotal = 7;
 
 instance ItBE_Addon_Leather_01(C_Item)
 {
-	name = "Leather armor's belt";
+	name = "Leather belt";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_BELT | ITEM_MULTI;
 	value = Value_ItBE_Addon_Leather_01;
@@ -917,7 +917,7 @@ func void unequip_itbe_addon_wght_35()
 
 instance ITBE_ADDON_ENCHLEATHER_01(C_Item)
 {
-	name = "Leather belt";
+	name = "Leather strip";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_BELT | ITEM_MULTI;
 	value = 100;
