@@ -300,7 +300,7 @@ const int LOG_NOTE = 1;
 const int TIME_INFINITE = -1000;
 const int NPC_VOICE_VARIATION_MAX = 10;
 
-const float TRADE_VALUE_MULTIPLIER = 0.1;
+const float TRADE_VALUE_MULTIPLIER = 0.15;
 
 const string TRADE_CURRENCY_INSTANCE = "ITMI_GOLD";
 
@@ -687,8 +687,6 @@ const int ENCHANTMASTERY_2 = 2;
 const int MAX_ENCHANTMASTERY = 3;
 
 var int player_talent_enchanting[3];
-var int enchant_special_01;
-var int enchant_special_02;
 const int LEATHERFASE_1 = 0;
 const int MAX_LEATHERFASE = 1;
 var int player_talent_leather;
@@ -838,6 +836,10 @@ const string LOGTEXT_ENCH_NOVICE13 = "Ring of one-hander beginner +4 (1x silver 
 const string LOGTEXT_ENCH_NOVICE14 = "Ring of two-hander beginner +4 (1x silver ring, 1x diamond dust)";
 const string LOGTEXT_ENCH_NOVICE15 = "Ring of beginner hunter +3 (1x silver ring, 1x topaz dust)";
 const string LOGTEXT_ENCH_NOVICE16 = "Ring of beginner crossbowman +3 (1x silver ring, 1x topaz dust)";
+const string LOGTEXT_ENCH_NOVICE17 = "Ring of the wanderer +5 (1x silver ring, 1x ruby dust, 1x amber dust)";
+const string LOGTEXT_ENCH_NOVICE18 = "Amulet of the wanderer +10 (1x silver necklace, 1x ruby dust, 1x amber dust)";
+const string LOGTEXT_ENCH_NOVICE19 = "Belt of the wanderer +15 (1x leather strip, 1x ruby dust, 1x amber dust)";
+
 const string LOGTEXT_ENCH_WIZARD01 = "Ring of fortitude +7 (1x silver ring, 1x ruby dust, 1x rock crystal)";
 const string LOGTEXT_ENCH_WIZARD02 = "Amulet of fortitude +10 (1x silver necklace, 1x ruby dust, 1x rock crystal)";
 const string LOGTEXT_ENCH_WIZARD03 = "Belt of fortitude +10 (1x leather strip, 1x ruby dust, 1x rock crystal)";
@@ -854,6 +856,10 @@ const string LOGTEXT_ENCH_WIZARD13 = "Ring of one-hander warrior +7 (1x silver r
 const string LOGTEXT_ENCH_WIZARD14 = "Ring of two-hander warrior +7 (1x silver ring, 1x diamond dust, 1x rock crystal)";
 const string LOGTEXT_ENCH_WIZARD15 = "Ring of skilled hunter +5 (1x silver ring, 1x topaz dust, 1x rock crystal)";
 const string LOGTEXT_ENCH_WIZARD16 = "Ring of skilled crossbowman +5 (1x silver ring, 1x topaz dust, 1x rock crystal)";
+const string LOGTEXT_ENCH_WIZARD17 = "Ring of the traveller +10 (1x silver ring, 1x ruby dust, 2x amber dusts)";
+const string LOGTEXT_ENCH_WIZARD18 = "Amulet of the traveller +20 (1x silver necklace, 1x ruby dust, 2x amber dusts)";
+const string LOGTEXT_ENCH_WIZARD19 = "Belt of the traveller +25 (1x leather strip, 1x ruby dust, 2x amber dusts)";
+
 const string LOGTEXT_ENCH_MWIZARD01 = "Ring of greater fortitude +10 (1x silver ring, 1x ruby dust, 1x rock crystal, 1x glacier quartz)";
 const string LOGTEXT_ENCH_MWIZARD02 = "Amulet of greater fortitude +15 (1x silver necklace, 1x ruby dust, 1x rock crystal, 1x glacier quartz)";
 const string LOGTEXT_ENCH_MWIZARD03 = "Belt of greater fortitude +15 (1x leather strip, 1x ruby dust, 1x rock crystal, 1x glacier quartz)";
@@ -870,5 +876,9 @@ const string LOGTEXT_ENCH_MWIZARD13 = "Ring of one-hander master +10 (1x silver 
 const string LOGTEXT_ENCH_MWIZARD14 = "Ring of two-hander master +10 (1x silver ring, 1x diamond dust, 1x rock crystal, 1x glacier quartz)";
 const string LOGTEXT_ENCH_MWIZARD15 = "Ring of master hunter +7 (1x silver ring, 1x topaz dust, 1x rock crystal, 1x glacier quartz)";
 const string LOGTEXT_ENCH_MWIZARD16 = "Ring of master crossbowman +7 (1x silver ring, 1x topaz dust, 1x rock crystal, 1x glacier quartz)";
+const string LOGTEXT_ENCH_MWIZARD17 = "Ring of the adventurer +15 (1x silver ring, 1x ruby dust, 3x amber dusts)";
+const string LOGTEXT_ENCH_MWIZARD18 = "Amulet of the adventurer +30 (1x silver necklace, 1x ruby dust, 3x amber dusts)";
+const string LOGTEXT_ENCH_MWIZARD19 = "Belt of the adventurer +35 (1x leather strip, 1x ruby dust, 3x amber dust)";
+
 const string LOGTEXT_ENCH_SPEC01 = "Ring of body regeneration (1x ring of greater vitality +75, 1x ruby dust, 3x rock crystal)";
 const string LOGTEXT_ENCH_SPEC02 = "Ring of mental restoration (1x ring of greater energy +15, 1x sapphire dust, 3x glacier quartz)";
