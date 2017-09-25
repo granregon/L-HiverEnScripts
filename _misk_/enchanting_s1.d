@@ -411,7 +411,7 @@ instance PC_ENCHANTING_BELTSTR_01(C_Info)
 	condition = pc_enchanting_beltstr_01_condition;
 	information = pc_enchanting_beltstr_01_info;
 	permanent = TRUE;
-	description = "Belt of lower fortitude +5 (1x leather belt, 1x ruby dust)";
+	description = "Belt of lower fortitude +5 (1x leather strip, 1x ruby dust)";
 };
 
 
@@ -450,7 +450,7 @@ instance PC_ENCHANTING_BELTSTR_02(C_Info)
 	condition = pc_enchanting_beltstr_02_condition;
 	information = pc_enchanting_beltstr_02_info;
 	permanent = TRUE;
-	description = "Belt of fortitude +10 (1x leather belt, 1x ruby dust, 1x rock crystal)";
+	description = "Belt of fortitude +10 (1x leather strip, 1x ruby dust, 1x rock crystal)";
 };
 
 
@@ -490,7 +490,7 @@ instance PC_ENCHANTING_BELTSTR_03(C_Info)
 	condition = pc_enchanting_beltstr_03_condition;
 	information = pc_enchanting_beltstr_03_info;
 	permanent = TRUE;
-	description = "Belt of greater fortitude +15 (1x leather belt, 1x ruby dust, 1x rock crystal, 1x glacier quartz)";
+	description = "Belt of greater fortitude +15 (1x leather strip, 1x ruby dust, 1x rock crystal, 1x glacier quartz)";
 };
 
 
@@ -823,7 +823,7 @@ instance PC_ENCHANTING_BELTDEX_01(C_Info)
 	condition = pc_enchanting_beltdex_01_condition;
 	information = pc_enchanting_beltdex_01_info;
 	permanent = TRUE;
-	description = "Belt of lower agility +5 (1x leather belt, 1x emerald dust)";
+	description = "Belt of lower agility +5 (1x leather strip, 1x emerald dust)";
 };
 
 
@@ -862,7 +862,7 @@ instance PC_ENCHANTING_BELTDEX_02(C_Info)
 	condition = pc_enchanting_beltdex_02_condition;
 	information = pc_enchanting_beltdex_02_info;
 	permanent = TRUE;
-	description = "Belt of agility +10 (1x leather belt, 1x emerald dust, 1x rock crystal)";
+	description = "Belt of agility +10 (1x leather strip, 1x emerald dust, 1x rock crystal)";
 };
 
 
@@ -902,7 +902,7 @@ instance PC_ENCHANTING_BELTDEX_03(C_Info)
 	condition = pc_enchanting_beltdex_03_condition;
 	information = pc_enchanting_beltdex_03_info;
 	permanent = TRUE;
-	description = "Belt of greater agility +15 (1x leather belt, 1x emerald dust, 1x rock crystal, 1x glacier quartz)";
+	description = "Belt of greater agility +15 (1x leather strip, 1x emerald dust, 1x rock crystal, 1x glacier quartz)";
 };
 
 
