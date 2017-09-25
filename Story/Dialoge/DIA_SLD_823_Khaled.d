@@ -195,7 +195,7 @@ func void DIA_Khaled_AboutLee_Info()
 {
 	AI_Output(other,self,"DIA_Khaled_AboutLee_15_00");	//What's your opinion of Lee?
 	AI_Output(self,other,"DIA_Khaled_AboutLee_11_01");	//I think that the only thing Lee is really interested in is getting away from this island.
-	AI_Output(self,other,"DIA_Khaled_AboutLee_11_02");	//He wants to go to the mainland. Seems to have a bone to pick with someone there ...
+	AI_Output(self,other,"DIA_Khaled_AboutLee_11_02");	//He wants to go to the mainland. Seems to have a bone to pick with someone there...
 	AI_Output(self,other,"DIA_Khaled_AboutLee_11_03");	//At any rate, he does a far better job than Sylvio ever could.
 	AI_Output(self,other,"DIA_Khaled_AboutLee_11_04");	//Moreover, he's a good leader. Most of the time we can do whatever we want here.
 };

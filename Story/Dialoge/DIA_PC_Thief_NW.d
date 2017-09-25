@@ -105,7 +105,7 @@ func void DIA_DiegoNW_NeedHelp_WhoAreYou()
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_02");	//That's why I bought these togs from a trader outside of town. Now I hope you'll remember me. I am Diego.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_03");	//Back in the slammer, I taught you everything you needed to know to survive.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_04");	//You can't just have forgotten all that.
-	AI_Output(other,self,"DIA_DiegoNW_NeedHelp_WhoAreYou_15_05");	//Er ... what exactly happened back then?
+	AI_Output(other,self,"DIA_DiegoNW_NeedHelp_WhoAreYou_15_05");	//Er...what exactly happened back then?
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_06");	//Holy shit, you really don't remember a thing.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_07");	//Listen I really don't have time to explain everything to you now. Only this much: we used to be damn good friends, and I saved your life more than once.
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_WhoAreYou_11_08");	//And now I need your help.
@@ -183,7 +183,7 @@ func void DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_HowGold()
 	AI_Output(other,self,"DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_HowGold_15_00");	//Where did you get all that gold?
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_HowGold_11_01");	//Am I the only one, then, who put some gold aside for himself in the Valley of Mines?
 	AI_Output(self,other,"DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_HowGold_11_02");	//Filching a few nuggets was a piece of cake. Just in case we ever got out of there.
-	AI_Output(self,other,"DIA_Addon_DiegoNW_WillHelpYou_HowGold_11_03");	//Everybody was so keen on that ore that no-one even cared for gold at the time ...
+	AI_Output(self,other,"DIA_Addon_DiegoNW_WillHelpYou_HowGold_11_03");	//Everybody was so keen on that ore that no-one even cared for gold at the time...
 };
 
 func void DIA_DiegoNW_NeedHelp_Problem_WillHelpYou_WhereGold()

@@ -277,7 +277,7 @@ instance DIA_Salandril_GehinsKloster(C_Info)
 	nr = 2;
 	condition = DIA_Salandril_GehinsKloster_Condition;
 	information = DIA_Salandril_GehinsKloster_Info;
-	description = "So are you going to the monastery now, or should I give you another ...?";
+	description = "So are you going to the monastery now, or should I give you another...?";
 };
 
 
@@ -291,7 +291,7 @@ func int DIA_Salandril_GehinsKloster_Condition()
 
 func void DIA_Salandril_GehinsKloster_Info()
 {
-	AI_Output(other,self,"DIA_Salandril_GehinsKloster_15_00");	//So are you going to the monastery now, or should I give you another ...?
+	AI_Output(other,self,"DIA_Salandril_GehinsKloster_15_00");	//So are you going to the monastery now, or should I give you another...?
 	AI_Output(self,other,"DIA_Salandril_GehinsKloster_13_01");	//You'll live to regret to this. Yes, damnit, I'll go to that monastery, but don't you think you'll get away with this.
 	if(DIA_SALANDRIL_PICKPOCKET_REMOVED == TRUE)
 	{

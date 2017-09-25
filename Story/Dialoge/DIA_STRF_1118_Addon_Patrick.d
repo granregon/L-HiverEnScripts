@@ -42,7 +42,7 @@ func void DIA_Addon_Patrick_Hi_Info()
 	AI_Output(other,self,"DIA_Addon_Patrick_Hi_15_00");	//I've been sent by the Water Mages. I've come to free you.
 	AI_Output(self,other,"DIA_Addon_Patrick_Hi_07_01");	//(warily) Really? And why should I believe you?
 	AI_Output(other,self,"DIA_Addon_Patrick_Hi_15_02");	//Do you want to get out of here, or not?
-	AI_Output(self,other,"DIA_Addon_Patrick_Hi_07_03");	//Of course I want to get out - but ...
+	AI_Output(self,other,"DIA_Addon_Patrick_Hi_07_03");	//Of course I want to get out - but...
 	AI_Output(other,self,"DIA_Addon_Patrick_Hi_15_04");	//Vatras sent me. If that's not enough for you, you can all rot in this hole for all I care.
 	AI_Output(self,other,"DIA_Addon_Patrick_Hi_07_05");	//(hastily) All right, I believe you.
 	AI_Output(other,self,"DIA_Addon_Patrick_Hi_15_06");	//(baffled) Really? Wow, that went faster than I thought. Okay, now all we need is a plan.
@@ -103,7 +103,7 @@ func void DIA_Addon_Patrick_ready_Info()
 	AI_Output(self,other,"DIA_Addon_Patrick_ready_07_01");	//Great. I know a cave in the swamp where we can gather for now. But then what?
 	AI_Output(other,self,"DIA_Addon_Patrick_ready_15_02");	//Leave the swamp towards the south-west. The Water Mages have set up their camp near the ruins of the old temple.
 	AI_Output(other,self,"DIA_Addon_Patrick_ready_15_03");	//They're going to show you the way out of this valley.
-	AI_Output(self,other,"DIA_Addon_Patrick_ready_07_04");	//Thanks, thank you so much. (commencing) We are all very deeply ...
+	AI_Output(self,other,"DIA_Addon_Patrick_ready_07_04");	//Thanks, thank you so much. (commencing) We are all very deeply...
 	AI_Output(other,self,"DIA_Addon_Patrick_ready_15_05");	//Never mind.
 	Sklaven_Flucht = TRUE;
 	B_GivePlayerXP(XP_Addon_Flucht);

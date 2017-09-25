@@ -39,14 +39,14 @@ func int DIA_DiegoOw_Hallo_Condition()
 func void DIA_DiegoOw_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_00");	//Hey, I thought you were dead.
-	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_01");	//Yes ... so I was.
+	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_01");	//Yes...so I was.
 	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_02");	//But now I'm back, and looking for proof of the arrival of the dragons.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_03");	//Who are you doing that for?
 	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_04");	//I work for Lord Hagen. With the help of the paladins, the dragons can be stopped.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_05");	//The paladins? Let me tell you something. After I managed to flee from here, I went to Khorinis.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_06");	//I wanted to warn the paladins about the dragons. Heaven knows why I even tried.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_07");	//That puffed-up Lothar didn't even listen to me - and certainly didn't let me talk to Lord Hagen.
-	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_08");	//Instead, they sent me back here with the expedition. So don't talk to me about paladins ...
+	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_08");	//Instead, they sent me back here with the expedition. So don't talk to me about paladins...
 	AI_Output(other,self,"DIA_DiegoOw_Hallo_15_09");	//The important thing is to stop the dragons as long as there's still time - no matter who helps us achieve that.
 	AI_Output(self,other,"DIA_DiegoOw_Hallo_11_10");	//Stop them? We should get our asses out of this valley as long as we still have time for THAT.
 	AI_Output(self,other,"DIA_DiegoOw_Silvestro_11_03");	//Say - how did you manage to get across the pass? I thought that it was swarming with orcs.
@@ -143,7 +143,7 @@ instance DIA_DiegoOw_Ritter(C_Info)
 	condition = DIA_DiegoOw_Ritter_Condition;
 	information = DIA_DiegoOw_Ritter_Info;
 	permanent = FALSE;
-	description = "What about the two dead knights ...";
+	description = "What about the two dead knights...";
 };
 
 
@@ -195,7 +195,7 @@ instance DIA_DiegoOw_Gorn(C_Info)
 	condition = DIA_DiegoOw_Gorn_Condition;
 	information = DIA_DiegoOw_Gorn_Info;
 	permanent = FALSE;
-	description = "I want to buy Gorn his freedom ...";
+	description = "I want to buy Gorn his freedom...";
 };
 
 
@@ -360,7 +360,7 @@ func int DIA_Addon_ThiefOW_Together_Condition()
 func void DIA_Addon_ThiefOW_Together_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Diego_Together_15_00");	//Let's go together.
-	AI_Output(self,other,"DIA_Addon_Diego_Together_11_01");	//To the pass? Why not ...
+	AI_Output(self,other,"DIA_Addon_Diego_Together_11_01");	//To the pass? Why not...
 	AI_Output(self,other,"DIA_Addon_Diego_Together_11_02");	//You go first. You've only just come from there.
 	AI_Output(self,other,"DIA_Addon_Diego_Together_11_03");	//But don't even think about going too close to the castle, or to the orc wall.
 	AI_Output(self,other,"DIA_Addon_Diego_Together_11_04");	//Also, we need to avoid all fortified camps of the paladins.
@@ -726,9 +726,9 @@ func void DIA_Addon_ThiefOW_Nostalgie_Info()
 {
 	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_01");	//Remember, back then?
 	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_02");	//When we met here for the first time?
-	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_03");	//It's been ages ...
+	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_03");	//It's been ages...
 	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_04");	//There was something ELSE in this place - hmm - damn! I just can't remember.
-	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_05");	//Whatever ...
+	AI_Output(self,other,"DIA_Addon_Diego_Nostalgie_11_05");	//Whatever...
 	B_GivePlayerXP(500);
 	hero.exp = hero.exp + 500;
 	PrintScreen(ConcatStrings(NAME_Addon_NostalgieBonus,IntToString(500)),-1,60,FONT_Screen,2);

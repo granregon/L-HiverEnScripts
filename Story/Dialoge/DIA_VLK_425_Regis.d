@@ -168,7 +168,7 @@ func void DIA_Regis_Valentino_Info()
 {
 	AI_Output(other,self,"DIA_Regis_Add_15_12");	//Who did you fight with?
 	AI_Output(self,other,"DIA_Regis_Add_13_13");	//With a fellow named Valentino. He often hangs out in the pub near the temple.
-	AI_Output(self,other,"DIA_Regis_Add_13_14");	//I'm not usually a violent person. But THAT guy needed his face rearranged in the worst way ...
+	AI_Output(self,other,"DIA_Regis_Add_13_14");	//I'm not usually a violent person. But THAT guy needed his face rearranged in the worst way...
 };
 
 
@@ -179,7 +179,7 @@ instance DIA_Regis_ValDefeat(C_Info)
 	condition = DIA_Regis_ValDefeat_Condition;
 	information = DIA_Regis_ValDefeat_Info;
 	permanent = FALSE;
-	description = "I met Valentino ...";
+	description = "I met Valentino...";
 };
 
 
@@ -193,16 +193,16 @@ func int DIA_Regis_ValDefeat_Condition()
 
 func void DIA_Regis_ValDefeat_Info()
 {
-	AI_Output(other,self,"DIA_Regis_Add_15_15");	//I met Valentino ...
+	AI_Output(other,self,"DIA_Regis_Add_15_15");	//I met Valentino...
 	AI_Output(self,other,"DIA_Regis_Add_13_16");	//And?
-	AI_Output(other,self,"DIA_Regis_Add_15_17");	//I gave him a sound beating ...
-	AI_Output(self,other,"DIA_Regis_Add_13_18");	//(laughs) He deserved it ...
+	AI_Output(other,self,"DIA_Regis_Add_15_17");	//I gave him a sound beating...
+	AI_Output(self,other,"DIA_Regis_Add_13_18");	//(laughs) He deserved it...
 	if(!Npc_IsDead(Valentino))
 	{
 		AI_Output(self,other,"DIA_Regis_Add_13_19");	//Here - I found this ring on him when our little disagreement had been settled.
 		B_GiveInvItems(self,other,ItRi_ValentinosRing,1);
 		Regis_Ring = TRUE;
-		AI_Output(self,other,"DIA_Regis_Add_13_20");	//(grinning) You're welcome to pass it on to the next person who beats him up ...
+		AI_Output(self,other,"DIA_Regis_Add_13_20");	//(grinning) You're welcome to pass it on to the next person who beats him up...
 	};
 };
 
@@ -231,7 +231,7 @@ func void DIA_Regis_PERM_Info()
 	if((Regis_Bogendieb == FALSE) && (MIS_Bosper_Bogen != LOG_SUCCESS))
 	{
 		AI_Output(self,other,"DIA_Regis_PERM_13_01");	//You could say that.
-		AI_Output(self,other,"DIA_Regis_PERM_13_02");	//They robbed Bosper the bowyer. What a brazen thing to do, I tell you!
+		AI_Output(self,other,"DIA_Regis_PERM_13_02");	//They robbed Bosper the bowmaker. What a brazen thing to do, I tell you!
 		AI_Output(self,other,"DIA_Regis_PERM_13_03");	//The fellow just ambled into the shop in broad daylight and grabbed himself a bow.
 		AI_Output(self,other,"DIA_Regis_PERM_13_04");	//And Bosper right after him, hollering 'Stop right there, you rogue!' But the thief was too fast.
 		MIS_Bosper_Bogen = LOG_Running;
@@ -245,7 +245,7 @@ func void DIA_Regis_PERM_Info()
 	}
 	else if(Kapitel != 3)
 	{
-		AI_Output(self,other,"DIA_Regis_PERM_13_07");	//Oh well, all's quiet. I suppose that when the orcs come, we can't fail to notice ...
+		AI_Output(self,other,"DIA_Regis_PERM_13_07");	//Oh well, all's quiet. I suppose that when the orcs come, we can't fail to notice...
 	}
 	else if(MIS_RescueBennet == LOG_SUCCESS)
 	{

@@ -287,7 +287,7 @@ func void DIA_Addon_Garett_GiveKompass_Info()
 	AI_Output(self,other,"DIA_Addon_Garett_GiveKompass_09_02");	//Thanks, man!
 	if(Npc_HasItems(self,ItBe_Addon_Prot_EdgPoi) > 0)
 	{
-		AI_Output(self,other,"DIA_Addon_Garett_GiveKompass_09_03");	//This time Greg WON'T get hold of it again ...
+		AI_Output(self,other,"DIA_Addon_Garett_GiveKompass_09_03");	//This time Greg WON'T get hold of it again...
 		AI_Output(self,other,"DIA_Addon_Garett_GiveKompass_09_04");	//Here, take this belt in return. It's my most valuable piece.
 		B_GiveInvItems(self,other,ItBe_Addon_Prot_EdgPoi,1);
 	}

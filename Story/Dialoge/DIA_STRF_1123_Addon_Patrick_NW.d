@@ -77,7 +77,7 @@ func void DIA_Addon_Patrick_NW_Hi_Info()
 	AI_Output(other,self,"DIA_Addon_Patrick_NW_Hi_15_00");	//So? Everything okay with you?
 	AI_Output(self,other,"DIA_Addon_Patrick_NW_Hi_07_01");	//All's fine. The Water Mages led us safely out of this accursed valley.
 	AI_Output(other,self,"DIA_Addon_Patrick_NW_Hi_15_02");	//And what will you do next?
-	AI_Output(self,other,"DIA_Addon_Patrick_NW_Hi_07_03");	//I'm going to continue to fight for Lee. And some day we're going to leave this island ...
+	AI_Output(self,other,"DIA_Addon_Patrick_NW_Hi_07_03");	//I'm going to continue to fight for Lee. And some day we're going to leave this island...
 	AI_Output(other,self,"DIA_Addon_Patrick_NW_Hi_15_04");	//And then?
 	AI_Output(self,other,"DIA_Addon_Patrick_NW_Hi_07_05");	//We shall see. If the war is still raging, we'll go up against the orcs. But that remains to be seen.
 };

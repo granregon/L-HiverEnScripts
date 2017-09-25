@@ -365,7 +365,7 @@ func void DIA_Orlan_RUESTUNG_Info()
 
 func void DIA_Orlan_RUESTUNG_Buy()
 {
-	AI_Output(other,self,"DIA_Orlan_RUESTUNG_Buy_15_00");	//I'd like to buy the leather armor.
+	AI_Output(other,self,"DIA_Matteo_LEATHER_15_00");	//All right, give me the armor.
 	if(B_GiveInvItems(other,self,ItMi_Gold,VALUE_ITAR_GERALT_ADDON))
 	{
 		AI_Output(self,other,"DIA_Orlan_RUESTUNG_Buy_05_01");	//A wise decision.

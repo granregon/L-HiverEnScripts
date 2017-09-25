@@ -44,7 +44,7 @@ func void DIA_Jarvis_Hello_Info()
 {
 	AI_Output(self,other,"DIA_Jarvis_Hello_04_00");	//Hey! Don't I know you from somewhere?
 	AI_Output(other,self,"DIA_Jarvis_Hello_15_01");	//It's possible. I was in the colony, too.
-	AI_Output(self,other,"DIA_Jarvis_Hello_04_02");	//Right ... what do you want?
+	AI_Output(self,other,"DIA_Jarvis_Hello_04_02");	//Right...what do you want?
 };
 
 
@@ -186,7 +186,7 @@ func int DIA_Jarvis_WannaJoin_Condition()
 func void DIA_Jarvis_WannaJoin_Info()
 {
 	AI_Output(other,self,"DIA_Jarvis_WannaJoin_15_00");	//I want to become a mercenary!
-	AI_Output(self,other,"DIA_Jarvis_WannaJoin_04_01");	//I'm not sure that's a good idea ...
+	AI_Output(self,other,"DIA_Jarvis_WannaJoin_04_01");	//I'm not sure that's a good idea...
 	AI_Output(other,self,"DIA_Jarvis_WannaJoin_15_02");	//Where's the problem?
 	AI_Output(self,other,"DIA_Jarvis_WannaJoin_04_03");	//Well, I either have to vote for you or against you.
 	AI_Output(self,other,"DIA_Jarvis_WannaJoin_04_04");	//And in the situation we're in, I'll only vote for you if I can be sure that you're on Lee's side!
@@ -249,7 +249,7 @@ func void DIA_Jarvis_DuellRegeln_Info()
 	AI_Output(other,self,"DIA_Jarvis_DuellRegeln_15_00");	//What are the rules for a duel?
 	AI_Output(self,other,"DIA_Jarvis_DuellRegeln_04_01");	//Go to Torlof and let him explain it, if you're interested.
 	AI_Output(self,other,"DIA_Jarvis_DuellRegeln_04_02");	//Just so we understand each other: I don't care if you stick to the rules or not. Just as long as the boys wind up out cold in the mud!
-	B_LogEntry(TOPIC_JarvisSLDKo,"And I don't even need to stick to the duelling rules ...");
+	B_LogEntry(TOPIC_JarvisSLDKo,"And I don't even need to stick to the duelling rules...");
 };
 
 
@@ -374,11 +374,11 @@ func void DIA_Jarvis_HowManyLeft_Info()
 	{
 		if(victories == 0)
 		{
-			AI_Output(other,self,"DIA_Jarvis_HowManyLeft_15_08");	//And as to Raoul ...
+			AI_Output(other,self,"DIA_Jarvis_HowManyLeft_15_08");	//And as to Raoul...
 		}
 		else
 		{
-			AI_Output(other,self,"DIA_Jarvis_HowManyLeft_15_09");	//I went to see Raoul ...
+			AI_Output(other,self,"DIA_Jarvis_HowManyLeft_15_09");	//I went to see Raoul...
 		};
 		AI_Output(self,other,"DIA_Jarvis_HowManyLeft_04_10");	//And?
 		AI_Output(other,self,"DIA_Jarvis_HowManyLeft_15_11");	//He was badly in need of a proper licking.

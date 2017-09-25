@@ -73,7 +73,7 @@ func void DIA_Fed_Snapper_Info()
 	AI_Output(other,self,"DIA_Fed_Snapper_15_00");	//What do you know about the snappers?
 	AI_Output(self,other,"DIA_Fed_Snapper_08_01");	//Bilgot watches them at night. A few of them are down at the pool at the base of the dark tower.
 	AI_Output(self,other,"DIA_Fed_Snapper_08_02");	//Others are right above us - on top of the cliff. They're just waiting until we're all exhausted.
-	AI_Output(self,other,"DIA_Fed_Snapper_08_03");	//We managd to trap ourselves here. Soon they'll attack the camp - and have their bloody feast ...
+	AI_Output(self,other,"DIA_Fed_Snapper_08_03");	//We managd to trap ourselves here. Soon they'll attack the camp - and have their bloody feast...
 	AI_Output(other,self,"DIA_Fed_Snapper_15_04");	//I see.
 };
 
@@ -99,12 +99,12 @@ func void DIA_Fed_Perm_Info()
 	AI_Output(other,self,"DIA_Fed_Perm_15_00");	//Are you all right?
 	if(MIS_Fajeth_Kill_Snapper != LOG_SUCCESS)
 	{
-		AI_Output(self,other,"DIA_Fed_Perm_08_01");	//The snappers are out there. Can you smell them ...? I can smell them ...
+		AI_Output(self,other,"DIA_Fed_Perm_08_01");	//The snappers are out there. Can you smell them...? I can smell them...
 	}
 	else
 	{
 		AI_Output(self,other,"DIA_Fed_Perm_08_02");	//The snappers seem to have pulled back. But that doesn't mean anything. They'll come back - or the wolves, or the lizards, or the orcs.
-		AI_Output(self,other,"DIA_Fed_Perm_08_03");	//And sooner or later they'll get us and feed on our dead bodies ...
+		AI_Output(self,other,"DIA_Fed_Perm_08_03");	//And sooner or later they'll get us and feed on our dead bodies...
 	};
 	AI_StopProcessInfos(self);
 };

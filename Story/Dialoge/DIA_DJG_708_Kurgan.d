@@ -42,7 +42,7 @@ func void DIA_Kurgan_HELLO_Info()
 	AI_Output(other,self,"DIA_Kurgan_HELLO_15_01");	//What are you trying to tell me?
 	AI_Output(self,other,"DIA_Kurgan_HELLO_01_02");	//I mean that the air out here isn't good for your health. The place is just swarming with orcs and monsters.
 	AI_Output(self,other,"DIA_Kurgan_HELLO_01_03");	//Not to mention the dragons. It's just a well-intentioned warning.
-	B_LogEntry(TOPIC_Dragonhunter,"A group of Dragon Hunters received me at the entrance to the Valley of Mines. The guys are heavily armed, but I'm afraid they won't make much of an impression on the dragons.");
+	B_LogEntry(TOPIC_Dragonhunter,"A group of Dragon hunters received me at the entrance to the Valley of Mines. The guys are heavily armed, but I'm afraid they won't make much of an impression on the dragons.");
 };
 
 

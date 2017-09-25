@@ -43,7 +43,7 @@ func int DIA_Meldor_Hallo_Condition()
 func void DIA_Meldor_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_Meldor_Hallo_07_00");	//What do you want?
-	AI_Output(other,self,"DIA_Meldor_Hallo_15_01");	//I wanted to have a look around here ...
+	AI_Output(other,self,"DIA_Meldor_Hallo_15_01");	//I wanted to have a look around here...
 	AI_Output(self,other,"DIA_Meldor_Hallo_07_02");	//And where exactly are you headed?
 };
 
@@ -136,7 +136,7 @@ instance DIA_Meldor_InsOV(C_Info)
 	condition = DIA_Meldor_InsOV_Condition;
 	information = DIA_Meldor_InsOV_Info;
 	permanent = FALSE;
-	description = "Actually, I was on my way to the upper quarter ...";
+	description = "Actually, I was on my way to the upper quarter...";
 };
 
 
@@ -147,7 +147,7 @@ func int DIA_Meldor_InsOV_Condition()
 
 func void DIA_Meldor_InsOV_Info()
 {
-	AI_Output(other,self,"DIA_Meldor_InsOV_15_00");	//Actually, I was on my way to the upper quarter ...
+	AI_Output(other,self,"DIA_Meldor_InsOV_15_00");	//Actually, I was on my way to the upper quarter...
 	AI_Output(self,other,"DIA_Meldor_InsOV_07_01");	//(sarcastically) Yeah, right. And I was about to board a ship and have it take me to the King for an audience.
 	AI_Output(self,other,"DIA_Meldor_InsOV_07_02");	//People like you and me haven't been allowed in the upper quarter since the paladins came.
 };
@@ -284,8 +284,8 @@ func int DIA_Meldor_VonLehmar_Condition()
 
 func void DIA_Meldor_VonLehmar_Info()
 {
-	AI_Output(self,other,"DIA_Meldor_VonLehmar_07_00");	//Hey, wait up ...
-	AI_Output(self,other,"DIA_Meldor_VonLehmar_07_01");	//I have a message for you from Lehmar ...
+	AI_Output(self,other,"DIA_Meldor_VonLehmar_07_00");	//Hey, wait up...
+	AI_Output(self,other,"DIA_Meldor_VonLehmar_07_01");	//I have a message for you from Lehmar...
 	AI_StopProcessInfos(self);
 	B_Attack(self,other,AR_NONE,1);
 };

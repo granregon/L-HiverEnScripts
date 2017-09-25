@@ -332,7 +332,7 @@ func void DIA_Keroloth_KAP4_HELLO_bestohlen()
 {
 	AI_Output(other,self,"DIA_Keroloth_KAP4_HELLO_bestohlen_15_00");	//Did someone steal from you?
 	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_07_01");	//No. They smuggled 20 gold pieces into my pocket. Of course they stole something, you idiot!
-	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_07_02");	//I tell you, when I get my hands on the dirty swine ...
+	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_07_02");	//I tell you, when I get my hands on the dirty swine...
 	Info_AddChoice(DIA_Keroloth_KAP4_HELLO,"So what are you missing?",DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt);
 };
 
@@ -342,10 +342,10 @@ func void DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt()
 	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt_07_01");	//My purse, with all my savings in it.
 	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt_07_02");	//And now it's gone!
 	AI_Output(other,self,"DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt_15_03");	//It'll turn up somewhere.
-	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt_07_04");	//When I get my hands on him ...
+	AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_bestohlen_wasfehlt_07_04");	//When I get my hands on him...
 	Log_CreateTopic(TOPIC_KerolothsGeldbeutel,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_KerolothsGeldbeutel,LOG_Running);
-	B_LogEntry(TOPIC_KerolothsGeldbeutel,"The paladin Keroloth is missing his purse. He claims the Dragon Hunters stole it from him.");
+	B_LogEntry(TOPIC_KerolothsGeldbeutel,"The paladin Keroloth is missing his purse. He claims the Dragon hunters stole it from him.");
 	Info_ClearChoices(DIA_Keroloth_KAP4_HELLO);
 };
 
@@ -354,7 +354,7 @@ func void DIA_Keroloth_KAP4_HELLO_pack()
 	AI_Output(other,self,"DIA_Keroloth_KAP4_HELLO_pack_15_00");	//What scum?
 	if(hero.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_pack_07_01");	//You shabby dragon hunters, of course. Who else?
+		AI_Output(self,other,"DIA_Keroloth_KAP4_HELLO_pack_07_01");	//You shabby Dragon hunters, of course. Who else?
 	}
 	else
 	{
@@ -407,7 +407,7 @@ func void DIA_Keroloth_KAP4_GELDGEFUNDEN_Info()
 		Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"Just a minute. What about a reward?",DIA_Keroloth_KAP4_GELDGEFUNDEN_Lohn);
 	};
 	Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"It was over there, by the smithy.",DIA_Keroloth_KAP4_GELDGEFUNDEN_Schmiede);
-	Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"I suspect one of the dragon hunters.",DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG);
+	Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"I suspect one of the Dragon hunters.",DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG);
 	Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"How would I know?",DIA_Keroloth_KAP4_GELDGEFUNDEN_keineAhnung);
 };
 
@@ -418,7 +418,7 @@ func void DIA_Keroloth_KAP4_GELDGEFUNDEN_keineAhnung()
 	{
 		AI_Output(self,other,"DIA_Keroloth_KAP4_GELDGEFUNDEN_keineAhnung_07_01");	//Are you trying to pull my leg? It was you, admit it.
 		Info_ClearChoices(DIA_Keroloth_KAP4_GELDGEFUNDEN);
-		Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"I suspect one of the dragon hunters.",DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG);
+		Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"I suspect one of the Dragon hunters.",DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG);
 		Info_AddChoice(DIA_Keroloth_KAP4_GELDGEFUNDEN,"Kiss my ass.",DIA_Keroloth_KAP4_GELDGEFUNDEN_keineAhnung_kannstmich);
 	}
 	else
@@ -438,7 +438,7 @@ func void DIA_Keroloth_KAP4_GELDGEFUNDEN_keineAhnung_kannstmich()
 
 func void DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG()
 {
-	AI_Output(other,self,"DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG_15_00");	//I suspect one of the dragon hunters.
+	AI_Output(other,self,"DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG_15_00");	//I suspect one of the Dragon hunters.
 	AI_Output(self,other,"DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG_07_01");	//(angry) I knew it.
 	if(hero.guild == GIL_DJG)
 	{
@@ -467,7 +467,7 @@ func void DIA_Keroloth_KAP4_GELDGEFUNDEN_DJG()
 func void DIA_Keroloth_KAP4_GELDGEFUNDEN_Schmiede()
 {
 	AI_Output(other,self,"DIA_Keroloth_KAP4_GELDGEFUNDEN_Schmiede_15_00");	//Ehm. It was over there, by the smithy.
-	AI_Output(self,other,"DIA_Keroloth_KAP4_GELDGEFUNDEN_Schmiede_07_01");	//Where? Near the smithy? It must have fallen out of a dragon hunter's pocket there, don't tell me otherwise.
+	AI_Output(self,other,"DIA_Keroloth_KAP4_GELDGEFUNDEN_Schmiede_07_01");	//Where? Near the smithy? It must have fallen out of a Dragon hunter's pocket there, don't tell me otherwise.
 };
 
 func void DIA_Keroloth_KAP4_GELDGEFUNDEN_Lohn()

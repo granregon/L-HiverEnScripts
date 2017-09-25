@@ -69,7 +69,7 @@ func void DIA_Sylvio_Thekla_Info()
 {
 	AI_Output(other,self,"DIA_Sylvio_Thekla_15_00");	//Thekla has a problem with you.
 	AI_Output(self,other,"DIA_Sylvio_Thekla_09_01");	//So? What is the dear lady's problem? And why doesn't she come herself?
-	AI_Output(other,self,"DIA_Sylvio_Thekla_15_02");	//You know that damn well ...
+	AI_Output(other,self,"DIA_Sylvio_Thekla_15_02");	//You know that damn well...
 	AI_Output(self,other,"DIA_Sylvio_Thekla_09_03");	//(cynically friendly) Why don't you go discuss that with my friend Bullco for a while?
 	Sylvio_angequatscht = Sylvio_angequatscht + 1;
 	AI_StopProcessInfos(self);
@@ -83,7 +83,7 @@ instance DIA_Sylvio_Gossip(C_Info)
 	condition = DIA_Sylvio_Gossip_Condition;
 	information = DIA_Sylvio_Gossip_Info;
 	permanent = FALSE;
-	description = "A lot of people talk about you ...";
+	description = "A lot of people talk about you...";
 };
 
 
@@ -94,7 +94,7 @@ func int DIA_Sylvio_Gossip_Condition()
 
 func void DIA_Sylvio_Gossip_Info()
 {
-	AI_Output(other,self,"DIA_Sylvio_Gossip_15_00");	//A lot of people talk about you ...
+	AI_Output(other,self,"DIA_Sylvio_Gossip_15_00");	//A lot of people talk about you...
 	AI_Output(self,other,"DIA_Sylvio_Gossip_09_01");	//A lot of people talk too much.
 	Sylvio_angequatscht = Sylvio_angequatscht + 1;
 	AI_StopProcessInfos(self);
@@ -185,7 +185,7 @@ instance DIA_Sylvio_Asshole(C_Info)
 	condition = DIA_Sylvio_Asshole_Condition;
 	information = DIA_Sylvio_Asshole_Info;
 	permanent = FALSE;
-	description = "Hey, asshole ...";
+	description = "Hey, asshole...";
 };
 
 
@@ -199,7 +199,7 @@ func int DIA_Sylvio_Asshole_Condition()
 
 func void DIA_Sylvio_Asshole_Info()
 {
-	AI_Output(other,self,"DIA_Sylvio_Asshole_15_00");	//Hey, asshole ...
+	AI_Output(other,self,"DIA_Sylvio_Asshole_15_00");	//Hey, asshole...
 	AI_Output(self,other,"DIA_Sylvio_Asshole_09_01");	//You don't actually think I'd get involved in a duel with you?
 	AI_Output(self,other,"DIA_Sylvio_Asshole_09_02");	//Go crawl back under your rock.
 	Sylvio_angequatscht = Sylvio_angequatscht + 1;

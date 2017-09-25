@@ -94,7 +94,7 @@ func void DIA_Brutus_PRISONER_Info()
 	AI_Output(self,other,"DIA_Brutus_PRISONER_06_01");	//My job? I'm training the lads. I teach them how to get muscles of steel.
 	AI_Output(self,other,"DIA_Brutus_PRISONER_06_02");	//I also take care of the prisoners. I'm like a damn father to those bastards.
 	AI_Output(self,other,"DIA_Brutus_PRISONER_06_03");	//But my real art is to get them to talk. And believe me - I have ways to make anyone talk.
-	AI_Output(other,self,"DIA_Brutus_PRISONER_15_04");	//Sounds awfully nice ...
+	AI_Output(other,self,"DIA_Brutus_PRISONER_15_04");	//Sounds awfully nice...
 	AI_Output(self,other,"DIA_Brutus_PRISONER_06_05");	//But those flea-infested blockheads we have currently locked up don't have much to say anyway.
 	if(MIS_RescueGorn != LOG_SUCCESS)
 	{
@@ -155,11 +155,11 @@ func void DIA_Brutus_Kasse_Info()
 	AI_Output(other,self,"DIA_Brutus_Kasse_15_00");	//Could you train me?
 	AI_Output(self,other,"DIA_Brutus_Kasse_06_01");	//Sure I can help you become stronger, but I don't give away anything for free.
 	AI_Output(other,self,"DIA_Brutus_Kasse_15_02");	//How much do you want?
-	AI_Output(self,other,"DIA_Brutus_Kasse_06_03");	//Hmm ... you run around outside of the castle, don't you? Here's what I suggest.
+	AI_Output(self,other,"DIA_Brutus_Kasse_06_03");	//Hmm...you run around outside of the castle, don't you? Here's what I suggest.
 	AI_Output(self,other,"DIA_Brutus_Kasse_06_04");	//My assistant, Den, made himself scarce during the last attack. What a quitter.
 	AI_Output(self,other,"DIA_Brutus_Kasse_06_05");	//But he didn't run for it empty-handed. He took the contents of our cash-box with him.
 	AI_Output(other,self,"DIA_Brutus_Kasse_15_06");	//What cash-box?
-	AI_Output(self,other,"DIA_Brutus_Kasse_06_07");	//We have this chest where we keep the stuff that we have ... er ... collected over the course of time.
+	AI_Output(self,other,"DIA_Brutus_Kasse_06_07");	//We have this chest where we keep the stuff that we have...er...collected over the course of time.
 	AI_Output(self,other,"DIA_Brutus_Kasse_06_08");	//And that was a tidy sum. The chest contained 200 gold pieces, along with some precious jewelry.
 	AI_Output(self,other,"DIA_Brutus_Kasse_06_09");	//If you bring me back the gold, you can keep the jewels, and I'll train you.
 	Log_CreateTopic(TopicBrutusKasse,LOG_MISSION);
@@ -457,7 +457,7 @@ func void DIA_Brutus_PERM4_Info()
 	{
 		AI_Output(other,self,"DIA_Brutus_PERM4_15_00");	//Are you all right?
 		AI_Output(self,other,"DIA_Brutus_PERM4_06_01");	//(apprehensively) And you are sure that those meatbugs are gone?
-		AI_Output(other,self,"DIA_Brutus_PERM4_15_02");	//Ahem ... look, there's one right behind you.
+		AI_Output(other,self,"DIA_Brutus_PERM4_15_02");	//Ahem...look, there's one right behind you.
 		AI_Output(self,other,"DIA_Brutus_PERM4_06_03");	//(bellows) What?
 		B_NpcClearObsessionByDMT(self);
 		Npc_SetTarget(self,other);

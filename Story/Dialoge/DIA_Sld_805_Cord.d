@@ -52,7 +52,7 @@ func void DIA_Addon_Cord_MeetingIsRunning_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Cord_MeetingIsRunning_14_01");	//You should go see Vatras now ...
+		AI_Output(self,other,"DIA_Addon_Cord_MeetingIsRunning_14_01");	//You should go see Vatras now...
 	};
 	AI_StopProcessInfos(self);
 };
@@ -137,7 +137,7 @@ func void DIA_Cord_WannaJoin_Info()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Cord_WannaJoin_15_06");	//Weeell ...
+		AI_Output(other,self,"DIA_Cord_WannaJoin_15_06");	//Weeell...
 	};
 	AI_Output(self,other,"DIA_Cord_WannaJoin_14_07");	//And two-handed weapons, then?
 	if(Npc_GetTalentSkill(other,NPC_TALENT_2H) > 0)
@@ -499,7 +499,7 @@ func void DIA_Addon_Cord_TalkedToDexter_Info()
 		AI_Output(other,self,"DIA_Addon_Cord_TalkedToDexter_15_06");	//No, I'm not. But this is all I can tell you.
 	};
 	AI_Output(self,other,"DIA_Addon_Cord_TalkedToDexter_14_07");	//I don't get it. He seems to have vanished off the face of the earth.
-	AI_Output(self,other,"DIA_Addon_Cord_TalkedToDexter_14_08");	//Well, you've kept your side of the bargain ...
+	AI_Output(self,other,"DIA_Addon_Cord_TalkedToDexter_14_08");	//Well, you've kept your side of the bargain...
 	MIS_Addon_Cord_Look4Patrick = LOG_SUCCESS;
 	TOPIC_End_RangerHelpSLD = TRUE;
 	B_GivePlayerXP(XP_Addon_Cord_Look4Patrick);
@@ -539,12 +539,12 @@ func int DIA_Cord_ReturnPatrick_Condition()
 func void DIA_Cord_ReturnPatrick_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Cord_ReturnPatrick_15_00");	//Patrick is back.
-	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_01");	//Yeah, man. I had almost given up hope. You ...
+	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_01");	//Yeah, man. I had almost given up hope. You...
 	AI_Output(other,self,"DIA_Addon_Cord_ReturnPatrick_15_02");	//Hey, do me a favor.
 	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_03");	//Yes?
 	AI_Output(other,self,"DIA_Addon_Cord_ReturnPatrick_15_04");	//Spare us both your speech of thanks.
 	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_05");	//I wasn't going to thank you at all.
-	AI_Output(other,self,"DIA_Addon_Cord_ReturnPatrick_15_06");	//But ... ?
+	AI_Output(other,self,"DIA_Addon_Cord_ReturnPatrick_15_06");	//But...?
 	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_07");	//(grins) I was just going to tell you that you're a damned cheeky devil.
 	AI_Output(self,other,"DIA_Addon_Cord_ReturnPatrick_14_09");	//(grins) Stay cool!
 	B_GivePlayerXP(XP_Ambient);
@@ -576,8 +576,8 @@ func void DIA_Cord_ExplainSkills_Info()
 	AI_Output(other,self,"DIA_Cord_ExplainSkills_15_00");	//What should I learn first, one-handed or two-handed combat?
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_01");	//Those two types of arms are rather similar.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_02");	//As soon as you reach the next level with one type of weapon, you automatically learn for the other as well.
-	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_03");	//If, for instance, you are good at fighting with one-handed swords, but still a beginner with two-handed weapons ...
-	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_04");	//... your two-handed skills will go up as well whenever you train with a one-hander.
+	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_03");	//If, for instance, you are good at fighting with one-handed swords, but still a beginner with two-handed weapons...
+	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_04");	//...your two-handed skills will go up as well whenever you train with a one-hander.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_05");	//If you train with one type of weapon only, you will find the training more exhausting.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_06");	//If you always train both, you will arrive at the same result with less effort.
 	AI_Output(self,other,"DIA_Cord_ExplainSkills_14_07");	//In the end, the outcome will be the same either way - it's your choice.

@@ -197,7 +197,7 @@ func int DIA_Engor_HELP_Condition()
 func void DIA_Engor_HELP_Info()
 {
 	AI_Output(other,self,"DIA_Engor_HELP_15_00");	//Maybe I can help you with your work.
-	AI_Output(self,other,"DIA_Engor_HELP_13_01");	//Hmm ... Sure, why not? I could use some help.
+	AI_Output(self,other,"DIA_Engor_HELP_13_01");	//Hmm...Sure, why not? I could use some help.
 	AI_Output(other,self,"DIA_Engor_HELP_15_02");	//So, what needs to be done?
 	AI_Output(self,other,"DIA_Engor_HELP_13_03");	//Our food supplies are low. Above all, we're almost out of meat.
 	AI_Output(self,other,"DIA_Engor_HELP_13_04");	//So if you could get us some meat, raw or cooked, ham or sausages, that would be much appreciated. How about it, will you help us?
@@ -382,7 +382,7 @@ func void DIA_Engor_Business_Info()
 	AI_Output(other,self,"DIA_Engor_Business_15_00");	//How's business?
 	if((hero.guild == GIL_MIL) || (hero.guild == GIL_PAL) || (hero.guild == GIL_KDF))
 	{
-		AI_Output(self,other,"DIA_Engor_Business_13_01");	//So-so. I hope that the dragon hunters are as full of gold as they are of hot air.
+		AI_Output(self,other,"DIA_Engor_Business_13_01");	//So-so. I hope that the Dragon hunters are as full of gold as they are of hot air.
 	};
 	if((hero.guild == GIL_SLD) || (hero.guild == GIL_DJG))
 	{

@@ -117,7 +117,7 @@ func void DIA_Milten_DI_Rat_Info()
 func void DIA_Milten_DI_Rat_nein()
 {
 	AI_Output(other,self,"DIA_Milten_DI_Rat_nein_15_00");	//No.
-	AI_Output(self,other,"DIA_Milten_DI_Rat_nein_03_01");	//(indignant) You are so ... What will you do then if you encounter dragons here on the island?
+	AI_Output(self,other,"DIA_Milten_DI_Rat_nein_03_01");	//(indignant) You are so...What will you do then if you encounter dragons here on the island?
 	AI_Output(self,other,"DIA_Milten_DI_Rat_nein_03_02");	//Haven't you gotten any wiser by now? We even have an alchemist's bench here, so we can reload the stupid thing.
 	AI_Output(self,other,"DIA_Milten_DI_Rat_nein_03_03");	//And what are you doing? I can only hope your sloppiness doesn't cost us our heads.
 	Info_ClearChoices(DIA_Milten_DI_Rat);

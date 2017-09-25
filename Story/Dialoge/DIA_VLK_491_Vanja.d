@@ -104,6 +104,6 @@ func void DIA_Vanja_DOPE_Info()
 {
 	AI_Output(other,self,"DIA_Vanja_DOPE_15_00");	//Where can I find myself some weed?
 	AI_Output(self,other,"DIA_Vanja_DOPE_17_01");	//No idea. Better keep your fingers off of that stuff.
-	AI_Output(self,other,"DIA_Vanja_DOPE_17_02");	//Because, if you keep asking about it, you might burn them ...
+	AI_Output(self,other,"DIA_Vanja_DOPE_17_02");	//Because, if you keep asking about it, you might burn them...
 };
 

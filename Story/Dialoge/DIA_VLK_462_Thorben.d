@@ -131,7 +131,7 @@ func void DIA_Thorben_Arbeit_Info()
 	AI_Output(self,other,"DIA_Thorben_Arbeit_06_01");	//Do you know anything about carpentry?
 	AI_Output(other,self,"DIA_Thorben_Arbeit_15_02");	//The only thing I can make out of wood is a fire.
 	AI_Output(self,other,"DIA_Thorben_Arbeit_06_03");	//And what about locks?
-	AI_Output(other,self,"DIA_Thorben_Arbeit_15_04");	//Weeell ...
+	AI_Output(other,self,"DIA_Thorben_Arbeit_15_04");	//Weeell...
 	AI_Output(self,other,"DIA_Thorben_Arbeit_06_05");	//I'm sorry, but I can't use you if you know nothing about my trade.
 	AI_Output(self,other,"DIA_Thorben_Arbeit_06_06");	//And I have no money to pay for an apprentice.
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
@@ -168,7 +168,7 @@ func void DIA_Thorben_OtherMasters_Info()
 	Info_ClearChoices(DIA_Thorben_OtherMasters);
 	if((other.guild != GIL_KDF) && (other.guild != GIL_NOV) && (other.guild != GIL_PAL))
 	{
-		Info_AddChoice(DIA_Thorben_OtherMasters,"Well, if you mean, do I say my prayers regularly ...",DIA_Thorben_OtherMasters_Naja);
+		Info_AddChoice(DIA_Thorben_OtherMasters,"Well, if you mean, do I say my prayers regularly...",DIA_Thorben_OtherMasters_Naja);
 	};
 	Info_AddChoice(DIA_Thorben_OtherMasters,"Yes. A most humble servant, Master Thorben.",DIA_Thorben_OtherMasters_Devoutly);
 };
@@ -196,7 +196,7 @@ func void DIA_Thorben_OtherMasters_Devoutly()
 
 func void DIA_Thorben_OtherMasters_Naja()
 {
-	AI_Output(other,self,"DIA_Thorben_OtherMasters_Naja_15_00");	//Well, if you mean, do I say my prayers regularly ...
+	AI_Output(other,self,"DIA_Thorben_OtherMasters_Naja_15_00");	//Well, if you mean, do I say my prayers regularly...
 	AI_Output(self,other,"DIA_Thorben_OtherMasters_Naja_06_01");	//I see!
 	AI_Output(self,other,"DIA_Thorben_OtherMasters_Naja_06_02");	//A man who does not ply his trade with the blessing of the gods will never receive my approval.
 	AI_Output(self,other,"DIA_Thorben_OtherMasters_Naja_06_03");	//Ask the gods for forgiveness for your transgressions.
@@ -244,13 +244,13 @@ func void DIA_Thorben_ZUSTIMMUNG_Info()
 		}
 		else
 		{
-			AI_Output(other,self,"DIA_Thorben_ZUSTIMMUNG_15_06");	//No. Not yet ...
+			AI_Output(other,self,"DIA_Thorben_ZUSTIMMUNG_15_06");	//No. Not yet...
 			AI_Output(self,other,"DIA_Thorben_ZUSTIMMUNG_06_07");	//You know my terms. You should only ply your trade with the blessing of the gods.
 		};
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Thorben_ZUSTIMMUNG_15_08");	//Not yet ...
+		AI_Output(other,self,"DIA_Thorben_ZUSTIMMUNG_15_08");	//Not yet...
 		AI_Output(self,other,"DIA_Thorben_ZUSTIMMUNG_06_09");	//Then I don't know why you're asking me again. You know my terms.
 	};
 };
@@ -291,7 +291,7 @@ instance DIA_Thorben_Schuldenbuch(C_Info)
 	condition = DIA_Thorben_Schuldenbuch_Condition;
 	information = DIA_Thorben_Schuldenbuch_Info;
 	permanent = FALSE;
-	description = "I've got Lehmar's ledger right here ...";
+	description = "I've got Lehmar's ledger right here...";
 };
 
 
@@ -305,7 +305,7 @@ func int DIA_Thorben_Schuldenbuch_Condition()
 
 func void DIA_Thorben_Schuldenbuch_Info()
 {
-	AI_Output(other,self,"DIA_Thorben_Schuldenbuch_15_00");	//I've got Lehmar's ledger right here ...
+	AI_Output(other,self,"DIA_Thorben_Schuldenbuch_15_00");	//I've got Lehmar's ledger right here...
 	AI_Output(self,other,"DIA_Thorben_Schuldenbuch_06_01");	//(suspiciously) Where did you get that?
 	AI_Output(other,self,"DIA_Thorben_Schuldenbuch_15_02");	//That shouldn't interest you so much as the fact that your name is in it.
 	AI_Output(self,other,"DIA_Thorben_Schuldenbuch_06_03");	//Give it to me!
@@ -366,7 +366,7 @@ func void DIA_Thorben_PleaseTeach_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_11");	//Hmm ... I don't know whether you can be trusted or not.
+		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_11");	//Hmm...I don't know whether you can be trusted or not.
 		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_12");	//For all I know, you might be one of those layabouts who only come to town to empty the chests of honest people.
 		AI_Output(self,other,"DIA_Thorben_PleaseTeach_06_13");	//I'm not going to teach you anything before I'm convinced that you are an honest fellow.
 	};
@@ -404,7 +404,7 @@ func void DIA_Thorben_PleaseTeach_Pay100()
 
 func void DIA_Thorben_PleaseTeach_Later()
 {
-	AI_Output(other,self,"DIA_Thorben_PleaseTeach_Later_15_00");	//Maybe later ...
+	AI_Output(other,self,"DIA_Thorben_PleaseTeach_Later_15_00");	//Maybe later...
 	Info_ClearChoices(DIA_Thorben_PleaseTeach);
 };
 
@@ -647,7 +647,7 @@ instance DIA_Thorben_Gritta(C_Info)
 	condition = DIA_Thorben_Gritta_Condition;
 	information = DIA_Thorben_Gritta_Info;
 	permanent = FALSE;
-	description = "I've come about Gritta ...";
+	description = "I've come about Gritta...";
 };
 
 
@@ -661,7 +661,7 @@ func int DIA_Thorben_Gritta_Condition()
 
 func void DIA_Thorben_Gritta_Info()
 {
-	AI_Output(other,self,"DIA_Thorben_Gritta_15_00");	//I've come about Gritta ...
+	AI_Output(other,self,"DIA_Thorben_Gritta_15_00");	//I've come about Gritta...
 	AI_Output(self,other,"DIA_Thorben_Gritta_06_01");	//My niece? What's your business with her? This isn't about money, is it?
 	AI_Output(other,self,"DIA_Thorben_Gritta_15_02");	//She owes 100 gold pieces to the merchant Matteo.
 	AI_Output(self,other,"DIA_Thorben_Gritta_06_03");	//Tell me this isn't true. Ever since that little piece of work moved in with me, I've had nothing but trouble!
@@ -674,7 +674,7 @@ func void DIA_Thorben_Gritta_Info()
 	AI_Output(self,other,"DIA_Thorben_Gritta_06_07");	//Go ahead, ask her. But I can tell you this: she doesn't have a SINGLE gold piece.
 	if(Npc_HasItems(Gritta,ItMi_Gold) >= 100)
 	{
-		AI_Output(other,self,"DIA_Thorben_Gritta_15_08");	//We shall see ...
+		AI_Output(other,self,"DIA_Thorben_Gritta_15_08");	//We shall see...
 	};
 };
 

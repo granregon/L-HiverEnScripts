@@ -237,7 +237,7 @@ instance DIA_Addon_Elvrich_Bromor(C_Info)
 	nr = 5;
 	condition = DIA_Addon_Elvrich_Bromor_Condition;
 	information = DIA_Addon_Elvrich_Bromor_Info;
-	description = "Bromor says Lucia walked off with a golden dish ...";
+	description = "Bromor says Lucia walked off with a golden dish...";
 };
 
 
@@ -251,7 +251,7 @@ func int DIA_Addon_Elvrich_Bromor_Condition()
 
 func void DIA_Addon_Elvrich_Bromor_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Elvrich_Bromor_15_00");	//Bromor says Lucia walked off with a golden dish ...
+	AI_Output(other,self,"DIA_Addon_Elvrich_Bromor_15_00");	//Bromor says Lucia walked off with a golden dish...
 	AI_Output(self,other,"DIA_Addon_Elvrich_Bromor_04_01");	//Well. If Lucia really stole from Bromor, the bandits will certainly have taken the thing from her.
 	Log_CreateTopic(TOPIC_Addon_BromorsGold,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_BromorsGold,LOG_Running);
@@ -378,7 +378,7 @@ func void DIA_Addon_Elvrich_WasNun_Info()
 	AI_Output(other,self,"DIA_Addon_Elvrich_WasNun_15_00");	//You should get yourself back to town in a hurry!
 	AI_Output(self,other,"DIA_Addon_Elvrich_WasNun_04_01");	//What else would I be doing? I'm going straight back to my Master Thorben.
 	AI_Output(self,other,"DIA_Addon_Elvrich_WasNun_04_02");	//Will you go look for the bandits?
-	AI_Output(other,self,"DIA_Addon_Elvrich_WasNun_15_03");	//Well, yes, I think so ...
+	AI_Output(other,self,"DIA_Addon_Elvrich_WasNun_15_03");	//Well, yes, I think so...
 	AI_Output(self,other,"DIA_Addon_Elvrich_WasNun_04_04");	//If you find Lucia, get her safely back to town, will you?
 	AI_Output(other,self,"DIA_Addon_Elvrich_WasNun_15_05");	//I'll see what I can do.
 	Log_CreateTopic(TOPIC_Addon_MissingPeople,LOG_MISSION);

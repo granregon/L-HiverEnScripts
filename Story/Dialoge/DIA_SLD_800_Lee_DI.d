@@ -204,7 +204,7 @@ func void DIA_Lee_DI_UndeadDragonDead_Info()
 		AI_Output(self,other,"DIA_Lee_DI_UndeadDragonDead_04_02");	//You'll take me to the mainland, won't you?
 		AI_Output(other,self,"DIA_Lee_DI_UndeadDragonDead_15_03");	//Yes. Khorinis will survive without you.
 		AI_Output(self,other,"DIA_Lee_Add_04_26");	//Then I can finally pay my long delayed visit to the King.
-		AI_Output(self,other,"DIA_Lee_Add_04_27");	//I've waited a long time for this ...
+		AI_Output(self,other,"DIA_Lee_Add_04_27");	//I've waited a long time for this...
 		AI_Output(self,other,"DIA_Lee_DI_UndeadDragonDead_04_05");	//What do you think? Shouldn't patience finally be rewarded?
 		AI_Output(other,self,"DIA_Lee_DI_UndeadDragonDead_15_06");	//Patience and some striking arguments.
 		AI_Output(self,other,"DIA_Lee_DI_UndeadDragonDead_04_07");	//(laughs) Yeah. It won't work without a bit of armed force. It was an honor going into battle with you.
