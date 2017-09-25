@@ -704,7 +704,7 @@ instance PC_ITAR_SLD_G3_ADDON_GRD4(C_Info)
 	condition = pc_itar_sld_g3_addon_grd4_condition;
 	information = pc_itar_sld_g3_addon_grd4_info;
 	permanent = TRUE;
-	description = "Myrtana mercenary armor Lv. 5(2x leathers, 7x steel bars)";
+	description = "Myrtana mercenary armor Lv. 5 (2x leathers, 7x steel bars)";
 };
 
 
@@ -746,7 +746,7 @@ instance PC_ITAR_SLD_G3_ADDON_GRD5(C_Info)
 	condition = pc_itar_sld_g3_addon_grd5_condition;
 	information = pc_itar_sld_g3_addon_grd5_info;
 	permanent = TRUE;
-	description = "Myrtana mercenary armor Lv. 6(1x leather, 2x steel bars)";
+	description = "Myrtana mercenary armor Lv. 6 (1x leather, 2x steel bars)";
 };
 
 
@@ -787,7 +787,7 @@ instance PC_ITAR_SLD_G3_ADDON_GRD6(C_Info)
 	condition = pc_itar_sld_g3_addon_grd6_condition;
 	information = pc_itar_sld_g3_addon_grd6_info;
 	permanent = TRUE;
-	description = "Myrtana mercenary armor Lv. 7(1x leather, 2x steel bars)";
+	description = "Myrtana mercenary armor Lv. 7 (1x leather, 2x steel bars)";
 };
 
 
@@ -1340,7 +1340,7 @@ instance PC_ITMW_FIRSTBLADE_NS(C_Info)
 	condition = pc_itmw_firstblade_ns_condition;
 	information = pc_itmw_firstblade_ns_info;
 	permanent = TRUE;
-	description = "Assemble 'Sword' (1x steel bar, 1x textile)";
+	description = "Assemble 'Blade' (1x steel bar, 1x textile)";
 };
 
 

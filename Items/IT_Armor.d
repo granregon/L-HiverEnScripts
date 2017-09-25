@@ -2189,7 +2189,7 @@ func void UnEquip_ITAR_DJG_Crawler()
 
 instance ITAR_DJG_L(C_Item)
 {
-	name = "Light Dragon Hunter's armor";
+	name = "Light Dragon hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 65;
@@ -2242,7 +2242,7 @@ func void unequip_djg_l()
 
 instance ITAR_DJG_M(C_Item)
 {
-	name = "Medium Dragon Hunter's armor";
+	name = "Medium Dragon hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -2295,7 +2295,7 @@ func void unequip_djg_m()
 
 instance ITAR_DJG_H(C_Item)
 {
-	name = "Heavy Dragon Hunter's armor";
+	name = "Heavy Dragon hunter's armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -2733,7 +2733,7 @@ func void unequip_kdw_h()
 
 instance ITAR_Leather_L(C_Item)
 {
-	name = "Leather's armor";
+	name = "Leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -2808,7 +2808,7 @@ func void UnEquip_ITAR_Leather_L()
 
 instance ITAR_LEATHER_L_GRD1(C_Item)
 {
-	name = "Improved leather's armor";
+	name = "Improved leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 25;
@@ -2883,7 +2883,7 @@ func void unequip_itar_leather_l_grd1()
 
 instance ITAR_LEATHER_L_GRD2(C_Item)
 {
-	name = "Belted leather's armor";
+	name = "Belted leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 27;
@@ -2958,7 +2958,7 @@ func void unequip_itar_leather_l_grd2()
 
 instance ITAR_LEATHER_L_GRD3(C_Item)
 {
-	name = "Thickened leather's armor";
+	name = "Thickened leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -3033,7 +3033,7 @@ func void unequip_itar_leather_l_grd3()
 
 instance ITAR_LEATHER_L_GRD4(C_Item)
 {
-	name = "Reinforced leather's armor";
+	name = "Reinforced leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -3108,7 +3108,7 @@ func void unequip_itar_leather_l_grd4()
 
 instance ITAR_LEATHER_L_GRD5(C_Item)
 {
-	name = "Heavy leather's armor";
+	name = "Heavy leather armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
