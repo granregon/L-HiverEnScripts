@@ -1,0 +1,6 @@
+---------------------1.1.1--------------------
+Bugs:
+- None so far...
+
+Mistranslations:
+- Dialouge when telling Lares "Vatras sent me"  
