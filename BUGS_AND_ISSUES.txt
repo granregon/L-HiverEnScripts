@@ -3,4 +3,4 @@ Bugs:
 - None so far...
 
 Mistranslations:
-- Dialouge when telling Lares "Vatras sent me"  
+- Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
