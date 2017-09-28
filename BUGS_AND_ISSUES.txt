@@ -1,6 +1,10 @@
 ---------------------1.1.1--------------------
 Bugs:
-- None so far...
+- Missing audio dialouge when taking to Ignaz about experiments (NH talking to himself)
+- Missing audio dialouge from Jack when asking about the harbour
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
+- "Maybe later.." option when Thorben asks for gold to teach NH lockicking is wrong.
+- When bribing Till for more gold to take care of Bronko the 50 gold level has teh wrong bottom option (they 
+  are both the same)
