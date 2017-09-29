@@ -39,7 +39,7 @@ func void Rtn_Start_436()
 
 instance ITMI_SONJAWIG(C_Item)
 {
-	name = "";
+	name = "Sonja's wig";
 	mainflag = ITEM_KAT_NF;
 	flags = 0;
 	value = 0;

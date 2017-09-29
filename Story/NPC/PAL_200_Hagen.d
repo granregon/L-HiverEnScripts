@@ -47,7 +47,7 @@ func void Rtn_ShipFree_200()
 
 instance ITMI_GERALTHAIR(C_Item)
 {
-	name = "";
+	name = "Hagen's wig";
 	mainflag = ITEM_KAT_NF;
 	flags = 0;
 	value = 0;

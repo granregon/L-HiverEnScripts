@@ -63,7 +63,7 @@ func void Rtn_Tot_470()
 
 instance ITMI_SARAHWIG(C_Item)
 {
-	name = "";
+	name = "Sarah's wig";
 	mainflag = ITEM_KAT_NF;
 	flags = 0;
 	value = 0;

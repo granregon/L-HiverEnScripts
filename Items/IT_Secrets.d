@@ -94,11 +94,7 @@ instance ItSe_GoldPocket25(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = GoldPocket25;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[2] = "There are a few coins jingling inside.";
-	text[3] = "";
-	text[4] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -121,11 +117,7 @@ instance ItSe_GoldPocket50(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = GoldPocket50;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[2] = "The bag is full of coins.";
-	text[3] = "";
-	text[4] = "";
 	count[5] = value;
 };
 
@@ -147,11 +139,8 @@ instance ItSe_GoldPocket100(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = GoldPocket100;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[2] = "A heavy bag,";
 	text[3] = "full of gold coins.";
-	text[4] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -174,11 +163,7 @@ instance ItSe_HannasBeutel(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = HannasBeutel;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[2] = "Hanna gave it to me.";
-	text[3] = "";
-	text[4] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -203,11 +188,7 @@ instance ITSE_MBOLTPOCKET25(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = mboltpocket25;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[2] = "A few crossbow bolts inside.";
-	text[3] = "";
-	text[4] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = 150;
