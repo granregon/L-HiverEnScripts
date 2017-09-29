@@ -55,7 +55,7 @@ func void Rtn_Tot_435()
 
 instance ITMI_NADJAWIG(C_Item)
 {
-	name = "";
+	name = "Nadja's wig";
 	mainflag = ITEM_KAT_NF;
 	flags = 0;
 	value = 0;

@@ -86,8 +86,6 @@ instance ItWr_Map_NewWorld(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -120,8 +118,6 @@ instance ItWr_Map_NewWorld_City(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld_City;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -154,8 +150,6 @@ instance ItWr_Map_OldWorld(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_OldWorld;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -193,7 +187,6 @@ instance ItWr_EinhandBuch(C_Item)
 	scemeName = "MAP";
 	description = name;
 	text[2] = "A book on the art of one-handed fighting";
-	text[3] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = UseEinhandBuch;
@@ -248,7 +241,6 @@ instance ItWr_ZweihandBuch(C_Item)
 	scemeName = "MAP";
 	description = name;
 	text[2] = "A book on the art of two-handed fighting";
-	text[3] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = UseZweihandBuch;
@@ -548,7 +540,6 @@ instance ITWR_SMITHMASTERBOOK_LVL2(C_Item)
 	description = name;
 	text[2] = "This book contains information on improving your skill";
 	text[3] = "Requires knowledge of the previous volume";
-	text[4] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = usesmithmasterbook_lvl2;
@@ -616,7 +607,6 @@ instance ITWR_SMITHMASTERBOOK_LVL3(C_Item)
 	description = name;
 	text[2] = "This book contains information on improving your skill";
 	text[3] = "Requires knowledge of the previous volume";
-	text[4] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = usesmithmasterbook_lvl3;
@@ -733,7 +723,6 @@ instance ITWR_LEHREN_DER_GOETTER1(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = uselehren_der_goetter1;
@@ -792,7 +781,6 @@ instance ITWR_LEHREN_DER_GOETTER2(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = uselehren_der_goetter2;
@@ -844,7 +832,6 @@ instance ITWR_LEHREN_DER_GOETTER3(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = uselehren_der_goetter3;
@@ -1033,7 +1020,6 @@ instance ITWR_SCHLACHT_UM_VARANT1(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = useschlacht_um_varant1;
@@ -1087,7 +1073,6 @@ instance ITWR_SCHLACHT_UM_VARANT2(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = useschlacht_um_varant2;

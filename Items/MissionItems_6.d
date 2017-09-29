@@ -10,7 +10,6 @@ instance ItSe_XardasNotfallBeutel_MIS(C_Item)
 	material = MAT_METAL;
 	on_state[0] = Use_XardasNotfallBeutel;
 	description = name;
-	text[0] = "";
 	text[1] = "The bag seems to contain";
 	text[2] = "a hard object and a document.";
 };

@@ -2449,7 +2449,7 @@ func void DIA_CH_Kampf_Zweihand_Info()
 {
 	Info_ClearChoices(DIA_CH_Kampf_Zweihand);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,Dialog_Back,DIA_CH_Kampf_Zweihand_BACK);
-	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,1) * 20),CH_Training_Combat_2H_20);
+	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,20)),CH_Training_Combat_2H_20);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +10",B_GetLearnCostTalent(other,NPC_TALENT_2H,10)),CH_Training_Combat_2H_10);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +5",B_GetLearnCostTalent(other,NPC_TALENT_2H,5)),CH_Training_Combat_2H_5);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +1",B_GetLearnCostTalent(other,NPC_TALENT_2H,1)),CH_Training_Combat_2H_1);
@@ -2465,7 +2465,7 @@ func void CH_Training_Combat_2H_1()
 	B_TeachFightTalentPercent(self,other,NPC_TALENT_2H,1,100);
 	Info_ClearChoices(DIA_CH_Kampf_Zweihand);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,Dialog_Back,DIA_CH_Kampf_Zweihand_BACK);
-	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,1) * 20),CH_Training_Combat_2H_20);
+	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,20)),CH_Training_Combat_2H_20);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +10",B_GetLearnCostTalent(other,NPC_TALENT_2H,10)),CH_Training_Combat_2H_10);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +5",B_GetLearnCostTalent(other,NPC_TALENT_2H,5)),CH_Training_Combat_2H_5);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +1",B_GetLearnCostTalent(other,NPC_TALENT_2H,1)),CH_Training_Combat_2H_1);
@@ -2476,7 +2476,7 @@ func void CH_Training_Combat_2H_5()
 	B_TeachFightTalentPercent(self,other,NPC_TALENT_2H,5,100);
 	Info_ClearChoices(DIA_CH_Kampf_Zweihand);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,Dialog_Back,DIA_CH_Kampf_Zweihand_BACK);
-	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,1) * 20),CH_Training_Combat_2H_20);
+	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,20)),CH_Training_Combat_2H_20);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +10",B_GetLearnCostTalent(other,NPC_TALENT_2H,10)),CH_Training_Combat_2H_10);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +5",B_GetLearnCostTalent(other,NPC_TALENT_2H,5)),CH_Training_Combat_2H_5);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +1",B_GetLearnCostTalent(other,NPC_TALENT_2H,1)),CH_Training_Combat_2H_1);
@@ -2487,7 +2487,7 @@ func void CH_Training_Combat_2H_10()
 	B_TeachFightTalentPercent(self,other,NPC_TALENT_2H,10,100);
 	Info_ClearChoices(DIA_CH_Kampf_Zweihand);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,Dialog_Back,DIA_CH_Kampf_Zweihand_BACK);
-	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,1) * 20),CH_Training_Combat_2H_20);
+	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,20)),CH_Training_Combat_2H_20);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +10",B_GetLearnCostTalent(other,NPC_TALENT_2H,10)),CH_Training_Combat_2H_10);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +5",B_GetLearnCostTalent(other,NPC_TALENT_2H,5)),CH_Training_Combat_2H_5);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +1",B_GetLearnCostTalent(other,NPC_TALENT_2H,1)),CH_Training_Combat_2H_1);
@@ -2498,7 +2498,7 @@ func void CH_Training_Combat_2H_20()
 	B_TeachFightTalentPercent(self,other,NPC_TALENT_2H,20,100);
 	Info_ClearChoices(DIA_CH_Kampf_Zweihand);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,Dialog_Back,DIA_CH_Kampf_Zweihand_BACK);
-	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,1) * 20),CH_Training_Combat_2H_20);
+	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +20",B_GetLearnCostTalent(other,NPC_TALENT_2H,20)),CH_Training_Combat_2H_20);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +10",B_GetLearnCostTalent(other,NPC_TALENT_2H,10)),CH_Training_Combat_2H_10);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +5",B_GetLearnCostTalent(other,NPC_TALENT_2H,5)),CH_Training_Combat_2H_5);
 	Info_AddChoice(DIA_CH_Kampf_Zweihand,B_BuildLearnString("Two-handed weapons +1",B_GetLearnCostTalent(other,NPC_TALENT_2H,1)),CH_Training_Combat_2H_1);

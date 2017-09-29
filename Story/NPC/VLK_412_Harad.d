@@ -109,7 +109,7 @@ func void Rtn_Start_412()
 
 instance ITMI_HARADWIG(C_Item)
 {
-	name = "";
+	name = "Harad's wig";
 	mainflag = ITEM_KAT_NF;
 	flags = 0;
 	value = 0;

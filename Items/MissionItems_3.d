@@ -35,7 +35,7 @@ func void Equip_InnosEye()
 	self.protection[PROT_MAGIC] += AM_EyeProtMage;
 	STAT_SWORDDEF = STAT_SWORDDEF + (AM_EyeProtEdge * 1);
 	Npc_SetTalentSkill(hero,NPC_TALENT_SWORDDEF,STAT_SWORDDEF);
-	PrintScreen("",-1,-1,FONT_Screen,0);
+	PrintScreen("Innos is watching over you",-1,-1,FONT_Screen,0);
 };
 
 func void UnEquip_InnosEye()
@@ -818,7 +818,6 @@ instance ItAm_Prot_BlackEye_Mis(C_Item)
 	visual_skin = 0;
 	material = MAT_METAL;
 	description = name;
-	text[2] = "";
 	text[3] = "Protects from Seekers' black look";
 	text[5] = NAME_01KG;
 	count[5] = value;
@@ -930,8 +929,6 @@ instance ItWr_Map_Shrine_MIS(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld_Shrine_MIS;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };

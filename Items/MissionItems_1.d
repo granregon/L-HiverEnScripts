@@ -87,8 +87,6 @@ instance ItMi_CoragonsSilber(C_Item)
 	visual = "ItMi_SilverCup.3DS";
 	material = MAT_METAL;
 	description = name;
-	text[3] = "";
-	text[4] = "";
 	text[5] = NAME_03KG;
 	count[5] = value;
 };
@@ -787,8 +785,6 @@ instance ItWr_BanditLetter_MIS(C_Item)
 	on_state[0] = UseBanditLetter;
 	scemeName = "MAP";
 	description = name;
-	text[3] = "";
-	text[4] = "";
 };
 
 
@@ -837,7 +833,6 @@ instance ItWr_Poster_MIS(C_Item)
 	scemeName = "MAP";
 	description = name;
 	text[3] = "A picture of me!";
-	text[4] = "";
 };
 
 
@@ -1015,7 +1010,7 @@ instance ITAR_PAL_SKEL(C_Item)
 
 instance ITAR_KDF_SKEL(C_Item)
 {
-	name = "";
+	name = "Old fire mage's robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1044,7 +1039,7 @@ instance ITAR_KDF_SKEL(C_Item)
 
 instance ITAR_BM_SKEL(C_Item)
 {
-	name = "";
+	name = "Old battle-mage armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -1254,7 +1249,6 @@ instance ITKE_ORLAN_HOTELZIMMER(C_Item)
 	material = MAT_METAL;
 	description = name;
 	text[2] = "From the tavern 'The Dead Harpy'.";
-	text[3] = "";
 	inv_zbias = INVCAM_ENTF_KEY_STANDARD;
 	inv_rotz = INVCAM_Z_KEY_STANDARD;
 	inv_rotx = INVCAM_X_KEY_STANDARD;

@@ -228,7 +228,6 @@ instance ItMw_BeliarWeapon_Raven(BeliarWeaponPrototype_2H)
 	damageTotal = Damage_BeliarW_Raven;
 	cond_atr[2] = ATR_MANA_MAX;
 	cond_value[2] = 666666;
-	text[3] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };

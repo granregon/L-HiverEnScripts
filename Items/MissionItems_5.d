@@ -262,8 +262,6 @@ instance ItWr_Seamap_Irdorath(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Seamap_Irdorath;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
