@@ -1,7 +1,11 @@
 ---------------------1.1.1--------------------
-Bugs:
+Bugs/Issues:
 - Missing audio dialouge when taking to Ignaz about experiments (NH talking to himself)
 - Missing audio dialouge from Jack when asking about the harbour
+- Potential issue with enemy HP regen when they lose visbility of NH (esp. for ranged builds), 
+  can just remove this part of coding from scripts. 
+- Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
+  game. 
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
