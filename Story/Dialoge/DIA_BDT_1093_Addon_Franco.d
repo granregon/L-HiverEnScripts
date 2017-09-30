@@ -225,7 +225,7 @@ func void DIA_Addon_Franco_HaiSuccess_Info()
 	AI_Output(other,self,"DIA_Addon_Franco_HaiSuccess_15_00");	//I helped Logan...
 	if(Npc_IsDead(Logan))
 	{
-		AI_Output(other,self,"DIA_Addon_Franco_HaiSuccess_15_01");	//...but he didn't survive.
+		AI_Output(other,self,"DIA_Addon_Franco_HaiSuccess_15_01");	//... but he didn't survive.
 	};
 	AI_Output(self,other,"DIA_Addon_Franco_HaiSuccess_08_02");	//Okay, so you fought the swampsharks - you're useful - at least more so than most of the guys here.
 	B_GivePlayerXP(XP_Addon_HlpLogan);

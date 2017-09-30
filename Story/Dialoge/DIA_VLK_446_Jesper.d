@@ -81,11 +81,11 @@ func void DIA_Jesper_Hallo_Info()
 	Info_AddChoice(DIA_Jesper_Hallo,"I wanted to have a little look around.",DIA_Jesper_Hallo_NurSo);
 	if(Attila_Key == TRUE)
 	{
-		Info_AddChoice(DIA_Jesper_Hallo,"Attila gave me a key ...",DIA_Jesper_Hallo_Willkommen);
+		Info_AddChoice(DIA_Jesper_Hallo,"Attila gave me a key...",DIA_Jesper_Hallo_Willkommen);
 	}
 	else
 	{
-		Info_AddChoice(DIA_Jesper_Hallo,"I've done in Attila ...",DIA_Jesper_Hallo_Umgelegt);
+		Info_AddChoice(DIA_Jesper_Hallo,"I've done in Attila...",DIA_Jesper_Hallo_Umgelegt);
 	};
 	DG_gefunden = TRUE;
 };
@@ -121,7 +121,7 @@ func void DIA_Jesper_Hallo_Umgelegt()
 	AI_Output(self,other,"DIA_Jesper_Hallo_Umgelegt_09_01");	//(disbelieving) YOU killed Attila?! (scornfully) So what, he was a lousy dog anyway.
 	AI_Output(self,other,"DIA_Jesper_Hallo_Umgelegt_09_02");	//But I'll tell you something. If you attack me, I'll kill you.
 	Info_ClearChoices(DIA_Jesper_Hallo);
-	Info_AddChoice(DIA_Jesper_Hallo,"What are you doing here ...",DIA_Jesper_Hallo_Was);
+	Info_AddChoice(DIA_Jesper_Hallo,"What are you doing here...",DIA_Jesper_Hallo_Was);
 	Info_AddChoice(DIA_Jesper_Hallo,"Take me to your leader.",DIA_Jesper_Hallo_Anfuehrer);
 };
 
@@ -174,7 +174,7 @@ func void DIA_Jesper_Bezahlen_Info()
 		AI_Output(self,other,"DIA_Jesper_Bezahlen_09_02");	//You want to learn how to move without making a sound? That'll cost you 100 gold pieces.
 		B_Say_Gold(self,other,Jesper_Cost);
 		Info_ClearChoices(DIA_Jesper_Bezahlen);
-		Info_AddChoice(DIA_Jesper_Bezahlen,"Maybe later ...(BACK)",DIA_Jesper_Bezahlen_Spaeter);
+		Info_AddChoice(DIA_Jesper_Bezahlen,"Maybe later...(BACK)",DIA_Jesper_Bezahlen_Spaeter);
 		Info_AddChoice(DIA_Jesper_Bezahlen,"OK, I want to learn how to sneak around (pay 100 gold).",DIA_Jesper_Bezahlen_Okay);
 	};
 };
@@ -298,7 +298,7 @@ func int DIA_Jesper_Bogen_Condition()
 func void DIA_Jesper_Bogen_Info()
 {
 	AI_Output(other,self,"DIA_Jesper_Bogen_15_00");	//Say, would you know anything about Bosper's bow?
-	AI_Output(self,other,"DIA_Jesper_Bogen_09_01");	//You mean the bow from the bowyer? Yeah, I've got it packed somewhere up front in a chest.
+	AI_Output(self,other,"DIA_Jesper_Bogen_09_01");	//You mean the bow from the bowmaker? Yeah, I've got it packed somewhere up front in a chest.
 	AI_Output(self,other,"DIA_Jesper_Bogen_09_02");	//But there's rats scurrying around there. You can fetch it, if the critters don't bother you.
 	AI_Output(self,other,"DIA_Jesper_Bogen_09_03");	//Oh, well of course the chest is locked. You just have to break into it. (grins) Hopefully, you still have lock picks.
 	Wld_InsertNpc(Giant_Rat,"NW_CITY_KANAL_ROOM_01_01");

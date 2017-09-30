@@ -163,7 +163,7 @@ func void DIA_Fernando_Minental_Info()
 {
 	AI_Output(self,other,"DIA_Fernando_Minental_14_00");	//Hey you - wait a minute. You are headed for the Valley of Mines, aren't you?
 	AI_Output(other,self,"DIA_Fernando_Minental_15_01");	//And?
-	AI_Output(self,other,"DIA_Fernando_Minental_14_02");	//Here's a bargain. You give me a report of what's going on with the ore, and for that I get you ...
+	AI_Output(self,other,"DIA_Fernando_Minental_14_02");	//Here's a bargain. You give me a report of what's going on with the ore, and for that I get you...
 	if(other.guild == GIL_KDF)
 	{
 		AI_Output(self,other,"DIA_Fernando_Minental_14_03");	//... a runestone.
@@ -325,11 +325,11 @@ func void DIA_Fernando_Success_Info()
 		B_GivePlayerXP(XP_Ambient);
 		AI_Output(self,other,"DIA_Fernando_Success_14_01");	//And? How is the situation there?
 		AI_Output(other,self,"DIA_Fernando_Success_15_02");	//The mines are all depleted, there's barely more than a few chests full of ore. It's hardly worth digging for that.
-		AI_Output(self,other,"DIA_Fernando_Success_14_03");	//That can't be true! That means I'm ruined ...
+		AI_Output(self,other,"DIA_Fernando_Success_14_03");	//That can't be true! That means I'm ruined...
 		if(Fernando_HatsZugegeben == FALSE)
 		{
 			AI_Output(other,self,"DIA_Fernando_Success_15_04");	//What about our deal?
-			AI_Output(self,other,"DIA_Fernando_Success_14_05");	//Now, about your reward ...
+			AI_Output(self,other,"DIA_Fernando_Success_14_05");	//Now, about your reward...
 			if(other.guild == GIL_KDF)
 			{
 				AI_Output(self,other,"DIA_Fernando_Minental_14_06");	//Here, take this runestone.

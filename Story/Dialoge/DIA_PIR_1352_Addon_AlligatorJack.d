@@ -211,12 +211,12 @@ func void DIA_Addon_AlligatorJack_BDTRuestung_Info()
 	AI_Output(self,other,"DIA_Addon_AlligatorJack_BDTRuestung_12_03");	//Everyone's going to take you for a bandit and will try to kill you.
 	Info_ClearChoices(DIA_Addon_AlligatorJack_BDTRuestung);
 	Info_AddChoice(DIA_Addon_AlligatorJack_BDTRuestung,"Do you have any idea where I could find armor like that?",DIA_Addon_AlligatorJack_BDTRuestung_wo);
-	Info_AddChoice(DIA_Addon_AlligatorJack_BDTRuestung,"Sounds good ...",DIA_Addon_AlligatorJack_BDTRuestung_gut);
+	Info_AddChoice(DIA_Addon_AlligatorJack_BDTRuestung,"Sounds good...",DIA_Addon_AlligatorJack_BDTRuestung_gut);
 };
 
 func void DIA_Addon_AlligatorJack_BDTRuestung_gut()
 {
-	AI_Output(other,self,"DIA_Addon_AlligatorJack_BDTRuestung_gut_15_00");	//Sounds good ...
+	AI_Output(other,self,"DIA_Addon_AlligatorJack_BDTRuestung_gut_15_00");	//Sounds good...
 	AI_Output(self,other,"DIA_Addon_AlligatorJack_BDTRuestung_gut_12_01");	//Yes, but only to someone who's suicidal.
 };
 
@@ -764,7 +764,7 @@ func void dia_alligatorjack_teachmeat()
 		AI_Output(other,self,"DIA_Addon_Garaz_Probleme_15_01");	//Is there a problem?
 		AI_Output(self,other,"DIA_Addon_AlligatorJack_WasJagen_12_05");	//Most beasts around here taste like old socks, or they're as tough as alligator meat.
 		AI_Output(self,other,"DIA_Addon_AlligatorJack_WasJagen_12_06");	//Those fat swamp rats are the only thing that is remotely edible.
-		AI_Output(other,self,"DIA_Brutus_PRISONER_15_04");	//Sounds awfully nice ...
+		AI_Output(other,self,"DIA_Brutus_PRISONER_15_04");	//Sounds awfully nice...
 		AI_Output(other,self,"DIA_GornOW_SeeYou_15_00");	//We'll meet again.
 		AI_Output(self,other,"DIA_Addon_AlligatorJack_TheHunt_Running_12_01");	//All right.
 	};

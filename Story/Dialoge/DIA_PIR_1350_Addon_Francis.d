@@ -162,7 +162,7 @@ func void DIA_Addon_Francis_Key_2000Gold()
 	if(Npc_HasItems(other,ItMi_Gold) >= 2000)
 	{
 		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_01");	//Boy, what you're asking for is mutiny.
-		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_02");	//(to himself) But, on second thought ...
+		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_02");	//(to himself) But, on second thought...
 		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_03");	//Oh well, give it here. No-one needs to know.
 		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_04");	//Here's the key!
 		AI_Output(self,other,"DIA_Addon_Francis_Key_2000Gold_13_05");	//But hurry up before Greg comes back. And not a word to the others, understood?!
@@ -229,11 +229,11 @@ func int DIA_Addon_Francis_Buch_Condition()
 func void DIA_Addon_Francis_Buch_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Francis_Key_Business_15_03");	//I found your hiding-place. Your treasure and your paybook. This is your book, isn't it?
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_01");	//Er ... I've never seen this book before.
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_02");	//And ... Er ... even IF this were my book ...
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_01");	//Er... I've never seen this book before.
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_02");	//And... Er... even IF this were my book...
 	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_03");	//You don't REALLY believe the lads will buy YOUR story based on a few yellowed pages, do you?
 	AI_Output(other,self,"DIA_Addon_Francis_Key_Business_15_01");	//You cheated them all out of their shares.
-	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_04");	//Er ... wait a minute ...
+	AI_Output(self,other,"DIA_Addon_Francis_Buch_13_04");	//Er... wait a minute...
 	if(Npc_HasItems(self,ITKE_Greg_ADDON_MIS))
 	{
 		if(Npc_KnowsInfo(other,DIA_Addon_Francis_LetMeIn))
@@ -241,7 +241,7 @@ func void DIA_Addon_Francis_Buch_Info()
 			AI_Output(self,other,"DIA_Addon_Francis_Buch_13_05");	//(slimily) You wanted the key to Greg's hut, didn't you?
 		};
 		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_06");	//I'll GIVE you the key to Greg's hut!
-		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_07");	//There's plenty of valuable stuff in there ...
+		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_07");	//There's plenty of valuable stuff in there...
 		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_08");	//(nervously) But you'll give me the book and keep your trap shut, right?
 		B_GiveInvItems(other,self,ITWR_Addon_FrancisAbrechnung_Mis,1);
 		B_GiveInvItems(self,other,ITKE_Greg_ADDON_MIS,1);
@@ -261,7 +261,7 @@ func void DIA_Addon_Francis_Buch_Info()
 			AI_Output(self,other,"DIA_Addon_Francis_Buch_13_12");	//Here's 500 gold pieces!
 			B_GiveInvItems(self,other,ItMi_Gold,500);
 		};
-		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_13");	//(hastily) And now give me that thing ...
+		AI_Output(self,other,"DIA_Addon_Francis_Buch_13_13");	//(hastily) And now give me that thing...
 		B_GiveInvItems(other,self,ITWR_Addon_FrancisAbrechnung_Mis,1);
 		Npc_RemoveInvItem(self,ITWR_Addon_FrancisAbrechnung_Mis);
 	};

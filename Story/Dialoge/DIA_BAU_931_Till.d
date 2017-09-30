@@ -188,7 +188,7 @@ instance DIA_Till_BRONKO(C_Info)
 	nr = 5;
 	condition = DIA_Till_BRONKO_Condition;
 	information = DIA_Till_BRONKO_Info;
-	description = "(ask about Bronco)";
+	description = "(ask about Bronko)";
 };
 
 
@@ -297,7 +297,7 @@ func void DIA_Till_BRONKOZURARBEIT_mehr()
 	{
 		AI_Output(self,other,"DIA_Till_BRONKOZURARBEIT_mehr_03_04");	//Maybe...50?
 		Info_ClearChoices(DIA_Till_BRONKOZURARBEIT);
-		Info_AddChoice(DIA_Till_BRONKOZURARBEIT,"All right. I'll see what I can do.",DIA_Till_BRONKOZURARBEIT_mehr);
+		Info_AddChoice(DIA_Till_BRONKOZURARBEIT,"I want more.",DIA_Till_BRONKOZURARBEIT_mehr);
 		Info_AddChoice(DIA_Till_BRONKOZURARBEIT,"All right. I'll see what I can do.",DIA_Till_BRONKOZURARBEIT_ok);
 		Till_Angebot = 50;
 	}

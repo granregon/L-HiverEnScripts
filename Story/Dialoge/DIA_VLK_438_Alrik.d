@@ -146,7 +146,7 @@ func void DIA_Alrik_Regeln_Info()
 	AI_Output(other,self,"DIA_Alrik_Regeln_15_00");	//What are the rules for the fight?
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_01");	//Quite simple: All regular weapons are allowed. No bows or crossbows and NO magic!
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_02");	//We fight until one of us drops. And as soon as one of us is flat on his back, it's over, got it?
-	AI_Output(self,other,"DIA_Alrik_Regeln_09_03");	//Whoever leaves the corner is out! So if you quit, I win!
+	AI_Output(self,other,"DIA_Alrik_Regeln_09_03");	//Whoever leaves the (laughs) ring is out! So if you quit, I win!
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_04");	//The stake is 50 gold coins. If you win, you get 100 back. If not - well - then your money is down the drain. (grins)
 	AI_Output(self,other,"DIA_Alrik_Regeln_09_05");	//Got it?
 	AI_Output(other,self,"DIA_Alrik_Regeln_15_06");	//Yep!
@@ -154,7 +154,7 @@ func void DIA_Alrik_Regeln_Info()
 
 func void B_Alrik_Again()
 {
-	AI_Output(self,other,"DIA_Alrik_Add_09_03");	//How's it going? Do you want to go up against me again? I think I've gotten better in the meantime ...
+	AI_Output(self,other,"DIA_Alrik_Add_09_03");	//How's it going? Do you want to go up against me again? I think I've gotten better in the meantime...
 };
 
 
@@ -219,7 +219,7 @@ func void B_Alrik_Enough()
 
 func void B_Alrik_ComeBackLater()
 {
-	AI_Output(self,other,"DIA_Alrik_Add_09_02");	//Come back again later. In the meantime, I'll train ...
+	AI_Output(self,other,"DIA_Alrik_Add_09_02");	//Come back again later. In the meantime, I'll train...
 };
 
 
@@ -265,7 +265,7 @@ func void DIA_Alrik_WannaFight_Info()
 	}
 	else if((Kapitel <= 2) && (Alrik_ArenaKampfVerloren > 3))
 	{
-		AI_Output(self,other,"DIA_Alrik_Add_09_00");	//I think that should be enough for now ...
+		AI_Output(self,other,"DIA_Alrik_Add_09_00");	//I think that should be enough for now...
 		AI_Output(self,other,"DIA_Alrik_Add_09_01");	//Let me have a short break.
 		B_Alrik_ComeBackLater();
 	}
@@ -279,16 +279,16 @@ func void DIA_Alrik_WannaFight_Info()
 		B_Alrik_Enough();
 		AI_Output(self,other,"DIA_Alrik_Add_09_04");	//Besides, I've scraped enough gold together by now.
 		AI_Output(self,other,"DIA_Alrik_Add_09_05");	//I'm quitting, and I'm going to find me a place to stay somewhere in the city...
-		AI_Output(self,other,"DIA_Alrik_Add_09_06");	//Who knows, maybe I'll open a weapons shop ...
+		AI_Output(self,other,"DIA_Alrik_Add_09_06");	//Who knows, maybe I'll open a weapons shop...
 	}
 	else if(Wld_IsTime(11,0,19,0))
 	{
 		AI_Output(self,other,"DIA_Alrik_WannaFight_09_07");	//Do you have 50 gold pieces?
 		Info_ClearChoices(DIA_Alrik_WannaFight);
-		Info_AddChoice(DIA_Alrik_WannaFight,"Nope ...",DIA_Alrik_WannaFight_NoGold);
+		Info_AddChoice(DIA_Alrik_WannaFight,"Nope...",DIA_Alrik_WannaFight_NoGold);
 		if(Npc_HasItems(other,ItMi_Gold) >= 50)
 		{
-			Info_AddChoice(DIA_Alrik_WannaFight,"Here you are ...",DIA_Alrik_WannaFight_Gold);
+			Info_AddChoice(DIA_Alrik_WannaFight,"Here you are...",DIA_Alrik_WannaFight_Gold);
 		};
 	}
 	else
@@ -308,7 +308,7 @@ func void DIA_Alrik_WannaFight_Info()
 
 func void DIA_Alrik_WannaFight_Gold()
 {
-	AI_Output(other,self,"DIA_Alrik_WannaFight_Gold_15_00");	//Here you are ...
+	AI_Output(other,self,"DIA_Alrik_WannaFight_Gold_15_00");	//Here you are...
 	B_GiveInvItems(other,self,ItMi_Gold,50);
 	AI_Output(self,other,"DIA_Alrik_WannaFight_Gold_09_01");	//(loudly) We have a new challenger!
 	AI_Output(self,other,"DIA_Alrik_WannaFight_Gold_09_02");	//The bets are placed...
@@ -318,13 +318,13 @@ func void DIA_Alrik_WannaFight_Gold()
 	self.aivar[AIV_ArenaFight] = AF_RUNNING;
 	Alrik_Kaempfe = Alrik_Kaempfe + 1;
 	Info_ClearChoices(DIA_Alrik_WannaFight);
-	Info_AddChoice(DIA_Alrik_WannaFight,"Just a second ...",DIA_Alrik_WannaFight_Moment);
+	Info_AddChoice(DIA_Alrik_WannaFight,"Just a second...",DIA_Alrik_WannaFight_Moment);
 	Info_AddChoice(DIA_Alrik_WannaFight,"Come here!",DIA_Alrik_WannaFight_NOW);
 };
 
 func void DIA_Alrik_WannaFight_NoGold()
 {
-	AI_Output(other,self,"DIA_Alrik_WannaFight_NoGold_15_00");	//Nope ...
+	AI_Output(other,self,"DIA_Alrik_WannaFight_NoGold_15_00");	//Nope...
 	AI_Output(self,other,"DIA_Alrik_WannaFight_NoGold_09_01");	//Then go get them! No fighting without a stake!
 	Info_ClearChoices(DIA_Alrik_WannaFight);
 };
@@ -344,8 +344,8 @@ func void DIA_Alrik_WannaFight_NOW()
 
 func void DIA_Alrik_WannaFight_Moment()
 {
-	AI_Output(other,self,"DIA_Alrik_WannaFight_Moment_15_00");	//Just a second ...
-	AI_Output(self,other,"DIA_Alrik_WannaFight_Moment_09_01");	//Take your time...I'm starting now!
+	AI_Output(other,self,"DIA_Alrik_WannaFight_Moment_15_00");	//Just a second...
+	AI_Output(self,other,"DIA_Alrik_WannaFight_Moment_09_01");	//Take your time... I'm starting now!
 	if(self.attribute[ATR_HITPOINTS] < self.attribute[ATR_HITPOINTS_MAX])
 	{
 		CreateInvItems(self,ItPo_Health_03,1);
@@ -506,7 +506,7 @@ func void DIA_Alrik_WerSchwert_Info()
 	AI_Output(other,self,"DIA_Alrik_WerSchwert_15_00");	//To whom did you sell the sword?
 	AI_Output(self,other,"DIA_Alrik_WerSchwert_09_01");	//I swapped it to a trader in the marketplace for some stuff.
 	AI_Output(self,other,"DIA_Alrik_WerSchwert_09_02");	//The guy's called Jora. The torches and the bit of meat that he gave me are long used up.
-	AI_Output(other,self,"DIA_Alrik_WerSchwert_15_03");	//He isn't likely to give me the sword for nothing ...
+	AI_Output(other,self,"DIA_Alrik_WerSchwert_15_03");	//He isn't likely to give me the sword for nothing...
 	AI_Output(self,other,"DIA_Alrik_WerSchwert_09_04");	//It's an old sword. He won't want much for it. Just think of the money as an extra stake for the fight. (grins)
 	MIS_Alrik_Sword = LOG_Running;
 };

@@ -213,7 +213,7 @@ func void DIA_Talbin_AskTeacher_Info()
 	AI_Output(other,self,"DIA_Talbin_AskTeacher_15_00");	//Can you teach me something about hunting?
 	AI_Output(self,other,"DIA_Talbin_AskTeacher_07_01");	//I see! So you've acquired a taste for it now. All right. But it'll cost you!
 	AI_Output(other,self,"DIA_Talbin_AskTeacher_15_02");	//What do you want for it?
-	AI_Output(self,other,"DIA_Talbin_AskTeacher_07_03");	//Would you happen to have anything to eat other than lurker meat? Maybe a hunk of cheese. Yes, a hunk of cheese. I could die for a hunk ...
+	AI_Output(self,other,"DIA_Talbin_AskTeacher_07_03");	//Would you happen to have anything to eat other than lurker meat? Maybe a hunk of cheese. Yes, a hunk of cheese. I could die for a hunk...
 	AI_Output(other,self,"DIA_Talbin_AskTeacher_15_04");	//I'll see what I can do.
 	Log_CreateTopic(TOPIC_Teacher,LOG_NOTE);
 	B_LogEntry(TOPIC_Teacher,"Talbin can teach me to take animal trophies.");
@@ -246,7 +246,7 @@ func void DIA_Talbin_PayTeacher_Info()
 	if(B_GiveInvItems(other,self,ItFo_Cheese,1))
 	{
 		AI_Output(other,self,"DIA_Talbin_PayTeacher_15_00");	//Here's your cheese. Will you teach me now?
-		AI_Output(self,other,"DIA_Talbin_PayTeacher_07_01");	//Really, you've got some? Oh man, it's been ages since I ate something like that. Thank you. Er, what about ... oh yeah. Sure!
+		AI_Output(self,other,"DIA_Talbin_PayTeacher_07_01");	//Really, you've got some? Oh man, it's been ages since I ate something like that. Thank you. Er, what about... oh yeah. Sure!
 		Talbin_TeachAnimalTrophy = TRUE;
 		DIA_Talbin_PayTeacher_noPerm = TRUE;
 	}
@@ -326,7 +326,7 @@ func void DIA_Talbin_TEACHHUNTING_Fur()
 {
 	if(B_TeachPlayerTalentTakeAnimalTrophy(self,other,TROPHY_Fur))
 	{
-		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_00");	//The easiest way to skin a lurker is to make a cut along the length of its belly ...
+		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_00");	//The easiest way to skin a lurker is to make a cut along the length of its belly...
 		AI_Output(self,other,"DIA_Talbin_TEACHHUNTING_Fur_07_01");	//... then tug on its hind legs and thus pull off the skin in one piece from back to front.
 	};
 	Info_ClearChoices(DIA_Talbin_TEACHHUNTING);
@@ -451,7 +451,7 @@ func void DIA_Talbin_KAP4_WASWOLLTENDJG_Info()
 	AI_Output(self,other,"DIA_Talbin_KAP4_WASWOLLTENDJG_07_02");	//They were going on about killing dragons and such. Lord knows where those boys came from, but they didn't look particularly trustworthy!
 	if(Kapitel == 4)
 	{
-		B_LogEntry(TOPIC_Dragonhunter,"Some Dragon Hunters stopped by Talbin the Hunter's place.");
+		B_LogEntry(TOPIC_Dragonhunter,"Some Dragon hunters stopped by Talbin the Hunter's place.");
 	};
 };
 
@@ -478,7 +478,7 @@ func void DIA_Talbin_WOENGROM_Info()
 {
 	AI_Output(other,self,"DIA_Talbin_WOENGROM_15_00");	//Are you alone here at the moment?
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_01");	//Yes. My buddy Engrom has up and left. Yesterday he said he was having a vision - someone speaking to him very softly.
-	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_02");	//I didn't hear a thing. I just thought to myself, he's gone off the deep end ...
+	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_02");	//I didn't hear a thing. I just thought to myself, he's gone off the deep end...
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_03");	//... and then he was suddenly gone. I've no idea where he went.
 	AI_Output(self,other,"DIA_Talbin_WOENGROM_07_04");	//If you should see Engrom anywhere, tell him he still owes me a lurker skin, the bastard.
 	if(Npc_KnowsInfo(other,DIA_Engrom_WhatAboutLeaving))

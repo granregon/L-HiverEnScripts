@@ -68,7 +68,7 @@ func int DIA_Dobar_Talent_Condition()
 func void DIA_Dobar_Talent_Info()
 {
 	AI_Output(other,self,"DIA_Dobar_Talent_15_00");	//I know a thing or two about forging.
-	AI_Output(self,other,"DIA_Dobar_Talent_08_01");	//Fine ... so what?
+	AI_Output(self,other,"DIA_Dobar_Talent_08_01");	//Fine... so what?
 };
 
 

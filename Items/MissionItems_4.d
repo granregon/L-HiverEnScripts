@@ -131,9 +131,6 @@ instance ItAt_TalbinsLurkerSkin(C_Item)
 	material = MAT_LEATHER;
 	description = name;
 	text[0] = "The name Talbin has been branded on the inside.";
-	text[1] = "";
-	text[2] = "";
-	text[3] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -167,8 +164,6 @@ instance ItRi_OrcEliteRing(C_Item)
 	description = name;
 	text[0] = "This rough ring";
 	text[1] = "seems strangely cold.";
-	text[2] = "";
-	text[3] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_RING_STANDARD;
@@ -228,8 +223,6 @@ instance ItWr_Map_Orcelite_MIS(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld_Orcelite_MIS;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -269,8 +262,6 @@ instance ItWr_Map_Caves_MIS(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld_Caves_MIS;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };

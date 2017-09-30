@@ -78,7 +78,7 @@ func void DIA_Addon_Telbor_NW_Hi_Info()
 	AI_Output(self,other,"DIA_Addon_Telbor_NW_Hi_12_01");	//Hey, the guy who saved my life! Yeah, it's more hard labor for me now.
 	if(!Npc_IsDead(Egill) && !Npc_IsDead(Ehnim))
 	{
-		AI_Output(self,other,"DIA_Addon_Telbor_NW_Hi_12_02");	//Especially with those two nutty brothers. Oh man, the bandits weren't THAT bad ...
+		AI_Output(self,other,"DIA_Addon_Telbor_NW_Hi_12_02");	//Especially with those two nutty brothers. Oh man, the bandits weren't THAT bad...
 	};
 };
 

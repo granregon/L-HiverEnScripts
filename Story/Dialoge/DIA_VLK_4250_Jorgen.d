@@ -133,7 +133,7 @@ instance DIA_Jorgen_Milten(C_Info)
 	condition = DIA_Jorgen_Milten_Condition;
 	information = DIA_Jorgen_Milten_Info;
 	permanent = FALSE;
-	description = "If you're headed for the monastery, you should talk to Milten ...";
+	description = "If you're headed for the monastery, you should talk to Milten...";
 };
 
 

@@ -155,7 +155,7 @@ func int DIA_Addon_Finn_Esteban_Condition()
 func void DIA_Addon_Finn_Esteban_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Finn_Esteban_15_00");	//Tell me, what do you think of Esteban?
-	AI_Output(self,other,"DIA_Addon_Finn_Esteban_07_01");	//(carefully) He's the boss here...he's...all right, I think.
+	AI_Output(self,other,"DIA_Addon_Finn_Esteban_07_01");	//(carefully) He's the boss here... he's... all right, I think.
 	AI_Output(self,other,"DIA_Addon_Finn_Esteban_07_02");	//(hesitantly) He always lets the good boys into the mine. The ones who know something about mining, I mean.
 };
 

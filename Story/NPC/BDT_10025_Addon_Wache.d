@@ -1,7 +1,7 @@
 
 instance BDT_10025_Addon_Wache(Npc_Default)
 {
-	name[0] = "Kucharz";
+	name[0] = "Cook";
 	guild = GIL_BDT;
 	id = 10025;
 	voice = 7;

@@ -42,7 +42,7 @@ func void DIA_Sengrath_Hello_Info()
 	AI_Output(self,other,"DIA_Sengrath_Hello_03_00");	//I knew it! I knew that someone would succeed!
 	AI_Output(self,other,"DIA_Sengrath_Hello_03_01");	//Have you come over the pass? Our messenger managed to get through, then?
 	AI_Output(other,self,"DIA_Sengrath_Hello_15_02");	//No, your messenger didn't make it across the pass. I have come by order of Lord Hagen.
-	AI_Output(self,other,"DIA_Sengrath_Hello_03_03");	//(growls) Accursed orcs ...
+	AI_Output(self,other,"DIA_Sengrath_Hello_03_03");	//(growls) Accursed orcs...
 	AI_Output(self,other,"DIA_Sengrath_Hello_03_04");	//Well, Commander Garond will certainly want to speak to you. You'll find him in the large building guarded by two knights.
 };
 

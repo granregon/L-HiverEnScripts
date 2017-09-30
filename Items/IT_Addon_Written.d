@@ -716,8 +716,6 @@ instance ItWr_Map_AddonWorld(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_AddonWorld;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -765,7 +763,7 @@ func void use_bmcrft_01()
 		if((KNOWS_BATTLEMAGE == FALSE) && (PLAYER_TALENT_ARMOR[1] == TRUE))
 		{
 			KNOWS_BATTLEMAGE = TRUE;
-			B_Say(self,self,"DIA_Cipher_Joints_Running_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"I have found some old sketch of an armor, I should try to forge it.");
 		}
 		else if(KNOWS_BATTLEMAGE)
@@ -826,7 +824,7 @@ func void use_tacrft_01()
 		if((KNOWS_TROLLARCRFT == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE))
 		{
 			KNOWS_TROLLARCRFT = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can forge the troll hide armor.");
 		}
 		else if(KNOWS_TROLLARCRFT)
@@ -887,7 +885,7 @@ func void use_sldbocrft_01()
 		if((KNOWS_SLDBLACKORE == FALSE) && (PLAYER_TALENT_ARMOR[2] == TRUE))
 		{
 			KNOWS_SLDBLACKORE = TRUE;
-			B_Say(self,self,"DIA_Cipher_Joints_Running_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can forge the black ore armor.");
 		}
 		else if(KNOWS_SLDBLACKORE)
@@ -948,7 +946,7 @@ func void use_sldg3crft_01()
 		if((KNOWS_SLDG3 == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE))
 		{
 			KNOWS_SLDG3 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can forge the Myrtana mercenary armor.");
 		}
 		else if(KNOWS_SLDG3)
@@ -1008,7 +1006,7 @@ func void use_sldg3_grd1to3()
 		if((KNOWS_SLDG3_GRD1TO3 == FALSE) && (KNOWS_SLDG3 == TRUE) && (PLAYER_TALENT_ARMOR[0] == TRUE))
 		{
 			KNOWS_SLDG3_GRD1TO3 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can improve the Myrtana mercenary armor, adding extra protection to hands and feet.");
 		}
 		else if(KNOWS_SLDG3_GRD1TO3)
@@ -1066,7 +1064,7 @@ func void use_sldg3_grd4to5()
 		if((KNOWS_SLDG3_GRD4TO5 == FALSE) && (KNOWS_SLDG3_GRD1TO3 == TRUE) && (PLAYER_TALENT_ARMOR[1] == TRUE))
 		{
 			KNOWS_SLDG3_GRD4TO5 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can seriously improve the Myrtana mercenary armor, adding extra protection to body and legs.");
 		}
 		else if(KNOWS_SLDG3_GRD4TO5)
@@ -1125,7 +1123,7 @@ func void use_sldg3_grd6to7()
 		if((KNOWS_SLDG3_GRD6TO7 == FALSE) && (KNOWS_SLDG3_GRD4TO5 == TRUE) && (PLAYER_TALENT_ARMOR[2] == TRUE))
 		{
 			KNOWS_SLDG3_GRD6TO7 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can maximally improve the Myrtana mercenary armor, adding additional protection to hands and feet.");
 		}
 		else if(KNOWS_SLDG3_GRD6TO7)
@@ -1183,7 +1181,7 @@ func void use_w2knightcrft_01()
 		if((KNOWS_W2KNIGHT == FALSE) && (PLAYER_TALENT_ARMOR[1] == TRUE))
 		{
 			KNOWS_W2KNIGHT = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can forge the royal Vengardian armor.");
 		}
 		else if(KNOWS_W2KNIGHT)
@@ -1243,7 +1241,7 @@ func void use_w2_grd1to2()
 		if((KNOWS_W2KNIGHT_GRD1TO2 == FALSE) && (KNOWS_W2KNIGHT == TRUE) && (PLAYER_TALENT_ARMOR[1] == TRUE))
 		{
 			KNOWS_W2KNIGHT_GRD1TO2 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can improve the royal cuirass, by adding additional protection for shoulders and legs.");
 		}
 		else if(KNOWS_W2KNIGHT_GRD1TO2)
@@ -1301,7 +1299,7 @@ func void use_w2_grd3to4()
 		if((KNOWS_W2KNIGHT_GRD3TO4 == FALSE) && (KNOWS_W2KNIGHT_GRD1TO2 == TRUE) && (PLAYER_TALENT_ARMOR[2] == TRUE))
 		{
 			KNOWS_W2KNIGHT_GRD3TO4 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can seriously improve the royal armor, by adding extra protection for hands and feet.");
 		}
 		else if(KNOWS_W2KNIGHT_GRD3TO4)
@@ -1359,7 +1357,7 @@ func void use_w2_grd5to7()
 		if((KNOWS_W2KNIGHT_GRD5TO7 == FALSE) && (KNOWS_W2KNIGHT_GRD3TO4 == TRUE) && (PLAYER_TALENT_ARMOR[2] == TRUE))
 		{
 			KNOWS_W2KNIGHT_GRD5TO7 = TRUE;
-			B_Say(self,self,"DIA_Addon_Vatras_GuildBypass_BACK_15_00");
+			B_Say(self,self,"$BEZI_INTERES");
 			B_LogEntry(TOPIC_TalentSmith,"Now I can maximize the efficiency of the royal armor, by adding supplementary protection to shoulders, elbows and legs.");
 		}
 		else if(KNOWS_W2KNIGHT_GRD5TO7)

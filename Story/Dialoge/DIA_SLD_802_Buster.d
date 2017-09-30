@@ -84,7 +84,7 @@ func void DIA_Buster_Hello_NotYourBusiness()
 func void DIA_Buster_Hello_GoingToFarm()
 {
 	AI_Output(other,self,"DIA_Buster_Hello_GoingToFarm_15_00");	//If you say so. I'm on my way to see the landowner.
-	AI_Output(self,other,"DIA_Buster_Hello_GoingToFarm_13_01");	//Indeed ... Hm - you don't look all that dangerous to me.
+	AI_Output(self,other,"DIA_Buster_Hello_GoingToFarm_13_01");	//Indeed... Hm - you don't look all that dangerous to me.
 	Info_ClearChoices(DIA_Buster_Hello);
 	Info_AddChoice(DIA_Buster_Hello,"Want to find out?",DIA_Buster_Hello_WannaTestIt);
 	Info_AddChoice(DIA_Buster_Hello,"I've killed a beast or two on occasion.",DIA_Buster_Hello_SlewBeasts);
@@ -156,19 +156,19 @@ func void DIA_Buster_Hello_SoWhat()
 	AI_Output(self,other,"DIA_Buster_Hello_SoWhat_13_02");	//(angry) Maybe it's about time that somebody taught you a lesson!
 	Info_ClearChoices(DIA_Buster_Hello);
 	Info_AddChoice(DIA_Buster_Hello,"Any time!",DIA_Buster_Hello_Whenever);
-	Info_AddChoice(DIA_Buster_Hello,"Only kidding ...",DIA_Buster_Hello_JustJoking);
+	Info_AddChoice(DIA_Buster_Hello,"Only kidding...",DIA_Buster_Hello_JustJoking);
 };
 
 func void DIA_Buster_Hello_RealOrcs()
 {
 	AI_Output(other,self,"DIA_Buster_Hello_RealOrcs_15_00");	//Do you mean REAL orcs? Those big things?
-	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_01");	//(sighs) I mean ... Just a moment! Are you trying to pull my leg?
+	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_01");	//(sighs) I mean... Just a moment! Are you trying to pull my leg?
 	AI_Output(other,self,"DIA_Buster_Hello_RealOrcs_15_02");	//(smiling) Far be that from me.
 	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_03");	//You worm! (stupidly aggressive) You're really asking for it, huh?
 	AI_Output(self,other,"DIA_Buster_Hello_RealOrcs_13_04");	//Then come and show me what you've got, you hero!
 	Info_ClearChoices(DIA_Buster_Hello);
 	Info_AddChoice(DIA_Buster_Hello,"Any time!",DIA_Buster_Hello_Whenever);
-	Info_AddChoice(DIA_Buster_Hello,"Only kidding ...",DIA_Buster_Hello_JustJoking);
+	Info_AddChoice(DIA_Buster_Hello,"Only kidding...",DIA_Buster_Hello_JustJoking);
 };
 
 func void DIA_Buster_Hello_Whenever()
@@ -181,7 +181,7 @@ func void DIA_Buster_Hello_Whenever()
 
 func void DIA_Buster_Hello_JustJoking()
 {
-	AI_Output(other,self,"DIA_Buster_Hello_JustJoking_15_00");	//Only kidding ...
+	AI_Output(other,self,"DIA_Buster_Hello_JustJoking_15_00");	//Only kidding...
 	AI_Output(self,other,"DIA_Buster_Hello_JustJoking_13_01");	//Yeah, right, draw in your horns! Just get out of my sight!
 	AI_StopProcessInfos(self);
 };
@@ -291,7 +291,7 @@ func void DIA_Buster_WannaJoin_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Buster_WannaJoin_13_04");	//You? I don't recall that they ever let a coward join the mercenaries ...
+		AI_Output(self,other,"DIA_Buster_WannaJoin_13_04");	//You? I don't recall that they ever let a coward join the mercenaries...
 		if(self.aivar[AIV_LastFightAgainstPlayer] == FIGHT_CANCEL)
 		{
 			AI_Output(self,other,"DIA_Buster_WannaJoin_13_05");	//Running away in a duel - that won't get you far around here!
@@ -330,7 +330,7 @@ func void DIA_Buster_OtherSld_Info()
 	{
 		AI_Output(self,other,"DIA_Buster_OtherSld_13_03");	//I think you're made of the right stuff to be one of us.
 		AI_Output(self,other,"DIA_Buster_OtherSld_13_04");	//But you shouldn't let it get to your head that you lucked out during our last fight.
-		AI_Output(self,other,"DIA_Buster_OtherSld_13_05");	//There are plenty of lads on the farm who are quite a bit better than I am ...
+		AI_Output(self,other,"DIA_Buster_OtherSld_13_05");	//There are plenty of lads on the farm who are quite a bit better than I am...
 		AI_Output(self,other,"DIA_Buster_OtherSld_13_06");	//Sentenza, for one. He guards the entry to the farm. Whatever you do, don't pick a fight with him.
 		Buster_SentenzaTip = TRUE;
 	}
@@ -485,11 +485,11 @@ func void DIA_Buster_Teach_Info()
 	AI_Output(other,self,"DIA_Buster_Teach_15_00");	//Can you teach me how to fight better?
 	if(self.aivar[AIV_DefeatedByPlayer] == TRUE)
 	{
-		AI_Output(self,other,"DIA_Buster_Teach_13_01");	//I might well be able to give you a hint or two ...
+		AI_Output(self,other,"DIA_Buster_Teach_13_01");	//I might well be able to give you a hint or two...
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Buster_Teach_13_02");	//You're not nearly as dumb as you look. All right, I'll teach you what I know. Then maybe you'll even stand a fair chance against me ...
+		AI_Output(self,other,"DIA_Buster_Teach_13_02");	//You're not nearly as dumb as you look. All right, I'll teach you what I know. Then maybe you'll even stand a fair chance against me...
 	};
 	if(BusterLOG == FALSE)
 	{
@@ -637,7 +637,7 @@ instance DIA_Buster_BringTrophyShadowbeast(C_Info)
 	condition = DIA_Buster_BringTrophyShadowbeast_Condition;
 	information = DIA_Buster_BringTrophyShadowbeast_Info;
 	permanent = TRUE;
-	description = "About the shadowbeast horns ...";
+	description = "About the shadowbeast horns...";
 };
 
 
@@ -763,7 +763,7 @@ instance DIA_Buster_Perm4(C_Info)
 	condition = DIA_Buster_Perm4_Condition;
 	information = DIA_Buster_Perm4_Info;
 	permanent = TRUE;
-	description = "What do you think of this dragon hunter thing?";
+	description = "What do you think of this Dragon hunter thing?";
 };
 
 
@@ -777,7 +777,7 @@ func int DIA_Buster_Perm4_Condition()
 
 func void DIA_Buster_Perm4_Info()
 {
-	AI_Output(other,self,"DIA_Buster_Perm4_15_00");	//What do you think of this dragon hunter thing?
+	AI_Output(other,self,"DIA_Buster_Perm4_15_00");	//What do you think of this Dragon hunter thing?
 	AI_Output(self,other,"DIA_Buster_Perm4_13_01");	//The boys could come away with a lot of gold - if they don't kick the bucket first.
 	AI_Output(self,other,"DIA_Buster_Perm4_13_02");	//Myself, I prefer sticking with Lee.
 };

@@ -89,7 +89,7 @@ instance DIA_Rupert_ZuPal(C_Info)
 	condition = DIA_Rupert_ZuPal_Condition;
 	information = DIA_Rupert_ZuPal_Info;
 	permanent = FALSE;
-	description = "I was actually on my way to see the paladins ...";
+	description = "I was actually on my way to see the paladins...";
 };
 
 
@@ -103,7 +103,7 @@ func int DIA_Rupert_ZuPal_Condition()
 
 func void DIA_Rupert_ZuPal_Info()
 {
-	AI_Output(other,self,"DIA_Rupert_ZuPal_15_00");	//I was actually on my way to see the paladins ...
+	AI_Output(other,self,"DIA_Rupert_ZuPal_15_00");	//I was actually on my way to see the paladins...
 	AI_Output(self,other,"DIA_Rupert_ZuPal_03_01");	//There's little chance of that. Since the paladins made themselves at home in the upper end of town, hardly anyone gets in there any more.
 };
 

@@ -260,11 +260,11 @@ func void DIA_Girion_CATCHPLAYERSTOLENSHIP_ship()
 	AI_Output(other,self,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_15_00");	//I need the ship. So I will take it.
 	if((hero.guild == GIL_PAL) || (hero.guild == GIL_KDF))
 	{
-		AI_Output(self,other,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_08_01");	//You cannot do that. The ore transport ...
+		AI_Output(self,other,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_08_01");	//You cannot do that. The ore transport...
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_08_02");	//How dare you, you stinking son of a ...
+		AI_Output(self,other,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_08_02");	//How dare you, you stinking son of a...
 	};
 	AI_Output(other,self,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_15_03");	//The ore in the Valley of Mines is not enough to satisfy the king. I was there. There's nothing more to be had there. Hagen's mission is a farce.
 	AI_Output(other,self,"DIA_Girion_CATCHPLAYERSTOLENSHIP_ship_15_04");	//The real threat has its roots on an offshore island not far from here. I shall sail there and put an end to it.

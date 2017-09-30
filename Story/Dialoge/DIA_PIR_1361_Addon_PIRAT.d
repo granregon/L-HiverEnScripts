@@ -100,7 +100,7 @@ func void DIA_Addon_SawPirate_ComeOn_Info()
 	AI_Output(other,self,"DIA_Addon_SawPirate_ComeOn_15_00");	//Come with me.
 	if(HammerPirate.aivar[AIV_PARTYMEMBER] == TRUE)
 	{
-		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_01");	//Why? You've already got somebody with you ...
+		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_01");	//Why? You've already got somebody with you...
 	}
 	else if(Npc_GetDistToWP(self,"ADW_PIRATECAMP_WAY_08") > 6000)
 	{
@@ -109,7 +109,7 @@ func void DIA_Addon_SawPirate_ComeOn_Info()
 	}
 	else if(!Npc_IsDead(HammerPirate) && (SawPirate_ComeOn_Once == FALSE))
 	{
-		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_02");	//(to himself) He COULD have asked somebody ELSE ...
+		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_02");	//(to himself) He COULD have asked somebody ELSE...
 		SawPirate_ComeOn_Once = TRUE;
 		AI_StopProcessInfos(self);
 		Npc_ExchangeRoutine(self,"FOLLOW");
@@ -117,7 +117,7 @@ func void DIA_Addon_SawPirate_ComeOn_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_03");	//(sighs) Aye aye ...
+		AI_Output(self,other,"DIA_Addon_SawPirate_ComeOn_09_03");	//(sighs) Aye aye...
 		AI_StopProcessInfos(self);
 		Npc_ExchangeRoutine(self,"FOLLOW");
 		self.aivar[AIV_PARTYMEMBER] = TRUE;

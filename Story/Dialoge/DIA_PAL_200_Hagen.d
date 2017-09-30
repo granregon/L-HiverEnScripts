@@ -380,7 +380,7 @@ func void DIA_Lord_Hagen_Proof_Info()
 		AI_Output(self,other,"DIA_Lord_Hagen_Proof_04_02");	//If anyone knows the situation there, he will.
 		AI_Output(self,other,"DIA_Lord_Hagen_Proof_04_03");	//If he confirms your words, then I am prepared to help you.
 		AI_Output(other,self,"DIA_Lord_Hagen_Proof_15_04");	//Does that mean you'll hand over the Eye of Innos to me?
-		AI_Output(self,other,"DIA_Lord_Hagen_Proof_04_05");	//The Eye of Innos...good. Bring me proof, then I shall see to it that you are permitted to wear the amulet.
+		AI_Output(self,other,"DIA_Lord_Hagen_Proof_04_05");	//The Eye of Innos... good. Bring me proof, then I shall see to it that you are permitted to wear the amulet.
 		AI_Output(other,self,"DIA_Lord_Hagen_Proof_15_06");	//Then can I say I've got your word in this matter?
 		AI_Output(self,other,"DIA_Lord_Hagen_Proof_04_07");	//You can - for you have it.
 		Hagen_BringProof = TRUE;
@@ -492,7 +492,7 @@ func int DIA_Addon_Lord_Hagen_Ornament_Condition()
 func void DIA_Addon_Lord_Hagen_Ornament_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Lord_Hagen_GiveOrnament_15_00");	//I am looking for a metal ornament. It should have been by the stone circle near Lobart's farm.
-	AI_Output(self,other,"DIA_Addon_Lord_Hagen_GiveOrnament_04_01");	//If you mean this thing here...we suspected that it might be a magical rune, but it turned out to be completely worthless.
+	AI_Output(self,other,"DIA_Addon_Lord_Hagen_GiveOrnament_04_01");	//If you mean this thing here... we suspected that it might be a magical rune, but it turned out to be completely worthless.
 	AI_Output(self,other,"DIA_Addon_Lord_Hagen_GiveOrnament_04_02");	//You can have it if you like. I have no use for it.
 	CreateInvItems(self,ItMi_Ornament_Addon,1);
 	B_GiveInvItems(self,other,ItMi_Ornament_Addon,1);
@@ -1058,7 +1058,7 @@ func void DIA_Lord_Hagen_Cornelius_Info()
 	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_03");	//(furious) That slimy little criminal!
 	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_04");	//In view of the new evidence, there is nothing else I can do.
 	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_05");	//By virtue of the office granted me by king and church, I declare...
-	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_06");	//...that the prisoner Bennet is exonerated of all charges and is thereby a free man.
+	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_06");	//... that the prisoner Bennet is exonerated of all charges and is thereby a free man.
 	B_StartOtherRoutine(Bennet,"START");
 	B_StartOtherRoutine(Hodges,"START");
 	AI_Output(self,other,"DIA_Lord_Hagen_Cornelius_04_07");	//Cornelius is to be taken into immediate custody for perjury.
@@ -1409,7 +1409,7 @@ func void DIA_Lord_Hagen_GateOpen_Info()
 	AI_Output(other,self,"DIA_Lord_Hagen_Add_15_29");	//The orcs have stormed the castle in the Valley of Mines!
 	AI_Output(self,other,"DIA_Lord_Hagen_Add_04_30");	//By Innos! What exactly happened there?
 	AI_Output(other,self,"DIA_Lord_Hagen_Add_15_31");	//Somehow the gate must have opened...
-	AI_Output(self,other,"DIA_Lord_Hagen_Add_04_32");	//Somehow?! How is that possible...There must have been a traitor in the castle!
+	AI_Output(self,other,"DIA_Lord_Hagen_Add_04_32");	//Somehow?! How is that possible... There must have been a traitor in the castle!
 };
 
 

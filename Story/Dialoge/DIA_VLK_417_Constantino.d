@@ -172,7 +172,7 @@ func int DIA_Addon_Constantino_LestersKraeuter_Condition()
 func void DIA_Addon_Constantino_LestersKraeuter_Info()
 {
 	AI_Output(other,self,"DIA_Addon_Constantino_LestersKraeuter_15_00");	//Can I sell you some herbs?
-	AI_Output(self,other,"DIA_Addon_Constantino_LestersKraeuter_10_01");	//If you have any to offer ...
+	AI_Output(self,other,"DIA_Addon_Constantino_LestersKraeuter_10_01");	//If you have any to offer...
 	B_GivePlayerXP(XP_Ambient);
 };
 
@@ -329,7 +329,7 @@ instance DIA_Constantino_HerbsRunning(C_Info)
 	condition = DIA_Constantino_HerbsRunning_Condition;
 	information = DIA_Constantino_HerbsRunning_Info;
 	permanent = TRUE;
-	description = "About the plants ...";
+	description = "About the plants...";
 };
 
 
@@ -343,7 +343,7 @@ func int DIA_Constantino_HerbsRunning_Condition()
 
 func void DIA_Constantino_HerbsRunning_Info()
 {
-	AI_Output(other,self,"DIA_Constantino_HerbsRunning_15_00");	//About the plants ...
+	AI_Output(other,self,"DIA_Constantino_HerbsRunning_15_00");	//About the plants...
 	AI_Output(self,other,"DIA_Constantino_HerbsRunning_10_01");	//If you cannot handle that by yourself, you won't be any good as an alchemist either!
 	Info_ClearChoices(DIA_Constantino_HerbsRunning);
 	Info_AddChoice(DIA_Constantino_HerbsRunning,"I see.",DIA_Constantino_HerbsRunning_Running);
@@ -685,7 +685,7 @@ instance DIA_Constantino_MushroomsRunning(C_Info)
 	condition = DIA_Constantino_MushroomsRunning_Condition;
 	information = DIA_Constantino_MushroomsRunning_Info;
 	permanent = TRUE;
-	description = "You wanted mushrooms ...";
+	description = "You wanted mushrooms...";
 };
 
 
@@ -699,16 +699,16 @@ func int DIA_Constantino_MushroomsRunning_Condition()
 
 func void DIA_Constantino_MushroomsRunning_Info()
 {
-	AI_Output(other,self,"DIA_Constantino_MushroomsRunning_15_00");	//You wanted mushrooms ...
+	AI_Output(other,self,"DIA_Constantino_MushroomsRunning_15_00");	//You wanted mushrooms...
 	Info_ClearChoices(DIA_Constantino_MushroomsRunning);
-	Info_AddChoice(DIA_Constantino_MushroomsRunning,"I'm going to bring you some ...",DIA_Constantino_MushroomsRunning_Later);
+	Info_AddChoice(DIA_Constantino_MushroomsRunning,"I'm going to bring you some...",DIA_Constantino_MushroomsRunning_Later);
 	if(Player_KnowsDunkelpilzBonus == FALSE)
 	{
 		Info_AddChoice(DIA_Constantino_MushroomsRunning,"Why are those things so important?",DIA_Constantino_MushroomsRunning_Why);
 	};
 	if((Npc_HasItems(other,ItPl_Mushroom_01) > 0) || (Npc_HasItems(other,ItPl_Mushroom_02) > 0))
 	{
-		Info_AddChoice(DIA_Constantino_MushroomsRunning,"I've got a few ...",DIA_Constantino_MushroomsRunning_Sell);
+		Info_AddChoice(DIA_Constantino_MushroomsRunning,"I've got a few...",DIA_Constantino_MushroomsRunning_Sell);
 	};
 };
 
@@ -718,7 +718,7 @@ func void DIA_Constantino_MushroomsRunning_Sell()
 	Dunkelpilz_dabei = FALSE;
 	if(Npc_HasItems(other,ItPl_Mushroom_01) > 0)
 	{
-		AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Sell_15_00");	//I've got a few murky mushrooms here ...
+		AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Sell_15_00");	//I've got a few murky mushrooms here...
 		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Sell_10_01");	//Ah! Those are the best! Well done! Here's your gold!
 		Dunkelpilz_dabei = TRUE;
 		Constantino_DunkelpilzCounter = Constantino_DunkelpilzCounter + Npc_HasItems(other,ItPl_Mushroom_01);
@@ -729,7 +729,7 @@ func void DIA_Constantino_MushroomsRunning_Sell()
 	{
 		if(Dunkelpilz_dabei == TRUE)
 		{
-			AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Sell_15_02");	//And here are some of the others ...
+			AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Sell_15_02");	//And here are some of the others...
 		}
 		else
 		{
@@ -753,7 +753,7 @@ func void DIA_Constantino_MushroomsRunning_Why()
 	{
 		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Why_10_02");	//All right - I shall tell you, then. But you must keep it to yourself.
 		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Why_10_03");	//Murky mushrooms are full of magic energy. And every time you eat one, a little bit of this energy will accumulate in your body.
-		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Why_10_04");	//Once you have eaten a sufficient amount of these mushrooms, your magic energy will increase ...
+		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Why_10_04");	//Once you have eaten a sufficient amount of these mushrooms, your magic energy will increase...
 		AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Why_10_05");	//If I had told you that earlier, you would have gobbled up all the mushrooms yourself, wouldn't you?
 		AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Why_15_06");	//(sighs) Oh, man!
 		Player_KnowsDunkelpilzBonus = TRUE;
@@ -767,8 +767,8 @@ func void DIA_Constantino_MushroomsRunning_Why()
 
 func void DIA_Constantino_MushroomsRunning_Later()
 {
-	AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Later_15_00");	//I'm going to bring you some ...
-	AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Later_10_01");	//Great! Bring me as many as you can find ...
+	AI_Output(other,self,"DIA_Constantino_MushroomsRunning_Later_15_00");	//I'm going to bring you some...
+	AI_Output(self,other,"DIA_Constantino_MushroomsRunning_Later_10_01");	//Great! Bring me as many as you can find...
 	Info_ClearChoices(DIA_Constantino_MushroomsRunning);
 };
 
@@ -833,7 +833,7 @@ func void DIA_Constantino_NewRecipes_Info()
 	AI_Output(other,self,"DIA_Constantino_NewRecipes_15_00");	//I'm looking for new recipes for potions.
 	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_01");	//Do you have any previous experience with alchemy?
 	AI_Output(other,self,"DIA_Constantino_NewRecipes_15_02");	//Yes, I do.
-	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_03");	//Yet you are still alive ... those aren't bad qualifications.
+	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_03");	//Yet you are still alive... those aren't bad qualifications.
 	AI_Output(self,other,"DIA_Constantino_NewRecipes_10_04");	//I think I can tell you a few formulations. It depends, of course, on what you want to know.
 	Constantino_TeachAlchemy = TRUE;
 	Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);

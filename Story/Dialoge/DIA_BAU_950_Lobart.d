@@ -195,7 +195,7 @@ func void DIA_Lobart_KLEIDUNG_Info()
 	B_LogEntry(TOPIC_Kleidung,"Farmer Lobart is prepared to sell me work clothes.");
 	if(!Npc_KnowsInfo(other,DIA_Lobart_WorkNOW))
 	{
-		AI_Output(self,other,"DIA_Lobart_KLEIDUNG_05_03");	//You could work off a part of the price...if you're someone who is LOOKING for work.
+		AI_Output(self,other,"DIA_Lobart_KLEIDUNG_05_03");	//You could work off a part of the price... if you're someone who is LOOKING for work.
 		B_LogEntry(TOPIC_Kleidung,"I can pay part of the price by working on his farm. The more work I do, the cheaper the clothes get.");
 	};
 };
@@ -385,7 +385,7 @@ func int DIA_Lobart_SldInfo_Condition()
 func void DIA_Lobart_SldInfo_Info()
 {
 	AI_Output(other,self,"DIA_Lobart_SldInfo_15_00");	//Who are those mercenaries that Onar hired?
-	AI_Output(self,other,"DIA_Lobart_SldInfo_05_01");	//I don't know much about the fellows. Supposedly, a lot of them are former prisoners from the mining colony.
+	AI_Output(self,other,"DIA_Lobart_SldInfo_05_01");	//I don't know much about the guys. Supposedly, a lot of them are former prisoners from the mining colony.
 	AI_Output(self,other,"DIA_Lobart_SldInfo_05_02");	//(scornful) Everybody knows what you can expect from them...
 };
 
@@ -547,7 +547,7 @@ func void DIA_Lobart_RuebenRunning_Info()
 		AI_Output(self,other,"DIA_Lobart_RuebenRunning_05_04");	//I can give you 5 gold pieces.
 		if(hero.guild == GIL_NONE)
 		{
-			AI_Output(self,other,"DIA_Lobart_RuebenRunning_05_05");	//...or sell you the clothes cheaper, what's it to be?
+			AI_Output(self,other,"DIA_Lobart_RuebenRunning_05_05");	//... or sell you the clothes cheaper, what's it to be?
 		};
 		Info_ClearChoices(DIA_Lobart_RuebenRunning);
 		if(hero.guild == GIL_NONE)

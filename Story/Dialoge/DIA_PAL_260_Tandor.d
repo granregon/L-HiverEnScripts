@@ -77,7 +77,7 @@ func void DIA_Tandor_Trupp_Info()
 	AI_Output(other,self,"DIA_Tandor_Trupp_15_00");	//What became of the unit?
 	AI_Output(self,other,"DIA_Tandor_Trupp_08_01");	//We scouted the area and wanted to advance to the coast. We set up our camp in a cave.
 	AI_Output(self,other,"DIA_Tandor_Trupp_08_02");	//It was late at night when the orcs came. They charged up the slope with torches and drums - and discovered us.
-	AI_Output(self,other,"DIA_Tandor_Trupp_08_03");	//We tried to flee, but I was the only one who got through ...
+	AI_Output(self,other,"DIA_Tandor_Trupp_08_03");	//We tried to flee, but I was the only one who got through...
 	AI_Output(self,other,"DIA_Tandor_Trupp_08_04");	//Soon after that, the orcs erected their big palisade and we pulled back into the castle.
 };
 
@@ -261,11 +261,11 @@ func void DIA_Tandor_News_Info()
 	AI_Output(other,self,"DIA_Tandor_News_15_00");	//Do you have any news?
 	if(hero.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Tandor_News_08_01");	//The only thing that's happened recently is you dragon hunters coming here.
+		AI_Output(self,other,"DIA_Tandor_News_08_01");	//The only thing that's happened recently is you Dragon hunters coming here.
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Tandor_News_08_02");	//The dragon hunters have arrived.
+		AI_Output(self,other,"DIA_Tandor_News_08_02");	//The Dragon hunters have arrived.
 		AI_Output(self,other,"DIA_Tandor_News_08_03");	//They strike me as tough bastards - and I hope they are, because otherwise they won't survive for long.
 	};
 };

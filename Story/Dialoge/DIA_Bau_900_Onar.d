@@ -390,7 +390,7 @@ func void DIA_Onar_CollectGold_Info()
 	AI_Output(other,self,"DIA_Onar_CollectGold_15_00");	//Pay me my wages!
 	if(other.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Onar_CollectGold_14_01");	//I pay for mercenaries, not dragon hunters.
+		AI_Output(self,other,"DIA_Onar_CollectGold_14_01");	//I pay for mercenaries, not Dragon hunters.
 	}
 	else if(Torlof_TheOtherMission_TooLate == TRUE)
 	{
@@ -506,7 +506,7 @@ func void DIA_Onar_WannaSheep_Info()
 	if(Npc_IsDead(Pepe))
 	{
 		AI_Output(other,self,"DIA_Onar_WannaSheep_15_05");	//Pepe is dead, I'm afraid.
-		AI_Output(self,other,"DIA_Onar_WannaSheep_14_06");	//Oh! In that case...leave 200 gold pieces here with me, and go get yourself a sheep from the pasture.
+		AI_Output(self,other,"DIA_Onar_WannaSheep_14_06");	//Oh! In that case... leave 200 gold pieces here with me, and go get yourself a sheep from the pasture.
 		Onar_SellSheep = TRUE;
 	};
 };

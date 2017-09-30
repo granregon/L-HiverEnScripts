@@ -1,7 +1,7 @@
 
 instance LH_SKE_01(Npc_Default)
 {
-	name[0] = "Najwy¿szy Lord cienia Amort";
+	name[0] = "Supreme Lord Shadow of Amorth";
 	guild = GIL_SKELETON;
 	id = 3010;
 	flags = 0;

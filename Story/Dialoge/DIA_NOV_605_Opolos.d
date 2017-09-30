@@ -207,7 +207,7 @@ func void DIA_Opolos_rezept_Info()
 		AI_Output(other,self,"DIA_Opolos_rezept_15_00");	//I've got the recipe you wanted.
 		AI_Output(self,other,"DIA_Opolos_rezept_12_01");	//Good, then let me read it.
 		B_UseFakeScroll();
-		AI_Output(self,other,"DIA_Opolos_rezept_12_02");	//Aha...hm...yes...I see...well, well...
+		AI_Output(self,other,"DIA_Opolos_rezept_12_02");	//Aha... hm... yes... I see... well, well...
 		B_UseFakeScroll();
 		AI_Output(self,other,"DIA_Opolos_rezept_12_03");	//Good, thanks a lot. If you want, you can train with me.
 		DIA_Opolos_rezept_permanent = TRUE;
@@ -355,7 +355,7 @@ func void DIA_Opolos_LIESEL_Info()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Opolos_Add_15_00");	//Hm...somehow I seem to have misplaced it. I'll come back later.
+		AI_Output(other,self,"DIA_Opolos_Add_15_00");	//Hm... somehow I seem to have misplaced it. I'll come back later.
 	};
 };
 

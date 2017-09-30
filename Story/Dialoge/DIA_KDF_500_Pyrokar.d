@@ -209,7 +209,7 @@ func int DIA_Pyrokar_FIRE_Condition()
 func void DIA_Pyrokar_FIRE_Info()
 {
 	AI_Output(other,self,"DIA_Pyrokar_FIRE_15_00");	//I want to undergo the Test of Fire.
-	AI_Output(self,other,"DIA_Pyrokar_FIRE_11_01");	//(surprised) So you know about...you want to pass the Test of Fire?
+	AI_Output(self,other,"DIA_Pyrokar_FIRE_11_01");	//(surprised) So you know about... you want to pass the Test of Fire?
 	AI_Output(other,self,"DIA_Pyrokar_FIRE_15_02");	//Yes, I refer to the Law of the Fire, which says...
 	AI_Output(self,other,"DIA_Pyrokar_FIRE_11_03");	//(interrupts brusquely) We know the Law of the Fire. We have also seen many novices die during the test. You ought to reconsider this decision.
 	AI_Output(other,self,"DIA_Pyrokar_FIRE_15_04");	//Yes, I have. I want the test - and I am going to pass it.
@@ -335,8 +335,8 @@ func int DIA_Pyrokar_SUCCESS_Condition()
 func void DIA_Pyrokar_SUCCESS_Info()
 {
 	AI_Output(other,self,"DIA_Pyrokar_SUCCESS_15_00");	//I found the runestone.
-	AI_Output(self,other,"DIA_Pyrokar_SUCCESS_11_01");	//(incredulously) You...did it?! You followed the signs and discovered the hidden portal...
-	AI_Output(other,self,"DIA_Pyrokar_SUCCESS_15_02");	//...and I defeated all those monsters who had already marked me down as a snack.
+	AI_Output(self,other,"DIA_Pyrokar_SUCCESS_11_01");	//(incredulously) You... did it?! You followed the signs and discovered the hidden portal...
+	AI_Output(other,self,"DIA_Pyrokar_SUCCESS_15_02");	//... and I defeated all those monsters who had already marked me down as a snack.
 	AI_Output(self,other,"DIA_Pyrokar_SUCCESS_11_03");	//And the other novices, then? What about Agon? Did they not succeed before you?
 	AI_Output(other,self,"DIA_Pyrokar_SUCCESS_15_04");	//They have failed. I suppose they weren't destined to pass the test.
 	AI_Output(self,other,"DIA_Pyrokar_SUCCESS_11_05");	//Well, then we declare that you have passed this test. And the runestone shall be yours to keep.
@@ -370,11 +370,11 @@ func void DIA_Pyrokar_Todo_Info()
 	AI_Output(self,other,"DIA_Pyrokar_Todo_11_01");	//But...
 	if(MIS_RUNE != LOG_SUCCESS)
 	{
-		AI_Output(self,other,"DIA_Pyrokar_Todo_11_02");	//...you still have to pass Ulthar's test.
+		AI_Output(self,other,"DIA_Pyrokar_Todo_11_02");	//... you still have to pass Ulthar's test.
 	};
 	if(MIS_GOLEM != LOG_SUCCESS)
 	{
-		AI_Output(self,other,"DIA_Pyrokar_Todo_11_03");	//...you still have to complete the test for Serpentes.
+		AI_Output(self,other,"DIA_Pyrokar_Todo_11_03");	//... you still have to complete the test for Serpentes.
 	};
 	AI_StopProcessInfos(self);
 };
@@ -432,8 +432,8 @@ func void DIA_Pyrokar_OATH_Info()
 	AI_Output(other,self,"DIA_Pyrokar_OATH_15_00");	//I am ready to step into the Circle of Fire.
 	AI_Output(self,other,"DIA_Pyrokar_OATH_11_01");	//Right, then swear the sacred Oath of Fire.
 	AI_Output(self,other,"DIA_Pyrokar_OATH_11_02");	//(solemnly) Do you swear, before Lord Innos the Almighty, his servants and the Holy Flame...
-	AI_Output(self,other,"DIA_Pyrokar_OATH_11_03");	//...that henceforth and forever, your very life shall be united with the fire...
-	AI_Output(self,other,"DIA_Pyrokar_OATH_11_04");	//...until your body and soul find rest in its sacred halls and the flame of your life dies away?
+	AI_Output(self,other,"DIA_Pyrokar_OATH_11_03");	//... that henceforth and forever, your very life shall be united with the fire...
+	AI_Output(self,other,"DIA_Pyrokar_OATH_11_04");	//... until your body and soul find rest in its sacred halls and the flame of your life dies away?
 	AI_Output(other,self,"DIA_Pyrokar_OATH_15_05");	//I swear.
 	AI_Output(self,other,"DIA_Pyrokar_OATH_11_06");	//By speaking the words of the oath, you have entered the pact with the fire.
 	AI_Output(self,other,"DIA_Pyrokar_OATH_11_07");	//Wear this robe as a token of the eternal bond.
@@ -1085,7 +1085,7 @@ func int DIA_Pyrokar_FOUNDINNOSEYE_Condition()
 func void DIA_Pyrokar_FOUNDINNOSEYE_Info()
 {
 	AI_Output(other,self,"DIA_Pyrokar_FOUNDINNOSEYE_15_00");	//I have found the Eye of Innos. It's broken.
-	AI_Output(self,other,"DIA_Pyrokar_FOUNDINNOSEYE_11_01");	//But...that cannot be. What happened?
+	AI_Output(self,other,"DIA_Pyrokar_FOUNDINNOSEYE_11_01");	//But... that cannot be. What happened?
 	AI_Output(other,self,"DIA_Pyrokar_FOUNDINNOSEYE_15_02");	//Some really nasty customers had it. Anyway, I came too late.
 	AI_Output(other,self,"DIA_Pyrokar_FOUNDINNOSEYE_15_03");	//They were performing a strange incantation on a crescent-shaped ritual site up in those woods.
 	AI_Output(self,other,"DIA_Pyrokar_FOUNDINNOSEYE_11_04");	//Innos be with us. They have desecrated our Circle of the Sun.
@@ -1693,7 +1693,7 @@ func void DIA_Pyrokar_WASISTIRDORATH_Info()
 	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_03");	//The brave knights of that time gave their all to raze those mighty constructions to the ground.
 	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_04");	//Back then, the black hordes of the enemy were helpless against the superior numbers and the heroic courage of the knights and paladins.
 	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_05");	//It would have been easy to destroy the other two temples as well and rid the land of evil forever...
-	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_06");	//...but after the second temple fell, they simply disappeared.
+	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_06");	//... but after the second temple fell, they simply disappeared.
 	AI_Output(other,self,"DIA_Pyrokar_WASISTIRDORATH_15_07");	//(mocking) Disappeared. An entire temple. Yeah, right.
 	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_08");	//Do not mock me. The situation is serious. If the Halls of Irdorath have indeed regained their power, then it will not be easy to defeat the enemy.
 	AI_Output(self,other,"DIA_Pyrokar_WASISTIRDORATH_11_09");	//For that, you would have to find it first, and I think that this will be your next, and hardest, task.
@@ -1766,7 +1766,7 @@ func void DIA_Pyrokar_IRDORATHBOOKOPEN_glueck()
 	AI_Output(other,self,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_15_00");	//Just dumb luck, I suppose.
 	AI_Output(self,other,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_11_01");	//Don't talk nonsense. Luck!
 	AI_Output(self,other,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_11_02");	//When not even I succeed in opening the book, and then someone like you comes waltzing in...
-	AI_Output(self,other,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_11_03");	//...that gives me something to ponder about.
+	AI_Output(self,other,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_11_03");	//... that gives me something to ponder about.
 	AI_Output(self,other,"DIA_Pyrokar_IRDORATHBOOKOPEN_glueck_11_04");	//Anyway. Since you were obviously the only one who was able to open the book, then may it be granted unto you to carry it. At least until we have weathered this crisis.
 	B_GivePlayerXP(XP_Ambient);
 	Info_ClearChoices(DIA_Pyrokar_IRDORATHBOOKOPEN);
@@ -1927,7 +1927,7 @@ func int DIA_Pyrokar_DTCLEARED_Condition()
 func void DIA_Pyrokar_DTCLEARED_Info()
 {
 	AI_Output(other,self,"DIA_Pyrokar_DTCLEARED_15_00");	//The thing with Xardas' tower has resolved itself.
-	AI_Output(self,other,"DIA_Pyrokar_DTCLEARED_11_01");	//So what was going on...no, wait, I do not even want to know.
+	AI_Output(self,other,"DIA_Pyrokar_DTCLEARED_11_01");	//So what was going on... no, wait, I do not even want to know.
 	AI_Output(self,other,"DIA_Pyrokar_DTCLEARED_11_02");	//If you still want Jorgen, then go ahead and take him on your journey.
 	AI_Output(self,other,"DIA_Pyrokar_DTCLEARED_11_03");	//May Innos protect you.
 	MIS_PyrokarClearDemonTower = LOG_SUCCESS;

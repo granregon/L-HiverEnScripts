@@ -79,19 +79,19 @@ func void DIA_Moe_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_Moe_Hallo_01_00");	//Hey, I don't know you. What do you want here? Are you headed for the pub?
 	Info_ClearChoices(DIA_Moe_Hallo);
-	Info_AddChoice(DIA_Moe_Hallo,"No, I'm not headed for the tavern ... (END)",DIA_Moe_Hallo_Gehen);
-	Info_AddChoice(DIA_Moe_Hallo,"Oh, so this is the watering hole ...",DIA_Moe_Hallo_Witz);
+	Info_AddChoice(DIA_Moe_Hallo,"No, I'm not headed for the tavern...(END)",DIA_Moe_Hallo_Gehen);
+	Info_AddChoice(DIA_Moe_Hallo,"Oh, so this is the watering hole...",DIA_Moe_Hallo_Witz);
 	Info_AddChoice(DIA_Moe_Hallo,"Yes, do you mind?",DIA_Moe_Hallo_Reizen);
 };
 
 func void DIA_Moe_Hallo_Gehen()
 {
-	AI_Output(other,self,"DIA_Moe_Hallo_Gehen_15_00");	//No, I'm not headed for the pub ...
+	AI_Output(other,self,"DIA_Moe_Hallo_Gehen_15_00");	//No, I'm not headed for the pub...
 	AI_Output(self,other,"DIA_Moe_Hallo_Gehen_01_01");	//Yeah, that's what I would have said. But that isn't important - and that's why we can get straight down to business.
 	AI_Output(self,other,"DIA_Moe_Hallo_Gehen_01_02");	//Since you're new here, I'll make you an offer. You give me 50 gold pieces, and you can go.
 	AI_Output(self,other,"DIA_Moe_Hallo_Gehen_01_03");	//That's your entrance fee for the pub.
 	Info_ClearChoices(DIA_Moe_Hallo);
-	Info_AddChoice(DIA_Moe_Hallo,"Let's find out what the militia thinks of that ...",DIA_Moe_Hallo_Miliz);
+	Info_AddChoice(DIA_Moe_Hallo,"Let's find out what the militia thinks of that...",DIA_Moe_Hallo_Miliz);
 	Info_AddChoice(DIA_Moe_Hallo,"Forget it, you won't get a single coin!",DIA_Moe_Hallo_Vergisses);
 	Info_AddChoice(DIA_Moe_Hallo,"All right. I'll pay.",DIA_Moe_Hallo_Zahlen);
 	Info_AddChoice(DIA_Moe_Hallo,"But I don't want to go to the tavern!",DIA_Moe_Hallo_Kneipe);
@@ -108,7 +108,7 @@ func void DIA_Moe_Hallo_Witz()
 	AI_Output(other,self,"DIA_Moe_Hallo_Witz_15_00");	//Oh, so this is the harbor watering hole. And there I was, taking it for the governor's palace.
 	AI_Output(self,other,"DIA_Moe_Hallo_Witz_01_01");	//Hey - cut out the bad jokes, runt, otherwise you'll be chewing the cobblestones.
 	Info_ClearChoices(DIA_Moe_Hallo);
-	Info_AddChoice(DIA_Moe_Hallo,"I see, I'll be forced to tan your hide ...",DIA_Moe_Hallo_Pruegel);
+	Info_AddChoice(DIA_Moe_Hallo,"I see, I'll be forced to tan your hide...",DIA_Moe_Hallo_Pruegel);
 	Info_AddChoice(DIA_Moe_Hallo,"Are you trying to make trouble for me?",DIA_Moe_Hallo_Aerger);
 	Info_AddChoice(DIA_Moe_Hallo,"Calm down, all I want to do is drink a beer.",DIA_Moe_Hallo_Ruhig);
 	Info_AddChoice(DIA_Moe_Hallo,"But I don't want to go to the tavern!",DIA_Moe_Hallo_Kneipe);
@@ -119,14 +119,14 @@ func void DIA_Moe_Hallo_Reizen()
 	AI_Output(other,self,"DIA_Moe_Hallo_Reizen_15_00");	//Yes, do you mind?
 	AI_Output(self,other,"DIA_Moe_Hallo_Reizen_01_01");	//You've got no business here, runt.
 	Info_ClearChoices(DIA_Moe_Hallo);
-	Info_AddChoice(DIA_Moe_Hallo,"I see, I'll be forced to tan your hide ...",DIA_Moe_Hallo_Pruegel);
+	Info_AddChoice(DIA_Moe_Hallo,"I see, I'll be forced to tan your hide...",DIA_Moe_Hallo_Pruegel);
 	Info_AddChoice(DIA_Moe_Hallo,"Are you trying to make trouble for me?",DIA_Moe_Hallo_Aerger);
 	Info_AddChoice(DIA_Moe_Hallo,"Calm down, all I want to do is drink a beer.",DIA_Moe_Hallo_Ruhig);
 };
 
 func void DIA_Moe_Hallo_Miliz()
 {
-	AI_Output(other,self,"DIA_Moe_Hallo_Miliz_15_00");	//Let's find out what the militia thinks of that ...
+	AI_Output(other,self,"DIA_Moe_Hallo_Miliz_15_00");	//Let's find out what the militia thinks of that...
 	AI_Output(self,other,"DIA_Moe_Hallo_Miliz_01_01");	//(laughs) The militia isn't here. And do you know why they aren't here?
 	AI_Output(self,other,"DIA_Moe_Hallo_Miliz_01_02");	//This here is the harbor district, runt. None of the militia will pick a fight with me down here.
 	AI_Output(self,other,"DIA_Moe_Hallo_Miliz_01_03");	//At the most, they go to the 'Red Lantern'. You see, it's just you and me. (filthy grin)

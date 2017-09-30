@@ -35,7 +35,7 @@ func void Equip_InnosEye()
 	self.protection[PROT_MAGIC] += AM_EyeProtMage;
 	STAT_SWORDDEF = STAT_SWORDDEF + (AM_EyeProtEdge * 1);
 	Npc_SetTalentSkill(hero,NPC_TALENT_SWORDDEF,STAT_SWORDDEF);
-	PrintScreen("",-1,-1,FONT_Screen,0);
+	PrintScreen("Innos is watching over you",-1,-1,FONT_Screen,0);
 };
 
 func void UnEquip_InnosEye()
@@ -186,8 +186,12 @@ func void UseCorneliusTagebuch()
 	var int nDocID;
 	if(Cornelius_IsLiar == FALSE)
 	{
-		B_LogEntry(TOPIC_RescueBennet,"The diary is the evidence I need to prove Bennet's innocence.");
+		B_LogEntry(TOPIC_RescueBennet,"Oto dowód niewinnoœci Benneta.");
 		Cornelius_IsLiar = TRUE;
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
 	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
@@ -562,6 +566,11 @@ func void Use_Astronomy()
 		Npc_ChangeAttribute(self,ATR_MANA,2);
 		Print(Print_ReadAstronomy);
 		Astronomy_once = TRUE;
+		B_Say(hero,hero,"$BEZI_INTERES");
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
 	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,2);
@@ -810,7 +819,6 @@ instance ItAm_Prot_BlackEye_Mis(C_Item)
 	visual_skin = 0;
 	material = MAT_METAL;
 	description = name;
-	text[2] = "";
 	text[3] = "Protects from Seekers' black look";
 	text[5] = NAME_Value;
 	count[5] = value;
@@ -827,8 +835,6 @@ instance ItMi_KarrasBlessedStone_Mis(C_Item)
 	visual_skin = 0;
 	material = MAT_STONE;
 	description = name;
-	text[2] = "";
-	text[3] = "";
 };
 
 instance ItWr_RichterKomproBrief_MIS(C_Item)
@@ -850,7 +856,14 @@ instance ItWr_RichterKomproBrief_MIS(C_Item)
 func void Use_RichterKomproBrief()
 {
 	var int nDocID;
-	SCKnowsRichterKomproBrief = TRUE;
+	if(!SCKnowsRichterKomproBrief)
+	{
+		SCKnowsRichterKomproBrief = TRUE;
+	}
+	else
+	{
+		B_Say(hero,hero,"$BEZI_TO_WIE");
+	};
 	nDocID = Doc_Create();
 	Doc_SetPages(nDocID,1);
 	Doc_SetPage(nDocID,0,"Scroll_01.TGA",0);
@@ -916,8 +929,6 @@ instance ItWr_Map_Shrine_MIS(C_Item)
 	scemeName = "MAP";
 	on_state[0] = Use_Map_NewWorld_Shrine_MIS;
 	description = name;
-	text[0] = "";
-	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };

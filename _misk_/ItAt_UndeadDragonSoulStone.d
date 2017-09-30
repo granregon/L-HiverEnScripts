@@ -10,10 +10,6 @@ instance ItAt_UndeadDragonSoulStone(C_Item)
 	visual = "ItAt_UndeadDragonSoulStone.3DS";
 	material = MAT_LEATHER;
 	description = name;
-	text[0] = "";
-	text[1] = "";
-	text[2] = "";
-	text[3] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_MISC_STANDARD;

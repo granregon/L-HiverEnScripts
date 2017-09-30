@@ -97,7 +97,7 @@ func void DIA_Orlan_Wein_Okay()
 func void DIA_Orlan_Wein_Was()
 {
 	AI_Output(other,self,"DIA_Orlan_Wein_Was_15_00");	//What kind of spell scrolls are they?
-	AI_Output(self,other,"DIA_Orlan_Wein_Was_05_01");	//No idea - I don't know anything about that. They're from a guest who...eh...forgot them here, yeah.
+	AI_Output(self,other,"DIA_Orlan_Wein_Was_05_01");	//No idea - I don't know anything about that. They're from a guest who... eh... forgot them here, yeah.
 };
 
 
@@ -188,7 +188,7 @@ func void DIA_Addon_Orlan_Ranger_Aqua()
 	AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_01");	//Yes, I have. Welcome to headquarters, Brother of the Ring.
 	if(Npc_KnowsInfo(other,DIA_Addon_Orlan_NoMeeting))
 	{
-		AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_02");	//...even if you appear to be a few candles short of an altar.
+		AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_02");	//... even if you appear to be a few candles short of an altar.
 	};
 	AI_Output(self,other,"DIA_Addon_Orlan_Ranger_Aqua_05_03");	//What can I do for you?
 	Info_ClearChoices(DIA_Addon_Orlan_Ranger);
@@ -360,12 +360,12 @@ func void DIA_Orlan_RUESTUNG_Info()
 	AI_Output(self,other,"DIA_Orlan_RUESTUNG_05_01");	//I have here a very nice piece that is sure to please you.
 	Info_ClearChoices(DIA_Orlan_RUESTUNG);
 	Info_AddChoice(DIA_Orlan_RUESTUNG,Dialog_Back,DIA_Orlan_RUESTUNG_BACK);
-	Info_AddChoice(DIA_Orlan_RUESTUNG,"Buy leather armor. Protection: B.+35/B.+20/P.+10/Df.+10/M.+20 (510 gold)",DIA_Orlan_RUESTUNG_Buy);
+	Info_AddChoice(DIA_Orlan_RUESTUNG,"Buy hunter's armor. Protection: B.+35/B.+20/P.+10/Df.+10/M.+20 (510 gold)",DIA_Orlan_RUESTUNG_Buy);
 };
 
 func void DIA_Orlan_RUESTUNG_Buy()
 {
-	AI_Output(other,self,"DIA_Orlan_RUESTUNG_Buy_15_00");	//I'd like to buy the leather armor.
+	AI_Output(other,self,"DIA_Matteo_LEATHER_15_00");	//All right, give me the armor.
 	if(B_GiveInvItems(other,self,ItMi_Gold,VALUE_ITAR_GERALT_ADDON))
 	{
 		AI_Output(self,other,"DIA_Orlan_RUESTUNG_Buy_05_01");	//A wise decision.

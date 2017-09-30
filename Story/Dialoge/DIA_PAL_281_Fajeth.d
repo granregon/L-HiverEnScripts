@@ -52,7 +52,7 @@ func int DIA_Fajeth_First_Condition()
 func void DIA_Fajeth_First_Info()
 {
 	AI_Output(self,other,"DIA_Fajeth_First_12_00");	//Who are you and what are you doing here?
-	AI_Output(other,self,"DIA_Fajeth_First_15_01");	//I am traveling by order of Lord Hagen ...
+	AI_Output(other,self,"DIA_Fajeth_First_15_01");	//I am traveling by order of Lord Hagen...
 	AI_Output(self,other,"DIA_Fajeth_First_12_02");	//Then you should try to reach the castle. That's where Commander Garond is. He is the chief commander of this expedition.
 	AI_StopProcessInfos(self);
 };
@@ -80,7 +80,7 @@ func int DIA_Fajeth_Hallo_Condition()
 func void DIA_Fajeth_Hallo_Info()
 {
 	AI_Output(self,other,"DIA_Fajeth_Hallo_12_00");	//Where do you come from?
-	AI_Output(other,self,"DIA_Fajeth_Hallo_15_01");	//I am here on behalf of Garond ...
+	AI_Output(other,self,"DIA_Fajeth_Hallo_15_01");	//I am here on behalf of Garond...
 	AI_Output(self,other,"DIA_Fajeth_Hallo_12_02");	//Very good. I can certainly use new men.
 	AI_Output(other,self,"DIA_Fajeth_Hallo_15_03");	//I am not here to assist you.
 	AI_Output(self,other,"DIA_Fajeth_Hallo_12_04");	//No? Then why did you come?
@@ -104,7 +104,7 @@ func void DIA_Fajeth_Hallo_Info()
 		AI_Output(self,other,"DIA_Fajeth_Hallo_12_10");	//Listen - I don't know why Garond sent me a mercenary - but he must have a reason.
 		AI_Output(self,other,"DIA_Fajeth_Hallo_12_11");	//But before I send you back, you will carry out a mission for me.
 		Info_AddChoice(DIA_Fajeth_Hallo,"Everything has its price.",DIA_Fajeth_Hallo_SLDJa);
-		Info_AddChoice(DIA_Fajeth_Hallo,"No, I've got no time ...",DIA_Fajeth_Hallo_SLDNein);
+		Info_AddChoice(DIA_Fajeth_Hallo,"No, I've got no time...",DIA_Fajeth_Hallo_SLDNein);
 	};
 };
 
@@ -161,7 +161,7 @@ func void DIA_Fajeth_Hallo_SLDJa()
 	Fajeth_Pay = TRUE;
 	Info_ClearChoices(DIA_Fajeth_Hallo);
 	Info_AddChoice(DIA_Fajeth_Hallo,"What can I do for you?",DIA_Fajeth_Hallo_Tun);
-	Info_AddChoice(DIA_Fajeth_Hallo,"No, I've got no time ...",DIA_Fajeth_Hallo_SLDNein);
+	Info_AddChoice(DIA_Fajeth_Hallo,"No, I've got no time...",DIA_Fajeth_Hallo_SLDNein);
 };
 
 func void DIA_Fajeth_Hallo_SLDNein()

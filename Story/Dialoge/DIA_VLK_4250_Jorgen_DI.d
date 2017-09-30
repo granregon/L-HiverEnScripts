@@ -45,7 +45,7 @@ func void DIA_Jorgen_DI_Hallo_Info()
 	AI_Output(other,self,"DIA_Jorgen_DI_Hallo_15_00");	//Everything all right?
 	if(ORkSturmDI == FALSE)
 	{
-		AI_Output(self,other,"DIA_Jorgen_DI_Hallo_07_01");	//Sure enough - just as long as all those monsters stay away from us ...
+		AI_Output(self,other,"DIA_Jorgen_DI_Hallo_07_01");	//Sure enough - just as long as all those monsters stay away from us...
 	}
 	else
 	{

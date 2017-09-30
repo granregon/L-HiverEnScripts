@@ -49,7 +49,7 @@ func void DIA_Dexter_Hallo_Info()
 		AI_Output(self,other,"DIA_Addon_Dexter_Hallo_09_00");	//I never thought you'd come here voluntarily.
 		AI_Output(other,self,"DIA_Addon_Dexter_Hallo_15_01");	//What do you mean by that?
 		AI_Output(self,other,"DIA_Addon_Dexter_Hallo_09_02");	//I mean that I've been looking for you. Haven't you seen any of my wanted posters?
-		AI_Output(self,other,"DIA_Addon_Dexter_Hallo_09_03");	//They all bear YOUR mug. Oh yes...you're very much wanted. Didn't you know that?
+		AI_Output(self,other,"DIA_Addon_Dexter_Hallo_09_03");	//They all bear YOUR mug. Oh yes... you're very much wanted. Didn't you know that?
 	}
 	else
 	{

@@ -129,7 +129,7 @@ func int DIA_Bullco_WASNUN_Condition()
 func void DIA_Bullco_WASNUN_Info()
 {
 	AI_Output(other,self,"DIA_Bullco_WASNUN_15_00");	//What are your plans now that Sylvio is dead?
-	AI_Output(self,other,"DIA_Bullco_WASNUN_06_01");	//No idea. I guess I'll go with the other dragon hunters if they still want me around.
+	AI_Output(self,other,"DIA_Bullco_WASNUN_06_01");	//No idea. I guess I'll go with the other Dragon hunters if they still want me around.
 	Info_AddChoice(DIA_Bullco_WASNUN,"I ought to just tear off your head.",DIA_Bullco_WASNUN_kopfab);
 	Info_AddChoice(DIA_Bullco_WASNUN,"Do you know where the others are?",DIA_Bullco_WASNUN_woandere);
 };
@@ -138,12 +138,12 @@ func void DIA_Bullco_WASNUN_woandere()
 {
 	AI_Output(other,self,"DIA_Bullco_WASNUN_woandere_15_00");	//Do you know where the others are?
 	AI_Output(self,other,"DIA_Bullco_WASNUN_woandere_06_01");	//I think so. At least I saw one of them at the river over there.
-	Info_AddChoice(DIA_Bullco_WASNUN,"Take me to the other dragon hunters.",DIA_Bullco_WASNUN_woandere_zuihnen);
+	Info_AddChoice(DIA_Bullco_WASNUN,"Take me to the other Dragon hunters.",DIA_Bullco_WASNUN_woandere_zuihnen);
 };
 
 func void DIA_Bullco_WASNUN_woandere_zuihnen()
 {
-	AI_Output(other,self,"DIA_Bullco_WASNUN_woandere_zuihnen_15_00");	//Take me to the other dragon hunters.
+	AI_Output(other,self,"DIA_Bullco_WASNUN_woandere_zuihnen_15_00");	//Take me to the other Dragon hunters.
 	AI_Output(self,other,"DIA_Bullco_WASNUN_woandere_zuihnen_06_01");	//Hey, I'm not your lackey.
 	Info_ClearChoices(DIA_Bullco_WASNUN);
 	Info_AddChoice(DIA_Bullco_WASNUN,"Suit yourself. I'm sure I'll find them.",DIA_Bullco_WASNUN_woandere_zuihnen_alleine);
@@ -164,7 +164,7 @@ func void DIA_Bullco_WASNUN_woandere_zuihnen_Geld()
 	if(B_GiveInvItems(other,self,ItMi_Gold,50))
 	{
 		AI_Output(self,other,"DIA_Bullco_WASNUN_woandere_zuihnen_Geld_06_01");	//All right then. Fork over the dough.
-		AI_Output(self,other,"DIA_Bullco_WASNUN_woandere_zuihnen_Geld_06_02");	//Follow me. I'll take you to where I last saw one of the other dragon hunters.
+		AI_Output(self,other,"DIA_Bullco_WASNUN_woandere_zuihnen_Geld_06_02");	//Follow me. I'll take you to where I last saw one of the other Dragon hunters.
 		AI_StopProcessInfos(self);
 		Npc_ExchangeRoutine(self,"DJGVorposten");
 	}

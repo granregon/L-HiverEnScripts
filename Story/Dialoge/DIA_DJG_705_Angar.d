@@ -272,13 +272,13 @@ func void DIA_Angar_DJG_ANWERBEN_Info()
 	};
 	if(Angar_willDJGwerden == TRUE)
 	{
-		Info_AddChoice(DIA_Angar_DJG_ANWERBEN,"What about the dragon hunters?",DIA_Angar_DJG_ANWERBEN_DJG);
+		Info_AddChoice(DIA_Angar_DJG_ANWERBEN,"What about the Dragon hunters?",DIA_Angar_DJG_ANWERBEN_DJG);
 	};
 };
 
 func void DIA_Angar_DJG_ANWERBEN_DJG()
 {
-	AI_Output(other,self,"DIA_Angar_DJG_ANWERBEN_DJG_15_00");	//What about the dragon hunters?
+	AI_Output(other,self,"DIA_Angar_DJG_ANWERBEN_DJG_15_00");	//What about the Dragon hunters?
 	AI_Output(self,other,"DIA_Angar_DJG_ANWERBEN_DJG_04_01");	//I will speak with them later. Maybe they can use a strong arm.
 };
 
@@ -331,13 +331,13 @@ func void DIA_AngarDJG_WASMACHSTDU_Info()
 	AI_Output(self,other,"DIA_AngarDJG_WASMACHSTDU_04_05");	//I am almost certain that my amulet was lost somewhere here.
 	if(Angar_willDJGwerden == TRUE)
 	{
-		Info_AddChoice(DIA_AngarDJG_WASMACHSTDU,"Have you talked to the dragon hunters?",DIA_AngarDJG_WASMACHSTDU_DJG);
+		Info_AddChoice(DIA_AngarDJG_WASMACHSTDU,"Have you talked to the Dragon hunters?",DIA_AngarDJG_WASMACHSTDU_DJG);
 	};
 };
 
 func void DIA_AngarDJG_WASMACHSTDU_DJG()
 {
-	AI_Output(other,self,"DIA_AngarDJG_WASMACHSTDU_DJG_15_00");	//Have you talked to the dragon hunters?
+	AI_Output(other,self,"DIA_AngarDJG_WASMACHSTDU_DJG_15_00");	//Have you talked to the Dragon hunters?
 	AI_Output(self,other,"DIA_AngarDJG_WASMACHSTDU_DJG_04_01");	//Yes. But I had expected a fellowship like the one we had in the Swamp Camp.
 	AI_Output(self,other,"DIA_AngarDJG_WASMACHSTDU_DJG_04_02");	//The boys are nothing but a wild, motley collection of idiots. It's nothing for me.
 };
@@ -490,7 +490,7 @@ func void DIA_Angar_WASISTLOS_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Angar_WASISTLOS_04_05");	//Every time I face one of these...hellspawn, I have the feeling that I am fighting my own people.
+		AI_Output(self,other,"DIA_Angar_WASISTLOS_04_05");	//Every time I face one of these... hellspawn, I have the feeling that I am fighting my own people.
 	};
 	AI_StopProcessInfos(self);
 	B_LogEntry(TOPIC_Dragonhunter,"Angar just walked off. With all these undead he gets the feeling he's fighting his own people.");

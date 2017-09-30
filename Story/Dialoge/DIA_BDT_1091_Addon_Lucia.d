@@ -104,7 +104,7 @@ func void DIA_Addon_Lucia_was_Info()
 	AI_Output(self,other,"DIA_Addon_Lucia_was_16_01");	//We only have a little beer. The only beer on the island was brought by the paladins.
 	AI_Output(self,other,"DIA_Addon_Lucia_was_16_02");	//Just about the only good thing those fellows brought with them...
 	AI_Output(self,other,"DIA_Addon_Lucia_was_16_03");	//Otherwise we drink booze. I've got moonshine, grog and white rum -
-	AI_Output(self,other,"DIA_Addon_Lucia_was_16_04");	//(appreciatively) hmmm...you should try THAT - I got the recipe from Samuel. The old boy really knows his trade.
+	AI_Output(self,other,"DIA_Addon_Lucia_was_16_04");	//(appreciatively) hmmm... you should try THAT - I got the recipe from Samuel. The old boy really knows his trade.
 	Log_CreateTopic(Topic_Addon_BDT_Trader,LOG_NOTE);
 	B_LogEntry(Topic_Addon_BDT_Trader,"I can get booze from Lucia.");
 };
@@ -134,7 +134,7 @@ func void DIA_Addon_Lucia_Khorinis_Info()
 	AI_Output(other,self,"DIA_Addon_Lucia_Khorinis_15_00");	//Aren't you from Khorinis?
 	AI_Output(self,other,"DIA_Addon_Lucia_Khorinis_16_01");	//Don't remind me! My life in that city was horrible.
 	AI_Output(self,other,"DIA_Addon_Lucia_Khorinis_16_02");	//While the ships with the new convicts kept coming in, there was still life in town.
-	AI_Output(self,other,"DIA_Addon_Lucia_Khorinis_16_03");	//But all those other guys...(laughs) No thanks. Maybe it's because we're on an island...well, those days are over.
+	AI_Output(self,other,"DIA_Addon_Lucia_Khorinis_16_03");	//But all those other guys...(laughs) No thanks. Maybe it's because we're on an island... well, those days are over.
 	if((MIS_LuciasLetter != 0) || (SC_KnowsLuciaCaughtByBandits != 0) || (Nadja_GaveLuciaInfo != 0))
 	{
 		AI_Output(self,other,"DIA_Addon_Lucia_Khorinis_16_06");	//I'm finished with Elvrich!
@@ -171,7 +171,7 @@ func void DIA_Addon_Lucia_Jetzt_Info()
 	AI_Output(other,self,"DIA_Addon_Lucia_Jetzt_15_00");	//What are you planning to do?
 	AI_Output(self,other,"DIA_Addon_Lucia_Jetzt_16_01");	//We'll see. For now, I'll stay here with Snaf, Fisk and the others.
 	AI_Output(self,other,"DIA_Addon_Lucia_Jetzt_16_02");	//Have you already talked to Thorus? (rolls her eyes) Oh, Innos, is that a hunk of a man!
-	AI_Output(self,other,"DIA_Addon_Lucia_Jetzt_16_03");	//(laughs) Excuse me...let's get back to your question...I haven't set a goal, I'm only drifting.
+	AI_Output(self,other,"DIA_Addon_Lucia_Jetzt_16_03");	//(laughs) Excuse me... let's get back to your question... I haven't set a goal, I'm only drifting.
 };
 
 

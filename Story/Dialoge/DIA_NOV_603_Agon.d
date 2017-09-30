@@ -70,7 +70,7 @@ func void DIA_Agon_Wurst_Info()
 	var string NovizeText;
 	var string NovizeLeft;
 	AI_Output(other,self,"DIA_Agon_Wurst_15_00");	//Here, I've got a mutton sausage for you.
-	AI_Output(self,other,"DIA_Agon_Wurst_07_01");	//Sheep sausage, sheep cheese...sheep milk...it's getting so I can't stand the sight of it.
+	AI_Output(self,other,"DIA_Agon_Wurst_07_01");	//Sheep sausage, sheep cheese... sheep milk... it's getting so I can't stand the sight of it.
 	AI_Output(other,self,"DIA_Agon_Wurst_15_02");	//So do you want the sausage, or not?
 	AI_Output(self,other,"DIA_Agon_Wurst_07_03");	//Oh, give it here already!
 	B_GiveInvItems(other,self,ItFo_Schafswurst,1);

@@ -64,7 +64,7 @@ instance ItMi_Stomper(C_Item)
 
 instance ItMi_RuneBlank(C_Item)
 {
-	name = "Blank Rune";
+	name = "Blank rune";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_RuneBlank;
@@ -77,7 +77,7 @@ instance ItMi_RuneBlank(C_Item)
 
 instance ItMi_Pliers(C_Item)
 {
-	name = "Mandible";
+	name = "Tongs";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_RuneBlank;
@@ -90,35 +90,35 @@ instance ItMi_Pliers(C_Item)
 
 instance ITMI_PLIERS_ARMR(C_Item)
 {
-	name = "";
+	name = "Tongs";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = 0;
 	visual = "ItMi_Pliers_Armr.3DS";
 	material = MAT_METAL;
-	description = name;
+	description = "Tongs with plate";
 };
 
 instance ITMI_PLIERS_SMLT(C_Item)
 {
-	name = "";
+	name = "Tongs";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = 0;
 	visual = "ItMi_Pliers_Smlt.3DS";
 	material = MAT_METAL;
-	description = name;
+	description = "Tongs with smelted iron";
 };
 
 instance ITMI_PLIERS_SMLT_2(C_Item)
 {
-	name = "";
+	name = "Tongs";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = 0;
 	visual = "ItMi_Pliers_Smlt_2.3DS";
 	material = MAT_METAL;
-	description = name;
+	description = "Tongs with smelted ore";
 };
 
 instance ItMi_Flask(C_Item)
@@ -301,7 +301,7 @@ instance ItMiSwordrawhot(C_Item)
 
 instance ItMiSwordbladehot(C_Item)
 {
-	name = "";
+	name = "Red hot blade";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = 0;
@@ -312,7 +312,7 @@ instance ItMiSwordbladehot(C_Item)
 
 instance ItMiSwordblade(C_Item)
 {
-	name = "";
+	name = "Blade";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = 0;

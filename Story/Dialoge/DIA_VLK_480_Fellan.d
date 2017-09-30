@@ -168,7 +168,7 @@ func void DIA_Fellan_Stop_Bones()
 func void DIA_Fellan_Stop_Gold()
 {
 	AI_Output(other,self,"DIA_Fellan_Stop_Gold_15_00");	//I'll give you 10 gold pieces if you stop that hammering.
-	AI_Output(self,other,"DIA_Fellan_Stop_Gold_06_01");	//Hey ... That's very generous of you. But as to your gold, you can ...
+	AI_Output(self,other,"DIA_Fellan_Stop_Gold_06_01");	//Hey... That's very generous of you. But as to your gold, you can...
 	AI_Output(self,other,"DIA_Fellan_Stop_Gold_06_02");	//... well, you know what you can do with it.
 };
 

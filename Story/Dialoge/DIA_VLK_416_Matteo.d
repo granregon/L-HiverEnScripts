@@ -100,7 +100,7 @@ func int DIA_Matteo_SellWhat_Condition()
 func void DIA_MAtteo_SellWhat_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_SellWhat_15_00");	//What are you selling?
-	AI_Output(self,other,"DIA_Matteo_SellWhat_09_01");	//I can offer you everything you need to survive in the wild. Weapons, torches, provisions ... even armor.
+	AI_Output(self,other,"DIA_Matteo_SellWhat_09_01");	//I can offer you everything you need to survive in the wild. Weapons, torches, provisions... even armor.
 	AI_Output(self,other,"DIA_Matteo_SellWhat_09_02");	//I still have a special piece in stock.
 	AI_Output(self,other,"DIA_Matteo_SellWhat_09_03");	//Double hardened armor of snapper leather - still unused. Interested?
 	if(Knows_Matteo == FALSE)
@@ -163,7 +163,7 @@ instance DIA_Matteo_LEATHER(C_Info)
 	condition = DIA_Matteo_LEATHER_Condition;
 	information = DIA_Matteo_LEATHER_Info;
 	permanent = TRUE;
-	description = "Buy hunter's armor. Protection: B.+20/B.+20/P.+20/M.+20. (250 gold)";
+	description = "Buy leather armor. Protection: B.+20/B.+20/P.+20/M.+20. (250 gold)";
 };
 
 
@@ -273,8 +273,8 @@ func void DIA_MAtteo_HelpMeToOV_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_00");	//Can you help me get into the upper quarter?
 	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_01");	//(stunned) What? What are you going to do THERE?
-	AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_02");	//I've got an important message ...
-	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_03");	//Well, well...Have you tried getting past the guards?
+	AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_02");	//I've got an important message...
+	AI_Output(self,other,"DIA_Matteo_HelpMeToOV_09_03");	//Well, well... Have you tried getting past the guards?
 	if(Torwache_305.aivar[AIV_TalkedToPlayer] == TRUE)
 	{
 		AI_Output(other,self,"DIA_Matteo_HelpMeToOV_15_04");	//(bitter laugh) Oh man, forget it!
@@ -376,7 +376,7 @@ func void DIA_MAtteo_PriceOfHelp_Info()
 	AI_Output(other,self,"DIA_Matteo_PriceOfHelp_15_00");	//What are you asking for your help?
 	AI_Output(self,other,"DIA_Matteo_PriceOfHelp_09_01");	//100 gold pieces.
 	Info_ClearChoices(DIA_Matteo_PriceOfHelp);
-	Info_AddChoice(DIA_Matteo_PriceOfHelp,"That's a whole damn lot ...",DIA_Matteo_PriceOfHelp_Wow);
+	Info_AddChoice(DIA_Matteo_PriceOfHelp,"That's a whole damn lot...",DIA_Matteo_PriceOfHelp_Wow);
 	Info_AddChoice(DIA_Matteo_PriceOfHelp,"You shark!",DIA_Matteo_PriceOfHelp_Cutthroat);
 };
 
@@ -404,7 +404,7 @@ func void DIA_Matteo_PriceOfHelp_Cutthroat()
 
 func void DIA_Matteo_PriceOfHelp_Wow()
 {
-	AI_Output(other,self,"DIA_Matteo_PriceOfHelp_Wow_15_00");	//That's a whole damn lot ...
+	AI_Output(other,self,"DIA_Matteo_PriceOfHelp_Wow_15_00");	//That's a whole damn lot...
 	B_Matteo_RegDichAb();
 	Info_ClearChoices(DIA_Matteo_PriceOfHelp);
 };
@@ -586,7 +586,7 @@ func void DIA_MAtteo_WoAlsLehrling_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_WoAlsLehrling_15_00");	//Where could I sign on as an apprentice, then?
 	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_01");	//Basically, with any master here on the main street.
-	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_02");	//That would be Harad the smith, Bosper the bowyer, Thorben the carpenter or Constantino the alchemist.
+	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_02");	//That would be Harad the smith, Bosper the bowmaker, Thorben the carpenter or Constantino the alchemist.
 	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_03");	//One of them is bound to take you on.
 	AI_Output(self,other,"DIA_Matteo_WoAlsLehrling_09_04");	//But it's important that the other masters agree. That's always been the custom here in Khorinis.
 	Log_CreateTopic(TOPIC_Lehrling,LOG_MISSION);
@@ -673,7 +673,7 @@ func int DIA_Matteo_OtherWay_Condition()
 func void DIA_MAtteo_OtherWay_Info()
 {
 	AI_Output(other,self,"DIA_Matteo_OtherWay_15_00");	//Is there another way to get into the upper quarter?
-	AI_Output(self,other,"DIA_Matteo_OtherWay_09_01");	//Perhaps ... if I think of anything, I'll let you know.
+	AI_Output(self,other,"DIA_Matteo_OtherWay_09_01");	//Perhaps... if I think of anything, I'll let you know.
 };
 
 

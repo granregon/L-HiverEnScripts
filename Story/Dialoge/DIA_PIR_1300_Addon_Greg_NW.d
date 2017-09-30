@@ -51,7 +51,7 @@ func void DIA_Addon_Greg_NW_Hallo_Info()
 	PlayerTalkedToGregNW = TRUE;
 	SC_MeetsGregTime = 1;
 	Info_ClearChoices(DIA_Addon_Greg_NW_Hallo);
-	Info_AddChoice(DIA_Addon_Greg_NW_Hallo,"About the city guards ...",DIA_Addon_Greg_NW_Hallo_weg);
+	Info_AddChoice(DIA_Addon_Greg_NW_Hallo,"I've got to go.",DIA_Addon_Greg_NW_Hallo_weg);
 	Info_AddChoice(DIA_Addon_Greg_NW_Hallo,"Cut the crap. Tell me what you want.",DIA_Addon_Greg_NW_Hallo_schleim);
 	Info_AddChoice(DIA_Addon_Greg_NW_Hallo,"You don't look like someone who has gold.",DIA_Addon_Greg_NW_Hallo_vorsicht);
 	Info_AddChoice(DIA_Addon_Greg_NW_Hallo,"Are you hiding from someone?",DIA_Addon_Greg_NW_Hallo_hide);
@@ -113,7 +113,7 @@ instance DIA_Addon_Greg_NW_Stadtwachen(C_Info)
 	condition = DIA_Addon_Greg_NW_Stadtwachen_Condition;
 	information = DIA_Addon_Greg_NW_Stadtwachen_Info;
 	permanent = TRUE;
-	description = "About the city guards ...";
+	description = "About the city guards...";
 };
 
 
@@ -132,7 +132,7 @@ var int DIA_Addon_Greg_NW_Stadtwachen_ChoiceClose_constantino;
 
 func void DIA_Addon_Greg_NW_Stadtwachen_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Greg_NW_Stadtwachen_15_00");	//About the city guards ...
+	AI_Output(other,self,"DIA_Addon_Greg_NW_Stadtwachen_15_00");	//About the city guards...
 	AI_Output(self,other,"DIA_Addon_Greg_NW_Stadtwachen_01_01");	//Yes? Got an idea?
 	Info_ClearChoices(DIA_Addon_Greg_NW_Stadtwachen);
 	Info_AddChoice(DIA_Addon_Greg_NW_Stadtwachen,"I'll have to think about it first.",DIA_Addon_Greg_NW_Stadtwachen_nochnicht);
@@ -226,7 +226,7 @@ instance DIA_Addon_Greg_NW_PERM(C_Info)
 	condition = DIA_Addon_Greg_NW_PERM_Condition;
 	information = DIA_Addon_Greg_NW_PERM_Info;
 	permanent = TRUE;
-	description = "One more thing ...";
+	description = "One more thing...";
 };
 
 
@@ -240,7 +240,7 @@ func int DIA_Addon_Greg_NW_PERM_Condition()
 
 func void DIA_Addon_Greg_NW_PERM_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Greg_NW_PERM_15_00");	//One more thing ...
+	AI_Output(other,self,"DIA_Addon_Greg_NW_PERM_15_00");	//One more thing...
 	AI_Output(self,other,"DIA_Addon_Greg_NW_PERM_01_01");	//(arrogantly) Listen, kid. I've got important things to do right now.
 	AI_Output(self,other,"DIA_Addon_Greg_NW_PERM_01_02");	//(threatening) We'll talk again later. Got it?
 	AI_StopProcessInfos(self);
@@ -691,7 +691,7 @@ instance DIA_Addon_Greg_NW_PermTaverne(C_Info)
 	condition = DIA_Addon_Greg_NW_PermTaverne_Condition;
 	information = DIA_Addon_Greg_NW_PermTaverne_Info;
 	permanent = TRUE;
-	description = "One more thing ...";
+	description = "One more thing...";
 };
 
 
@@ -705,7 +705,7 @@ func int DIA_Addon_Greg_NW_PermTaverne_Condition()
 
 func void DIA_Addon_Greg_NW_PermTaverne_Info()
 {
-	AI_Output(other,self,"DIA_Addon_Greg_NW_PermTaverne_15_00");	//One more thing ...
+	AI_Output(other,self,"DIA_Addon_Greg_NW_PermTaverne_15_00");	//One more thing...
 	if((MIS_Addon_Greg_RakeCave == LOG_Running) && (Greg_SuchWeiter == TRUE))
 	{
 		AI_Output(self,other,"DIA_Addon_Greg_NW_PermTaverne_01_01");	//First, get me the stuff I buried. Then we can talk.

@@ -4,10 +4,6 @@ var int activebonus2;
 var int wite_winf;
 var int asss_winf;
 
-var string screen_wght;
-var string screen_wght1;
-var string screen_mwght;
-
 func void evt_upddef_addon_func()
 {
 	if((PASSIVE_HP == TRUE) && (hero.attribute[ATR_HITPOINTS] >= 1) && !C_BodyStateContains(hero,BS_DEAD))

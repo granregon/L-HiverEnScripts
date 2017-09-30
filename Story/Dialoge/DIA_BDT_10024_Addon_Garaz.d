@@ -225,6 +225,6 @@ func void DIA_Addon_Garaz_Gold_Info()
 {
 	AI_Output(self,other,"DIA_Addon_Garaz_Gold_08_00");	//Wow, man, there sure is a lot of gold here.
 	AI_Output(self,other,"DIA_Addon_Garaz_Gold_08_01");	//To get to the chunks up there, we'd actually need a ladder.
-	AI_Output(self,other,"DIA_Addon_Garaz_Gold_08_02");	//But since the fall of the Barrier, nobody's been using ladders any more...it's really too bad...
+	AI_Output(self,other,"DIA_Addon_Garaz_Gold_08_02");	//But since the fall of the Barrier, nobody's been using ladders any more... it's really too bad...
 };
 

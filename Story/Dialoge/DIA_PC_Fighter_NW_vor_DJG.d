@@ -75,7 +75,7 @@ func void DIA_GornNW_WhatNext_Info()
 	AI_Output(other,self,"DIA_GornNW_Add_15_05");	//What do you want to do now?
 	AI_Output(self,other,"DIA_GornNW_Add_12_06");	//I think I'll load up on grub first.
 	AI_Output(other,self,"DIA_GornNW_Add_15_07");	//And then?
-	AI_Output(self,other,"DIA_GornNW_Add_12_08");	//Who knows ... Maybe I'll go back to the mining colony.
+	AI_Output(self,other,"DIA_GornNW_Add_12_08");	//Who knows... Maybe I'll go back to the mining colony.
 	AI_Output(self,other,"DIA_GornNW_Add_12_09");	//Someone should keep an eye on the orcs - otherwise they'll all show up on the doorstep without warning.
 };
 

@@ -54,7 +54,7 @@ func void DIA_Engardo_HALLO_Info()
 	}
 	else if(Chance == 1)
 	{
-		AI_Output(self,other,"DIA_Engardo_HALLO_13_01");	//You're at the wrong place at the wrong time ...
+		AI_Output(self,other,"DIA_Engardo_HALLO_13_01");	//You're at the wrong place at the wrong time...
 		AI_Output(self,other,"DIA_Engardo_HALLO_13_02");	//... so I guess that if you want to live, you had better hit the road now, get it?
 		Chance = 2;
 		AI_StopProcessInfos(self);

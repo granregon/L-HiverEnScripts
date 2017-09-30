@@ -53,7 +53,7 @@ func void DIA_RodDJG_HALLO_Info()
 func void DIA_RodDJG_HALLO_Woher()
 {
 	AI_Output(other,self,"DIA_RodDJG_HALLO_Woher_15_00");	//Where did you get those boots?
-	AI_Output(self,other,"DIA_RodDJG_HALLO_Woher_06_01");	//That old warhorse Bennet made them for us dragon hunters, and had us pay him generously for that junk to boot.
+	AI_Output(self,other,"DIA_RodDJG_HALLO_Woher_06_01");	//That old warhorse Bennet made them for us Dragon hunters, and had us pay him generously for that junk to boot.
 	AI_Output(self,other,"DIA_RodDJG_HALLO_Woher_06_02");	//If I ever lay hands on him, I'll make him eat the things first and then force him to give me my money back.
 };
 

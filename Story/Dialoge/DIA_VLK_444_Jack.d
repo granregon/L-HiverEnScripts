@@ -382,7 +382,7 @@ func void DIA_Jack_BEMYCAPTAIN_seaman()
 	B_LogEntry(Topic_Captain,"Jack, the old sailor from the harbor, would make a good captain. But first I'd have to find someone to guard his lighthouse.");
 	Info_ClearChoices(DIA_Jack_BEMYCAPTAIN);
 	Info_AddChoice(DIA_Jack_BEMYCAPTAIN,"Never mind. It was just an idea.",DIA_Jack_BEMYCAPTAIN_no);
-	Info_AddChoice(DIA_Jack_BEMYCAPTAIN,"What if I brought you someone ...?",DIA_Jack_BEMYCAPTAIN_seaman_NewOfficer);
+	Info_AddChoice(DIA_Jack_BEMYCAPTAIN,"What if I brought you someone...?",DIA_Jack_BEMYCAPTAIN_seaman_NewOfficer);
 };
 
 func void DIA_Jack_BEMYCAPTAIN_seaman_NewOfficer()
@@ -409,7 +409,7 @@ instance DIA_Jack_BEMYCAPTAIN2(C_Info)
 	nr = 52;
 	condition = DIA_Jack_BEMYCAPTAIN2_Condition;
 	information = DIA_Jack_BEMYCAPTAIN2_Info;
-	description = "About Brian ...";
+	description = "About Brian...";
 };
 
 

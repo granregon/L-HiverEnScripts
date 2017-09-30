@@ -97,7 +97,7 @@ func int b_useenchanttable()
 	{
 		AI_PrintScreen(PRINT_NoPicklockTalent,-1,50,FONT_ScreenSmall,1);
 		AI_PlayAni(self,"T_DONTKNOW");
-		B_Say(self,self,"DIA_Thorben_PleaseTeach_Later_15_00");
+		B_Say_Overlay(self,self,"$BEZI_GOTOWY");
 		return FALSE;
 	};
 };

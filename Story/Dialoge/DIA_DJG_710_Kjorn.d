@@ -95,7 +95,7 @@ func void DIA_Kjorn_SellInfos_Info()
 	AI_Output(other,self,"DIA_Kjorn_SellInfos_15_00");	//Do you sell information as well?
 	AI_Output(self,other,"DIA_Kjorn_SellInfos_06_01");	//That depends. If the price is right, I'll tell you everything I know.
 	AI_Output(other,self,"DIA_Kjorn_SellInfos_15_02");	//How much do you charge?
-	AI_Output(self,other,"DIA_Kjorn_SellInfos_06_03");	//Hmm...hard to say. But I think that 50 gold pieces for every piece of information I give you sounds about right.
+	AI_Output(self,other,"DIA_Kjorn_SellInfos_06_03");	//Hmm... hard to say. But I think that 50 gold pieces for every piece of information I give you sounds about right.
 };
 
 
@@ -145,31 +145,31 @@ func void DIA_Kjorn_BuyInfos_GiveMoney()
 	Info_AddChoice(DIA_Kjorn_BuyInfos,Dialog_Back,DIA_Kjorn_BuyInfos_Back);
 	if(KjornToldDragon == 0)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...about the dragons.",DIA_Kjorn_BuyInfos_Dragon1);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... about the dragons.",DIA_Kjorn_BuyInfos_Dragon1);
 	}
 	else if(KjornToldDragon == 1)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...more about the dragons.",DIA_Kjorn_BuyInfos_Dragon2);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... more about the dragons.",DIA_Kjorn_BuyInfos_Dragon2);
 	};
 	if(KjornToldColony == 0)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...about the Valley of Mines.",DIA_Kjorn_BuyInfos_Colony1);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... about the Valley of Mines.",DIA_Kjorn_BuyInfos_Colony1);
 	}
 	else if(KjornToldColony == 1)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...more about the Valley of Mines.",DIA_Kjorn_BuyInfos_Colony2);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... more about the Valley of Mines.",DIA_Kjorn_BuyInfos_Colony2);
 	};
 	if(KjornToldOldCamp == 0)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...about the castle.",DIA_Kjorn_BuyInfos_OldCamp1);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... about the castle.",DIA_Kjorn_BuyInfos_OldCamp1);
 	};
 	if(KjorntoldOrks == 0)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...about the orcs.",DIA_Kjorn_BuyInfos_Orks1);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... about the orcs.",DIA_Kjorn_BuyInfos_Orks1);
 	}
 	else if(KjorntoldOrks == 1)
 	{
-		Info_AddChoice(DIA_Kjorn_BuyInfos,"...more about the orcs.",DIA_Kjorn_BuyInfos_Orks2);
+		Info_AddChoice(DIA_Kjorn_BuyInfos,"... more about the orcs.",DIA_Kjorn_BuyInfos_Orks2);
 	};
 };
 
@@ -197,7 +197,7 @@ func void DIA_Kjorn_BuyInfos_Dragon2()
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_01");	//But all dragons are not alike.
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_02");	//Some of them could cover the entire land with a layer of ice several feet thick.
 	AI_Output(self,other,"DIA_Kjorn_BuyInfos_Dragon2_06_03");	//Others prefer living in swampy surroundings, or in volcanoes.
-	B_LogEntry(TOPIC_DRACHENJAGD,"Kjorn the Dragon Hunter thinks there are different kinds of dragons. Some supposedly prefer cold, damp places, others seem to like fire better.");
+	B_LogEntry(TOPIC_DRACHENJAGD,"Kjorn the Dragon hunter thinks there are different kinds of dragons. Some supposedly prefer cold, damp places, others seem to like fire better.");
 	KjornToldDragon = 2;
 	Info_ClearChoices(DIA_Kjorn_BuyInfos);
 };

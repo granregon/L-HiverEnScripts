@@ -45,7 +45,7 @@ func int DIA_Neoras_Hallo_Condition()
 
 func void DIA_Neoras_Hallo_Info()
 {
-	AI_Output(self,other,"DIA_Neoras_Hallo_01_00");	//What...what's wrong? Why are you bothering me? Can't you see that I'm in the middle of an extremely complicated experiment?
+	AI_Output(self,other,"DIA_Neoras_Hallo_01_00");	//What... what's wrong? Why are you bothering me? Can't you see that I'm in the middle of an extremely complicated experiment?
 	AI_Output(other,self,"DIA_Neoras_Hallo_15_01");	//I didn't mean to disturb you.
 	AI_Output(self,other,"DIA_Neoras_Hallo_01_02");	//You already have. -sigh- Well, what do you want?
 };

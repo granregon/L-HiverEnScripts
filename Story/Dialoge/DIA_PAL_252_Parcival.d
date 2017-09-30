@@ -332,14 +332,14 @@ func void DIA_Parcival_AnyNews_Info()
 	AI_Output(other,self,"DIA_Parcival_AnyNews_15_00");	//Did anything important happen?
 	if(hero.guild == GIL_DJG)
 	{
-		AI_Output(self,other,"DIA_Parcival_AnyNews_13_01");	//You belong to those scum who call themselves DRAGON HUNTERS?
+		AI_Output(self,other,"DIA_Parcival_AnyNews_13_01");	//You belong to those scum who call themselves Dragon hunters?
 		AI_Output(self,other,"DIA_Parcival_AnyNews_13_02");	//Really, I had expected that you had more honor in you than to join up with those people.
 	}
 	else
 	{
 		AI_Output(self,other,"DIA_Parcival_AnyNews_13_03");	//I'm worried. Very worried.
 		AI_Output(other,self,"DIA_Parcival_AnyNews_15_04");	//What for?
-		AI_Output(self,other,"DIA_Parcival_AnyNews_13_05");	//Recently these men showed up. They call themselves dragon hunters.
+		AI_Output(self,other,"DIA_Parcival_AnyNews_13_05");	//Recently these men showed up. They call themselves Dragon hunters.
 		AI_Output(self,other,"DIA_Parcival_AnyNews_13_06");	//As far as I'm concerned, they're nothing but idlers and criminals.
 	};
 	AI_Output(self,other,"DIA_Parcival_AnyNews_13_07");	//If it were up to me, I'd chase them all out of the castle. Let the orcs take care of them.
@@ -398,7 +398,7 @@ func void DIA_Parcival_Jan_Info()
 {
 	AI_Output(other,self,"DIA_Parcival_Jan_15_00");	//I need to talk to you about Jan.
 	AI_Output(self,other,"DIA_Parcival_Jan_13_01");	//Jan? Who's that?
-	AI_Output(other,self,"DIA_Parcival_Jan_15_02");	//A dragon hunter. He's a blacksmith.
+	AI_Output(other,self,"DIA_Parcival_Jan_15_02");	//A Dragon hunter. He's a blacksmith.
 	AI_Output(self,other,"DIA_Parcival_Jan_13_03");	//Oh, yes, I remember. What about him?
 	AI_Output(other,self,"DIA_Parcival_Jan_15_04");	//He wants to work in the smithy.
 	AI_Output(self,other,"DIA_Parcival_Jan_13_05");	//Out of the question. He isn't one of us and I don't trust him.

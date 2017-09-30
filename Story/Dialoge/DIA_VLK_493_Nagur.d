@@ -303,7 +303,7 @@ func void DIA_Nagur_Deal_Info()
 	if(B_GetDayPlus() > NagurDay)
 	{
 		AI_Output(self,other,"DIA_Nagur_Deal_08_01");	//Yeah, but for less than I thought. I only got 300 gold pieces.
-		AI_Output(self,other,"DIA_Nagur_Deal_08_02");	//Part of that goes to my employers ...
+		AI_Output(self,other,"DIA_Nagur_Deal_08_02");	//Part of that goes to my employers...
 		AI_Output(self,other,"DIA_Nagur_Deal_08_03");	//And Kardif gets his usual percentage - plus the gold for your commission.
 		AI_Output(self,other,"DIA_Nagur_Deal_08_04");	//Which leaves a total of 240 gold pieces. We'll split those as agreed. Here's your part.
 		AI_Output(self,other,"DIA_Nagur_Deal_08_05");	//You did good work. I've passed that on to my employers.

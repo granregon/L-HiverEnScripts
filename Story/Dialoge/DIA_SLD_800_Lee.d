@@ -180,7 +180,7 @@ func void DIA_Lee_PETZMASTER_Info()
 	if(self.aivar[AIV_TalkedToPlayer] == FALSE)
 	{
 		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_00");	//Who the devil let YOU in here - (surprised) - YOU are the new fellow who has been causing trouble?
-		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_01");	//I had heard from Gorn that you were still alive, but that you would come here ... anyway ...
+		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_01");	//I had heard from Gorn that you were still alive, but that you would come here... anyway...
 	};
 	if(B_GetGreatestPetzCrime(self) == CRIME_MURDER)
 	{
@@ -212,7 +212,7 @@ func void DIA_Lee_PETZMASTER_Info()
 	};
 	if(B_GetGreatestPetzCrime(self) == CRIME_ATTACK)
 	{
-		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_12");	//If you get involved in a duel with the mercenaries, that's one thing ...
+		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_12");	//If you get involved in a duel with the mercenaries, that's one thing...
 		AI_Output(self,other,"DIA_Lee_PETZMASTER_04_13");	//But if you beat up a farmer, they run straight to Onar. And he expects me to do something.
 		if(PETZCOUNTER_Farm_Sheepkiller > 0)
 		{
@@ -291,7 +291,7 @@ func void DIA_Lee_Hallo_Info()
 	AI_Output(other,self,"DIA_Lee_Hallo_15_01");	//What makes you think that?
 	AI_Output(self,other,"DIA_Lee_Hallo_04_02");	//Gorn told me that it was you who brought down the Barrier.
 	AI_Output(other,self,"DIA_Lee_Hallo_15_03");	//Yes, that was me all right.
-	AI_Output(self,other,"DIA_Lee_Hallo_04_04");	//I never would have thought that a man could survive something like that. What brings you here? You aren't here without a reason ...
+	AI_Output(self,other,"DIA_Lee_Hallo_04_04");	//I never would have thought that a man could survive something like that. What brings you here? You aren't here without a reason...
 };
 
 
@@ -302,7 +302,7 @@ instance DIA_Lee_Paladine(C_Info)
 	condition = DIA_Lee_Paladine_Condition;
 	information = DIA_Lee_Paladine_Info;
 	permanent = FALSE;
-	description = "I absolutely must talk to the paladins in town ...";
+	description = "I absolutely must talk to the paladins in town...";
 };
 
 
@@ -318,9 +318,9 @@ func void DIA_Lee_Paladine_Info()
 {
 	AI_Output(other,self,"DIA_Lee_Paladine_15_00");	//I absolutely must talk to the paladins in town. Can you help me get to them?
 	AI_Output(self,other,"DIA_Lee_Paladine_04_01");	//(distrustful) What's your business with the paladins?
-	AI_Output(other,self,"DIA_Lee_Paladine_15_02");	//That's a long story ...
+	AI_Output(other,self,"DIA_Lee_Paladine_15_02");	//That's a long story...
 	AI_Output(self,other,"DIA_Lee_Paladine_04_03");	//I've got time.
-	AI_Output(other,self,"DIA_Lee_Paladine_15_04");	//(sighs) Xardas sent me on a mission. He wants me to obtain  a powerful amulet, the Eye of Innos.
+	AI_Output(other,self,"DIA_Lee_Paladine_15_04");	//(sighs) Xardas sent me on a mission. He wants me to obtain a powerful amulet, the Eye of Innos.
 	AI_Output(self,other,"DIA_Lee_Paladine_04_05");	//So you're still allied with that necromancer. I see. And the paladins have this amulet?
 	AI_Output(other,self,"DIA_Lee_Paladine_15_06");	//As far as I know - yes.
 	AI_Output(self,other,"DIA_Lee_Paladine_04_07");	//I can help you get to the paladins. But first you need to become one of us.
@@ -349,7 +349,7 @@ func int DIA_Lee_PaladineHOW_Condition()
 func void DIA_Lee_PaladineHOW_Info()
 {
 	AI_Output(other,self,"DIA_Lee_PaladineHOW_15_00");	//How can you help me get to the paladins?
-	AI_Output(self,other,"DIA_Lee_PaladineHOW_04_01");	//Trust me. I've got a plan. I think you're the right man for it ...
+	AI_Output(self,other,"DIA_Lee_PaladineHOW_04_01");	//Trust me. I've got a plan. I think you're the right man for it...
 	AI_Output(self,other,"DIA_Lee_PaladineHOW_04_02");	//I'll take you to the paladins and you'll do me a favor. But first, join us!
 };
 
@@ -413,7 +413,7 @@ func void DIA_Lee_WannaJoin_Info()
 	AI_Output(other,self,"DIA_Lee_WannaJoin_15_00");	//I want to join you!
 	AI_Output(self,other,"DIA_Lee_WannaJoin_04_01");	//I'd hoped you'd say that! I can use every able man here.
 	AI_Output(self,other,"DIA_Lee_WannaJoin_04_02");	//The last mercenaries I accepted have done nothing but stir up trouble!
-	AI_Output(self,other,"DIA_Lee_WannaJoin_04_03");	//In principle, you can start right away. Well, first there's one or two things that we need to get straight, but it's no big deal ...
+	AI_Output(self,other,"DIA_Lee_WannaJoin_04_03");	//In principle, you can start right away. Well, first there's one or two things that we need to get straight, but it's no big deal...
 };
 
 
@@ -441,7 +441,7 @@ func void DIA_Lee_ClearWhat_Info()
 	AI_Output(other,self,"DIA_Lee_ClearWhat_15_00");	//What do I have to 'get straight' before I can join you?
 	AI_Output(self,other,"DIA_Lee_ClearWhat_04_01");	//Onar, the landowner, is the one who employs us. You can only stay on the farm with his approval.
 	AI_Output(self,other,"DIA_Lee_ClearWhat_04_02");	//And then there's the boys. I can only accept you if a majority of the mercenaries agree that you join us.
-	AI_Output(self,other,"DIA_Lee_ClearWhat_04_03");	//But don't go to Onar before everything is straightened out. He's a very impatient fellow ...
+	AI_Output(self,other,"DIA_Lee_ClearWhat_04_03");	//But don't go to Onar before everything is straightened out. He's a very impatient fellow...
 	Log_CreateTopic(TOPIC_BecomeSLD,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_BecomeSLD,LOG_Running);
 	B_LogEntry(TOPIC_BecomeSLD,"To be accepted as a mercenary, I have to get Onar's approval once I've persuaded the mercenaries.");
@@ -731,7 +731,7 @@ func void DIA_Lee_Background_Info()
 	AI_Output(self,other,"DIA_Lee_Add_04_14");	//I've had a lot of time to think about it.
 	AI_Output(self,other,"DIA_Lee_Add_04_15");	//I shall avenge myself.
 	AI_Output(other,self,"DIA_Lee_Add_15_16");	//(astonished) On the King?
-	AI_Output(self,other,"DIA_Lee_Add_04_17");	//(determined) On the King! And on all his sycophants. They will all bitterly regret what they did to me ...
+	AI_Output(self,other,"DIA_Lee_Add_04_17");	//(determined) On the King! And on all his sycophants. They will all bitterly regret what they did to me...
 };
 
 
@@ -816,7 +816,7 @@ func void DIA_Lee_AboutGorn_Info()
 	AI_Output(other,self,"DIA_Lee_AboutGorn_15_00");	//Gorn told you about me?? What happened to him?
 	AI_Output(self,other,"DIA_Lee_AboutGorn_04_01");	//You remember him, don't you?
 	Info_ClearChoices(DIA_Lee_AboutGorn);
-	Info_AddChoice(DIA_Lee_AboutGorn,"Let me think ...",DIA_Lee_AboutGorn_Who);
+	Info_AddChoice(DIA_Lee_AboutGorn,"Let me think...",DIA_Lee_AboutGorn_Who);
 	Info_AddChoice(DIA_Lee_AboutGorn,"Sure.",DIA_Lee_AboutGorn_Yes);
 };
 
@@ -832,7 +832,7 @@ func void DIA_Lee_AboutGorn_Yes()
 
 func void DIA_Lee_AboutGorn_Who()
 {
-	AI_Output(other,self,"DIA_Lee_AboutGorn_Who_15_00");	//Let me think ...
+	AI_Output(other,self,"DIA_Lee_AboutGorn_Who_15_00");	//Let me think...
 	AI_Output(self,other,"DIA_Lee_AboutGorn_Who_04_01");	//Big, dark, bad, with a big axe - he reconquered our ore mine with you back in the colony.
 };
 
@@ -844,7 +844,7 @@ instance DIA_Lee_WegenBullco(C_Info)
 	condition = DIA_Lee_WegenBullco_Condition;
 	information = DIA_Lee_WegenBullco_Info;
 	permanent = FALSE;
-	description = "Onar now has a few sheep less thanks to Bullco ...";
+	description = "Onar now has a few sheep less thanks to Bullco...";
 };
 
 
@@ -858,13 +858,13 @@ func int DIA_Lee_WegenBullco_Condition()
 
 func void DIA_Lee_WegenBullco_Info()
 {
-	AI_Output(other,self,"DIA_Lee_Add_15_00");	//Onar now has a few sheep less thanks to Bullco ...
+	AI_Output(other,self,"DIA_Lee_Add_15_00");	//Onar now has a few sheep less thanks to Bullco...
 	AI_Output(self,other,"DIA_Lee_Add_04_01");	//Oh, leave me alone with that shit! I have enough trouble as it is.
 	if((Bullco_scharf == TRUE) && !Npc_IsDead(Bullco))
 	{
-		AI_Output(other,self,"DIA_Lee_Add_15_02");	//Me too. Bullco seems to have a problem with me. He wants me to leave the farm ...
+		AI_Output(other,self,"DIA_Lee_Add_15_02");	//Me too. Bullco seems to have a problem with me. He wants me to leave the farm...
 		AI_Output(self,other,"DIA_Lee_Add_04_03");	//Yes, and? Assert yourself.
-		AI_Output(self,other,"DIA_Lee_Add_04_04");	//You can tell him he should restrain himself, otherwise I'll deduct the lost sheep from his pay ...
+		AI_Output(self,other,"DIA_Lee_Add_04_04");	//You can tell him he should restrain himself, otherwise I'll deduct the lost sheep from his pay...
 	};
 };
 
@@ -876,7 +876,7 @@ instance DIA_Lee_Report(C_Info)
 	condition = DIA_Lee_Report_Condition;
 	information = DIA_Lee_Report_Info;
 	permanent = TRUE;
-	description = "I've come from the Valley of Mines ...";
+	description = "I've come from the Valley of Mines...";
 };
 
 
@@ -891,17 +891,17 @@ func int DIA_Lee_Report_Condition()
 func void DIA_Lee_Report_Info()
 {
 	AI_Output(other,self,"DIA_Lee_Add_15_18");	//I've come from the Valley of Mines. The castle there was attacked by dragons!
-	AI_Output(self,other,"DIA_Lee_Add_04_19");	//So it's true! Lares said that rumors about dragons are circulating through the city ... I didn't believe it ...
+	AI_Output(self,other,"DIA_Lee_Add_04_19");	//So it's true! Lares said that rumors about dragons are circulating through the city... I didn't believe it...
 	AI_Output(self,other,"DIA_Lee_Add_04_20");	//What about the paladins?
 	AI_Output(other,self,"DIA_Lee_Add_15_21");	//They've been thoroughly decimated.
 	if(other.guild == GIL_SLD)
 	{
-		AI_Output(self,other,"DIA_Lee_Add_04_22");	//Good! Maybe now Lord Hagen will think again about my offer ...
-		AI_Output(self,other,"DIA_Lee_Add_04_23");	//And if not ... (hard) Then we'll find another way to get out of here ...
+		AI_Output(self,other,"DIA_Lee_Add_04_22");	//Good! Maybe now Lord Hagen will think again about my offer...
+		AI_Output(self,other,"DIA_Lee_Add_04_23");	//And if not...(hard) Then we'll find another way to get out of here...
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Lee_Add_04_24");	//Good! Maybe that will make Lord Hagen move to the Valley of Mines with his men ...
+		AI_Output(self,other,"DIA_Lee_Add_04_24");	//Good! Maybe that will make Lord Hagen move to the Valley of Mines with his men...
 		AI_Output(self,other,"DIA_Lee_Add_04_25");	//The fewer paladins stay here, the better.
 	};
 };
@@ -1270,7 +1270,7 @@ func void DIA_Lee_DoAboutBennet_Info()
 	};
 	if(!Npc_IsDead(Buster) && ((hero.guild == GIL_SLD) || (hero.guild == GIL_DJG)))
 	{
-		AI_Output(self,other,"DIA_Lee_DoAboutBennet_04_07");	//Oh, yes. Before I forget ... Buster wants to talk to you. He wouldn't tell me what it was about. Maybe you should go see him!
+		AI_Output(self,other,"DIA_Lee_DoAboutBennet_04_07");	//Oh, yes. Before I forget... Buster wants to talk to you. He wouldn't tell me what it was about. Maybe you should go see him!
 	};
 };
 

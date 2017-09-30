@@ -72,7 +72,7 @@ func void DIA_Lester_Hello_YouKnowMe()
 	Info_ClearChoices(DIA_Lester_Hello);
 	AI_Output(other,self,"DIA_Lester_Hello_YouKnowMe_15_00");	//Am I supposed to know you?
 	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_01");	//Hello? Anyone home? I risked my neck so you could get that weird stone.
-	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_02");	//You owe me something ... This time you should remember THAT.
+	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_02");	//You owe me something... This time you should remember THAT.
 	AI_Output(self,other,"DIA_Lester_Hello_YouKnowMe_13_03");	//You still remember Diego, Milten and Gorn?
 	Info_AddChoice(DIA_Lester_Hello,"Diego, Milten and WHO?",DIA_Lester_Hello_WhoFourFriends);
 	Info_AddChoice(DIA_Lester_Hello,"Sure. What about them?",DIA_Lester_Hello_KnowFourFriends);
@@ -92,7 +92,7 @@ func void DIA_Lester_Hello_WhoFourFriends()
 	Info_ClearChoices(DIA_Lester_Hello);
 	AI_Output(other,self,"DIA_Lester_Hello_WhoFourFriends_15_00");	//Diego, Milten and WHO?
 	AI_Output(self,other,"DIA_Lester_Hello_WhoFourFriends_13_01");	//Don't tell me you can't remember any of that. The focus stones - the troll - the water mages' enormous pile of ore?
-	AI_Output(other,self,"DIA_Lester_Hello_WhoFourFriends_15_02");	//I'm not so sure ...
+	AI_Output(other,self,"DIA_Lester_Hello_WhoFourFriends_15_02");	//I'm not so sure...
 	AI_Output(self,other,"DIA_Lester_Hello_WhoFourFriends_13_03");	//That'll come back. It took me a while to get my head straight, too.
 };
 
@@ -155,8 +155,8 @@ func void DIA_Lester_MineColony_Info()
 	AI_Output(self,other,"DIA_Lester_ReturnToColony_13_01");	//I don't know exactly. A week, maybe. But there's one more thing:
 	AI_Output(self,other,"DIA_Lester_ReturnToColony_13_02");	//When I came here in the evening, I took a look up on the mountain - there were only a few trees there.
 	AI_Output(self,other,"DIA_Lester_ReturnToColony_13_03");	//And when I looked the next morning, that tower was there. I could have sworn it wasn't there before. Since then I haven't left the valley.
-	AI_Output(other,self,"DIA_Lester_ReturnToColony_15_04");	//You mean Xardas' tower? I knew he was powerful, but creating a tower just like that ...
-	AI_Output(self,other,"DIA_Lester_ReturnToColony_13_05");	//Xardas the necromancer? He lives in that tower? I don't know if I like that ...
+	AI_Output(other,self,"DIA_Lester_ReturnToColony_15_04");	//You mean Xardas' tower? I knew he was powerful, but creating a tower just like that...
+	AI_Output(self,other,"DIA_Lester_ReturnToColony_13_05");	//Xardas the necromancer? He lives in that tower? I don't know if I like that...
 	AI_Output(other,self,"DIA_Lester_ReturnToColony_15_06");	//Don't worry, he's the one who rescued me from the Sleeper's temple. He's on our side.
 };
 
@@ -168,7 +168,7 @@ instance DIA_Lester_SEND_XARDAS(C_Info)
 	condition = DIA_Lester_SEND_XARDAS_Condition;
 	information = DIA_Lester_SEND_XARDAS_Info;
 	permanent = FALSE;
-	description = "You need to tell Xardas about the shadow ...";
+	description = "You need to tell Xardas about the shadow...";
 };
 
 
@@ -183,10 +183,10 @@ func int DIA_Lester_SEND_XARDAS_Condition()
 func void DIA_Lester_SEND_XARDAS_Info()
 {
 	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_00");	//You need to tell Xardas about the shadow, it could be important.
-	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_01");	//You don't think it was my imagination? You mean there was really a ...
+	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_01");	//You don't think it was my imagination? You mean there was really a...
 	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_02");	//... dragon. Yes.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_03");	//You're getting into the thick of it again, am I right?
-	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_04");	//I shouldn't say in the thick of it ... not yet.
+	AI_Output(other,self,"DIA_Lester_SEND_XARDAS_15_04");	//I shouldn't say in the thick of it... not yet.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_05");	//(sighs) Well good, if it's so important, then I'll go see him - but not now.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_06");	//For the moment, I'm going to rest. I'm still exhausted after the escape from the penal colony.
 	AI_Output(self,other,"DIA_Lester_SEND_XARDAS_13_07");	//I think you've got big plans. I'll see you later at Xardas'.
@@ -332,8 +332,8 @@ func int DIA_Lester_Sleep_Condition()
 func void DIA_Lester_Sleep_Info()
 {
 	AI_Output(other,self,"DIA_Lester_Sleep_15_00");	//Are you still exhausted?
-	AI_Output(self,other,"DIA_Lester_Sleep_13_01");	//And how. (yawns) I told Xardas everything. Now I'm going to sleep for a while. Like, a day or ...
-	AI_Output(self,other,"DIA_Lester_Sleep_13_02");	//... two ... or longer.
+	AI_Output(self,other,"DIA_Lester_Sleep_13_01");	//And how. (yawns) I told Xardas everything. Now I'm going to sleep for a while. Like, a day or...
+	AI_Output(self,other,"DIA_Lester_Sleep_13_02");	//... two... or longer.
 	AI_StopProcessInfos(self);
 };
 
@@ -431,7 +431,7 @@ func void DIA_Lester_PERM3_Info()
 				AI_Output(other,self,"DIA_Lester_PERM3_15_03");	//And I can tell you exactly why.
 				AI_Output(self,other,"DIA_Lester_PERM3_13_04");	//Yeah? I don't think I want to know.
 				AI_Output(other,self,"DIA_Lester_PERM3_15_05");	//These black hoods - or the Seekers, as we magicians call them - used to be the followers of a powerful archdemon. Does that ring a bell?
-				AI_Output(self,other,"DIA_Lester_PERM3_13_06");	//Mmh. No. Unless you're trying to tell me that ...
+				AI_Output(self,other,"DIA_Lester_PERM3_13_06");	//Mmh. No. Unless you're trying to tell me that...
 				AI_Output(other,self,"DIA_Lester_PERM3_15_07");	//Yes, exactly. The Seekers used to be followers of the Sleeper. The renegade sect crackpots from the Swamp Camp.
 				AI_Output(other,self,"DIA_Lester_PERM3_15_08");	//They're your people, Lester. The former Brotherhood of the Sleeper. Now they are nothing but soulless minions of evil.
 				AI_Output(self,other,"DIA_Lester_PERM3_13_09");	//I had a notion, but I hoped it wasn't true. Do you mean he came back? Is the Sleeper here again?

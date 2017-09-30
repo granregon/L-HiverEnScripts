@@ -96,11 +96,11 @@ func void DIA_Addon_Xardas_Hello_Man()
 func void DIA_Addon_Xardas_Hello_Dragons()
 {
 	AI_Output(other,self,"DIA_Xardas_Hello_15_03");	//At least we have enough time now. I did it. The Sleeper...
-	AI_Output(self,other,"DIA_Xardas_Hello_14_04");	//...has been banned. You vanquished him, so much is true - but it is not within our power to stop the war that ensues now.
+	AI_Output(self,other,"DIA_Xardas_Hello_14_04");	//... has been banned. You vanquished him, so much is true - but it is not within our power to stop the war that ensues now.
 	AI_Output(self,other,"DIA_Xardas_Hello_14_07");	//With his final, furious scream, the Sleeper has set into movement the armies of darkness.
 	AI_Output(self,other,"DIA_Xardas_Hello_14_08");	//It was an order to all evil creatures. A word of power that they were all bound to obey.
 	AI_Output(self,other,"DIA_Xardas_Hello_14_09");	//His last order was: COME! And they came. All of them. Even the dragons.
-	AI_Output(other,self,"DIA_Xardas_Hello_15_10");	//(amazed)...Dragons!
+	AI_Output(other,self,"DIA_Xardas_Hello_15_10");	//(amazed)... Dragons!
 	AI_Output(self,other,"DIA_Xardas_Hello_14_11");	//They are creatures of ancient power. I can sense their presence - even here.
 	AI_Output(self,other,"DIA_Xardas_Hello_14_12");	//And they have gathered an entire army of lowly servant creatures around them.
 	AI_Output(other,self,"DIA_Xardas_Hello_15_13");	//Where's this army now?

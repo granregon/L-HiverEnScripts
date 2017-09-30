@@ -167,7 +167,7 @@ func void UseSchnellerHering()
 {
 	var C_Npc her;
 	her = Hlp_GetNpc(PC_Hero);
-	if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her)) && (REAL_WGHT < MAXM_WGHT))
+	if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(her)))
 	{
 		Mdl_ApplyOverlayMdsTimed(self,"HUMANS_SPRINT.MDS",20000);
 	};

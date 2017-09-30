@@ -668,7 +668,7 @@ func void DIA_Andre_GuildOfThieves_Info()
 	AI_Output(other,self,"DIA_Andre_GuildOfThieves_15_00");	//What's your problem?
 	AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_01");	//Recently there have been a number of thefts in the city. Thus far, we have not been able to capture anyone, the thieves are simply too skillful.
 	AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_02");	//The scum know their business. I am sure that we're dealing with an organized gang.
-	AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_03");	//It would not amaze me if there were a thieves' guild in Khorinis. Find the  leaders of the gang and hunt them down.
+	AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_03");	//It would not amaze me if there were a thieves' guild in Khorinis. Find the leaders of the gang and hunt them down.
 	if(other.guild == GIL_NONE)
 	{
 		AI_Output(self,other,"DIA_Andre_GuildOfThieves_08_04");	//Then I shall see to it that you are accepted into the militia - regardless of whether or not you are a citizen.
@@ -1040,10 +1040,10 @@ func void DIA_Andre_JOIN_Info()
 		};
 		if(Player_IsApprentice == APP_Bosper)
 		{
-			AI_Output(other,self,"DIA_Andre_JOIN_15_09");	//Bosper the bowyer has taken me on as his apprentice.
+			AI_Output(other,self,"DIA_Andre_JOIN_15_09");	//Bosper the bowmaker has taken me on as his apprentice.
 			AI_Output(self,other,"DIA_Andre_JOIN_08_10");	//Then you also know something about living in the wild? That is good, because the militia has assignments not just within the city walls.
 			AI_Output(self,other,"DIA_Andre_JOIN_08_11");	//We can certainly use people who know their way around in the wilderness.
-			AI_Output(self,other,"DIA_Andre_JOIN_08_12");	//And the bowyer is an important man in the city.
+			AI_Output(self,other,"DIA_Andre_JOIN_08_12");	//And the bowmaker is an important man in the city.
 		};
 		AI_Output(self,other,"DIA_Andre_JOIN_08_13");	//If he vouches for you, there is nothing standing in the way of your acceptance into the militia.
 		if(MIS_Andre_GuildOfThieves == LOG_SUCCESS)
@@ -1395,7 +1395,7 @@ func void DIA_Andre_REDLIGHT_SUCCESS_Info()
 	}
 	else
 	{
-		AI_Output(other,self,"DIA_Andre_REDLIGHT_SUCCESS_15_09");	//...I'm still working on it.
+		AI_Output(other,self,"DIA_Andre_REDLIGHT_SUCCESS_15_09");	//... I'm still working on it.
 		AI_Output(self,other,"DIA_Andre_REDLIGHT_SUCCESS_08_10");	//Good, remember that you must get the fellow to do business with you.
 	};
 };
@@ -1554,7 +1554,7 @@ func void DIA_Addon_Andre_ReturnedMissingPeople_Info()
 	};
 	AI_Output(self,other,"DIA_Addon_Andre_ReturnedMissingPeople_08_04");	//How many people did you find?
 	AI_Output(other,self,"DIA_Addon_Andre_ReturnedMissingPeople_15_05");	//All those who were still alive...
-	AI_Output(self,other,"DIA_Addon_Andre_ReturnedMissingPeople_08_06");	//All?! I...Er...
+	AI_Output(self,other,"DIA_Addon_Andre_ReturnedMissingPeople_08_06");	//All?! I... Er...
 	if(other.guild == GIL_MIL)
 	{
 		AI_Output(self,other,"DIA_Addon_Andre_ReturnedMissingPeople_08_07");	//I am so proud of you! And I'm glad that I let you join us.

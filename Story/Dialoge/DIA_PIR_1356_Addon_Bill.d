@@ -241,7 +241,7 @@ func void DIA_Addon_Bill_FoundFriends_Info()
 		AI_Output(other,self,"DIA_Addon_Bill_FoundFriends_15_06");	//It's possible.
 	};
 	AI_Output(self,other,"DIA_Addon_Bill_FoundFriends_03_04");	//Those cursed swine. May they roast in hell.
-	AI_Output(self,other,"DIA_Addon_Bill_FoundFriends_03_05");	//(to himself, hatefully) If only I knew the name of the lowlife who did this ...
+	AI_Output(self,other,"DIA_Addon_Bill_FoundFriends_03_05");	//(to himself, hatefully) If only I knew the name of the lowlife who did this...
 	MIS_Addon_Bill_SearchAngusMurder = LOG_Running;
 	Log_CreateTopic(TOPIC_Addon_KillJuan,LOG_MISSION);
 	Log_SetTopicStatus(TOPIC_Addon_KillJuan,LOG_Running);

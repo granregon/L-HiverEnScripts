@@ -729,7 +729,7 @@ func int DIA_Igaraz_Perm_Condition()
 func void DIA_Igaraz_Perm_Info()
 {
 	AI_Output(other,self,"DIA_Igaranz_Perm_15_00");	//Have you got anything interesting for me?
-	AI_Output(self,other,"DIA_Igaranz_Perm_13_01");	//Ehm...no.
+	AI_Output(self,other,"DIA_Igaranz_Perm_13_01");	//Ehm... no.
 	AI_StopProcessInfos(self);
 };
 

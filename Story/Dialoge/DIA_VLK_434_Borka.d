@@ -198,7 +198,7 @@ func void DIA_Borka_BUYHERB_Deal()
 {
 	AI_Output(other,self,"DIA_Borka_BUYHERB_Deal_15_00");	//So do you want to cut a deal, or not?
 	AI_PlayAni(self,"T_SEARCH");
-	AI_Output(self,other,"DIA_Borka_BUYHERB_Deal_11_01");	//... all right ... let's make a deal. You give me 50 gold pieces, and then you'll get your weed. No haggling.
+	AI_Output(self,other,"DIA_Borka_BUYHERB_Deal_11_01");	//... all right... let's make a deal. You give me 50 gold pieces, and then you'll get your weed. No haggling.
 	Info_ClearChoices(DIA_Borka_BUYHERB);
 	Borka_Deal = TRUE;
 };
@@ -229,7 +229,7 @@ func void DIA_Borka_SECOND_CHANCE_Info()
 {
 	AI_Output(other,self,"DIA_Borka_SECOND_CHANCE_15_00");	//Let's make a deal. Here's the gold.
 	B_GiveInvItems(hero,self,ItMi_Gold,50);
-	AI_Output(self,other,"DIA_Borka_SECOND_CHANCE_11_01");	//All right ...
+	AI_Output(self,other,"DIA_Borka_SECOND_CHANCE_11_01");	//All right...
 	AI_PlayAni(self,"T_SEARCH");
 	AI_Output(self,other,"DIA_Borka_SECOND_CHANCE_11_02");	//... here's a fresh, resinous stalk of weed.
 	B_GiveInvItems(self,hero,ItMi_Joint,1);

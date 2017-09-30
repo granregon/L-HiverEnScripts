@@ -395,12 +395,12 @@ func void DIA_Coragon_News_Info()
 	AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_33");	//Valentino was unable to pay his bar tab last night.
 	if(Valentino.aivar[AIV_DefeatedByPlayer] == TRUE)
 	{
-		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_34");	//He was blathering something about having being robbed, and paying me later ... Really!
+		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_34");	//He was blathering something about having being robbed, and paying me later... Really!
 	}
 	else
 	{
 		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_35");	//And right before that, he had been crowing about how much money he had.
-		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_36");	//Then he put his hand in his pocket and made a funny face. He said he had been robbed ...
+		AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_36");	//Then he put his hand in his pocket and made a funny face. He said he had been robbed...
 	};
 	AI_Output(other,self,"DIA_Coragon_Add_15_37");	//And? What did you do?
 	AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_38");	//Well, I gave him a good thrashing, what else?
@@ -430,9 +430,9 @@ func void DIA_Coragon_Ring_Info()
 {
 	AI_Output(other,self,"DIA_Coragon_Add_15_39");	//Here - take this ring.
 	B_GiveInvItems(other,self,ItRi_ValentinosRing,1);
-	AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_40");	//What? I don't understand ...
+	AI_Output(self,other,"DIA_ADDON_NEW_Coragon_Add_09_40");	//What? I don't understand...
 	AI_Output(other,self,"DIA_Coragon_Add_15_41");	//It used to belong to Valentino.
-	AI_Output(other,self,"DIA_Coragon_Add_15_42");	//You're welcome to pass it on to the next person who tans his hide ...
+	AI_Output(other,self,"DIA_Coragon_Add_15_42");	//You're welcome to pass it on to the next person who tans his hide...
 	B_GivePlayerXP(300);
 	AI_StopProcessInfos(self);
 };

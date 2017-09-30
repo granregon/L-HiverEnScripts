@@ -63,7 +63,7 @@ func void DIA_Addon_BenchPirate_Hello_Info()
 	}
 	else if(randy == 1)
 	{
-		AI_Output(self,other,"DIA_Addon_Pir_7_Hello_07_05");	//Greg trusts Francis because he's too dumb to cheat! But to make him our leader for that ...
+		AI_Output(self,other,"DIA_Addon_Pir_7_Hello_07_05");	//Greg trusts Francis because he's too dumb to cheat! But to make him our leader for that...
 	}
 	else
 	{
@@ -123,7 +123,7 @@ func void DIA_Addon_BenchPirate_ComeOn_Info()
 	AI_Output(other,self,"DIA_Addon_BenchPirate_ComeOn_15_01");	//The canyon awaits.
 	if(C_GregsPiratesTooFar() == TRUE)
 	{
-		AI_Output(self,other,"DIA_Addon_BenchPirate_ComeOn_07_02");	//That's exactly where I'm headed back to ...
+		AI_Output(self,other,"DIA_Addon_BenchPirate_ComeOn_07_02");	//That's exactly where I'm headed back to...
 		AI_StopProcessInfos(self);
 	}
 	else

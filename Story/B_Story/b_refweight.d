@@ -96,7 +96,7 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_1hST2.MDS");
 			Mdl_ApplyOverlayMds(self,"A_SHIELD.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)) && (REAL_WGHT > MAXM_WGHT))
+		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
 		{
 			b_refweight();
 		};
@@ -148,7 +148,7 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_2hST2.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_2hST3.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)) && (REAL_WGHT > MAXM_WGHT))
+		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
 		{
 			b_refweight();
 		};
@@ -176,7 +176,7 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_bowT1.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_bowT2.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)) && (REAL_WGHT > MAXM_WGHT))
+		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
 		{
 			b_refweight();
 		};
@@ -204,7 +204,7 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_cbowT1.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_cbowT2.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)) && (REAL_WGHT > MAXM_WGHT))
+		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
 		{
 			b_refweight();
 		};

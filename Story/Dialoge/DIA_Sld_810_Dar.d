@@ -138,7 +138,7 @@ instance DIA_Dar_DuDieb(C_Info)
 	condition = DIA_Dar_DuDieb_Condition;
 	information = DIA_Dar_DuDieb_Info;
 	permanent = FALSE;
-	description = "Cipher told me that someone stole a package of swampweed from him ...";
+	description = "Cipher told me that someone stole a package of swampweed from him...";
 };
 
 
@@ -152,7 +152,7 @@ func int DIA_Dar_DuDieb_Condition()
 
 func void DIA_Dar_DuDieb_Info()
 {
-	AI_Output(other,self,"DIA_Dar_DuDieb_15_00");	//Cipher told me that someone stole a package of swampweed from him ...
+	AI_Output(other,self,"DIA_Dar_DuDieb_15_00");	//Cipher told me that someone stole a package of swampweed from him...
 	AI_Output(self,other,"DIA_Dar_DuDieb_03_01");	//(laughs subdued and moronically)
 	AI_Output(other,self,"DIA_Dar_DuDieb_15_02");	//Would you know anything about that?
 	AI_Output(self,other,"DIA_Dar_DuDieb_03_03");	//(very short) No.
@@ -281,15 +281,15 @@ func void DIA_Dar_Pilztabak_Info()
 	AI_Output(other,self,"DIA_Dar_Pilztabak_15_00");	//Have you ever tried shroom tobacco?
 	AI_Output(self,other,"DIA_Dar_Pilztabak_03_01");	//Sounds interesting. Give it here.
 	B_GiveInvItems(other,self,ItMi_PilzTabak,1);
-	AI_Output(self,other,"DIA_Dar_Pilztabak_03_02");	//All right, here we go ...
+	AI_Output(self,other,"DIA_Dar_Pilztabak_03_02");	//All right, here we go...
 	CreateInvItem(self,ItMi_Joint);
 	B_UseItem(self,ItMi_Joint);
 	AI_Output(self,other,"DIA_Dar_Pilztabak_03_03");	//Have you ever smoked that stuff YOURSELF?
-	AI_Output(other,self,"DIA_Dar_Pilztabak_15_04");	//Well ...
+	AI_Output(other,self,"DIA_Dar_Pilztabak_15_04");	//Well...
 	CreateInvItem(self,ItMi_Joint);
 	B_UseItem(self,ItMi_Joint);
 	AI_Output(self,other,"DIA_Dar_Pilztabak_03_05");	//Have you or haven't you?
-	AI_Output(other,self,"DIA_Dar_Pilztabak_15_06");	//I've been sort of busy ...
+	AI_Output(other,self,"DIA_Dar_Pilztabak_15_06");	//I've been sort of busy...
 	AI_Output(self,other,"DIA_Dar_Pilztabak_03_07");	//Oh, shit!
 	AI_PlayAni(self,"T_MAGRUN_2_HEASHOOT");
 	AI_Output(self,other,"DIA_Dar_Pilztabak_03_08");	//Holy Rhobar!
@@ -501,7 +501,7 @@ func void DIA_Dar_BRINGORCELITERING_Info()
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_15_00");	//I've got the orc trophy you were looking for.
 	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_01");	//What's this you've brought me?
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_15_02");	//The ring of an orcish warlord.
-	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_03");	//Wow, in that case ... What do you want for it?
+	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_03_03");	//Wow, in that case... What do you want for it?
 	MIS_Dar_BringOrcEliteRing = LOG_SUCCESS;
 	Info_ClearChoices(DIA_Dar_BRINGORCELITERING);
 	Info_AddChoice(DIA_Dar_BRINGORCELITERING,"What can you offer me?",DIA_Dar_BRINGORCELITERING_was);
@@ -550,7 +550,7 @@ func void DIA_Dar_BRINGORCELITERING_geld_no()
 func void DIA_Dar_BRINGORCELITERING_was()
 {
 	AI_Output(other,self,"DIA_Dar_BRINGORCELITERING_was_15_00");	//What can you offer me?
-	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_01");	//Either take the money, or this amulet that I ... well, let's say, acquired a while ago.
+	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_01");	//Either take the money, or this amulet that I... well, let's say, acquired a while ago.
 	AI_Output(self,other,"DIA_Dar_BRINGORCELITERING_was_03_02");	//It improves your dexterity. I've tried it myself.
 	Info_ClearChoices(DIA_Dar_BRINGORCELITERING);
 	Info_AddChoice(DIA_Dar_BRINGORCELITERING,"Give me some gold.",DIA_Dar_BRINGORCELITERING_geld);
