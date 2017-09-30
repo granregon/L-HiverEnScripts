@@ -6,6 +6,7 @@ Bugs/Issues:
   can just remove this part of coding from scripts. 
 - Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
   game. 
+- Rod's Two Hander does not show weapon stats (range, str required) in description
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
