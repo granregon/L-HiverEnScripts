@@ -1,14 +1,22 @@
 
 # Gothic Free Aim script.
+
+# Splash damage with melee weapons
+
 # Fix traders NPCs that equip the strongest weapon they have after NH talks to them the first time.
+
 # Food recipes, some of them might be:
  - Fish soup, from Edda when you bring her 'Statue of Innos'
  - Stew, from Lobart's wife when you bring her 'Pan'
  - Ham, from the butcher of vanilla Gothic2 NoTR, when you complete his mission (Ham is made from raw meat and some other ingredients)
  - Meatbug stew,
+ 
 # New NPC in Thieves guild and some new quests
   - Some stealing missions
   - Some assassination missions
   - New item 'Poison', (Poisoned weapons ?)
+  
 # New 'Stamina' statistic, based on your dexterity, it'll allow the player run till stamina hits 0. No other functions for now.
   - In this case 'Potion of speed' may become useless, it can be changed with 'Stamina potion' or something like that
+
+# New skins for Bosper (Reptile and Swampshark)
