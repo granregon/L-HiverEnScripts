@@ -7,9 +7,16 @@ Bugs/Issues:
 - Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
   game. 
 - Rod's Two Hander does not show weapon stats (range, str required) in description
+- Remove Costantino's dialoges about Vatras healing
+- Check why leather belt doesn't apply the bonuses with leather armor (Orlan one)
+- A pirate in pirate's camp has STR 100 and tries to equip a 125 STR weapon, needs fix
+
+
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
 - "Maybe later.." option when Thorben asks for gold to teach NH lockicking is wrong.
 - When bribing Till for more gold to take care of Bronko the 50 gold level has teh wrong bottom option (they 
   are both the same)
+- Reptile skin skill should have a better translation
+
