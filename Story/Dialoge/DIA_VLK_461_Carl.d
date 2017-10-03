@@ -151,22 +151,19 @@ func void DIA_Carl_Lernen_Info()
 {
 	AI_Output(other,self,"DIA_Carl_Lernen_15_00");	//Can you teach me anything?
 	AI_Output(self,other,"DIA_Carl_Lernen_05_01");	//Oh, I'm forging a fews fittings and nails, and repairing iron parts.
-	AI_Output(self,other,"DIA_Carl_Lernen_05_02");	//But I don't know enough about forging weapons to be able to instruct you.
-	AI_Output(self,other,"DIA_Carl_Lernen_05_03");	//If you want to learn that, then go see Harad. He sure knows how to forge weapons!
-	AI_Output(self,other,"DIA_Carl_Lernen_05_04");	//But if you wanna train your muscles a bit, I can help you with that.
 	if((PLAYER_TALENT_SMITH[0] || PLAYER_TALENT_SMITH[13]) == TRUE)
 	{
 		AI_Output(other,self,"DIA_Harad_LEHRLING_OK_15_02");	//I already know how to do that!
 		AI_Output(self,other,"DIA_Carl_bezahlen_05_02");	//Good, we can get started as soon as you're ready.
 		AI_Output(self,other,"DIA_Carl_bezahlen_05_03");	//Get the gold, then I'll train you.
 		Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTeacher,"Carl, the smith in the harbor district, can help me become stronger.");
+		B_LogEntry(TOPIC_CityTeacher,"Carl, the smith in the harbor district, can teach me how to forge armor.");
 	}
 	else if((PLAYER_TALENT_SMITH[0] || PLAYER_TALENT_SMITH[13]) == FALSE)
 	{
 		AI_Output(other,self,"DIA_Lehmar_GELDLEIHEN_back_15_00");	//I'll think about it.
 		Log_CreateTopic(TOPIC_CityTeacher,LOG_NOTE);
-		B_LogEntry(TOPIC_CityTeacher,"Carl, the smith in the harbor district, can help me become stronger.");
+		B_LogEntry(TOPIC_CityTeacher,"Carl, the smith in the harbor district, can teach me how to forge armor.");
 	};
 };
 
@@ -178,7 +175,7 @@ instance DIA_CARL_REQUEST(C_Info)
 	condition = dia_carl_request_condition;
 	information = dia_carl_request_info;
 	permanent = TRUE;
-	description = "I want to train with you (250 gold).";
+	description = "Teach me how to forge an armor (250 gold).";
 };
 
 
@@ -242,7 +239,7 @@ func void dia_carl_teach_arm_info()
 	}
 	else if((Kapitel == 1) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (PLAYER_TALENT_ARMOR[1] == FALSE))
 	{
-		AI_Output(self,other,"DIA_Carl_Lernen_05_73");	//You need more practice, come back later.
+		AI_PrintScreen("Not ready yet",-1,52,FONT_SCREENBRIGHTLARGE,2);
 		b_endproductiondialog();
 	}
 	else if((PLAYER_TALENT_ARMOR[1] == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (Kapitel >= 2))
@@ -251,7 +248,7 @@ func void dia_carl_teach_arm_info()
 	}
 	else if((Kapitel == 2) && (PLAYER_TALENT_ARMOR[1] == TRUE) && (PLAYER_TALENT_ARMOR[2] == FALSE))
 	{
-		AI_Output(self,other,"DIA_Carl_Lernen_05_74");	//You will not become a professionist so fast. You still need a lot of practice to master everything.
+		AI_PrintScreen("Not ready yet",-1,52,FONT_SCREENBRIGHTLARGE,2);
 		b_endproductiondialog();
 	}
 	else if((PLAYER_TALENT_ARMOR[2] == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (PLAYER_TALENT_ARMOR[1] == TRUE) && (Kapitel >= 3))

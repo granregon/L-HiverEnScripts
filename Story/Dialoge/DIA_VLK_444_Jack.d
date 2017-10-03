@@ -107,7 +107,6 @@ func void DIA_Jack_Job_Info()
 {
 	AI_Output(other,self,"DIA_Jack_Job_15_00");	//What are you doing here?
 	AI_Output(self,other,"DIA_Jack_Job_14_01");	//Back when I was a young man, I went to sea and rode through many a big storm.
-	AI_Output(self,other,"DIA_Jack_Job_14_02");	//Many years ago, I settled here and took care of the Khorinis lighthouse for a long time.
 	AI_Output(self,other,"DIA_Jack_Job_14_03");	//No big deal. Not at all. But that old tower came closest to what I would call a home.
 	AI_Output(self,other,"DIA_Jack_Job_14_04");	//I haven't been up there in ages.
 	AI_Output(other,self,"DIA_Jack_Job_15_05");	//Why not?
