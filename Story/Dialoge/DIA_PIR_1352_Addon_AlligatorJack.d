@@ -699,7 +699,7 @@ func void B_AJ_Teach()
 	Info_AddChoice(DIA_Addon_AlligatorJack_Teach,B_BuildLearnString(PRINT_LearnBow1,B_GetLearnCostTalent(other,NPC_TALENT_BOW,1)),DIA_Addon_AlligatorJack_Teach_Bow_1);
 	if(PLAYER_TALENT_TAKEANIMALTROPHY[14] == FALSE)
 	{
-		Info_AddChoice(DIA_Addon_AlligatorJack_Teach,B_BuildLearnString("Skin animals",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_ReptileSkin)),DIA_Addon_AlligatorJack_Teach_FUR);
+		Info_AddChoice(DIA_Addon_AlligatorJack_Teach,B_BuildLearnString("Skin reptiles",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_ReptileSkin)),DIA_Addon_AlligatorJack_Teach_FUR);
 	};
 	if(PLAYER_TALENT_TAKEANIMALTROPHY[TROPHY_Teeth] == FALSE)
 	{

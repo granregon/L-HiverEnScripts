@@ -10,7 +10,7 @@ instance PIR_1363_Addon_PIRAT(Npc_Default)
 	aivar[AIV_FollowDist] = 600;
 	B_SetAttributesToChapter(self,2);
 	fight_tactic = FAI_HUMAN_MASTER;
-	EquipItem(self,ItMw_Krummschwert);
+	EquipItem(self,ItMw_Piratensaebel);
 	B_CreateAmbientInv(self);
 	B_SetNpcVisual(self,MALE,"Hum_Head_FatBald",Face_N_Fingers,BodyTex_N,ITAR_PIR_L_Addon);
 	Mdl_SetModelFatness(self,0.9);

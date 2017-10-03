@@ -161,7 +161,7 @@ instance ItAt_Wing(C_Item)
 	count[5] = value;
 };
 
-instance itat_LurkerSkin(C_Item)
+instance ItAt_LurkerSkin(C_Item)
 {
 	name = "Reptile skin";
 	mainflag = ITEM_KAT_NONE;
