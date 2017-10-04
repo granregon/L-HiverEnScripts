@@ -114,14 +114,13 @@ func void dia_selivan_teach_enchanting_enchantmastery_0()
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 			AI_PrintScreen(PRINT_MAGECIRCLE_1_MISSING,-1,52,FONT_SCREENBRIGHTLARGE,3);
 			AI_StopProcessInfos(self);
 		};
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
+		AI_PrintScreen("Required: Fire Magician",-1,52,FONT_SCREENBRIGHTLARGE,3);
 		AI_StopProcessInfos(self);
 	};
 };
@@ -138,14 +137,13 @@ func void dia_selivan_teach_enchanting_enchantmastery_1()
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 			AI_PrintScreen(PRINT_MAGECIRCLE_2_MISSING,-1,52,FONT_SCREENBRIGHTLARGE,3);
 			AI_StopProcessInfos(self);
 		};
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
+		AI_PrintScreen("Required: Fire Magician",-1,52,FONT_SCREENBRIGHTLARGE,3);
 		AI_StopProcessInfos(self);
 	};
 };
@@ -162,14 +160,13 @@ func void dia_selivan_teach_enchanting_enchantmastery_2()
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 			AI_PrintScreen(PRINT_MAGECIRCLE_3_MISSING,-1,52,FONT_SCREENBRIGHTLARGE,3);
 			AI_StopProcessInfos(self);
 		};
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
+		AI_PrintScreen("Required: Fire Magician",-1,52,FONT_SCREENBRIGHTLARGE,3);
 		AI_StopProcessInfos(self);
 	};
 };
@@ -205,21 +202,19 @@ func void dia_selivan_teach_enchanting_special_01()
 			}
 			else
 			{
-				AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 				AI_PrintScreen("Required: Enchanting - Master Wizard",-1,52,FONT_SCREENBRIGHTLARGE,3);
 				AI_StopProcessInfos(self);
 			};
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 			AI_PrintScreen(PRINT_MAGECIRCLE_3_MISSING,-1,52,FONT_SCREENBRIGHTLARGE,3);
 			AI_StopProcessInfos(self);
 		};
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
+		AI_PrintScreen("Required: Fire Magician",-1,52,FONT_SCREENBRIGHTLARGE,3);
 		AI_StopProcessInfos(self);
 	};
 };
@@ -255,21 +250,19 @@ func void dia_selivan_teach_enchanting_special_02()
 			}
 			else
 			{
-				AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 				AI_PrintScreen("Required: Enchanting - Master Wizard",-1,52,FONT_SCREENBRIGHTLARGE,3);
 				AI_StopProcessInfos(self);
 			};
 		}
 		else
 		{
-			AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
 			AI_PrintScreen(PRINT_MAGECIRCLE_3_MISSING,-1,52,FONT_SCREENBRIGHTLARGE,3);
 			AI_StopProcessInfos(self);
 		};
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Addon_Selivan_TEACH_01_00");	//Sorry, but my knowledge can only be shared to a man with magical abilities.
+		AI_PrintScreen("Required: Fire Magician",-1,52,FONT_SCREENBRIGHTLARGE,3);
 		AI_StopProcessInfos(self);
 	};
 };

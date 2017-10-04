@@ -199,15 +199,19 @@ func void DIA_Grimbald_TEACHHUNTING_Info()
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[2] == FALSE)
 		{
-			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove Claws",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_Claws)),DIA_Grimbald_TEACHHUNTING_Claws);
+			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove claws",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_Claws)),DIA_Grimbald_TEACHHUNTING_Claws);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[9] == FALSE)
 		{
-			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove Mandibles",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_Mandibles)),DIA_Grimbald_TEACHHUNTING_Mandibles);
+			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove mandibles",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_Mandibles)),DIA_Grimbald_TEACHHUNTING_Mandibles);
 		};
 		if(PLAYER_TALENT_TAKEANIMALTROPHY[10] == FALSE)
 		{
-			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove crawler Plates",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_CrawlerPlate)),DIA_Grimbald_TEACHHUNTING_CrawlerPlate);
+			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Remove crawler plates",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_CrawlerPlate)),DIA_Grimbald_TEACHHUNTING_CrawlerPlate);
+		};
+		if(PLAYER_TALENT_TAKEANIMALTROPHY[14] == FALSE)
+		{
+			Info_AddChoice(DIA_Grimbald_TEACHHUNTING,B_BuildLearnString("Skin reptiles",B_GetLearnCostTalent(other,NPC_TALENT_TAKEANIMALTROPHY,TROPHY_ReptileSkin)),DIA_Grimbald_TEACHHUNTING_ReptileSkin);
 		};
 	}
 	else
@@ -266,6 +270,14 @@ func void DIA_Grimbald_TEACHHUNTING_CrawlerPlate()
 	Info_ClearChoices(DIA_Grimbald_TEACHHUNTING);
 };
 
+func void DIA_Grimbald_TEACHHUNTING_ReptileSkin()
+{
+	if(B_TeachPlayerTalentTakeAnimalTrophy(self,other,TROPHY_ReptileSkin))
+	{
+		AI_PrintScreen("Learned: Skin reptiles",-1,52,FONT_SCREENBRIGHTLARGE,2);
+	};
+	Info_ClearChoices(DIA_Grimbald_TEACHHUNTING);
+};
 
 instance DIA_Grimbald_NovChase(C_Info)
 {

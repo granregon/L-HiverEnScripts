@@ -919,8 +919,20 @@ func int DIA_Bosper_SellFur_Condition()
 func void DIA_Bosper_SellFur_Info()
 {
 	AI_Output(other,self,"DIA_Bosper_SellFur_15_00");	//I've got a few skins for you...
-	if((Npc_HasItems(other,ItAt_SheepFur) > 0) || (Npc_HasItems(other,ItAt_WolfFur) > 0) || (Npc_HasItems(other,ItAt_WargFur) > 0) || (Npc_HasItems(other,ItAt_ShadowFur) > 0) || (Npc_HasItems(other,ItAt_TrollFur) > 0) || (Npc_HasItems(other,ItAt_TrollBlackFur) > 0) || (Npc_HasItems(other,ItAt_Addon_KeilerFur) > 0))
+	if((Npc_HasItems(other,ItAt_SheepFur) > 0) || (Npc_HasItems(other,ItAt_WolfFur) > 0) || (Npc_HasItems(other,ItAt_WargFur) > 0) || (Npc_HasItems(other,ItAt_ShadowFur) > 0) || (Npc_HasItems(other,ItAt_TrollFur) > 0) || (Npc_HasItems(other,ItAt_TrollBlackFur) > 0) || (Npc_HasItems(other,ItAt_Addon_KeilerFur) > 0) || (Npc_HasItems(other,ItAt_LurkerSkin) > 0) || (Npc_HasItems(other,ItAt_SharkSkin) > 0))
 	{
+		if((Npc_HasItems(other,ItAt_SharkSkin) > 0))
+		{
+			AI_Wait(self,3);
+			B_GiveInvItems(self,other,ItMi_Gold,Npc_HasItems(other,ItAt_SharkSkin) * Value_SharkSkin);
+			B_GiveInvItems(other,self,ItAt_SharkSkin,Npc_HasItems(other,ItAt_SharkSkin));
+		};
+		if((Npc_HasItems(other,ItAt_LurkerSkin) > 0))
+		{
+			AI_Wait(self,3);
+			B_GiveInvItems(self,other,ItMi_Gold,Npc_HasItems(other,ItAt_LurkerSkin) * Value_ReptileSkin);
+			B_GiveInvItems(other,self,ItAt_LurkerSkin,Npc_HasItems(other,ItAt_LurkerSkin));
+		};
 		if(Npc_HasItems(other,ItAt_Addon_KeilerFur) > 0)
 		{
 			AI_Wait(self,3);
@@ -982,7 +994,7 @@ func void DIA_Bosper_SellFur_Info()
 	}
 	else
 	{
-		AI_Output(self,other,"DIA_Bosper_SellFur_11_13");	//But you know - I'm only interested in the skins of wolves, shadowbeasts and the like...
+		AI_PrintScreen("No skins to sell",-1,52,FONT_SCREENBRIGHTLARGE,2);
 	};
 };
 
