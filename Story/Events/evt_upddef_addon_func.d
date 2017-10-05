@@ -573,7 +573,7 @@ func void evt_updhtf_addon_func()
 	};
 	if(Npc_IsPlayer(hero) && (STAT_FTQUE >= 200) && !C_BodyStateContains(hero,BS_DEAD))
 	{
-		PrintScreen("You died of fatigue!",5,16,FONT_SCREENBRIGHTLARGE,2);
+		PrintScreen("You are dying of fatigue!",5,16,FONT_SCREENBRIGHTLARGE,2);
 	};
 	if(Npc_IsPlayer(hero) && (REAL_WGHT >= MAXM_WGHT) && !C_BodyStateContains(hero,BS_DEAD))
 	{
