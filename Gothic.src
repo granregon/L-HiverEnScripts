@@ -1,6 +1,9 @@
 // GothicSourcer workspace file
 // WARNING: DO NOT EDIT OR DELETE THIS FILE!
 
+_Intern\Constants.d
+_Intern\Classes.d
+
 _INTERN\Ikarus_Const_G2.d
 _INTERN\EngineClasses_G2\*.d
 _INTERN\Ikarus.d
@@ -8,8 +11,6 @@ _INTERN\float.d
 
 LeGo\Header.src
 
-_Intern\Constants.d
-_Intern\Classes.d
 Story\B_Story\b_rtn_reg.d
 AI\AI_Intern\AI_Constants.d
 AI\AI_Intern\BodyStates.d
