@@ -300,7 +300,7 @@ const int LOG_NOTE = 1;
 const int TIME_INFINITE = -1000;
 const int NPC_VOICE_VARIATION_MAX = 10;
 
-const float TRADE_VALUE_MULTIPLIER = 0.15;
+const float TRADE_VALUE_MULTIPLIER = 0.1;
 
 const string TRADE_CURRENCY_INSTANCE = "ITMI_GOLD";
 
@@ -687,6 +687,8 @@ const int ENCHANTMASTERY_2 = 2;
 const int MAX_ENCHANTMASTERY = 3;
 
 var int player_talent_enchanting[3];
+-var int enchant_special_01;
+ -var int enchant_special_02;
 const int LEATHERFASE_1 = 0;
 const int MAX_LEATHERFASE = 1;
 var int player_talent_leather;
