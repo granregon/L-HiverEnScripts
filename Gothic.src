@@ -9,6 +9,8 @@ _INTERN\EngineClasses_G2\*.d
 _INTERN\Ikarus.d
 _INTERN\float.d
 
+LeGo\Header.src
+
 Story\B_Story\b_rtn_reg.d
 AI\AI_Intern\AI_Constants.d
 AI\AI_Intern\BodyStates.d
