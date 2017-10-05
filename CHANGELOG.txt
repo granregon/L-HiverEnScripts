@@ -12,3 +12,4 @@
 - Grimbald now teach you how to skin reptiles.
 - Bosper now buy Lurker and Swampshark skins.
 - Removed missing spoken dialogues from Carl, Selivan, Jack, Ignaz.
+- Removed regen
