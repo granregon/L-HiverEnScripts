@@ -278,7 +278,7 @@ func void pc_fryingmeat_stove_x10_info()
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,10);
 	AI_PrintScreen("Frying 10 chunks of meat...",-1,50,FONT_SCREENBRIGHTLARGE,10);
 	AI_Wait(other,10);
-	AI_PrintScreen("0 chunks of meat fryied!",-1,53,FONT_SCREENBRIGHTLARGE,2);
+	AI_PrintScreen("10 chunks of meat fryied!",-1,53,FONT_SCREENBRIGHTLARGE,2);
 	Info_ClearChoices(pc_fryingmeat_stove_x10);
 };
 
