@@ -103,54 +103,6 @@ func void DIA_Constantino_AboutLehrling_Info()
 	AI_Output(self,other,"DIA_Constantino_AboutLehrling_10_01");	//Really? And with whom are you going to sign up?
 };
 
-
-instance DIA_Constantino_Heilung(C_Info)
-{
-	npc = VLK_417_Constantino;
-	nr = 5;
-	condition = DIA_Constantino_Heilung_Condition;
-	information = DIA_Constantino_Heilung_Info;
-	permanent = FALSE;
-	description = "I'm in need of healing.";
-};
-
-
-func int DIA_Constantino_Heilung_Condition()
-{
-	return TRUE;
-};
-
-func void DIA_Constantino_Heilung_Info()
-{
-	AI_Output(other,self,"DIA_Constantino_Heilung_15_00");	//I'm in need of healing.
-	AI_Output(self,other,"DIA_Constantino_Heilung_10_01");	//(curtly) Why, are you injured?
-	Info_ClearChoices(DIA_Constantino_Heilung);
-	Info_AddChoice(DIA_Constantino_Heilung,"Not really.",DIA_Constantino_Heilung_Nein);
-	Info_AddChoice(DIA_Constantino_Heilung,"Yes.",DIA_Constantino_Heilung_Ja);
-};
-
-func void DIA_Constantino_Heilung_Ja()
-{
-	AI_Output(other,self,"DIA_Constantino_Heilung_Ja_15_00");	//Yes.
-	if(other.attribute[ATR_HITPOINTS] < other.attribute[ATR_HITPOINTS_MAX])
-	{
-		AI_Output(self,other,"DIA_Constantino_Heilung_Ja_10_01");	//Go to Vatras then, he'll patch you up all right. And stop bleeding all over my floor!
-	}
-	else
-	{
-		AI_Output(self,other,"DIA_Constantino_Heilung_Ja_10_02");	//There's barely a scratch on you and I have more important things to do than talk to you.
-	};
-	AI_StopProcessInfos(self);
-};
-
-func void DIA_Constantino_Heilung_Nein()
-{
-	AI_Output(other,self,"DIA_Constantino_Heilung_Nein_15_00");	//Not really.
-	AI_Output(self,other,"DIA_Constantino_Heilung_Nein_10_01");	//Get lost, then, or you may well suffer an injury.
-	AI_StopProcessInfos(self);
-};
-
-
 instance DIA_Addon_Constantino_LestersKraeuter(C_Info)
 {
 	npc = VLK_417_Constantino;
