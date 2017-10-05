@@ -1,9 +1,6 @@
 // GothicSourcer workspace file
 // WARNING: DO NOT EDIT OR DELETE THIS FILE!
 
-_Intern\Constants.d
-_Intern\Classes.d
-
 _INTERN\Ikarus_Const_G2.d
 _INTERN\EngineClasses_G2\*.d
 _INTERN\Ikarus.d
@@ -11,6 +8,8 @@ _INTERN\float.d
 
 LeGo\Header.src
 
+_Intern\Constants.d
+_Intern\Classes.d
 Story\B_Story\b_rtn_reg.d
 AI\AI_Intern\AI_Constants.d
 AI\AI_Intern\BodyStates.d
@@ -26,6 +25,7 @@ Story\Log_Entries\LOG_Constants_Notes.d
 Story\Log_Entries\LOG_Constants_Yoly.d
 Story\XP_Constants.d
 _misk_\T_ULTRA.d
+_misk_\actual_cost.d
 Story\Npc_Globals.d
 Story\SVM.d
 Story\Text.d
@@ -120,7 +120,6 @@ AI\Magic\B_MagicHurtNPC.d
 Story\B_Content\B_ScHasBeliarsWeapon.d
 _misk_\remke_xar01_s1.d
 _misk_\c_bodystatecontainsadd.d
-_misk_\actual_cost.d
 AI\Monster\B_Monster\B_MM_WispDetect.d
 AI\Monster\B_Monster\B_MM_DeSynchronize.d
 AI\Human\C_Human\C_NpcIsGateGuard.d
@@ -1149,7 +1148,6 @@ Story\NPC\VLK_496_Buergerin.d
 Story\NPC\VLK_497_Buergerin.d
 Story\NPC\VLK_498_Ignaz.d
 Story\NPC\VLK_499_Buerger.d
-Story\NPC\_FH.d
 Story\NPC\lh_ske_01.d
 Story\NPC\Monster\MST_Addon_Alligator.d
 Story\NPC\Monster\MST_Addon_Blattcrawler.d
@@ -1775,8 +1773,7 @@ Story\Events\Valley_Showcase_TriggerScript_Func.d
 AI\Test_Scripts\CharacterHelper.d
 AI\Test_Scripts\StoryHelper.d
 AI\Test_Scripts\FaceHelper.d
-Story\NPC\ih.d
-AI\Test_Scripts\StoryHelper.d
+AI\Test_Scripts\ItemHelper.d
 Story\B_Story\B_Enter_DragonIsland.d
 Story\Events\evt_mage_gate_open.d
 Story\B_Story\b_setvisuals_gobbo_bandit.d
