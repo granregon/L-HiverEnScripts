@@ -1,16 +1,21 @@
 ---------------------1.1.2--------------------
+- Bronko is now always called with his right name (not Bronco).
+- Fixed dialogue option with general NPCs asking information about the area.
 - Added missing dialogue option of the left guard of the 3rd entrance of the City of Khorinis (that added by l'hiver)
 - Leather belt used for enchanting belts is now called Leather strip.
 - Restored old armor names of Leather armor (sold by Matteo) and Hunter's armor (sold by Orlan).
-- Minor translation changes
+- Master leather armor is now called Thickened leather armor.
+- Blacksmith and Barkeeper's clothing is now called Apron. 
+- Minor translation changes.
 - Fixed some missing himself spoken dialogue from G3.
 - Changed Girion Knight's armor with Paladin's armor.
-- Fixed a dialogue option with Greg, Lares, Thorben.
+- Fixed dialogue option with Greg, Lares, Thorben.
 - Added some missing item's name and some interactive entities.
 - Changed weapon to a pirate in Jharkendar who didn't have enough strength to use it.
 - Now will be clearly specified when you learn skin reptiles.
 - Grimbald now teach you how to skin reptiles.
 - Bosper now buy Lurker and Swampshark skins.
 - Removed missing spoken dialogues from Carl, Selivan, Jack, Ignaz.
-- Removed regen
-- Minor mistranslation fixes
+- Removed regen of NPC when they cannot see NH.
+- Fixed mistranslation of "Fried".
+- Fixed mistranslation of "Dying of fatigue".
