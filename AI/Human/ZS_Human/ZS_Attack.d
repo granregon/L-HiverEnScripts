@@ -147,10 +147,6 @@ func int ZS_Attack_Loop()
 		Npc_ClearAIQueue(self);
 		AI_RemoveWeapon(self);
 	};
-	if(!Npc_CanSeeNpc(self,other))
-	{
-		b_rtn_reg(self);
-	};
 	if(!C_BodyStateContains(other,BS_RUN) && !C_BodyStateContains(other,BS_JUMP))
 	{
 		Npc_SetStateTime(self,0);

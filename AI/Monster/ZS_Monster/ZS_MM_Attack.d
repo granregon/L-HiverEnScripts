@@ -194,10 +194,6 @@ func int ZS_MM_Attack_Loop()
 			AI_RemoveWeapon(self);
 		};
 	};
-	if(((self.aivar[AIV_MM_REAL_ID] == ID_ORCELITE) && (other.level < 20)) || !Npc_CanSeeNpc(self,other))
-	{
-		b_rtn_reg(self);
-	};
 	if(self.guild == GIL_DRAGON)
 	{
 		if((Npc_GetDistToNpc(self,other) < 3000) && (Npc_GetDistToNpc(self,other) > 750))
