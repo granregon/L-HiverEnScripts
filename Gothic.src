@@ -1773,6 +1773,8 @@ Story\Events\Parse_It.d
 Story\Events\SC_ComesInto_CanyonLibrary_Func.d
 Story\Events\Valley_Showcase_TriggerScript_Func.d
 AI\Test_Scripts\CharacterHelper.d
+AI\Test_Scripts\ItemHelper.d
+AI\Test_Scripts\FaceHelper.d
 Story\NPC\ih.d
 AI\Test_Scripts\StoryHelper.d
 Story\B_Story\B_Enter_DragonIsland.d
