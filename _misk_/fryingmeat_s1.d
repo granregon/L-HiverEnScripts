@@ -158,36 +158,22 @@ func void pc_fryingmeat_addon_all_info()
 	wszystkie_miesa = Npc_HasItems(hero,ItFoMuttonRaw);
 	waittime = IntToFloat(wszystkie_miesa);
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,wszystkie_miesa);
+	obrabianie_skory = "Roasting ";
+	obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
+	obrabianie_skory = ConcatStrings(obrabianie_skory," chunks of meat...");
+	AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,20);
 	if(wszystkie_miesa >= 20)
 	{
-		obrabianie_skory = "Roasting ";
-		obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
-		obrabianie_skory = ConcatStrings(obrabianie_skory," chunks of meat...");
-		AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,20);
 		AI_Wait(hero,20);
 	}
 	else
 	{
-		obrabianie_skory = "Roasting ";
-		obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
-		obrabianie_skory = ConcatStrings(obrabianie_skory," chunk of meat...");
-		AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,wszystkie_miesa);
 		AI_Wait(hero,waittime);
 	};
-	if((wszystkie_miesa == 3) || (wszystkie_miesa == 4))
-	{
-		obrobione_skory = "Roasted ";
-		obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
-		obrobione_skory = ConcatStrings(obrobione_skory," chunks of meat!");
-		AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
-	}
-	else
-	{
-		obrobione_skory = "Roasted ";
-		obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
-		obrobione_skory = ConcatStrings(obrobione_skory," chunk of meat!");
-		AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
-	};
+	obrobione_skory = "Roasted ";
+	obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
+	obrobione_skory = ConcatStrings(obrobione_skory," chunks of meat!");
+	AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
 	CreateInvItems(hero,ItFoMutton,wszystkie_miesa);
 	Info_ClearChoices(pc_fryingmeat_addon_all);
 };
@@ -218,7 +204,7 @@ func void pc_fryingmeat_stove_info()
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,1);
 	AI_PrintScreen("Frying 1 chunk of meat...",-1,50,FONT_SCREENBRIGHTLARGE,1);
 	AI_Wait(other,1);
-	AI_PrintScreen("1 chunk of meat fryied!",-1,53,FONT_SCREENBRIGHTLARGE,2);
+	AI_PrintScreen("1 chunk of meat fried!",-1,53,FONT_SCREENBRIGHTLARGE,2);
 	Info_ClearChoices(pc_fryingmeat_stove);
 };
 
@@ -248,7 +234,7 @@ func void pc_fryingmeat_stove_x5_info()
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,5);
 	AI_PrintScreen("Frying 5 chunks of meat...",-1,50,FONT_SCREENBRIGHTLARGE,5);
 	AI_Wait(other,5);
-	AI_PrintScreen("5 chunks of meat fryied!",-1,53,FONT_SCREENBRIGHTLARGE,2);
+	AI_PrintScreen("5 chunks of meat fried!",-1,53,FONT_SCREENBRIGHTLARGE,2);
 	Info_ClearChoices(pc_fryingmeat_stove_x5);
 };
 
@@ -278,7 +264,7 @@ func void pc_fryingmeat_stove_x10_info()
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,10);
 	AI_PrintScreen("Frying 10 chunks of meat...",-1,50,FONT_SCREENBRIGHTLARGE,10);
 	AI_Wait(other,10);
-	AI_PrintScreen("10 chunks of meat fryied!",-1,53,FONT_SCREENBRIGHTLARGE,2);
+	AI_PrintScreen("10 chunks of meat fried!",-1,53,FONT_SCREENBRIGHTLARGE,2);
 	Info_ClearChoices(pc_fryingmeat_stove_x10);
 };
 
@@ -311,36 +297,22 @@ func void pc_fryingmeat_addon_stove_info()
 	wszystkie_miesa = Npc_HasItems(hero,ItFoMuttonRaw);
 	waittime = IntToFloat(wszystkie_miesa);
 	Npc_RemoveInvItems(hero,ItFoMuttonRaw,wszystkie_miesa);
+	obrabianie_skory = "Frying ";
+	obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
+	obrabianie_skory = ConcatStrings(obrabianie_skory," chunks of meat...");
+	AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,20);
 	if(wszystkie_miesa >= 20)
 	{
-		obrabianie_skory = "Frying ";
-		obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
-		obrabianie_skory = ConcatStrings(obrabianie_skory," chunk of meat...");
-		AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,20);
 		AI_Wait(hero,20);
 	}
 	else
 	{
-		obrabianie_skory = "Frying ";
-		obrabianie_skory = ConcatStrings(obrabianie_skory,IntToString(wszystkie_miesa));
-		obrabianie_skory = ConcatStrings(obrabianie_skory," chunk of meat...");
-		AI_PrintScreen(obrabianie_skory,-1,50,FONT_SCREENBRIGHTLARGE,wszystkie_miesa);
 		AI_Wait(hero,waittime);
 	};
-	if((wszystkie_miesa == 3) || (wszystkie_miesa == 4))
-	{
-		obrobione_skory = "Fryied ";
-		obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
-		obrobione_skory = ConcatStrings(obrobione_skory," chunks of meat!");
-		AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
-	}
-	else
-	{
-		obrobione_skory = "Fryied ";
-		obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
-		obrobione_skory = ConcatStrings(obrobione_skory," chunk of meat!");
-		AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
-	};
+	obrobione_skory = "Fried ";
+	obrobione_skory = ConcatStrings(obrobione_skory,IntToString(wszystkie_miesa));
+	obrobione_skory = ConcatStrings(obrobione_skory," chunks of meat!");
+	AI_PrintScreen(obrobione_skory,-1,53,FONT_SCREENBRIGHTLARGE,2);
 	CreateInvItems(hero,ItFoMutton,wszystkie_miesa);
 	Info_ClearChoices(pc_fryingmeat_stove_all);
 };
