@@ -4,7 +4,7 @@ instance ItPo_Addon_Geist_01(C_Item)
 	name = "Potion of mental alteration";
 	mainflag = ITEM_KAT_POTIONS;
 	flags = ITEM_MULTI;
-	value = 300;
+	value = VALUE_ALTERATION;
 	visual = "ItPo_Perm_STR.3ds";
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Geist_01;
@@ -29,7 +29,7 @@ instance ItPo_Addon_Geist_02(C_Item)
 	name = "Potion of mental alteration";
 	mainflag = ITEM_KAT_POTIONS;
 	flags = ITEM_MULTI;
-	value = 300;
+	value = VALUE_ALTERATION;
 	visual = "ItPo_Perm_STR.3ds";
 	material = MAT_GLAS;
 	on_state[0] = UseItPo_Geist_02;
