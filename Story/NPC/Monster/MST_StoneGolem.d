@@ -85,7 +85,7 @@ func void B_GolemRise()
 	{
 		AI_PlayAni(self,"T_RISE");
 		self.noFocus = FALSE;
-		self.name[0] = "Kamienny golem";
+		self.name[0] = "Stone golem";
 		self.flags = 0;
 		AI_StartState(self,ZS_MM_Attack,0,"");
 		self.bodyStateInterruptableOverride = FALSE;
