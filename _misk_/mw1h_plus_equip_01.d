@@ -394,7 +394,7 @@ func void morgan_unequip_10()
 {
 	if(Npc_IsPlayer(self))
 	{
-		B_AddFightSkill(self,NPC_TALENT_1H,MORGAN_1HFS);
+		B_AddFightSkill(self,NPC_TALENT_1H,-MORGAN_1HFS);
 	};
 };
 
