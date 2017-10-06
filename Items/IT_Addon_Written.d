@@ -1402,7 +1402,7 @@ instance ITWR_PINUP_OC(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = use_pinup_oc;
 	scemeName = "MAP";
-	description = "";
+	description = name;
 };
 
 
