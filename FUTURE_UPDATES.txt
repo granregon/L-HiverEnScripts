@@ -19,4 +19,4 @@
 # New 'Stamina' statistic, based on your dexterity, it'll allow the player run till stamina hits 0. No other functions for now.
   - In this case 'Potion of speed' may become useless, it can be changed with 'Stamina potion' or something like that
 
-# New skins for Bosper (Reptile and Swampshark)
+# Make the VoM darker as vanilla
