@@ -16,21 +16,21 @@ func int b_teachplayertalentarmor(var C_Npc slf,var C_Npc oth,var int armastery)
 		Npc_SetTalentSkill(oth,NPC_TALENT_ARMOR,1);
 		PLAYER_TALENT_ARMOR[0] = TRUE;
 		B_LogEntry(TOPIC_TalentSmith,LOGTEXT_ADDON_ARMOR_1);
-		PrintScreen("Learned: Armorer - Beginner",-1,-1,FONT_Screen,2);
+		PrintScreen("Learned: Armor crafting - Beginner",-1,-1,FONT_Screen,2);
 	};
 	if(armastery == ARMASTERY_2)
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_ARMOR,2);
 		PLAYER_TALENT_ARMOR[1] = TRUE;
 		B_LogEntry(TOPIC_TalentSmith,LOGTEXT_ADDON_ARMOR_2);
-		PrintScreen("Learned: Armorer - Apprentice",-1,-1,FONT_Screen,2);
+		PrintScreen("Learned: Armor crafting - Apprentice",-1,-1,FONT_Screen,2);
 	};
 	if(armastery == ARMASTERY_3)
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_ARMOR,3);
 		PLAYER_TALENT_ARMOR[2] = TRUE;
 		B_LogEntry(TOPIC_TalentSmith,LOGTEXT_ADDON_ARMOR_3);
-		PrintScreen("Learned: Armorer - Master",-1,-1,FONT_Screen,2);
+		PrintScreen("Learned: Armor crafting - Master",-1,-1,FONT_Screen,2);
 	};
 	return TRUE;
 };

@@ -235,7 +235,7 @@ func void dia_carl_teach_arm_info()
 	};
 	if(PLAYER_TALENT_ARMOR[0] == FALSE)
 	{
-		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn: Armor crafting - Learner",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_1)),dia_carl_teach_arm_armastery_1);
+		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn armor crafting - Learner",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_1)),dia_carl_teach_arm_armastery_1);
 	}
 	else if((Kapitel == 1) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (PLAYER_TALENT_ARMOR[1] == FALSE))
 	{
@@ -244,7 +244,7 @@ func void dia_carl_teach_arm_info()
 	}
 	else if((PLAYER_TALENT_ARMOR[1] == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (Kapitel >= 2))
 	{
-		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn: Armor crafting - Apprentice",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_2)),dia_carl_teach_arm_armastery_2);
+		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn armor crafting - Apprentice",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_2)),dia_carl_teach_arm_armastery_2);
 	}
 	else if((Kapitel == 2) && (PLAYER_TALENT_ARMOR[1] == TRUE) && (PLAYER_TALENT_ARMOR[2] == FALSE))
 	{
@@ -253,7 +253,7 @@ func void dia_carl_teach_arm_info()
 	}
 	else if((PLAYER_TALENT_ARMOR[2] == FALSE) && (PLAYER_TALENT_ARMOR[0] == TRUE) && (PLAYER_TALENT_ARMOR[1] == TRUE) && (Kapitel >= 3))
 	{
-		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn: Armor crafting - Master",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_3)),dia_carl_teach_arm_armastery_3);
+		Info_AddChoice(dia_carl_teach_arm,B_BuildLearnString("Learn armor crafting - Master",B_GetLearnCostTalent(other,NPC_TALENT_ARMOR,ARMASTERY_3)),dia_carl_teach_arm_armastery_3);
 	};
 };
 
