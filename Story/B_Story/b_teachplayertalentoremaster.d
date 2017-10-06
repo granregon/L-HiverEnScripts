@@ -16,21 +16,21 @@ func int b_teachplayertalentoremaster(var C_Npc slf,var C_Npc oth,var int ormast
 		Npc_SetTalentSkill(oth,NPC_TALENT_OREMASTER,1);
 		PLAYER_TALENT_OREMASTER[0] = TRUE;
 		B_LogEntry(TOPIC_TALENTOREMASTER,LOGTEXT_ADDON_ORE_1);
-		AI_PrintScreen("Learned: Ore mining - Miner",-1,52,FONT_SCREENBRIGHTLARGE,3);
+		AI_PrintScreen("Learned: Ore extraction - Miner",-1,52,FONT_SCREENBRIGHTLARGE,3);
 	};
 	if(ormastery == ORMASTERY_2)
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_OREMASTER,2);
 		PLAYER_TALENT_OREMASTER[1] = TRUE;
 		B_LogEntry(TOPIC_TALENTOREMASTER,LOGTEXT_ADDON_ORE_2);
-		AI_PrintScreen("Learned: Ore mining - Master",-1,52,FONT_SCREENBRIGHTLARGE,3);
+		AI_PrintScreen("Learned: Ore extraction - Master",-1,52,FONT_SCREENBRIGHTLARGE,3);
 	};
 	if(ormastery == ORMASTERY_3)
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_OREMASTER,3);
 		PLAYER_TALENT_OREMASTER[2] = TRUE;
 		B_LogEntry(TOPIC_TALENTOREMASTER,LOGTEXT_ADDON_ORE_3);
-		AI_PrintScreen("Learned: Ore mining - Expert",-1,52,FONT_SCREENBRIGHTLARGE,3);
+		AI_PrintScreen("Learned: Ore extraction - Expert",-1,52,FONT_SCREENBRIGHTLARGE,3);
 	};
 	return TRUE;
 };
