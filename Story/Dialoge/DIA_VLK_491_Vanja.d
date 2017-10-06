@@ -88,7 +88,7 @@ instance DIA_Vanja_DOPE(C_Info)
 	condition = DIA_Vanja_DOPE_Condition;
 	information = DIA_Vanja_DOPE_Info;
 	permanent = FALSE;
-	description = "v?? ????? ????? ?????? ???????";
+	description = "Where can I find myself some weed?";
 };
 
 

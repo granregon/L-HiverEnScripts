@@ -109,7 +109,7 @@ func void DIA_Addon_Eremit_Teach_Info()
 	{
 		AI_Output(self,other,"DIA_Addon_Eremit_Add_04_27");	//Well, it's quite simple. A G is an O, a T is an H and an I is a C.
 		AI_Output(self,other,"DIA_Addon_Eremit_Add_04_28");	//If you understand that, the rest is quite logical...
-		AI_PrintScreen("Learn: Language of the builders",-1,-1,FONT_SCREENBRIGHTLARGE,3);
+		AI_PrintScreen("Learn language of the builders",-1,-1,FONT_SCREENBRIGHTLARGE,3);
 		Info_ClearChoices(DIA_Addon_Eremit_Teach);
 		Eremit_Teach_Once = TRUE;
 		KNOW_FOREIGNLANGUAGE = TRUE;

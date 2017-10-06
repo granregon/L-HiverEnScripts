@@ -125,7 +125,7 @@ func void DIA_Addon_Myxir_Teach_Info()
 	{
 		b_dia_addon_myxir_teach_fl();
 		B_DIA_Addon_Myxir_Teach_LANGUAGE_X();
-		AI_PrintScreen("Learn: Language of the builders",-1,-1,FONT_SCREENBRIGHTLARGE,3);
+		AI_PrintScreen("Learn language of the builders",-1,-1,FONT_SCREENBRIGHTLARGE,3);
 		Info_ClearChoices(DIA_Addon_Myxir_Teach);
 		KNOW_FOREIGNLANGUAGE = TRUE;
 	}

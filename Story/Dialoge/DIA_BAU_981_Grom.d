@@ -256,15 +256,15 @@ func void dia_grom_teachwood_info()
 		Info_AddChoice(dia_grom_teachwood,Dialog_Back,dia_grom_teachwood_back);
 		if(PLAYER_TALENT_WOODMASTER[0] == FALSE)
 		{
-			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Teach me how to improve woodcutting skill",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_1)),dia_grom_teachwood_woodmastery_1);
+			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Learn woodcutting - Lumberjack",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_1)),dia_grom_teachwood_woodmastery_1);
 		};
 		if((PLAYER_TALENT_WOODMASTER[1] == FALSE) && (PLAYER_TALENT_WOODMASTER[0] == TRUE))
 		{
-			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Teach me how to improve woodcutting skill",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_2)),dia_grom_teachwood_woodmastery_2);
+			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Learn woodcutting - Master",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_2)),dia_grom_teachwood_woodmastery_2);
 		};
 		if((PLAYER_TALENT_WOODMASTER[2] == FALSE) && (PLAYER_TALENT_WOODMASTER[0] == TRUE) && (PLAYER_TALENT_WOODMASTER[1] == TRUE))
 		{
-			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Teach me how to improve woodcutting skill",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_3)),dia_grom_teachwood_woodmastery_3);
+			Info_AddChoice(dia_grom_teachwood,B_BuildLearnString("Learn woodcutting - Expert",B_GetLearnCostTalent(other,NPC_TALENT_WOODMASTER,WOODMASTERY_3)),dia_grom_teachwood_woodmastery_3);
 		};
 	}
 	else
