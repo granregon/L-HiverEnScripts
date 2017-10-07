@@ -59,7 +59,7 @@ instance ItRi_Prot_Fire_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Fire_01;
 	on_unequip = UnEquip_ItRi_Prot_Fire_01;
-	description = "Flame protection ring";
+	description = name;
 	text[2] = NAME_Prot_Fire;
 	count[2] = Ri_ProtFire;
 	text[5] = NAME_Value;
@@ -92,7 +92,7 @@ instance ItRi_Prot_Fire_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Fire_02;
 	on_unequip = UnEquip_ItRi_Prot_Fire_02;
-	description = "Fire ring";
+	description = name;
 	text[2] = NAME_Prot_Fire;
 	count[2] = Ri_ProtFire02;
 	text[5] = NAME_Value;
@@ -125,7 +125,7 @@ instance ItRi_Prot_Point_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Point_01;
 	on_unequip = UnEquip_ItRi_Prot_Point_01;
-	description = "Costantino's ring";
+	description = name;
 	text[2] = NAME_Prot_Point;
 	count[2] = Ri_ProtPoint;
 	text[5] = NAME_Value;
@@ -158,7 +158,7 @@ instance ItRi_Prot_Point_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Point_02;
 	on_unequip = UnEquip_ItRi_Prot_Point_02;
-	description = "Ring of stone skin";
+	description = name;
 	text[2] = NAME_Prot_Point;
 	count[2] = Ri_ProtPoint02;
 	text[5] = NAME_Value;
@@ -191,7 +191,7 @@ instance ItRi_Prot_Edge_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Edge_01;
 	on_unequip = UnEquip_ItRi_Prot_Edge_01;
-	description = "Ring of iron skin";
+	description = name;
 	text[2] = NAME_Prot_Edge;
 	count[2] = Ri_ProtEdge;
 	text[3] = NAME_PROT_BLUNT;
@@ -232,7 +232,7 @@ instance ItRi_Prot_Edge_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Edge_02;
 	on_unequip = UnEquip_ItRi_Prot_Edge_02;
-	description = "Ring of ore skin";
+	description = name;
 	text[2] = NAME_Prot_Edge;
 	count[2] = Ri_ProtEdge02;
 	text[3] = NAME_PROT_BLUNT;
@@ -273,7 +273,7 @@ instance ItRi_Prot_Mage_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Mage_01;
 	on_unequip = UnEquip_ItRi_Prot_Mage_01;
-	description = "Ring of spirit";
+	description = name;
 	text[2] = NAME_Prot_Magic;
 	count[2] = Ri_ProtMage;
 	text[5] = NAME_Value;
@@ -306,7 +306,7 @@ instance ItRi_Prot_Mage_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Mage_02;
 	on_unequip = UnEquip_ItRi_Prot_Mage_02;
-	description = "Ring of magic defense";
+	description = name;
 	text[2] = NAME_Prot_Magic;
 	count[2] = Ri_ProtMage02;
 	text[5] = NAME_Value;
@@ -339,7 +339,7 @@ instance ItRi_Prot_Total_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Total_01;
 	on_unequip = UnEquip_ItRi_Prot_Total_01;
-	description = "Ring of inconquerability";
+	description = name;
 	text[0] = NAME_Prot_Magic;
 	count[0] = Ri_TProtMage;
 	text[1] = NAME_Prot_Fire;
@@ -392,7 +392,7 @@ instance ItRi_Prot_Total_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Prot_Total_02;
 	on_unequip = UnEquip_ItRi_Prot_Total_02;
-	description = "Ring of invincibility";
+	description = name;
 	text[0] = NAME_Prot_Magic;
 	count[0] = Ri_TProtMage02;
 	text[1] = NAME_Prot_Fire;
@@ -445,7 +445,7 @@ instance ItRi_Dex_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Dex_01;
 	on_unequip = UnEquip_ItRi_Dex_01;
-	description = "Ring of dexterity";
+	description = name;
 	text[2] = NAME_Bonus_Dex;
 	count[2] = Ri_Dex;
 	text[5] = NAME_Value;
@@ -478,7 +478,7 @@ instance ItRi_Dex_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Dex_02;
 	on_unequip = UnEquip_ItRi_Dex_02;
-	description = "Ring of major dexterity";
+	description = name;
 	text[2] = NAME_Bonus_Dex;
 	count[2] = Ri_Dex02;
 	text[5] = NAME_Value;
@@ -511,7 +511,7 @@ instance ItRi_HP_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Hp_01;
 	on_unequip = UnEquip_ItRi_Hp_01;
-	description = "Ring of life";
+	description = name;
 	text[2] = NAME_Bonus_HP;
 	count[2] = Ri_Hp;
 	text[5] = NAME_Value;
@@ -553,7 +553,7 @@ instance ItRi_Hp_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Hp_02;
 	on_unequip = UnEquip_ItRi_Hp_02;
-	description = "Ring of health";
+	description = name;
 	text[2] = NAME_Bonus_HP;
 	count[2] = Ri_Hp02;
 	text[5] = NAME_Value;
@@ -595,7 +595,7 @@ instance ItRi_Str_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Str_01;
 	on_unequip = UnEquip_ItRi_Str_01;
-	description = "Ring of strength";
+	description = name;
 	text[2] = NAME_Bonus_Str;
 	count[2] = Ri_Strg;
 	text[5] = NAME_Value;
@@ -628,7 +628,7 @@ instance ItRi_Str_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Str_02;
 	on_unequip = UnEquip_ItRi_Str_02;
-	description = "Ring of major strength";
+	description = name;
 	text[2] = NAME_Bonus_Str;
 	count[2] = Ri_Strg02;
 	text[5] = NAME_Value;
@@ -661,7 +661,7 @@ instance ItRi_Mana_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Mana_01;
 	on_unequip = UnEquip_ItRi_Mana_01;
-	description = "Ring of magic";
+	description = name;
 	text[2] = NAME_Bonus_Mana;
 	count[2] = Ri_Mana;
 	text[5] = NAME_Value;
@@ -703,7 +703,7 @@ instance ItRi_Mana_02(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Mana_02;
 	on_unequip = UnEquip_ItRi_Mana_02;
-	description = "Ring of astral power";
+	description = name;
 	text[2] = NAME_Bonus_Mana;
 	count[2] = Ri_Mana02;
 	text[5] = NAME_Value;
@@ -745,7 +745,7 @@ instance ItRi_Hp_Mana_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Hp_Mana_01;
 	on_unequip = UnEquip_ItRi_Hp_Mana_01;
-	description = "Ring of enlightenment";
+	description = name;
 	text[2] = NAME_Bonus_HP;
 	count[2] = Ri_HpMana_Hp;
 	text[3] = NAME_Bonus_Mana;
@@ -800,7 +800,7 @@ instance ItRi_Dex_Strg_01(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_ItRi_Dex_Strg_01;
 	on_unequip = UnEquip_ItRi_Dex_Strg_01;
-	description = "Ring of power";
+	description = name;
 	text[2] = NAME_Bonus_Str;
 	count[2] = 4;
 	text[3] = NAME_Bonus_Dex;
