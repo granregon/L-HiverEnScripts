@@ -16,6 +16,10 @@ func int b_teachplayertalentenchanting(var C_Npc slf,var C_Npc oth,var int encha
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_ENCHANTING,1);
 		PLAYER_TALENT_ENCHANTING[0] = TRUE;
+		if(hero.attribute[ATR_DEXTERITY] < 160)
+		{
+			Mdl_RemoveOverlayMds(hero,"Humans_Acrobatic.mds");
+		};
 		B_LogEntry(TOPIC_TALENTENCHANTING," ");
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ADDON_ENCHANT_1);
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ENCH_NOVICE01);
@@ -40,6 +44,10 @@ func int b_teachplayertalentenchanting(var C_Npc slf,var C_Npc oth,var int encha
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_ENCHANTING,2);
 		PLAYER_TALENT_ENCHANTING[1] = TRUE;
+		if(hero.attribute[ATR_DEXTERITY] < 160)
+		{
+			Mdl_RemoveOverlayMds(hero,"Humans_Acrobatic.mds");
+		};
 		B_LogEntry(TOPIC_TALENTENCHANTING,"  ");
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ADDON_ENCHANT_2);
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ENCH_WIZARD01);
@@ -64,6 +72,10 @@ func int b_teachplayertalentenchanting(var C_Npc slf,var C_Npc oth,var int encha
 	{
 		Npc_SetTalentSkill(oth,NPC_TALENT_ENCHANTING,3);
 		PLAYER_TALENT_ENCHANTING[2] = TRUE;
+		if(hero.attribute[ATR_DEXTERITY] < 160)
+		{
+			Mdl_RemoveOverlayMds(hero,"Humans_Acrobatic.mds");
+		};
 		B_LogEntry(TOPIC_TALENTENCHANTING,"   ");
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ADDON_ENCHANT_3);
 		B_LogEntry(TOPIC_TALENTENCHANTING,LOGTEXT_ENCH_MWIZARD01);
