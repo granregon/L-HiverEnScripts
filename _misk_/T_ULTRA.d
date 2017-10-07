@@ -114,6 +114,8 @@ var int passive_hp;
 var int passive_enchhp;
 var int passive_mp;
 var int passive_enchmp;
+var int enchant_special_01;
+var int enchant_special_02;
 var int MIS_Addon_Cavalorn_TheHut;
 var int MIS_Addon_Cavalorn_KillBrago;
 var int MIS_Addon_Cavalorn_Letter2Vatras;
