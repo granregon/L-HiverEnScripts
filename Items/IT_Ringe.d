@@ -50,7 +50,7 @@ const int Ri_DexStrg_Strg = 4;
 
 instance ItRi_Prot_Fire_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Flame protection ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtFire;
@@ -83,7 +83,7 @@ func void UnEquip_ItRi_Prot_Fire_01()
 
 instance ItRi_Prot_Fire_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Fire ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtFire02;
@@ -116,7 +116,7 @@ func void UnEquip_ItRi_Prot_Fire_02()
 
 instance ItRi_Prot_Point_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Costantino's ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtPoint;
@@ -149,7 +149,7 @@ func void UnEquip_ItRi_Prot_Point_01()
 
 instance ItRi_Prot_Point_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of stone skin";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtPoint02;
@@ -182,7 +182,7 @@ func void UnEquip_ItRi_Prot_Point_02()
 
 instance ItRi_Prot_Edge_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of iron skin";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtEdge;
@@ -223,7 +223,7 @@ func void UnEquip_ItRi_Prot_Edge_01()
 
 instance ItRi_Prot_Edge_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of ore skin";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtEdge02;
@@ -264,7 +264,7 @@ func void UnEquip_ItRi_Prot_Edge_02()
 
 instance ItRi_Prot_Mage_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of spirit";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtMage;
@@ -297,7 +297,7 @@ func void UnEquip_ItRi_Prot_Mage_01()
 
 instance ItRi_Prot_Mage_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of magic defense";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtMage02;
@@ -330,7 +330,7 @@ func void UnEquip_ItRi_Prot_Mage_02()
 
 instance ItRi_Prot_Total_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of inconquerability";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtTotal;
@@ -383,7 +383,7 @@ func void UnEquip_ItRi_Prot_Total_01()
 
 instance ItRi_Prot_Total_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of invincibility";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_ProtTotal02;
@@ -436,7 +436,7 @@ func void UnEquip_ItRi_Prot_Total_02()
 
 instance ItRi_Dex_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of dexterity";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Dex;
@@ -469,7 +469,7 @@ func void UnEquip_ItRi_Dex_01()
 
 instance ItRi_Dex_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of major dexterity";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Dex02;
@@ -502,7 +502,7 @@ func void UnEquip_ItRi_Dex_02()
 
 instance ItRi_HP_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of life";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Hp;
@@ -544,7 +544,7 @@ func void UnEquip_ItRi_Hp_01()
 
 instance ItRi_Hp_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of health";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Hp02;
@@ -586,7 +586,7 @@ func void UnEquip_ItRi_Hp_02()
 
 instance ItRi_Str_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of strength";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Strg;
@@ -619,7 +619,7 @@ func void UnEquip_ItRi_Str_01()
 
 instance ItRi_Str_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of major strength";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Strg02;
@@ -652,7 +652,7 @@ func void UnEquip_ItRi_Str_02()
 
 instance ItRi_Mana_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of magic";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Mana;
@@ -694,7 +694,7 @@ func void UnEquip_ItRi_Mana_01()
 
 instance ItRi_Mana_02(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of astral power";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_Mana02;
@@ -736,7 +736,7 @@ func void UnEquip_ItRi_Mana_02()
 
 instance ItRi_Hp_Mana_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of enlightenment";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_HpMana;
@@ -791,7 +791,7 @@ func void UnEquip_ItRi_Hp_Mana_01()
 
 instance ItRi_Dex_Strg_01(C_Item)
 {
-	name = NAME_Ring;
+	name = "Ring of power";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = Value_Ri_DexStrg;
