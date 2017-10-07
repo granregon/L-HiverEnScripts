@@ -19,3 +19,4 @@
 - Removed regen of NPC when they cannot see NH.
 - Fixed mistranslation of "Fried".
 - Fixed mistranslation of "Dying of fatigue".
+- Fixed some discrepancies between the versions
