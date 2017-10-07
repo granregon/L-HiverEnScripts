@@ -1243,6 +1243,7 @@ const string NAME_CIRCLE_3 = "3rd Magic Circle";
 const string NAME_CIRCLE_4 = "4th Magic Circle";
 const string NAME_CIRCLE_5 = "5th Magic Circle";
 const string NAME_CIRCLE_6 = "6th Magic Circle";
+
 const string LOGTEXT_ENCH_NOVICE01 = "Ring of lower fortitude +4 (1x silver ring, 1x ruby dust)";
 const string LOGTEXT_ENCH_NOVICE02 = "Amulet of lower fortitude +5 (1x silver necklace, 1x ruby dust)";
 const string LOGTEXT_ENCH_NOVICE03 = "Belt of lower fortitude +5 (1x leather strip, 1x ruby dust)";
