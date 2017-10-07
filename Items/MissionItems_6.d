@@ -350,4 +350,3 @@ instance ItMi_PowerEye(C_Item)
 	count[5] = value;
 	inv_zbias = INVCAM_ENTF_MISC_STANDARD;
 };
-
