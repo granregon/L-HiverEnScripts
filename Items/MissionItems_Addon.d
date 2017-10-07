@@ -1086,8 +1086,8 @@ func void UseFrancisAbrechnung_Mis()
 	Doc_SetPages(nDocID,2);
 	Doc_SetPage(nDocID,0,"Book_Brown_L.tga",0);
 	Doc_SetPage(nDocID,1,"Book_Brown_R.tga",0);
-	Doc_SetMargins(nDocID,0,275,20,30,20,1);
 	Doc_SetFont(nDocID,0,FONT_Book);
+	Doc_SetMargins(nDocID,0,275,20,30,20,1);
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"Merchantman 'Mermaid'");
 	Doc_PrintLine(nDocID,0,"");
@@ -1114,11 +1114,10 @@ func void UseFrancisAbrechnung_Mis()
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"Personal share: 1000");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_SetFont(nDocID,1,FONT_Book);
+	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"Merchant ship 'Nico'");
-	Doc_SetFont(nDocID,1,FONT_Book);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"Total booty: 9970");
 	Doc_PrintLine(nDocID,1,"----------------------");
@@ -1142,7 +1141,6 @@ func void UseFrancisAbrechnung_Mis()
 	Doc_PrintLine(nDocID,1,"----------------------");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"Personal share: 1701");
-	Doc_PrintLine(nDocID,1,"");
 	Doc_Show(nDocID);
 	if(!Francis_HasProof)
 	{
