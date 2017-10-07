@@ -599,7 +599,7 @@ instance ItRw_Crossbow_H_01(C_Item)
 
 instance ItRw_Crossbow_H_02(C_Item)
 {
-	name = "Dragon Hunter's crossbow";
+	name = "Dragon hunter's crossbow";
 	mainflag = ITEM_KAT_FF;
 	flags = ITEM_CROSSBOW;
 	material = MAT_WOOD;
