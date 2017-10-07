@@ -687,8 +687,8 @@ const int ENCHANTMASTERY_2 = 2;
 const int MAX_ENCHANTMASTERY = 3;
 
 var int player_talent_enchanting[3];
--var int enchant_special_01;
- -var int enchant_special_02;
+var int enchant_special_01;
+var int enchant_special_02;
 const int LEATHERFASE_1 = 0;
 const int MAX_LEATHERFASE = 1;
 var int player_talent_leather;
