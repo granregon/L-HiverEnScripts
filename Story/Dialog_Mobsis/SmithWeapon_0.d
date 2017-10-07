@@ -843,7 +843,7 @@ instance PC_ITMW_FLAMEBERGE_GRD3(C_Info)
 	condition = pc_itmw_flameberge_grd3_condition;
 	information = pc_itmw_flameberge_grd3_info;
 	permanent = TRUE;
-	description = "(2H) Fine hilted flamberge (make a battle grip) - 1x steel bar";
+	description = "(2H) Fine hilted flamberge (with a refined battle grip) - 1x steel bar";
 };
 
 
