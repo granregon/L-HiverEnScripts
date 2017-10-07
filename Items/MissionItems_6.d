@@ -48,7 +48,7 @@ func void Use_XardasErmahnungFuerIdioten()
 	Doc_SetPage(nDocID,0,"Scroll_01.TGA",0);
 	Doc_SetFont(nDocID,0,FONT_Book);
 	Doc_SetMargins(nDocID,-1,100,100,100,100,1);
-	Doc_PrintLines(nDocID,0,"My young protégé, you disappoint me greatly. How could you leave on the ship and not take the Eye of Innos?");
+	Doc_PrintLines(nDocID,0,"My young protÃ©gÃ©, you disappoint me greatly. How could you leave on the ship and not take the Eye of Innos?");
 	Doc_PrintLines(nDocID,0,"I can only hope that there are limits to your negligence. Otherwise you will never rid the world of Evil and I will be forced to personally execute you for your stupidity.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -348,4 +348,3 @@ instance ItMi_PowerEye(C_Item)
 	description = name;
 	inv_zbias = INVCAM_ENTF_MISC_STANDARD;
 };
-
