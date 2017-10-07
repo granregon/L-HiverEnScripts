@@ -360,4 +360,3 @@ func int b_usecampfire()
 		return FALSE;
 	};
 };
-
