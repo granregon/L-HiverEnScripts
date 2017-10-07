@@ -186,7 +186,7 @@ func void UseCorneliusTagebuch()
 	var int nDocID;
 	if(Cornelius_IsLiar == FALSE)
 	{
-		B_LogEntry(TOPIC_RescueBennet,"Oto dowód niewinnoœci Benneta.");
+		B_LogEntry(TOPIC_RescueBennet,"The diary is the evidence I need to prove Bennet's innocence.");
 		Cornelius_IsLiar = TRUE;
 	}
 	else
