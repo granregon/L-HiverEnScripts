@@ -707,7 +707,7 @@ instance Holy_Hammer_MIS(C_Item)
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_MISSION | ITEM_2HD_AXE;
 	material = MAT_METAL;
-	value = 0;
+	value = Value_HolyHammer;
 	owner = Nov_608_Garwig;
 	damageTotal = Damage_HolyHammer;
 	damagetype = DAM_BLUNT;
