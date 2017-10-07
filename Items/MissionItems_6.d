@@ -48,7 +48,7 @@ func void Use_XardasErmahnungFuerIdioten()
 	Doc_SetPage(nDocID,0,"Scroll_01.TGA",0);
 	Doc_SetFont(nDocID,0,FONT_Book);
 	Doc_SetMargins(nDocID,-1,100,100,100,100,1);
-	Doc_PrintLines(nDocID,0,"My young protégé, you disappoint me greatly. How could you leave on the ship and not take the Eye of Innos?");
+	Doc_PrintLines(nDocID,0,"My young protÃ©gÃ©, you disappoint me greatly. How could you leave on the ship and not take the Eye of Innos?");
 	Doc_PrintLines(nDocID,0,"I can only hope that there are limits to your negligence. Otherwise you will never rid the world of Evil and I will be forced to personally execute you for your stupidity.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -285,7 +285,7 @@ func void Use_Diary_BlackNovice()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLines(nDocID,1,"I'd have sneaked into the great Hall ages ago. I can hardly wait to see the Master. I wonder if they'll let me see him once I'm one of them.");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"I tried my luck yesterday. But I failed the two lever chambers before I could even press the three switches in the west wing in the right order. That dog locked the chambers! Tomorrow I'm going to try and get the key off him ...");
+	Doc_PrintLines(nDocID,1,"I tried my luck yesterday. But I failed the two lever chambers before I could even press the three switches in the west wing in the right order. That dog locked the chambers! Tomorrow I'm going to try and get the key off him...");
 	Doc_Show(nDocID);
 	if(use_diary_blacknovice_once == FALSE)
 	{
