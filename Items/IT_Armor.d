@@ -3548,7 +3548,7 @@ func void unequip_dementor()
 
 instance ITAR_Prisoner(C_Item)
 {
-	name = "Convict's clothing";
+	name = "Convict's pants";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 5;
