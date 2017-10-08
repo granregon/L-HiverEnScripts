@@ -148,11 +148,11 @@ func void dia_hodges_teach_ore_info()
 	};
 	if(PLAYER_TALENT_OREMASTER[0] == FALSE)
 	{
-		Info_AddChoice(dia_hodges_teach_ore,B_BuildLearnString("Learn prospecting",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_1)),dia_hodges_teach_ore_ormastery_1);
+		Info_AddChoice(dia_hodges_teach_ore,B_BuildLearnString("Learn ore extraction - Miner",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_1)),dia_hodges_teach_ore_ormastery_1);
 	}
 	else if((PLAYER_TALENT_OREMASTER[1] == FALSE) && (PLAYER_TALENT_OREMASTER[0] == TRUE))
 	{
-		Info_AddChoice(dia_hodges_teach_ore,B_BuildLearnString("Learn prospecting",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_2)),dia_hodges_teach_ore_ormastery_2);
+		Info_AddChoice(dia_hodges_teach_ore,B_BuildLearnString("Learn ore extraction - Master",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_2)),dia_hodges_teach_ore_ormastery_2);
 	};
 };
 
