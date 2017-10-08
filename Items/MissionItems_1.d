@@ -72,6 +72,12 @@ instance ItMw_2h_Rod(C_Item)
 	visual = "ItMw_035_2h_sld_sword_01.3DS";
 	description = name;
 	text[0] = NAME_TwoHanded;
+	text[1] = NAME_Dam_Edge;
+	count[1] = damageTotal;
+	text[2] = NAME_RANGE;
+	count[2] = range;
+	text[3] = NAME_Str_needed;
+	count[3] = cond_value[2];
 	text[4] = NAME_ADDON_MALUS_2H;
 	count[4] = Waffenbonus_10;
 	text[5] = NAME_Value;
