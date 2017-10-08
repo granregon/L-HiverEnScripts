@@ -10,8 +10,8 @@ Bugs/Issues:
 - Remove Costantino's dialoges about Vatras healing
 - Check why leather belt doesn't apply the bonuses with leather armor (Orlan one)
 - A pirate in pirate's camp has STR 100 and tries to equip a 125 STR weapon, needs fix
-
-
+- 1h talent with weapons and shields
+- Books "Art of Smith" refer only for weapon skill
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
