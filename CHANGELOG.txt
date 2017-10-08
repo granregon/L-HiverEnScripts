@@ -9,17 +9,18 @@
 - Minor translation changes.
 - Fixed some missing himself spoken dialogue from G3.
 - Changed Girion Knight's armor with Paladin's armor.
-- Fixed dialogue option with Greg, Lares, Thorben.
+- Fixed dialogue option with Greg, Lares, Thorben and Till.
 - Added some missing item's name and some interactive entities.
-- Changed weapon to a pirate in Jharkendar who didn't have enough strength to use it.
-- Now will be clearly specified when you learn skin reptiles.
+- Changed pirate's weapon in Jharkendar who didn't have enough strength to use it.
+- Now will be clearly specified when you learn "Skin reptiles".
 - Grimbald now teach you how to skin reptiles.
-- Bosper now buy Lurker and Swampshark skins.
+- Bosper now buy Reptile and Swampshark skins.
 - Removed missing spoken dialogues from Carl, Selivan, Jack, Ignaz.
 - Removed regen of NPC when they cannot see NH.
 - Fixed mistranslation of "Fried".
 - Fixed mistranslation of "Dying of fatigue".
 - Fixed some discrepancies between the versions.
+- Fixed Vanja dialogue.
 - Hodges and Grimes now both call ORMASTERY as Ore extraction - (Miner|Master|Expert).
 - "Art of Smith" is now called "Art of Weaponry".
 - Fixed Rod's two-hander not showing weapon stats.
