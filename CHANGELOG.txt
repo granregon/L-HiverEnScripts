@@ -24,3 +24,4 @@
 - Hodges and Grimes now both call ORMASTERY as Ore extraction - (Miner|Master|Expert).
 - "Art of Smith" is now called "Art of Weaponry".
 - Fixed Rod's two-hander not showing weapon stats.
+- Fixed value of 'Gold candlesitck' in NW version.
