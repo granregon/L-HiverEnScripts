@@ -463,7 +463,7 @@ func void usekampfkunst()
 
 instance ITWR_SMITHMASTERBOOK_LVL1(C_Item)
 {
-	name = "Art of smithing - Volume 1";
+	name = "Art of weaponry - Volume 1";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 1000;
@@ -471,8 +471,7 @@ instance ITWR_SMITHMASTERBOOK_LVL1(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[2] = "This book contains information ";
-	text[3] = "on improving your skill";
+	text[2] = "This book contains information on improving your weapon crafting skill.";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = usesmithmasterbook_lvl1;
@@ -530,7 +529,7 @@ func void usesmithmasterbook_lvl1()
 
 instance ITWR_SMITHMASTERBOOK_LVL2(C_Item)
 {
-	name = "Art of smithing - Volume 2";
+	name = "Art of weaponry - Volume 2";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 1500;
@@ -538,8 +537,8 @@ instance ITWR_SMITHMASTERBOOK_LVL2(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[2] = "This book contains information on improving your skill";
-	text[3] = "Requires knowledge of the previous volume";
+	text[2] = "This book contains information on improving your weapon crafting skill.";
+	text[3] = "Requires knowledge of the previous volume.";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = usesmithmasterbook_lvl2;
@@ -597,7 +596,7 @@ func void usesmithmasterbook_lvl2()
 
 instance ITWR_SMITHMASTERBOOK_LVL3(C_Item)
 {
-	name = "Art of smithing - Volume 3";
+	name = "Art of weaponry - Volume 3";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 2000;
@@ -605,8 +604,8 @@ instance ITWR_SMITHMASTERBOOK_LVL3(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[2] = "This book contains information on improving your skill";
-	text[3] = "Requires knowledge of the previous volume";
+	text[2] = "This book contains information on improving your weapon crafting skill.";
+	text[3] = "Requires knowledge of the previous volume.";
 	text[5] = NAME_1KG;
 	count[5] = value;
 	on_state[0] = usesmithmasterbook_lvl3;
