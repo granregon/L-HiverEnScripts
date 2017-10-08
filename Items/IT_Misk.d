@@ -860,6 +860,7 @@ instance ItMi_GoldCandleHolder(C_Item)
 	material = MAT_METAL;
 	description = name;
 	text[5] = NAME_Value;
+	count[5] = value;
 };
 
 instance ItMi_GoldNecklace(C_Item)
