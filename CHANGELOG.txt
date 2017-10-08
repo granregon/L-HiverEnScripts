@@ -16,7 +16,7 @@
 - Grimbald now teach you how to skin reptiles.
 - Bosper now buy Reptile and Swampshark skins.
 - Removed missing spoken dialogues from Carl, Selivan, Jack, Ignaz.
-- Removed regen of NPC when they cannot see NH.
+- Removed regen of NPCs / Monsters when they cannot see NH.
 - Fixed mistranslation of "Fried".
 - Fixed mistranslation of "Dying of fatigue".
 - Fixed some discrepancies between the versions.
