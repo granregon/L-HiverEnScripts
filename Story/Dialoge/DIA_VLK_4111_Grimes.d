@@ -200,7 +200,7 @@ func void dia_grimes_teach_ore_info()
 	}
 	else if((PLAYER_TALENT_OREMASTER[1] == FALSE) && (PLAYER_TALENT_OREMASTER[0] == TRUE))
 	{
-		Info_AddChoice(dia_grimes_teach_ore,B_BuildLearnString("Ore extraction - Master",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_2)),dia_grimes_teach_ore_ormastery_2);
+		Info_AddChoice(dia_grimes_teach_ore,B_BuildLearnString("Learn ore extraction - Master",B_GetLearnCostTalent(other,NPC_TALENT_OREMASTER,ORMASTERY_2)),dia_grimes_teach_ore_ormastery_2);
 	}
 	else if((PLAYER_TALENT_OREMASTER[2] == FALSE) && (PLAYER_TALENT_OREMASTER[0] == TRUE) && (PLAYER_TALENT_OREMASTER[1] == TRUE))
 	{
