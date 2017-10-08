@@ -19,6 +19,7 @@
 - Removed regen of NPC when they cannot see NH.
 - Fixed mistranslation of "Fried".
 - Fixed mistranslation of "Dying of fatigue".
-- Fixed some discrepancies between the versions
-- Hodges and Grimes now both call ORMASTERY as Ore extraction - (Miner|Master|Expert)
-- "Art of Smith" is now called "Art of Weaponry"
+- Fixed some discrepancies between the versions.
+- Hodges and Grimes now both call ORMASTERY as Ore extraction - (Miner|Master|Expert).
+- "Art of Smith" is now called "Art of Weaponry".
+- Fixed Rod's two-hander not showing weapon stats.
