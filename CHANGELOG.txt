@@ -20,3 +20,5 @@
 - Fixed mistranslation of "Fried".
 - Fixed mistranslation of "Dying of fatigue".
 - Fixed some discrepancies between the versions
+- Hodges and Grimes now both call ORMASTERY as Ore extraction - (Miner|Master|Expert)
+- "Art of Smith" is now called "Art of Weaponry"
