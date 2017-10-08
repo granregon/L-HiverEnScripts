@@ -4,14 +4,15 @@ Bugs/Issues:
 - Missing audio dialouge from Jack when asking about the harbour
 - Potential issue with enemy HP regen when they lose visbility of NH (esp. for ranged builds), 
   can just remove this part of coding from scripts. 
-- Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
-  game. 
 - Rod's Two Hander does not show weapon stats (range, str required) in description
 - Remove Costantino's dialoges about Vatras healing
 - Check why leather belt doesn't apply the bonuses with leather armor (Orlan one)
 - A pirate in pirate's camp has STR 100 and tries to equip a 125 STR weapon, needs fix
-- 1h talent with weapons and shields
 - Books "Art of Smith" refer only for weapon skill
+
+- Change how 1H talent is calculed when you equip 1h weapons and shields.
+- Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
+  game. Any other NPC has the same behaviour.
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
