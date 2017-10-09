@@ -14,7 +14,7 @@ Bugs/Issues:
 - Harad still gets annoyed with NH going into his house after becoming apprentice UNTIL player reloads 
   game. Any other NPC has the same behaviour.
   
-  - Malcolm and Owen quest got a problem, check this
+  - Malcom and Owen quest got a problem, check this
 
 Mistranslations:
 - Dialouge when asking Lares to take escort NH; "Okay. Lets go" is "Okay. lass uns gehen."
