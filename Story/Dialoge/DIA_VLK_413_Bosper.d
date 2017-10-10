@@ -558,9 +558,11 @@ func void dia_bosper_leatherteach_info()
 	else
 	{
 		AI_Output(other,self,"DIA_Addon_Cavalorn_TEACH_15_00");	//I want to learn your abilities.
-		AI_Output(self,other,"DIA_Bosper_TeachFUR_11_01");	//Okay. Listen, it's easy.
-		AI_PrintScreen(PRINT_LEARNLEATHER,-1,52,FONT_SCREENBRIGHTLARGE,3);
-		b_teachplayertalentleather(self,other,LEATHERFASE_1);
+		if(B_TeachPlayerTalentTakeAnimalTrophy(self,other,LEATHERFASE_1)) {
+			AI_Output(self,other,"DIA_Bosper_TeachFUR_11_01");	//Okay. Listen, it's easy.
+			AI_PrintScreen(PRINT_LEARNLEATHER,-1,52,FONT_SCREENBRIGHTLARGE,3);
+			b_teachplayertalentleather(self,other,LEATHERFASE_1);
+		};
 	};
 };
 
