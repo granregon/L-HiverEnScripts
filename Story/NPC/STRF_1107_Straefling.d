@@ -1,7 +1,7 @@
 
 instance STRF_1107_Straefling(Npc_Default)
 {
-	name[0] = "Kucharz";
+	name[0] = "Cook";
 	guild = GIL_STRF;
 	id = 1107;
 	voice = 1;
