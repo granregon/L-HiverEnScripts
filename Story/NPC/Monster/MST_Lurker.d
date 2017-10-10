@@ -107,6 +107,18 @@ instance BeachLurker3(Mst_Default_Lurker)
 	Npc_SetToFistMode(self);
 };
 
+instance SecretCaveLurker1(Mst_Default_Lurker)
+{
+	B_SetVisuals_Lurker();
+	Npc_SetToFistMode(self);
+};
+
+instance SecretCaveLurker2(Mst_Default_Lurker)
+{
+	B_SetVisuals_Lurker();
+	Npc_SetToFistMode(self);
+};
+
 instance LURKERTRANSFORM(Mst_Default_Lurker)
 {
 	Npc_PercEnable(self,PERC_ASSESSSURPRISE,b_stopmagictransform);

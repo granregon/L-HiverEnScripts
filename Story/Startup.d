@@ -575,8 +575,8 @@ func void startup_addon_part_piratescamp_01()
 	Wld_InsertNpc(Zombie01,"ADW_PIRATECAMP_LONEBEACH_CAVE_03");
 	Wld_InsertNpc(MayaZombie02,"ADW_PIRATECAMP_LONEBEACH_CAVE_03");
 	Wld_InsertNpc(Zombie03,"ADW_PIRATECAMP_LONEBEACH_CAVE_03");
-	Wld_InsertNpc(Lurker,"ADW_PIRATECAMP_SECRETCAVE_01");
-	Wld_InsertNpc(Lurker,"ADW_PIRATECAMP_SECRETCAVE_01");
+	Wld_InsertNpc(SecretCaveLurker1,"ADW_PIRATECAMP_SECRETCAVE_01");
+	Wld_InsertNpc(SecretCaveLurker2,"ADW_PIRATECAMP_SECRETCAVE_01");
 	Wld_InsertNpc(Meatbug,"ADW_PIRATECAMP_LUMBER_01");
 	Wld_InsertNpc(Meatbug,"ADW_PIRATECAMP_LUMBER_01");
 	Wld_InsertNpc(Meatbug,"ADW_PIRATECAMP_LUMBER_01");
