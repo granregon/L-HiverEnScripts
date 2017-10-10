@@ -262,7 +262,7 @@ func void evt_upddef_addon_func()
 			DEAD_CHECK = TRUE;
 		};
 		DEAD_TIME += 1;
-		PrintScreen("You are dead.",-1,20,FONT_SCREENBRIGHTLARGE,2);
+		PrintScreen("You died.",-1,20,FONT_SCREENBRIGHTLARGE,2);
 	};
 	if(!C_BodyStateContains(hero,BS_DEAD) && (DEAD_CHECK == TRUE))
 	{

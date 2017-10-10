@@ -89,25 +89,6 @@ instance Kervo_Lurker6(Mst_Default_Lurker)
 	aivar[AIV_OriginalFightTactic] = FAI_LURKER;
 };
 
-instance SecretCaveLurker1(Mst_Default_Lurker)
-{
-	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
-};
-
-instance SecretCaveLurker2(Mst_Default_Lurker)
-{
-	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
-};
-
-instance BeachLurker1(Mst_Default_Lurker)
-{
-	B_SetVisuals_Lurker();
-	Npc_SetToFistMode(self);
-};
-
-
 instance BeachLurker1(Mst_Default_Lurker)
 {
 	B_SetVisuals_Lurker();
@@ -121,6 +102,18 @@ instance BeachLurker2(Mst_Default_Lurker)
 };
 
 instance BeachLurker3(Mst_Default_Lurker)
+{
+	B_SetVisuals_Lurker();
+	Npc_SetToFistMode(self);
+};
+
+instance SecretCaveLurker1(Mst_Default_Lurker)
+{
+	B_SetVisuals_Lurker();
+	Npc_SetToFistMode(self);
+};
+
+instance SecretCaveLurker2(Mst_Default_Lurker)
 {
 	B_SetVisuals_Lurker();
 	Npc_SetToFistMode(self);

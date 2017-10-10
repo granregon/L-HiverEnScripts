@@ -16,7 +16,6 @@ func int DIA_Lobart_EXIT_Condition()
 	{
 		return TRUE;
 	};
-	return TRUE;
 };
 
 func void DIA_Lobart_EXIT_Info()

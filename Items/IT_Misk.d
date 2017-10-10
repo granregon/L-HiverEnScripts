@@ -51,7 +51,7 @@ const int Value_Sextant = 1500;
 
 instance ItMi_Stomper(C_Item)
 {
-	name = "Weed masher";
+	name = "Wooden stomper";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Stomper;

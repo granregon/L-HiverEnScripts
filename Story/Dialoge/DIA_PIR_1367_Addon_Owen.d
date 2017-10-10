@@ -259,7 +259,7 @@ instance DIA_Addon_Owen_MalcomDead(C_Info)
 
 func int DIA_Addon_Owen_MalcomDead_Condition()
 {
-	if(Npc_KnowsInfo(other,DIA_Addon_Owen_MalcomStunt) && (MIS_Owen_FindMalcom == LOG_Running) && Npc_IsDead(SecreteCaveLurker1) && Npc_IsDead(SecreteCaveLurker2))
+	if(Npc_KnowsInfo(other,DIA_Addon_Owen_MalcomStunt) && (MIS_Owen_FindMalcom == LOG_Running) && Npc_IsDead(SecretCaveLurker1) && Npc_IsDead(SecretCaveLurker2))
 	{
 		return TRUE;
 	};
