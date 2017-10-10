@@ -25,3 +25,7 @@
 - "Art of Smith" is now called "Art of Weaponry".
 - Fixed Rod's two-hander not showing weapon stats.
 - Fixed value of 'Gold candlesitck' in NW version.
+- Fixed Malcom body and the trigger to complete the quest, now you have to kill the 2 Lurkers in the cave.
+- Fixed screen text "Learned: Leatherworking" in Bosper dialogue showing up despite no enough LP.
+- Removed a doubled END option for Lobart in CH3
+- Removed a repeated dialogue for Hagen about teleport rune.
