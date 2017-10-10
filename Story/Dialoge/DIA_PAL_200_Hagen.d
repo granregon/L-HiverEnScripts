@@ -905,10 +905,7 @@ func void DIA_Lord_Hagen_BACKINTOWN_Info()
 	AI_Output(other,self,"DIA_Lord_Hagen_BACKINTOWN_15_04");	//Well, I should say that, without any help, the lads are lost. That's how it looks.
 	AI_Output(self,other,"DIA_Lord_Hagen_BACKINTOWN_04_05");	//I shall find a way to rescue this expedition. You have done much for us. Innos will thank you...
 	AI_Output(other,self,"DIA_Lord_Hagen_BACKINTOWN_15_06");	//I'm not all that interested in his gratitude. I want his eye.
-	AI_Output(self,other,"DIA_Lord_Hagen_BACKINTOWN_04_07");	//Yes, of course. I stand by my word. Take this letter. It will open the monastery gates to you.
-	AI_Output(self,other,"DIA_Lord_Hagen_BACKINTOWN_04_08");	//Speak with Pyrokar, the highest Fire Magician, and show him this authorization. He will grant you access to the Eye of Innos.
-	AI_Output(self,other,"DIA_Lord_Hagen_Add_04_00");	//One more thing, before you go...
-	AI_Output(self,other,"DIA_Lord_Hagen_Add_04_01");	//Take this rune as a token of my gratitude. It will take you safely back to the city whenever you want.
+	AI_Output(self,other,"DIA_Lord_Hagen_BACKINTOWN_04_07");	//Yes of course. I stand by my word. Take this letter. It will open the monastery gates to you.
 	AI_PrintScreen("Letter of Authorization for Pyrokar received",-1,26,FONT_SCREENBRIGHTLARGE,3);
 	CreateInvItems(hero,ItWr_PermissionToWearInnosEye_MIS,1);
 	AI_Output(self,other,"DIA_Lord_Hagen_BACKINTOWN_04_08");	//Speak with Pyrokar, the highest Fire Magician, and show him this authorization. He will grant you access to the Eye of Innos.
