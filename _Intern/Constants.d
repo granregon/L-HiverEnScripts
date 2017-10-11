@@ -300,7 +300,7 @@ const int LOG_NOTE = 1;
 const int TIME_INFINITE = -1000;
 const int NPC_VOICE_VARIATION_MAX = 10;
 
-const float TRADE_VALUE_MULTIPLIER = 0.1;
+const float TRADE_VALUE_MULTIPLIER = 0.15;
 
 const string TRADE_CURRENCY_INSTANCE = "ITMI_GOLD";
 
