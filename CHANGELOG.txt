@@ -11,10 +11,10 @@
 - Changed Girion Knight's armor with Paladin's armor.
 - Fixed dialogue option with Greg, Lares, Thorben and Till.
 - Added some missing item's name and some interactive entities.
-- Changed pirate's weapon in Jharkendar who didn't have enough strength to use it.
+- Changed a pirate's weapon in Jharkendar who didn't have enough strength to use it.
 - Now will be clearly specified when you learn "Skin reptiles".
-- Grimbald now teach you how to skin reptiles.
-- Bosper now buy Reptile and Swampshark skins.
+- Grimbald now teaches you how to skin reptiles.
+- Bosper now buys Reptile and Swampshark skins.
 - Removed missing spoken dialogues from Carl, Selivan, Jack, Ignaz.
 - Removed regen of NPCs / Monsters when they cannot see NH.
 - Fixed mistranslation of "Fried".
@@ -27,5 +27,7 @@
 - Fixed value of 'Gold candlesitck' in NW version.
 - Fixed Malcom body and the trigger to complete the quest, now you have to kill the 2 Lurkers in the cave.
 - Fixed screen text "Learned: Leatherworking" in Bosper dialogue showing up despite no enough LP.
-- Removed a doubled END option for Lobart in CH3
+- Removed a doubled END option for Lobart showing up in CH3.
 - Removed a repeated dialogue for Hagen about teleport rune.
+- Fixed mistranslation of the "Cook".
+- Fixed mobname Gold vein.
