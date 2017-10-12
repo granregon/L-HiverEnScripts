@@ -40,7 +40,7 @@ func int B_TeachPlayerTalentSmith(var C_Npc slf,var C_Npc oth,var int waffe)
 	if(waffe == WEAPON_1H_Special_03)
 	{
 		PLAYER_TALENT_SMITH[WEAPON_1H_Special_03] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,"<<Orcish ore battle sword>> - 3 steel bars, 2 ore bars, 1 leather.");
+		B_LogEntry(TOPIC_TalentSmith,"<<Orcish ore battle sword>> - 3 steel bars, 2 ore bars, 1 leather, 1 black pearl.");
 	};
 	if(waffe == WEAPON_2H_Special_03)
 	{
@@ -60,7 +60,7 @@ func int B_TeachPlayerTalentSmith(var C_Npc slf,var C_Npc oth,var int waffe)
 	if(waffe == WEAPON_1H_DEATHBRINGER)
 	{
 		PLAYER_TALENT_SMITH[18] = TRUE;
-		B_LogEntry(TOPIC_TalentSmith,"<<Deathbringer>> - 4 steel bars, 4 ore bars, 6 dragon's blood, 2 leather.");
+		B_LogEntry(TOPIC_TalentSmith,"<<Deathbringer>> - 4 steel bars, 4 ore bars, 6 dragon's blood, 2 leather, 3 rubies.");
 	};
 	if(waffe == WEAPON_2H_DEATHBRINGER)
 	{
