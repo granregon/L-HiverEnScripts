@@ -73,7 +73,7 @@ instance ItMi_KerolothsGeldbeutel_MIS(C_Item)
 	value = 0;
 	visual = "ItMi_Pocket.3ds";
 	scemeName = "MAPSEALED";
-	material = MAT_METAL;
+	material = MAT_LEATHER;
 	on_state[0] = UseKerolothsGeldbeutel;
 	description = name;
 	text[5] = "Weight 0.5 kg";
@@ -96,9 +96,17 @@ instance ItMi_KerolothsGeldbeutelLeer_MIS(C_Item)
 	flags = ITEM_MISSION;
 	value = 0;
 	visual = "ItMi_Pocket.3ds";
-	material = MAT_METAL;
+	scemeName = "MAPSEALED";
+	material = MAT_LEATHER;
+	on_state[0] = UseKerolothsGoldBag_Empty;
 	description = name;
-	text[5] = "Weight 0.5 kg";
+	text[1] = "The bag is empty...";
+	text[5] = "Weight 0.1 kg";
+};
+
+func void UseKerolothsGoldBag_Empty()
+{
+	CreateInvItems(self,ItMi_KerolothsGeldbeutelLeer_MIS,1);
 };
 
 instance ItRw_SengrathsArmbrust_MIS(C_Item)
