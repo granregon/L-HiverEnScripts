@@ -96,10 +96,6 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_1hST2.MDS");
 			Mdl_ApplyOverlayMds(self,"A_SHIELD.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
-		{
-			b_refweight();
-		};
 	};
 	if(talent == NPC_TALENT_2H)
 	{
@@ -148,10 +144,6 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_2hST2.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_2hST3.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
-		{
-			b_refweight();
-		};
 	};
 	if(talent == NPC_TALENT_BOW)
 	{
@@ -176,10 +168,6 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Mdl_RemoveOverlayMds(self,"humans_bowT1.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_bowT2.MDS");
 		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
-		{
-			b_refweight();
-		};
 	};
 	if(talent == NPC_TALENT_CROSSBOW)
 	{
@@ -203,10 +191,6 @@ func void B_AddFightSkill(var C_Npc self,var int talent,var int percent)
 			Npc_SetTalentSkill(self,NPC_TALENT_CROSSBOW,0);
 			Mdl_RemoveOverlayMds(self,"humans_cbowT1.MDS");
 			Mdl_RemoveOverlayMds(self,"humans_cbowT2.MDS");
-		};
-		if((Hlp_GetInstanceID(self) == Hlp_GetInstanceID(hero)))
-		{
-			b_refweight();
 		};
 	};
 };
