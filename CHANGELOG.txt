@@ -31,3 +31,5 @@
 - Removed a repeated dialogue for Hagen about teleport rune.
 - Fixed mistranslation of the "Cook".
 - Fixed mobname Gold vein.
+- Shield penalty doesn't permantely reduce 1h talent bonus at high levels (90+)
+- 1h sword fighting fixed in non surival version 
