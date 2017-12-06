@@ -1,6 +1,6 @@
 
 func void B_MM_AssessOthersDamage()
-{
+{	
 	if((Npc_GetDistToNpc(self,victim) > PERC_DIST_INTERMEDIAT) && (Npc_GetDistToNpc(self,other) > PERC_DIST_INTERMEDIAT))
 	{
 		return;
@@ -14,7 +14,7 @@ func void B_MM_AssessOthersDamage()
 		if(Npc_IsPlayer(victim))
 		{
 			Npc_ClearAIQueue(self);
-			B_ClearPerceptions(self);
+			B_ClearPerceptions(self);	
 			Npc_SetTarget(self,other);
 			AI_StartState(self,ZS_MM_Attack,0,"");
 			return;

@@ -147,15 +147,15 @@ func void evt_upddef_addon_func()
 		{
 			SwampDragon.attribute[ATR_HITPOINTS] += 20;
 		};
+		if((Npc_GetDistToNpc(amort,hero) < 5000) && (AMORTBATTLE == FALSE))
+		{
+			amort.attribute[ATR_HITPOINTS] = amort.attribute[ATR_HITPOINTS_MAX];
+			AMORTBATTLE_ONETIME = FALSE;
+		};
 	};
-	if(DRG_SD == TRUE)
+	if(DRG_SD == TRUE)	
 	{
 		DRG_SD = FALSE;
-	};
-	if((Npc_GetDistToNpc(amort,hero) < 5000) && (CurrentLevel == OldWorld_Zen) && (AMORTBATTLE == FALSE))
-	{
-		amort.attribute[ATR_HITPOINTS] = amort.attribute[ATR_HITPOINTS_MAX];
-		AMORTBATTLE_ONETIME = FALSE;
 	};
 	if((CurrentLevel == NEWWORLD_ZEN) && (trollblack.attribute[ATR_HITPOINTS] < trollblack.attribute[ATR_HITPOINTS_MAX]) && (trollblack.attribute[ATR_HITPOINTS] > (trollblack.attribute[ATR_HITPOINTS_MAX] / 15)) && !C_BodyStateContains(trollblack,BS_DEAD))
 	{
@@ -288,17 +288,23 @@ func void evt_upddef_addon_func()
 func void evt_updhtf_addon_func()
 {
 	var int dominicbless;
-	if((Npc_HasEquippedArmor(Sarah) == FALSE) && (Npc_GetDistToWP(Sarah,"NW_NM_02_ADD_07") >= 350))
+	if(CurrentLevel == NEWWORLD_ZEN)
 	{
-		AI_EquipArmor(Sarah,itar_w2_ves);
+		if((Npc_HasEquippedArmor(Sarah) == FALSE) && (Npc_GetDistToWP(Sarah,"NW_NM_02_ADD_07") >= 350))
+		{
+			AI_EquipArmor(Sarah,itar_w2_ves);
+		};
+		if((Npc_HasEquippedArmor(sonja) == FALSE) && (Npc_GetDistToWP(sonja,"NW_CITY_HABOUR_PUFF_SONJA") >= 350))
+		{
+			AI_EquipArmor(sonja,itar_baron_babe_addon);
+		};
 	};
-	if((Npc_HasEquippedArmor(sonja) == FALSE) && (Npc_GetDistToWP(sonja,"NW_CITY_HABOUR_PUFF_SONJA") >= 350))
-	{
-		AI_EquipArmor(sonja,itar_baron_babe_addon);
-	};
-	if((Npc_HasEquippedArmor(lucia) == FALSE) && (Npc_GetDistToWP(lucia,"BL_INN_UPSIDE_BATH_01") >= 350))
-	{
-		AI_EquipArmor(lucia,itar_lucia_addon);
+	if(CurrentLevel == ADDONWORLD_ZEN) 
+	{	
+		if((Npc_HasEquippedArmor(lucia) == FALSE) && (Npc_GetDistToWP(lucia,"BL_INN_UPSIDE_BATH_01") >= 350))
+		{
+			AI_EquipArmor(lucia,itar_lucia_addon);
+		};
 	};
 	if(DOMINICCURSE == TRUE)
 	{
